@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_07" class="java.beans.XMLDecoder"> 
+ <object class="utils.Properties"> 
+  <void property="author"> 
+   <string>kilo</string> 
+  </void> 
+  <void property="category"> 
+   <string>tracks</string> 
+  </void> 
+  <void property="currentA"> 
+   <double>-9.428268619273359</double> 
+  </void> 
+  <void property="currentX"> 
+   <double>287.9040714080949</double> 
+  </void> 
+  <void property="currentY"> 
+   <double>-851.2897346775959</double> 
+  </void> 
+  <void property="curveNameCount"> 
+   <int>50</int> 
+  </void> 
+  <void property="description"> 
+   <string></string> 
+  </void> 
+  <void property="image"> 
+   <string>/home/kilo/Proj/torcs/tracks/Peters/doc/St._Petersburg.jpg</string> 
+  </void> 
+  <void property="imageScale"> 
+   <double>0.2456</double> 
+  </void> 
+  <void property="path"> 
+   <string>/home/kilo/Proj/torcs/tracks/Peters</string> 
+  </void> 
+  <void property="pitEnd"> 
+   <string></string> 
+  </void> 
+  <void property="pitEntry"> 
+   <string></string> 
+  </void> 
+  <void property="pitExit"> 
+   <string></string> 
+  </void> 
+  <void property="pitStart"> 
+   <string></string> 
+  </void> 
+  <void property="straightNameCount"> 
+   <int>23</int> 
+  </void> 
+  <void property="trackName"> 
+   <string>Peters</string> 
+  </void> 
+ </object> 
+</java> 
