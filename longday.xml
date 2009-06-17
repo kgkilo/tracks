@@ -21,7 +21,18 @@ the Free Software Foundation; either version 2 of the License, or
 <!ENTITY default-objects SYSTEM "../../../data/tracks/objects.xml">
 ]>
 <params name="test" type="param" mode="mw">
-  <section name="Objects">&default-objects;</section>
+  <section name="Objects">
+    &default-objects;
+    
+<!--
+    <section name="forest1">
+      <attstr name="object" val="forest1.ac"/>
+      <attnum name="color" val="0xF00000"/>
+      <attstr name="orientation type" val="standard"/>
+      <attstr name="orientation" val="0" unit="deg"/>
+    </section>  
+  </section>
+-->
 
   <section name="Surfaces">&default-surfaces;
     <section name="roadA">
@@ -676,6 +687,7 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="border height" unit="m" val="15" />
       <attstr name="orientation" val="clockwise" />
       <attstr name="surface" val="side-grass" />
+      <attnum name="group size" val="100" />
 
       <section name="Object Maps">
         <section name="map 1">
@@ -728,14 +740,14 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="fence" />
         </section>
         <section name="Right Border">
-          <attnum name="width" unit="m" val="4.0" />
+          <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="roadA" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="11.0" />
-          <attnum name="end width" unit="m" val="11.0" />
+          <attnum name="start width" unit="m" val="15.0" />
+          <attnum name="end width" unit="m" val="15.0" />
           <attstr name="surface" val="concrete" />
         </section>
         <section name="Right Barrier">
@@ -755,8 +767,8 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="grade" unit="%" val="-0.1561" />
         <attnum name="profil end tangent" unit="%" val="1.2" />
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="11.0" />
-          <attnum name="end width" unit="m" val="11.0" />
+          <attnum name="start width" unit="m" val="15.0" />
+          <attnum name="end width" unit="m" val="15.0" />
           <attstr name="surface" val="concrete-pits" />
         </section>
       </section>
@@ -791,8 +803,8 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="14.0" />
-          <attnum name="end width" unit="m" val="14.0" />
+          <attnum name="start width" unit="m" val="15.0" />
+          <attnum name="end width" unit="m" val="15.0" />
           <attstr name="surface" val="concrete" />
         </section>
       </section>
@@ -815,7 +827,7 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="12.0" />
+          <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="12.0" />
           <attstr name="surface" val="concrete" />
         </section>
@@ -1450,7 +1462,7 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="wall" />
         </section>
         <section name="Right Border">
-          <attnum name="width" unit="m" val="2.0" />
+          <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="side-red" />
           <attstr name="style" val="plan" />
@@ -1825,7 +1837,7 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="fence" />
         </section>
         <section name="Right Border">
-          <attnum name="width" unit="m" val="0.0" />
+          <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="side-red" />
           <attstr name="style" val="plan" />
@@ -1938,7 +1950,7 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="5.0" />
           <attnum name="end width" unit="m" val="30.0" />
           <attstr name="surface" val="side-sand" />
         </section>
@@ -3452,7 +3464,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="profil end tangent" unit="%" val="1.15" />
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.05" />
+          <attnum name="height" unit="m" val="0.10" />
           <attstr name="surface" val="curb-left" />
           <attstr name="style" val="curb" />
         </section>
@@ -3494,7 +3506,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.05" />
+          <attnum name="height" unit="m" val="0.10" />
           <attstr name="surface" val="curb-right" />
           <attstr name="style" val="curb" />
         </section>
@@ -3511,14 +3523,14 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="grade" unit="%" val="0.2" />
         <attnum name="profil end tangent" unit="%" val="0.2" />
         <section name="Left Border">
-          <attnum name="width" unit="m" val="4.0" />
+          <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="concrete" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="9.0" />
-          <attnum name="end width" unit="m" val="6.0" />
+          <attnum name="start width" unit="m" val="12.0" />
+          <attnum name="end width" unit="m" val="9.0" />
           <attstr name="surface" val="side-grass" />
         </section>
         <section name="Right Border">
@@ -3540,8 +3552,8 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="profil end tangent" unit="%" val="0.2" />
         <attstr name="surface" val="roadB" />
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="6.0" />
-          <attnum name="end width" unit="m" val="5.0" />
+          <attnum name="start width" unit="m" val="9.0" />
+          <attnum name="end width" unit="m" val="8.0" />
           <attstr name="surface" val="side-grass" />
         </section>
       </section>
@@ -3552,8 +3564,8 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="grade" unit="%" val="0.2" />
         <attnum name="profil end tangent" unit="%" val="0.2" />
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="5.0" />
-          <attnum name="end width" unit="m" val="5.0" />
+          <attnum name="start width" unit="m" val="8.0" />
+          <attnum name="end width" unit="m" val="8.0" />
           <attstr name="surface" val="side-sand" />
         </section>
         <section name="Right Side">
@@ -3575,7 +3587,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="surface" val="roadA" />
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.05" />
+          <attnum name="height" unit="m" val="0.10" />
           <attstr name="surface" val="curb-left" />
           <attstr name="style" val="curb" />
         </section>
@@ -3599,19 +3611,19 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="grade" unit="%" val="0.2" />
         <attnum name="profil end tangent" unit="%" val="0.1" />
         <section name="Left Border">
-          <attnum name="width" unit="m" val="2.0" />
+          <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="concrete" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="7.0" />
-          <attnum name="end width" unit="m" val="11.0" />
+          <attnum name="start width" unit="m" val="8.0" />
+          <attnum name="end width" unit="m" val="12.0" />
           <attstr name="surface" val="side-sand" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.05" />
+          <attnum name="height" unit="m" val="0.10" />
           <attstr name="surface" val="curb-right" />
           <attstr name="style" val="curb" />
         </section>
@@ -3648,8 +3660,8 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="11.0" />
-          <attnum name="end width" unit="m" val="20.0" />
+          <attnum name="start width" unit="m" val="10.0" />
+          <attnum name="end width" unit="m" val="15.0" />
           <attstr name="surface" val="concrete" />
         </section>
       </section>
@@ -3664,7 +3676,7 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="side-sand" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="20.0" />
+          <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="15.0" />
           <attstr name="surface" val="concrete" />
         </section>
@@ -3686,14 +3698,14 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="concrete" />
         </section>
         <section name="Right Border">
-          <attnum name="width" unit="m" val="4.0" />
+          <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="concrete" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="12.0" />
-          <attnum name="end width" unit="m" val="11.0" />
+          <attnum name="start width" unit="m" val="15.0" />
+          <attnum name="end width" unit="m" val="15.0" />
           <attstr name="surface" val="concrete" />
         </section>
         <section name="Right Barrier">
