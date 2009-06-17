@@ -550,89 +550,89 @@ the Free Software Foundation; either version 2 of the License, or
     </section>
 
     <section name="side-sand">
-	  <attnum name="color R1" val="0.3"/>
-	  <attnum name="color G1" val="0.3"/>
-	  <attnum name="color B1" val="0.1"/>
-	  <attnum name="color R2" val="0.4"/>
-	  <attnum name="color G2" val="0.4"/>
-	  <attnum name="color B2" val="0.1"/>
-	  <attstr name="texture name" val="tr-sand3.rgb"/>
-	  <attstr name="texture type" in="discrete, continuous" val="continuous"/>
-	  <attnum name="texture size" val="5.0" unit="m"/>
-	  <attnum name="texture mipmap" val="4.0"/>
+      <attnum name="color R1" val="0.3"/>
+      <attnum name="color G1" val="0.3"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.4"/>
+      <attnum name="color G2" val="0.4"/>
+      <attnum name="color B2" val="0.1"/>
+      <attstr name="texture name" val="tr-sand3.rgb"/>
+      <attstr name="texture type" in="discrete, continuous" val="continuous"/>
+      <attnum name="texture size" val="5.0" unit="m"/>
+      <attnum name="texture mipmap" val="4.0"/>
 
-	  <attstr name="bump name" val=""/>
-	  <attnum name="bump size" val="2.0" unit="m"/>
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
 
-	  <attnum name="friction"           val="0.6"/>
-	  <attnum name="rolling resistance" val="0.2"/>
+      <attnum name="friction"           val="0.6"/>
+      <attnum name="rolling resistance" val="0.2"/>
 
-	  <attnum name="roughness" val="0.03"/>
-	  <attnum name="roughness wavelength" val="4.0"/>
+      <attnum name="roughness" val="0.03"/>
+      <attnum name="roughness wavelength" val="4.0"/>
     </section>
 
-	<section name="curb-left">
-	  <attnum name="color R1" val="0.1"/>
-	  <attnum name="color G1" val="0.1"/>
-	  <attnum name="color B1" val="0.1"/>
-	  <attnum name="color R2" val="0.2"/>
-	  <attnum name="color G2" val="0.2"/>
-	  <attnum name="color B2" val="0.2"/>
-	  <attstr name="texture name" val="tr-curb-yb-l.rgb"/>
-	  <attstr name="texture type" in="discrete, continuous" val="discrete"/>
-	  <attnum name="texture size" val="2.0" unit="m"/>
-	  <attnum name="texture mipmap" val="0.0" unit="m"/>
+    <section name="curb-left">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="tr-curb-yb-l.rgb"/>
+      <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+      <attnum name="texture size" val="2.0" unit="m"/>
+      <attnum name="texture mipmap" val="0.0" unit="m"/>
 
-	  <attstr name="bump name" val=""/>
-	  <attnum name="bump size" val="2.0" unit="m"/>
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
 
-	  <attnum name="friction"           val="1.1"/>
-	  <attnum name="rolling resistance" val="0.003"/>
+      <attnum name="friction"           val="1.1"/>
+      <attnum name="rolling resistance" val="0.003"/>
 
-	  <attnum name="roughness" val="0.04"/>
-	  <attnum name="roughness wavelength" val="0.3"/>
- 	</section>
+      <attnum name="roughness" val="0.04"/>
+      <attnum name="roughness wavelength" val="0.3"/>
+    </section>
 
-	<section name="curb-right">
-	  <attnum name="color R1" val="0.1"/>
-	  <attnum name="color G1" val="0.1"/>
-	  <attnum name="color B1" val="0.1"/>
-	  <attnum name="color R2" val="0.2"/>
-	  <attnum name="color G2" val="0.2"/>
-	  <attnum name="color B2" val="0.2"/>
-	  <attstr name="texture name" val="tr-curb-yb-r.rgb"/>
-	  <attstr name="texture type" in="discrete, continuous" val="discrete"/>
-	  <attnum name="texture size" val="2.0" unit="m"/>
-	  <attnum name="texture mipmap" val="0.0" unit="m"/>
+    <section name="curb-right">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="tr-curb-yb-r.rgb"/>
+      <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+      <attnum name="texture size" val="2.0" unit="m"/>
+      <attnum name="texture mipmap" val="0.0" unit="m"/>
 
-	  <attstr name="bump name" val=""/>
-	  <attnum name="bump size" val="2.0" unit="m"/>
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
 
-	  <attnum name="friction"           val="1.1"/>
-	  <attnum name="rolling resistance" val="0.003"/>
+      <attnum name="friction"           val="1.1"/>
+      <attnum name="rolling resistance" val="0.003"/>
 
-	  <attnum name="roughness" val="0.04"/>
-	  <attnum name="roughness wavelength" val="0.3"/>
- 	</section>
+      <attnum name="roughness" val="0.04"/>
+      <attnum name="roughness wavelength" val="0.3"/>
+    </section>
 
     <section name="tirewall">
-	  <attnum name="color R1" val="0.1"/>
-	  <attnum name="color G1" val="0.1"/>
-	  <attnum name="color B1" val="0.1"/>
-	  <attnum name="color R2" val="0.2"/>
-	  <attnum name="color G2" val="0.2"/>
-	  <attnum name="color B2" val="0.2"/>
-	  <attstr name="texture name" val="TIREBLAK2.png"/>
-	  <attstr name="texture type" in="discrete, continuous" val="continuous"/>
-	  <attnum name="texture size" val="2.0"/>
-	  <attnum name="texture mipmap" val="0.0"/>
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="TIREBLAK2.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="continuous"/>
+      <attnum name="texture size" val="2.0"/>
+      <attnum name="texture mipmap" val="0.0"/>
 
-	  <attstr name="bump name" val=""/>
-	  <attnum name="bump size" val="2.0" unit="m"/>
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
 
-	  <attnum name="friction"           val="0.5"/>
-	  <attnum name="rebound" val="0.1"/>
-	  <attnum name="dammage" val="1.0"/>
+      <attnum name="friction"           val="0.5"/>
+      <attnum name="rebound" val="0.1"/>
+      <attnum name="dammage" val="1.0"/>
     </section>
 
     <section name="barrier-fence">
@@ -650,7 +650,7 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="friction"           val="0.0"/>
       <attnum name="roughness" val="0.03"/>
       <attnum name="roughness wavelength" val="4.0"/>
-	  <attnum name="dammage" val="1.5"/>
+      <attnum name="dammage" val="1.5"/>
     </section>
   </section>
 
@@ -664,8 +664,8 @@ the Free Software Foundation; either version 2 of the License, or
 
   <section name="Graphic">
     <attstr name="3d description" val="longday.ac" />
-	<attstr name="background image" val="background.png"/>
-	<attnum name="background type" val="4"/>
+    <attstr name="background image" val="background.png"/>
+    <attnum name="background type" val="4"/>
     <section name="Terrain Generation">
       <attnum name="track step" unit="m" val="20" />
       <attnum name="border margin" unit="m" val="30" /><!--200-->
@@ -1868,7 +1868,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s30-8">
         <attstr name="type" val="str" />
-		<attnum name="lg" unit="m" val="82.3" />
+        <attnum name="lg" unit="m" val="82.3" />
         <attnum name="grade" unit="%" val="-1.5" />
         <attnum name="profil end tangent" unit="%" val="-1.65" />
         <attstr name="surface" val="roadJ" />
