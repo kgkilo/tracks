@@ -680,6 +680,28 @@ the Free Software Foundation; either version 2 of the License, or
     <attstr name="3d description" val="longday.ac" />
     <attstr name="background image" val="background.png"/>
     <attnum name="background type" val="4"/>
+
+    <attnum name="background color R" val="0.72"/>
+    <attnum name="background color G" val="0.72"/>
+    <attnum name="background color B" val="0.70"/>
+
+    <attnum name="ambient color R" val="0.15"/>
+    <attnum name="ambient color G" val="0.15"/>
+    <attnum name="ambient color B" val="0.15"/>
+
+    <attnum name="diffuse color R" val="1"/>
+    <attnum name="diffuse color G" val="1"/>
+    <attnum name="diffuse color B" val="1"/>
+
+    <attnum name="specular color R" val="0.6"/>
+    <attnum name="specular color G" val="0.55"/>
+    <attnum name="specular color B" val="0.5"/>
+
+
+    <attnum name="light position x" val="1000"/>
+    <attnum name="light position y" val="1000"/>
+    <attnum name="light position z" val="3000"/>
+    
     <section name="Terrain Generation">
       <attnum name="track step" unit="m" val="20" />
       <attnum name="border margin" unit="m" val="30" /><!--200-->
