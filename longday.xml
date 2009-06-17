@@ -50,7 +50,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="1.1"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.0"/>
@@ -72,7 +72,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="1.1"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.0"/>
@@ -94,7 +94,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="1.1"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.0"/>
@@ -116,7 +116,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="1.1"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.0"/>
@@ -138,7 +138,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -160,7 +160,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -182,7 +182,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -204,7 +204,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -226,7 +226,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -248,7 +248,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -270,7 +270,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -292,7 +292,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -314,7 +314,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -336,7 +336,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -358,7 +358,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -380,7 +380,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -402,7 +402,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -424,7 +424,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -446,7 +446,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -468,7 +468,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -490,7 +490,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="0.98"/>
+        <attnum name="friction"           val="1.04"/>
         <attnum name="rolling resistance" val="0.001"/>
 
         <attnum name="roughness" val="0.01"/>
@@ -535,7 +535,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="0.6"/>
-        <attnum name="rolling resistance" val="0.02"/>
+        <attnum name="rolling resistance" val="0.04"/>
 
         <attnum name="roughness" val="0.05"/>
         <attnum name="roughness wavelength" val="0.5"/>
@@ -556,7 +556,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.05"/>
+        <attnum name="friction"           val="1.1"/>
         <attnum name="rolling resistance" val="0.02"/>
 
         <attnum name="roughness" val="0.02"/>
@@ -579,7 +579,7 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="bump size" val="2.0" unit="m"/>
 
       <attnum name="friction"           val="0.6"/>
-      <attnum name="rolling resistance" val="0.2"/>
+      <attnum name="rolling resistance" val="0.5"/>
 
       <attnum name="roughness" val="0.03"/>
       <attnum name="roughness wavelength" val="4.0"/>
