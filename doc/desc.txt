@@ -1,0 +1,138 @@
+le_mans_track_layout_2002.jpeg
+background image ratio=10.27
+569px:12=487px:10.27
+
+
+Virage du Tertre Rogue
+in: 73deg
+out: 172deg
+len: 1360m
+
+Playstation:
+1st str: 207deg
+2nd str: 125deg
+
+straight between chicanes
+deg: 168deg
+len: 1740m
+================================================
+2002.gif
+straight between chicanes
+len: 1740m
+182px
+1px=1740/182=9.56m
+
+
+lemans.png 2048*2048
+straight between chicanes
+len: 1740m
+645px
+1px = 1740/645 = 2.69m
+
+s1 rad: 240px = 647m
+s2 rad: 33px = 89m
+s3: 21px = 58m
+s4 rad: 11px = 30m
+s5: 8px = 22m
+s7: 197px = 531m
+s8 rad: 18px = 49m
+s9: 23px = 62m
+s11 rad: 184px = 496m, 175px = 472
+s12 rad: 30px = 81m
+s13: 60px = 162m
+s15: 153px = 413m
+s17: 541px = 1459m
+s18-1 rad: 49px = 132m
+s18-2 rad: 17px = 46m
+(s18-3: 7px = 19m)
+s18-3 rad: 83px = 224m
+s20-1 rad: 24px = 65m
+s20-2: 11px = 30m
+s20-3 rad: 11px = 30m
+s20-4 rad: 72px = 194m
+s21: 59px = 159m
+s23: 173px = 467m
+s25: 237px = 639m
+s27: 42px = 113m
+s28 rad: 12px = 32m
+s29: 270px = 728m
+s31: 311px = 839m
+s32 rad: 98px = 264m
+s33: 118px = 318m
+s34 rad: 16px = 43m
+s35: 112px = 302m
+s36 rad: 5px = 13m
+s37: 227px = 612m
+s39: 91px = 245m
+s41: 121px = 326m
+s42 rad: 74px = 199m
+s43: 37px = 100m
+s44 rad: 6px = 16m
+s45: 65px = 175m
+s46 rad: 18px = 49m, 14px = 38m
+s47: 32px = 86m
+s48 rad: 47px = 127m
+s49: 54px = 146m
+s50 rad: 23px = 62m, 19px = 51m
+s51: 22px = 59m
+s52 rad: 54px = 146m
+s53: 16px = 43m
+s54 rad: 65px = 175m
+s55: 162px = 437m
+s56 rad: 16px = 43m
+s57 rad: 
+s58: 23px = 62m
+s59 rad: 13px = 35m
+s60 rad: 14px = 38m
+s61: 130px = 351m
+
+"You're in fifth gear when you head past the pits on a lap of Le Mans,
+hitting 175 mph before you hit turn one, the Dunlop Curve.
+You change down to second at the chicane at the Dunlop bridge.
+
+This is quite tricky under braking and pretty slippery as the
+race progresses because a lot of people pull gravel onto the circuit.
+
+After the bridge the track is all new for 2002. Previously you had a
+straight run down to esses before Tertre Rouge, but now the road will
+move to the left and then back to the right.
+
+You will still eventually arrive at Tertre Rouge at about the same speed
+and this corner is vital because it leads onto the straight - it is really
+important to get this bit right.
+
+Down the straight you arrive at the first chicane which is taken in either
+2nd or 3rd gear, depending on the traffic.
+
+There is good traction in the middle of the corner and you can get on
+the power early. The next chicane is the opposite to the first one.
+The first is slow in, then fast out, the second is fast in and then
+slow on the exit.
+
+The right hander at the end of the Mulsanne is quite bumpy and the
+track changes a lot during the race.
+
+The tracks picks up grip during the race, then starts to go the other way
+as the marbles start to build up.
+
+This is taken in third gear and exits into a really fast section of
+the track. I really enjoy this part of the course - it is very fast - up
+to 210 mph. The corner before Indianapolis is a lot of fun, then it is
+very hard on the brakes for the left hander.
+
+There is a bit of banking on the road, but the rear end can still get
+very loose here. There is a short squirt up to Arnage which is taken
+in 2nd gear. It is a real struggle to put the power down here.
+
+There is a short run up to the Porshe curves which is very fast and
+requires a good balance in the car. There is a lot of time to be gained
+or lost here and it really is one of my favorite sets of corners.
+
+You then arrive at the Ford Chicanes which is one of the slowest parts
+of the track. If you catch traffic through here, it can cost you an
+enormous amount of time, because there is nowhere to get through.
+
+Then it is hard on the power, back onto the pit straight and ready for
+another 8.4 miles of French countryside."
+
+- JAN MAGNUSSEN
