@@ -18,8 +18,11 @@ the Free Software Foundation; either version 2 of the License, or
 <!DOCTYPE params SYSTEM "../../../src/libs/tgf/params.dtd" [
 <!--  general definitions for tracks  -->
 <!ENTITY default-surfaces SYSTEM "../../../data/tracks/surfaces.xml">
+<!ENTITY default-objects SYSTEM "../../../data/tracks/objects.xml">
 ]>
 <params name="test" type="param" mode="mw">
+  <section name="Objects">&default-objects;</section>
+
   <section name="Surfaces">&default-surfaces;
     <section name="roadA">
         <attnum name="color R1" val="0.1"/>
@@ -673,6 +676,12 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="border height" unit="m" val="15" />
       <attstr name="orientation" val="clockwise" />
       <attstr name="surface" val="side-grass" />
+
+      <section name="Object Maps">
+        <section name="map 1">
+        <attstr name="object map" val="objmap1.png"/>
+        </section>
+      </section>
     </section>
   </section>
 
