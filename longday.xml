@@ -124,11 +124,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadI">
@@ -146,11 +146,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadJ">
@@ -168,11 +168,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadK">
@@ -190,11 +190,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadL">
@@ -212,11 +212,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadM">
@@ -234,11 +234,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadN">
@@ -256,11 +256,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadO">
@@ -278,11 +278,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadP">
@@ -300,11 +300,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadQ">
@@ -322,11 +322,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadR">
@@ -344,11 +344,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadS">
@@ -366,11 +366,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadT">
@@ -388,11 +388,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadU">
@@ -410,11 +410,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadV">
@@ -432,11 +432,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadW">
@@ -454,11 +454,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="roadX">
@@ -476,11 +476,11 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.0"/>
+        <attnum name="friction"           val="0.98"/>
         <attnum name="rolling resistance" val="0.001"/>
 
-        <attnum name="roughness" val="0.0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+        <attnum name="roughness" val="0.01"/>
+        <attnum name="roughness wavelength" val="5.0"/>
     </section>
 
     <section name="road-grass-edge">
