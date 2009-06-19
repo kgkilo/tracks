@@ -3745,4 +3745,250 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
     </section>
   </section>
+
+  <section name="Cameras">
+    <!-- In Courbe Dunlop -->
+    <section name="cam 0">
+        <attstr name="segment" val="s1"/>
+        <attnum name="to right" val="-3"/>
+        <attnum name="to start" val="590"/>
+        <attnum name="height" val="16"/>
+        <attstr name="fov start" val="s0"/>
+        <attstr name="fov end" val="s5"/>
+    </section>
+
+    <!-- Chicane before Dunlop bridge -->
+    <section name="cam 1">
+        <attstr name="segment" val="s7"/>
+        <attnum name="to right" val="-20"/>
+        <attnum name="to start" val="100"/>
+        <attnum name="height" val="8"/>
+        <attstr name="fov start" val="s5"/>
+        <attstr name="fov end" val="s10"/>
+    </section>
+
+    <!-- Virage de la Chapelle -->
+    <section name="cam 2">
+        <attstr name="segment" val="s13"/>
+        <attnum name="to right" val="30"/>
+        <attnum name="to start" val="320"/>
+        <attnum name="height" val="20"/>
+        <attstr name="fov start" val="s10"/>
+        <attstr name="fov end" val="s15"/>
+    </section>
+
+    <!-- Virage du Tertre Rouge -->
+    <section name="cam 3">
+        <attstr name="segment" val="s19-2"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="260"/>
+        <attnum name="height" val="19"/>
+        <attstr name="fov start" val="s15"/>
+        <attstr name="fov end" val="s22"/>
+    </section>
+
+    <!-- Tertre Rouge -->
+    <section name="cam 4">
+        <attstr name="segment" val="s25-1"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="40"/>
+        <attnum name="height" val="8"/>
+        <attstr name="fov start" val="s22"/>
+        <attstr name="fov end" val="s25-2"/>
+    </section>
+
+    <!-- Hunaudieres -->
+    <section name="cam 5">
+        <attstr name="segment" val="s25-5"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="0"/>
+        <attnum name="height" val="5"/>
+        <attstr name="fov start" val="s25-2"/>
+        <attstr name="fov end" val="s25-5"/>
+    </section>
+
+    <section name="cam 6">
+        <attstr name="segment" val="s25-8"/>
+        <attnum name="to right" val="12"/>
+        <attnum name="to start" val="120"/>
+        <attnum name="height" val="10"/>
+        <attstr name="fov start" val="s25-5"/>
+        <attstr name="fov end" val="s25-8"/>
+    </section>
+
+    <!-- Playstation -->
+    <section name="cam 7">
+        <attstr name="segment" val="s30-2"/>
+        <attnum name="to right" val="-3"/>
+        <attnum name="to start" val="0"/>
+        <attnum name="height" val="5"/>
+        <attstr name="fov start" val="s25-8"/>
+        <attstr name="fov end" val="s30-4"/>
+    </section>
+
+    <section name="cam 8">
+        <attstr name="segment" val="s30-3"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="150"/>
+        <attnum name="height" val="5"/>
+        <attstr name="fov start" val="s30-1"/>
+        <attstr name="fov end" val="s30-5"/>
+    </section>
+
+    <!-- Hunaudieres -->
+    <section name="cam 9">
+        <attstr name="segment" val="s30-10"/>
+        <attnum name="to right" val="5"/>
+        <attnum name="to start" val="50"/>
+        <attnum name="height" val="30"/>
+        <attstr name="fov start" val="s30-5"/>
+        <attstr name="fov end" val="s30-10"/>
+    </section>
+
+    <!-- Michelin -->
+    <section name="cam 10">
+        <attstr name="segment" val="s35"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="0"/>
+        <attnum name="height" val="5"/>
+        <attstr name="fov start" val="s30-10"/>
+        <attstr name="fov end" val="s35"/>
+    </section>
+
+    <!-- Courbe des Hunaudieres -->
+    <section name="cam 11">
+        <attstr name="segment" val="s37-1"/>
+        <attnum name="to right" val="25"/>
+        <attnum name="to start" val="0"/>
+        <attnum name="height" val="5"/>
+        <attstr name="fov start" val="s35"/>
+        <attstr name="fov end" val="s37-5"/>
+    </section>
+
+    <!-- Mulsane Kink -->
+    <section name="cam 12">
+        <attstr name="segment" val="s37-10"/>
+        <attnum name="to right" val="-20"/>
+        <attnum name="to start" val="80"/>
+        <attnum name="height" val="6"/>
+        <attstr name="fov start" val="s37-5"/>
+        <attstr name="fov end" val="s37-10"/>
+    </section>
+
+    <!-- Mulsane Corner, Golf -->
+    <section name="cam 13">
+        <attstr name="segment" val="s39"/>
+        <attnum name="to right" val="40"/>
+        <attnum name="to start" val="130"/>
+        <attnum name="height" val="12"/>
+        <attstr name="fov start" val="s37-10"/>
+        <attstr name="fov end" val="s42"/>
+    </section>
+
+    <!-- Courbe du Golf -->
+    <section name="cam 14">
+        <attstr name="segment" val="s43-4"/>
+        <attnum name="to right" val="15"/>
+        <attnum name="to start" val="110"/>
+        <attnum name="height" val="5"/>
+        <attstr name="fov start" val="s42"/>
+        <attstr name="fov end" val="s44"/>
+    </section>
+
+    <section name="cam 15">
+        <attstr name="segment" val="s45-3"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="250"/>
+        <attnum name="height" val="5"/>
+        <attstr name="fov start" val="s44"/>
+        <attstr name="fov end" val="s46"/>
+    </section>
+
+    <!-- End of Golf, Indianapolis -->
+    <section name="cam 16">
+        <attstr name="segment" val="s47-2"/>
+        <attnum name="to right" val="50"/>
+        <attnum name="to start" val="30"/>
+        <attnum name="height" val="9"/>
+        <attstr name="fov start" val="s46"/>
+        <attstr name="fov end" val="s49-1"/>
+    </section>
+
+    <!-- Arnage -->
+    <section name="cam 17">
+        <attstr name="segment" val="s49-2"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="170"/>
+        <attnum name="height" val="5"/>
+        <attstr name="fov start" val="s49-1"/>
+        <attstr name="fov end" val="s51-4"/>
+    </section>
+
+    <!-- Courbe du Buisson -->
+    <section name="cam 18">
+        <attstr name="segment" val="s51-4"/>
+        <attnum name="to right" val="-10"/>
+        <attnum name="to start" val="400"/>
+        <attnum name="height" val="5"/>
+        <attstr name="fov start" val="s51-4"/>
+        <attstr name="fov end" val="s53"/>
+    </section>
+
+    <!-- Virage Porsche -->
+    <section name="cam 19">
+        <attstr name="segment" val="s57"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="110"/>
+        <attnum name="height" val="5"/>
+        <attstr name="fov start" val="s53"/>
+        <attstr name="fov end" val="s59"/>
+    </section>
+
+    <!-- Virage Du Pont -->
+    <section name="cam 20">
+        <attstr name="segment" val="s61"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="20"/>
+        <attnum name="height" val="10"/>
+        <attstr name="fov start" val="s59"/>
+        <attstr name="fov end" val="s65"/>
+    </section>
+
+    <!-- "S" du Karting -->
+    <section name="cam 21">
+        <attstr name="segment" val="s65"/>
+        <attnum name="to right" val="25"/>
+        <attnum name="to start" val="0"/>
+        <attnum name="height" val="11"/>
+        <attstr name="fov start" val="s64"/>
+        <attstr name="fov end" val="s67"/>
+    </section>
+
+    <section name="cam 22">
+        <attstr name="segment" val="s69"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="30"/>
+        <attnum name="height" val="5"/>
+        <attstr name="fov start" val="s66"/>
+        <attstr name="fov end" val="s70"/>
+    </section>
+
+    <section name="cam 23">
+        <attstr name="segment" val="s71-4"/>
+        <attnum name="to right" val="10"/>
+        <attnum name="to start" val="240"/>
+        <attnum name="height" val="25"/>
+        <attstr name="fov start" val="s70"/>
+        <attstr name="fov end" val="s74-1"/>
+    </section>
+
+    <section name="cam 24">
+        <attstr name="segment" val="s78-3"/>
+        <attnum name="to right" val="40"/>
+        <attnum name="to start" val="240"/>
+        <attnum name="height" val="25"/>
+        <attstr name="fov start" val="s74-1"/>
+        <attstr name="fov end" val="s0"/>
+    </section>
+  </section><!-- Cameras -->
 </params>

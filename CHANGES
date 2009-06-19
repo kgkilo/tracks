@@ -2,6 +2,7 @@ v0.3
     - added pit lane wall
     - make cars "shiny" (Andrew Sumner)
     - increased friction (Andrew Sumner)
+    - added cameras
         
 v0.2
     - removed jittering hole on right border of Hunaudieres (thx Mart Kelder)
