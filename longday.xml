@@ -781,7 +781,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
 
       <!--******************************-->
-      <!--     Finish lane              -->
+      <!--     Ligne Droite des Stands  -->
       <!--******************************-->
       <section name="s1">
         <attstr name="type" val="str" />
@@ -802,7 +802,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
 
       <!--******************************-->
-      <!--     Courbe Dunlop            -->
+      <!--     Le Village               -->
       <!--******************************-->
       <!-- len: 244m -->
       <section name="s2">
@@ -893,6 +893,9 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+      <!--******************************-->
+      <!--     Courbe Dunlop            -->
+      <!--******************************-->
       <section name="s5">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="151.18" />
@@ -2129,6 +2132,9 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+      <!--******************************-->
+      <!--     Courbe des Hunaudieres   -->
+      <!--******************************-->
       <section name="s37-1">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="150.00" />
@@ -2155,6 +2161,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="profil end tangent" unit="%" val="4.0" />
         <attstr name="surface" val="roadM" />
       </section>
+      <!--******************************-->
+      <!--     Mulsanne Kink            -->
+      <!--******************************-->
       <section name="s37-5">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="107.29" />
@@ -2283,7 +2292,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
 
       <!--******************************-->
-      <!--     Course du Golf           -->
+      <!--     Courbe du Golf           -->
       <!--******************************-->
       <section name="s41-1">
         <attstr name="type" val="str" />
@@ -2833,7 +2842,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
 
       <!--******************************-->
-      <!--     Course de Beusson        -->
+      <!--     Courbe du Buisson        -->
       <!--******************************-->
       <section name="s51-1">
         <attstr name="type" val="str" />
@@ -3111,7 +3120,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
 
       <!--******************************-->
-      <!--     Virage Du Pont           -->
+      <!--     Virage du Pont           -->
       <!--******************************-->
       <section name="s60">
         <attstr name="type" val="lft" />
@@ -3242,9 +3251,6 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
-      <!--******************************-->
-      <!--     "S" du Karting           -->
-      <!--******************************-->
       <!-- len: 263m -->
       <section name="s64">
         <attstr name="type" val="rgt" />
@@ -3288,6 +3294,9 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+      <!--******************************-->
+      <!--     Virage Corvette          -->
+      <!--******************************-->
       <section name="s66">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="58.0" />
@@ -3663,7 +3672,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
 
       <!--******************************-->
-      <!--     Stands                   -->
+      <!--     Les Stands               -->
       <!--******************************-->
       <section name="s78-1">
         <attstr name="type" val="str" />
@@ -3746,8 +3755,9 @@ the Free Software Foundation; either version 2 of the License, or
     </section>
   </section>
 
+
   <section name="Cameras">
-    <!-- In Courbe Dunlop -->
+    <!-- Opposite to Village -->
     <section name="cam 0">
         <attstr name="segment" val="s1"/>
         <attnum name="to right" val="-3"/>
@@ -3757,7 +3767,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="fov end" val="s5"/>
     </section>
 
-    <!-- Chicane before Dunlop bridge -->
+    <!-- Courbe du Dunlop -->
     <section name="cam 1">
         <attstr name="segment" val="s7"/>
         <attnum name="to right" val="-20"/>
@@ -3777,7 +3787,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="fov end" val="s15"/>
     </section>
 
-    <!-- Virage du Tertre Rouge -->
+    <!-- "S" du Tertre Rouge -->
     <section name="cam 3">
         <attstr name="segment" val="s19-2"/>
         <attnum name="to right" val="20"/>
@@ -3787,7 +3797,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="fov end" val="s22"/>
     </section>
 
-    <!-- Tertre Rouge -->
+    <!-- Virage du Tertre Rouge -->
     <section name="cam 4">
         <attstr name="segment" val="s25-1"/>
         <attnum name="to right" val="20"/>
@@ -3826,6 +3836,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="fov end" val="s30-4"/>
     </section>
 
+    <!-- Hunaudieres -->
     <section name="cam 8">
         <attstr name="segment" val="s30-3"/>
         <attnum name="to right" val="20"/>
@@ -3835,7 +3846,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="fov end" val="s30-5"/>
     </section>
 
-    <!-- Hunaudieres -->
     <section name="cam 9">
         <attstr name="segment" val="s30-10"/>
         <attnum name="to right" val="5"/>
@@ -3875,7 +3885,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="fov end" val="s37-10"/>
     </section>
 
-    <!-- Mulsane Corner, Golf -->
+    <!-- Virage de Mulsanne, Courbe du Golf -->
     <section name="cam 13">
         <attstr name="segment" val="s39"/>
         <attnum name="to right" val="40"/>
@@ -3904,7 +3914,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="fov end" val="s46"/>
     </section>
 
-    <!-- End of Golf, Indianapolis -->
+    <!-- End of Golf, Virage d'Indianapolis -->
     <section name="cam 16">
         <attstr name="segment" val="s47-2"/>
         <attnum name="to right" val="50"/>
@@ -3914,7 +3924,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="fov end" val="s49-1"/>
     </section>
 
-    <!-- Arnage -->
+    <!-- Virage d'Arnage -->
     <section name="cam 17">
         <attstr name="segment" val="s49-2"/>
         <attnum name="to right" val="20"/>
@@ -3944,7 +3954,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="fov end" val="s59"/>
     </section>
 
-    <!-- Virage Du Pont -->
+    <!-- Virage du Pont -->
     <section name="cam 20">
         <attstr name="segment" val="s61"/>
         <attnum name="to right" val="20"/>
@@ -3954,7 +3964,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="fov end" val="s65"/>
     </section>
 
-    <!-- "S" du Karting -->
+    <!-- Virage Corvette -->
     <section name="cam 21">
         <attstr name="segment" val="s65"/>
         <attnum name="to right" val="25"/>
@@ -3973,6 +3983,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="fov end" val="s70"/>
     </section>
 
+    <!-- Maison Blanche, "S" Ford -->
     <section name="cam 23">
         <attstr name="segment" val="s71-4"/>
         <attnum name="to right" val="10"/>
@@ -3982,6 +3993,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="fov end" val="s74-1"/>
     </section>
 
+    <!-- Virage du Raccordement, Ligne Droite des Stands -->
     <section name="cam 24">
         <attstr name="segment" val="s78-3"/>
         <attnum name="to right" val="40"/>
