@@ -8,16 +8,16 @@
    <string>track</string> 
   </void> 
   <void property="currentA"> 
-   <double>-6.359979794267336</double> 
+   <double>-6.3617251235193315</double> 
   </void> 
   <void property="currentX"> 
-   <double>399.0653544684319</double> 
+   <double>398.46777904881367</double> 
   </void> 
   <void property="currentY"> 
-   <double>-44.278170962159116</double> 
+   <double>-44.69659587715772</double> 
   </void> 
   <void property="curveNameCount"> 
-   <int>22</int> 
+   <int>25</int> 
   </void> 
   <void property="description"> 
    <string>Knockhill, Scotland</string> 
@@ -53,7 +53,7 @@
    <double>5.0</double> 
   </void> 
   <void property="straightNameCount"> 
-   <int>16</int> 
+   <int>32</int> 
   </void> 
   <void property="trackName"> 
    <string>knock</string> 
