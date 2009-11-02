@@ -73,7 +73,7 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="plan" />
         </section>
         <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="width" unit="m" val="0.5" />
           <attnum name="height" unit="m" val="1.0" />
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="wall" />
@@ -116,12 +116,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-r" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="16.0" />
           <attnum name="end width" unit="m" val="10.0" />
@@ -132,12 +126,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -158,12 +146,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="asphalt2" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier-grille" />
-          <attstr name="style" val="fence" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="10.0" />
           <attnum name="end width" unit="m" val="10.0" />
@@ -174,12 +156,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -217,12 +193,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
       </section>
 
       <section name="s3-3">
@@ -242,12 +212,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="13.0" />
           <attnum name="end width" unit="m" val="13.0" />
@@ -258,12 +222,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -284,12 +242,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-sand" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="13.0" />
           <attnum name="end width" unit="m" val="13.0" />
@@ -300,12 +252,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-sand" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -327,12 +273,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-sand" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="13.0" />
           <attnum name="end width" unit="m" val="14.0" />
@@ -343,12 +283,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.05" />
           <attstr name="surface" val="curb-5cm-r" />
           <attstr name="style" val="curb" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -370,12 +304,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-sand" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="14.0" />
           <attnum name="end width" unit="m" val="15.0" />
@@ -386,12 +314,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.05" />
           <attstr name="surface" val="curb-5cm-r" />
           <attstr name="style" val="curb" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -412,12 +334,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="24.0" />
@@ -428,12 +344,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -455,12 +365,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="24.0" />
           <attnum name="end width" unit="m" val="22.0" />
@@ -472,17 +376,11 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
       </section>
 
       <section name="s7">
         <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="25.999999999999996" />
+        <attnum name="arc" unit="deg" val="26.0" />
         <attnum name="radius" unit="m" val="61.92" />
         <attnum name="end radius" unit="m" val="69.65" />
         <attnum name="z start" unit="m" val="0.0" />
@@ -499,12 +397,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="22.0" />
           <attnum name="end width" unit="m" val="26.0" />
@@ -515,12 +407,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-sand" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -541,12 +427,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="26.0" />
           <attnum name="end width" unit="m" val="25.0" />
@@ -557,12 +437,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-sand" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -583,12 +457,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="25.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -599,12 +467,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -626,12 +488,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -642,12 +498,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.05" />
           <attstr name="surface" val="curb-5cm-r" />
           <attstr name="style" val="curb" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -668,12 +518,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="23.0" />
@@ -684,12 +528,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -710,12 +548,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="23.0" />
           <attnum name="end width" unit="m" val="28.0" />
@@ -726,12 +558,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -752,12 +578,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="28.0" />
           <attnum name="end width" unit="m" val="38.0" />
@@ -769,17 +589,11 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
       </section>
 
       <section name="s11">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="41.50000000000001" />
+        <attnum name="arc" unit="deg" val="41.5" />
         <attnum name="radius" unit="m" val="36.38" />
         <attnum name="end radius" unit="m" val="46.44" />
         <attnum name="z start" unit="m" val="0.0" />
@@ -796,12 +610,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="38.0" />
           <attnum name="end width" unit="m" val="38.0" />
@@ -812,12 +620,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.05" />
           <attstr name="surface" val="curb-5cm-r" />
           <attstr name="style" val="curb" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -838,12 +640,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="38.0" />
           <attnum name="end width" unit="m" val="28.0" />
@@ -854,12 +650,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -880,12 +670,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="28.0" />
           <attnum name="end width" unit="m" val="23.0" />
@@ -896,12 +680,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-sand" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -924,12 +702,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="23.0" />
           <attnum name="end width" unit="m" val="15.0" />
@@ -940,12 +712,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-sand" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -968,12 +734,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="15.0" />
@@ -984,12 +744,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.05" />
           <attstr name="surface" val="curb-5cm-r" />
           <attstr name="style" val="curb" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1010,12 +764,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -1026,12 +774,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1053,12 +795,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="21.0" />
@@ -1069,12 +805,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1095,12 +825,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="21.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -1111,12 +835,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1138,12 +856,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="22.0" />
@@ -1154,12 +866,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1180,12 +886,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="22.0" />
           <attnum name="end width" unit="m" val="22.0" />
@@ -1196,12 +896,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1224,12 +918,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="22.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -1240,12 +928,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1266,12 +948,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="19.0" />
@@ -1282,12 +958,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1310,12 +980,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-sand" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="19.0" />
           <attnum name="end width" unit="m" val="21.0" />
@@ -1326,12 +990,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.05" />
           <attstr name="surface" val="curb-5cm-r" />
           <attstr name="style" val="curb" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1352,12 +1010,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-sand" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="21.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -1368,12 +1020,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1396,12 +1042,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="asphalt" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -1412,12 +1052,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1440,12 +1074,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="32.0" />
@@ -1456,12 +1084,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1484,12 +1106,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="32.0" />
           <attnum name="end width" unit="m" val="5.0" />
@@ -1500,12 +1116,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1528,12 +1138,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="5.0" />
           <attnum name="end width" unit="m" val="12.0" />
@@ -1544,12 +1148,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1570,12 +1168,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="12.0" />
@@ -1586,12 +1178,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1614,12 +1200,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="12.0" />
@@ -1630,12 +1210,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1656,12 +1230,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="9.0" />
@@ -1672,12 +1240,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1699,12 +1261,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="9.0" />
           <attnum name="end width" unit="m" val="8.0" />
@@ -1715,12 +1271,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1740,12 +1290,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="8.0" />
@@ -1783,12 +1327,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -1799,12 +1337,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1825,12 +1357,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -1841,12 +1367,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1869,12 +1389,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-sand" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="8.0" />
@@ -1885,12 +1399,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.05" />
           <attstr name="surface" val="curb-5cm-r" />
           <attstr name="style" val="curb" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1911,12 +1419,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="8.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -1927,12 +1429,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1953,12 +1449,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -1969,12 +1459,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -1995,12 +1479,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -2011,12 +1489,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-grass3-r" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -2037,12 +1509,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="tar-grass3-l" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -2052,12 +1518,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="asphalt" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -2079,12 +1539,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="asphalt" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="16.0" />
@@ -2095,12 +1549,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="asphalt" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -2120,12 +1568,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="asphalt" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="16.0" />
@@ -2163,12 +1605,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="wall" />
           <attstr name="style" val="wall" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="16.0" />
@@ -2179,12 +1615,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="tar-sand" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
-          <attstr name="style" val="wall" />
         </section>
       </section>
     </section>
