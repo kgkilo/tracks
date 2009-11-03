@@ -42,7 +42,6 @@ the Free Software Foundation; either version 2 of the License, or
   <section name="Main Track">
     <attnum name="width" unit="m" val="11.0" />
     <attnum name="profil steps length" unit="m" val="4.0" />
-    <attstr name="surface" val="asphalt2-lines" />
   
     <section name="Pits">
       <attstr name="side" val="left" />
@@ -55,9 +54,10 @@ the Free Software Foundation; either version 2 of the License, or
     </section>
   
     <section name="Track Segments">
+      <!-- X delta correction -->
       <section name="s1">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="42.57" />
+        <attnum name="lg" unit="m" val="43.128484" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
@@ -104,7 +104,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="end radius" unit="m" val="3869.72" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -134,7 +133,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="20.12" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="12.0" />
@@ -164,7 +162,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="108.35" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="14.0" />
@@ -200,7 +197,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="43.34" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="14.0" />
           <attnum name="end width" unit="m" val="14.0" />
@@ -230,7 +226,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="42.57" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="14.0" />
           <attnum name="end width" unit="m" val="14.0" />
@@ -261,7 +256,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="radius" unit="m" val="29.41" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="14.0" />
           <attnum name="end width" unit="m" val="18.0" />
@@ -292,7 +286,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="radius" unit="m" val="29.41" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="18.0" />
           <attnum name="end width" unit="m" val="25.0" />
@@ -322,7 +315,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="34.05" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="25.0" />
           <attnum name="end width" unit="m" val="27.0" />
@@ -353,7 +345,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="radius" unit="m" val="154.79" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="27.0" />
           <attnum name="end width" unit="m" val="29.0" />
@@ -385,7 +376,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="end radius" unit="m" val="69.65" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="29.0" />
           <attnum name="end width" unit="m" val="26.0" />
@@ -415,7 +405,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="46.44" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="26.0" />
           <attnum name="end width" unit="m" val="17.0" />
@@ -445,7 +434,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="42.57" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="17.0" />
           <attnum name="end width" unit="m" val="14.0" />
@@ -476,7 +464,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="radius" unit="m" val="23.99" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="14.0" />
           <attnum name="end width" unit="m" val="22.0" />
@@ -501,12 +488,12 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+      <!-- Y delta correction -->
       <section name="s10-1">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="32.51" />
+        <attnum name="lg" unit="m" val="33.29905" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="22.0" />
           <attnum name="end width" unit="m" val="22.0" />
@@ -536,7 +523,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="37.15" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="22.0" />
           <attnum name="end width" unit="m" val="21.0" />
@@ -566,7 +552,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="21.67" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="21.0" />
           <attnum name="end width" unit="m" val="21.0" />
@@ -598,7 +583,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="end radius" unit="m" val="46.44" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="21.0" />
           <attnum name="end width" unit="m" val="22.0" />
@@ -628,7 +612,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="40.25" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="22.0" />
           <attnum name="end width" unit="m" val="21.0" />
@@ -658,7 +641,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="29.41" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="21.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -690,7 +672,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="end radius" unit="m" val="17.8" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="16.0" />
@@ -722,7 +703,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="end radius" unit="m" val="38.7" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="16.0" />
           <attnum name="end width" unit="m" val="29.0" />
@@ -752,7 +732,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="42.57" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="29.0" />
           <attnum name="end width" unit="m" val="23.0" />
@@ -783,7 +762,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="radius" unit="m" val="619.15" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="23.0" />
           <attnum name="end width" unit="m" val="21.0" />
@@ -813,7 +791,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="22.44" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="21.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -844,7 +821,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="radius" unit="m" val="386.97" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="19.0" />
@@ -874,7 +850,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="71.98" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="19.0" />
           <attnum name="end width" unit="m" val="20.0" />
@@ -906,7 +881,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="end radius" unit="m" val="309.58" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="18.0" />
@@ -936,7 +910,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="39.47" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="18.0" />
           <attnum name="end width" unit="m" val="18.0" />
@@ -968,7 +941,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="end radius" unit="m" val="38.7" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="18.0" />
           <attnum name="end width" unit="m" val="21.0" />
@@ -998,7 +970,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="23.22" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="21.0" />
           <attnum name="end width" unit="m" val="22.0" />
@@ -1030,7 +1001,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="end radius" unit="m" val="178.01" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="22.0" />
           <attnum name="end width" unit="m" val="21.0" />
@@ -1062,7 +1032,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="end radius" unit="m" val="445.79" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="21.0" />
           <attnum name="end width" unit="m" val="9.0" />
@@ -1094,7 +1063,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="end radius" unit="m" val="259.27" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="9.0" />
           <attnum name="end width" unit="m" val="10.0" />
@@ -1126,7 +1094,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="end radius" unit="m" val="526.28" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="10.0" />
           <attnum name="end width" unit="m" val="13.0" />
@@ -1156,7 +1123,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="23.22" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="13.0" />
           <attnum name="end width" unit="m" val="13.0" />
@@ -1188,7 +1154,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="end radius" unit="m" val="116.09" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="13.0" />
           <attnum name="end width" unit="m" val="13.0" />
@@ -1218,7 +1183,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="33.28" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="13.0" />
           <attnum name="end width" unit="m" val="11.0" />
@@ -1249,7 +1213,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="radius" unit="m" val="116.09" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="11.0" />
           <attnum name="end width" unit="m" val="11.0" />
@@ -1279,7 +1242,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="47.21" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="11.0" />
           <attnum name="end width" unit="m" val="12.0" />
@@ -1315,7 +1277,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="74.3" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="17.0" />
@@ -1345,7 +1306,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="34.83" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="17.0" />
           <attnum name="end width" unit="m" val="17.0" />
@@ -1370,14 +1330,14 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+      <!-- Angle delta correction -->
       <section name="s31">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="151.0" />
+        <attnum name="arc" unit="deg" val="150.78013" />
         <attnum name="radius" unit="m" val="29.41" />
         <attnum name="end radius" unit="m" val="11.61" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="17.0" />
           <attnum name="end width" unit="m" val="12.0" />
@@ -1407,7 +1367,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="38.7" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="12.0" />
@@ -1437,7 +1396,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="12.38" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="12.0" />
@@ -1467,7 +1425,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="66.56" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="12.0" />
@@ -1497,7 +1454,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="18.57" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="11.0" />
@@ -1527,7 +1483,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="31.73" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="11.0" />
           <attnum name="end width" unit="m" val="11.0" />
@@ -1557,7 +1512,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="32.51" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="11.0" />
           <attnum name="end width" unit="m" val="10.0" />
@@ -1593,7 +1547,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="61.14" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="10.0" />
           <attnum name="end width" unit="m" val="6.0" />
