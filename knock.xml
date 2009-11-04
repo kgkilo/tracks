@@ -55,6 +55,9 @@ the Free Software Foundation; either version 2 of the License, or
   
     <section name="Track Segments">
       <!-- X delta correction -->
+      <!--***********************-->
+      <!--     Start/Finish      -->
+      <!--***********************-->
       <section name="s1">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="43.128484" />
@@ -250,6 +253,9 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+      <!--***********************-->
+      <!--     Seat Curves       -->
+      <!--***********************-->
       <section name="s4-1">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="25.0" />
@@ -458,6 +464,9 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+      <!--***********************-->
+      <!--     Scotsman          -->
+      <!--***********************-->
       <section name="s9">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="86.6" />
@@ -576,6 +585,9 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+      <!--***********************-->
+      <!--     Butcher's         -->
+      <!--***********************-->
       <section name="s11">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="41.5" />
@@ -665,6 +677,9 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+      <!--***********************-->
+      <!--   John'R Wier Chicane -->
+      <!--***********************-->
       <section name="s13">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="53.0" />
@@ -934,6 +949,9 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+      <!--***********************-->
+      <!--     Carlube           -->
+      <!--***********************-->
       <section name="s22">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="76.0" />
@@ -994,6 +1012,9 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+      <!--***********************-->
+      <!--     Hislops           -->
+      <!--***********************-->
       <section name="s24-1">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="4.0" />
@@ -1330,6 +1351,9 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+      <!--***********************-->
+      <!--    Real Radio Hairpin -->
+      <!--***********************-->
       <!-- Angle delta correction -->
       <section name="s31">
         <attstr name="type" val="rgt" />
