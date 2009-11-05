@@ -593,10 +593,10 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="bump name" val=""/>
         <attnum name="bump size" val="2.0" unit="m"/>
 
-        <attnum name="friction"           val="1.1"/>
-		<attnum name="friction rain"      val="0.9"/>
-        <attnum name="rolling resistance" val="0.01"/>
-		<attnum name="rolling resistance rain" val="0.01"/>
+        <attnum name="friction"           val="0.7"/>
+		<attnum name="friction rain"      val="0.5"/>
+        <attnum name="rolling resistance" val="0.07"/>
+		<attnum name="rolling resistance rain" val="0.05"/>
 
         <attnum name="roughness" val="0.02"/>
         <attnum name="roughness wavelength" val="0.5"/>
