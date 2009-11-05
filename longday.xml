@@ -23,15 +23,6 @@ the Free Software Foundation; either version 2 of the License, or
 <params name="test" type="param" mode="mw">
   <section name="Objects">
     &default-objects;
-    
-<!--
-    <section name="forest1">
-      <attstr name="object" val="forest1.ac"/>
-      <attnum name="color" val="0xF00000"/>
-      <attstr name="orientation type" val="standard"/>
-      <attstr name="orientation" val="0" unit="deg"/>
-    </section>  
--->
   </section>
 
   <section name="Surfaces">&default-surfaces;
@@ -42,7 +33,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadA.png"/>
+        <attstr name="texture name" val="roadA_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -51,7 +42,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.1"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.9"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.0"/>
         <attnum name="roughness wavelength" val="1.0"/>
@@ -64,7 +57,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadB.png"/>
+        <attstr name="texture name" val="roadB_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -73,7 +66,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.1"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.9"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.0"/>
         <attnum name="roughness wavelength" val="1.0"/>
@@ -86,7 +81,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadC.png"/>
+        <attstr name="texture name" val="roadC_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -95,7 +90,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.1"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.9"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.0"/>
         <attnum name="roughness wavelength" val="1.0"/>
@@ -108,7 +105,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadD.png"/>
+        <attstr name="texture name" val="roadD_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -117,7 +114,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.1"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.9"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.0"/>
         <attnum name="roughness wavelength" val="1.0"/>
@@ -130,7 +129,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadE.png"/>
+        <attstr name="texture name" val="roadE_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -139,7 +138,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -152,7 +153,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadI.png"/>
+        <attstr name="texture name" val="roadI_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -161,7 +162,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -174,7 +177,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadJ.png"/>
+        <attstr name="texture name" val="roadJ_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -183,7 +186,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -196,7 +201,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadK.png"/>
+        <attstr name="texture name" val="roadK_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -205,7 +210,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -218,7 +225,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadL.png"/>
+        <attstr name="texture name" val="roadL_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -227,7 +234,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -240,7 +249,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadM.png"/>
+        <attstr name="texture name" val="roadM_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -249,7 +258,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -262,7 +273,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadN.png"/>
+        <attstr name="texture name" val="roadN_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -271,7 +282,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -284,7 +297,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadO.png"/>
+        <attstr name="texture name" val="roadO_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -293,7 +306,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -306,7 +321,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadP.png"/>
+        <attstr name="texture name" val="roadP_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -315,7 +330,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -328,7 +345,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadQ.png"/>
+        <attstr name="texture name" val="roadQ_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -337,7 +354,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -350,7 +369,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadR.png"/>
+        <attstr name="texture name" val="roadR_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -359,7 +378,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -372,7 +393,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadS.png"/>
+        <attstr name="texture name" val="roadS_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -381,7 +402,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -394,7 +417,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadT.png"/>
+        <attstr name="texture name" val="roadT_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -403,7 +426,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -416,7 +441,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadU.png"/>
+        <attstr name="texture name" val="roadU_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -425,7 +450,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -438,7 +465,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadV.png"/>
+        <attstr name="texture name" val="roadV_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -447,7 +474,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -460,7 +489,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadW.png"/>
+        <attstr name="texture name" val="roadW_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -469,7 +498,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -482,7 +513,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.2"/>
         <attnum name="color G2" val="0.2"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="roadX.png"/>
+        <attstr name="texture name" val="roadX_n.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="35.0" unit="m"/>
         <attnum name="texture mipmap" val="14.0" unit="m"/>
@@ -491,7 +522,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.04"/>
-        <attnum name="rolling resistance" val="0.001"/>
+		<attnum name="friction rain"      val="0.94"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.01"/>
         <attnum name="roughness wavelength" val="5.0"/>
@@ -513,7 +546,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="0.8"/>
-        <attnum name="rolling resistance" val="0.009"/>
+		<attnum name="friction rain"      val="0.6"/>
+        <attnum name="rolling resistance" val="0.04"/>
+		<attnum name="rolling resistance rain" val="0.02"/>
 
         <attnum name="roughness" val="0.05"/>
         <attnum name="roughness wavelength" val="6.0"/>
@@ -526,7 +561,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="color R2" val="0.3"/>
         <attnum name="color G2" val="0.4"/>
         <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="GRASS02.rgb"/>
+        <attstr name="texture name" val="GRASS02.png"/>
         <attstr name="texture type" in="discrete, continuous" val="discrete"/>
         <attnum name="texture size" val="25.0" unit="m"/>
         <attnum name="texture mipmap" val="4.0" unit="m"/>
@@ -535,7 +570,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="0.6"/>
-        <attnum name="rolling resistance" val="0.04"/>
+		<attnum name="friction rain"      val="0.4"/>
+        <attnum name="rolling resistance" val="0.08"/>
+		<attnum name="rolling resistance rain" val="0.06"/>
 
         <attnum name="roughness" val="0.05"/>
         <attnum name="roughness wavelength" val="0.5"/>
@@ -557,7 +594,9 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="bump size" val="2.0" unit="m"/>
 
         <attnum name="friction"           val="1.1"/>
-        <attnum name="rolling resistance" val="0.02"/>
+		<attnum name="friction rain"      val="0.9"/>
+        <attnum name="rolling resistance" val="0.01"/>
+		<attnum name="rolling resistance rain" val="0.01"/>
 
         <attnum name="roughness" val="0.02"/>
         <attnum name="roughness wavelength" val="0.5"/>
@@ -579,7 +618,9 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="bump size" val="2.0" unit="m"/>
 
       <attnum name="friction"           val="0.6"/>
-      <attnum name="rolling resistance" val="0.5"/>
+	  <attnum name="friction rain"      val="0.8"/>
+      <attnum name="rolling resistance" val="0.04"/>
+	  <attnum name="rolling resistance rain" val="0.05"/>
 
       <attnum name="roughness" val="0.03"/>
       <attnum name="roughness wavelength" val="4.0"/>
@@ -592,7 +633,7 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="color R2" val="0.2"/>
       <attnum name="color G2" val="0.2"/>
       <attnum name="color B2" val="0.2"/>
-      <attstr name="texture name" val="tr-curb-yb-l.rgb"/>
+      <attstr name="texture name" val="tr-curb-yb-l.png"/>
       <attstr name="texture type" in="discrete, continuous" val="discrete"/>
       <attnum name="texture size" val="2.0" unit="m"/>
       <attnum name="texture mipmap" val="0.0" unit="m"/>
@@ -601,7 +642,9 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="bump size" val="2.0" unit="m"/>
 
       <attnum name="friction"           val="1.1"/>
-      <attnum name="rolling resistance" val="0.003"/>
+	  <attnum name="friction rain"      val="0.8"/>
+      <attnum name="rolling resistance" val="0.02"/>
+	  <attnum name="rolling resistance rain" val="0.01"/>
 
       <attnum name="roughness" val="0.04"/>
       <attnum name="roughness wavelength" val="0.3"/>
@@ -614,7 +657,7 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="color R2" val="0.2"/>
       <attnum name="color G2" val="0.2"/>
       <attnum name="color B2" val="0.2"/>
-      <attstr name="texture name" val="tr-curb-yb-r.rgb"/>
+      <attstr name="texture name" val="tr-curb-yb-r.png"/>
       <attstr name="texture type" in="discrete, continuous" val="discrete"/>
       <attnum name="texture size" val="2.0" unit="m"/>
       <attnum name="texture mipmap" val="0.0" unit="m"/>
@@ -623,7 +666,9 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="bump size" val="2.0" unit="m"/>
 
       <attnum name="friction"           val="1.1"/>
-      <attnum name="rolling resistance" val="0.003"/>
+	  <attnum name="friction rain"      val="0.8"/>
+      <attnum name="rolling resistance" val="0.02"/>
+	  <attnum name="rolling resistance rain" val="0.01"/>
 
       <attnum name="roughness" val="0.04"/>
       <attnum name="roughness wavelength" val="0.3"/>
@@ -672,6 +717,8 @@ the Free Software Foundation; either version 2 of the License, or
     <attstr name="name" val="longday" />
     <attstr name="category" val="road" />
     <attnum name="version" val="4" />
+	<attnum name="sky version" val="1"/>
+    <attnum name="Rain" val="40"/>
     <attstr name="author" val="kilo" />
     <attstr name="description" val="24h race track" />
   </section>
@@ -701,6 +748,10 @@ the Free Software Foundation; either version 2 of the License, or
     <attnum name="light position x" val="1000"/>
     <attnum name="light position y" val="1000"/>
     <attnum name="light position z" val="3000"/>
+	
+	<attnum name="Sun vertical" val="130"/>
+	<attnum name="Sun horizontal" val="110"/>
+	<attnum name="Cloud Type" val="0"/>
     
     <section name="Turn Marks">
       <attnum name="width" unit="m" val="2.0"/>
@@ -717,12 +768,6 @@ the Free Software Foundation; either version 2 of the License, or
       <attstr name="orientation" val="clockwise" />
       <attstr name="surface" val="side-grass" />
       <attnum name="group size" val="100" />
-
-      <section name="Object Maps">
-        <section name="map 1">
-        <attstr name="object map" val="objmap1.png"/>
-        </section>
-      </section>
     </section>
   </section>
 
@@ -1813,12 +1858,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="end radius" unit="m" val="195.07" />
         <attnum name="grade" unit="%" val="0.0" />
         <attnum name="profil end tangent" unit="%" val="0.2" />
-        <section name="Left Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="concrete" />
-          <attstr name="style" val="plan" />
-        </section>
         <section name="Left Side">
           <attnum name="start width" unit="m" val="10.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1865,7 +1904,7 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="plan" />
         </section>
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="5.0" />
+          <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="5.0" />
           <attstr name="surface" val="side-red" />
         </section>
@@ -1979,7 +2018,7 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="curb" />
         </section>
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="5.0" />
           <attnum name="end width" unit="m" val="15.0" />
           <attstr name="surface" val="side-grass" />
         </section>
@@ -2227,11 +2266,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="profil end tangent" unit="%" val="0.1" />
         <attstr name="marks" val="100;200"/>
         <attstr name="surface" val="roadA" />
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-red" />
-        </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.05" />
@@ -2428,11 +2462,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.05" />
           <attstr name="surface" val="curb-right" />
           <attstr name="style" val="curb" />
-        </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
         </section>
       </section>
 
@@ -2846,11 +2875,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="end width" unit="m" val="4.0" />
           <attstr name="surface" val="concrete" />
         </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="10.0" />
-          <attnum name="end width" unit="m" val="10.0" />
-          <attstr name="surface" val="side-grass" />
-        </section>
       </section>
 
       <!--******************************-->
@@ -2897,11 +2921,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="road-grass-edge" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
-        </section>
         <section name="Left Barrier">
           <attnum name="width" unit="m" val="0.1" />
           <attnum name="height" unit="m" val="1.0" />
@@ -2935,16 +2954,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="radius" unit="m" val="419.41" />
         <attnum name="grade" unit="%" val="-0.5" />
         <attnum name="profil end tangent" unit="%" val="-0.5" />
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
-        </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
-        </section>
       </section>
 
       <section name="s53">
@@ -2952,16 +2961,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="360.89" />
         <attnum name="grade" unit="%" val="-0.5" />
         <attnum name="profil end tangent" unit="%" val="-0.6" />
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
-        </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
-        </section>
       </section>
 
       <!-- len: 131 m -->
@@ -2971,16 +2970,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="radius" unit="m" val="731.52" />
         <attnum name="grade" unit="%" val="-0.8" />
         <attnum name="profil end tangent" unit="%" val="-0.4" />
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
-        </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
-        </section>
       </section>
 
       <section name="s55">
@@ -2989,11 +2978,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="grade" unit="%" val="0.0" />
         <attnum name="profil end tangent" unit="%" val="0.3" />
         <attstr name="surface" val="roadR" />
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="6.0" />
@@ -3013,11 +2997,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="banking start" unit="deg" val="0.0"/>
         <attnum name="banking end" unit="deg" val="1.0"/>
         <attstr name="surface" val="roadX" />
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
-        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="6.0" />
           <attnum name="end width" unit="m" val="9.0" />
@@ -3032,11 +3011,6 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="profil end tangent" unit="%" val="2.0" />
         <attnum name="banking start" unit="deg" val="1.0"/>
         <attnum name="banking end" unit="deg" val="2.0"/>
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
-        </section>
         <section name="Left Barrier">
           <attnum name="width" unit="m" val="0.3" />
           <attnum name="height" unit="m" val="3.0" />
@@ -3221,21 +3195,11 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-left" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
-        </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="road-grass-edge" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
         </section>
       </section>
 
@@ -3251,16 +3215,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.0" />
           <attstr name="surface" val="road-grass-edge" />
           <attstr name="style" val="plan" />
-        </section>
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
-        </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="side-grass" />
         </section>
       </section>
 
@@ -3496,11 +3450,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="curb-right" />
           <attstr name="style" val="curb" />
         </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="5.0" />
-          <attnum name="end width" unit="m" val="5.0" />
-          <attstr name="surface" val="concrete" />
-        </section>
       </section>
 
       <!--******************************-->
@@ -3589,11 +3538,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="concrete" />
           <attstr name="style" val="plan" />
         </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="7.0" />
-          <attnum name="end width" unit="m" val="7.0" />
-          <attstr name="surface" val="concrete" />
-        </section>
       </section>
       <section name="s74-2">
         <attstr name="type" val="str" />
@@ -3618,11 +3562,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="end width" unit="m" val="8.0" />
           <attstr name="surface" val="side-sand" />
         </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="7.0" />
-          <attnum name="end width" unit="m" val="7.0" />
-          <attstr name="surface" val="concrete" />
-        </section>
       </section>
 
       <!--******************************-->
@@ -3640,16 +3579,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.10" />
           <attstr name="surface" val="curb-left" />
           <attstr name="style" val="curb" />
-        </section>
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="8.0" />
-          <attnum name="end width" unit="m" val="8.0" />
-          <attstr name="surface" val="side-sand" />
-        </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="7.0" />
-          <attnum name="end width" unit="m" val="7.0" />
-          <attstr name="surface" val="concrete" />
         </section>
       </section>
 
@@ -3676,11 +3605,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="0.10" />
           <attstr name="surface" val="curb-right" />
           <attstr name="style" val="curb" />
-        </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="7.0" />
-          <attnum name="end width" unit="m" val="7.0" />
-          <attstr name="surface" val="concrete" />
         </section>
       </section>
 
