@@ -135,12 +135,13 @@
   
     <section name="Pits">
       <attstr name="side" val="left" />
-      <attstr name="entry" val="" />
-      <attstr name="start" val="" />
-      <attstr name="end" val="" />
-      <attstr name="exit" val="" />
-      <attnum name="length" unit="m" val="15.0" />
+      <attstr name="entry" val="Finish-6" />
+      <attstr name="start" val="Finish-7" />
+      <attstr name="end" val="Start-3" />
+      <attstr name="exit" val="Start-4" />
+      <attnum name="length" unit="m" val="12.0" />
       <attnum name="width" unit="m" val="5.0" />
+      <attnum name="speed limit" unit="kph" val="60.0" />
     </section>
   
     <section name="Track Segments">
@@ -158,9 +159,9 @@
         <attnum name="profil end tangent" unit="%" val="-1.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="6.0" />
+          <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="15.0" />
-          <attstr name="surface" val="concrete" />
+          <attstr name="surface" val="road1-pits" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -204,7 +205,7 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="15.0" />
-          <attstr name="surface" val="concrete" />
+          <attstr name="surface" val="road1-pits" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -247,12 +248,12 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="12.0" />
-          <attstr name="surface" val="concrete" />
+          <attstr name="surface" val="road1" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="asphalt2" />
+          <attstr name="surface" val="road1" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
@@ -1452,8 +1453,8 @@
         <attnum name="profil end tangent" unit="%" val="6.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="11.0" />
-          <attnum name="end width" unit="m" val="10.0" />
-          <attstr name="surface" val="grass" />
+          <attnum name="end width" unit="m" val="15.0" />
+          <attstr name="surface" val="road1" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="16.0" />
@@ -1483,9 +1484,9 @@
         <attnum name="z end" val="67" />
 -->
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="10.0" />
-          <attnum name="end width" unit="m" val="6.0" />
-          <attstr name="surface" val="asphalt2" />
+          <attnum name="start width" unit="m" val="15.0" />
+          <attnum name="end width" unit="m" val="15.0" />
+          <attstr name="surface" val="road1-pits" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
