@@ -150,7 +150,7 @@
       <!--***********************-->
       <section name="Start-1">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="39.46" />
+        <attnum name="lg" unit="m" val="39.459" />
 <!--
         <attnum name="z start" val="67" />
 -->
@@ -272,7 +272,7 @@
       <section name="Start-5">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="105.63" />
-        <attnum name="grade" unit="%" val="-4.93017" />
+        <attnum name="grade" unit="%" val="-4.931443" />
         <attnum name="profil end tangent" unit="%" val="-3.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="12.0" />
@@ -579,7 +579,7 @@
       <!-- Y delta correction -->
       <section name="Scotsman-2">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="38.0" />
+        <attnum name="lg" unit="m" val="37.9868" />
         <attnum name="grade" unit="%" val="-10.0" />
         <attnum name="profil end tangent" unit="%" val="-9.0" />
         <section name="Left Side">
@@ -1282,7 +1282,7 @@
       <!-- Angle delta correction -->
       <section name="Hairpin-1">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="151.00001" />
+        <attnum name="arc" unit="deg" val="150.99995" />
         <attnum name="radius" unit="m" val="28.67" />
         <attnum name="end radius" unit="m" val="11.32" />
         <attnum name="grade" unit="%" val="7.0" />
