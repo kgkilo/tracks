@@ -78,7 +78,6 @@
 <!--        <attnum name="z end" val="67" />-->        <section name="Left Side">          <attnum name="start width" unit="m" val="10.0" />          <attnum name="end width" unit="m" val="6.0" />          <attstr name="surface" val="asphalt2" />        </section>        <section name="Left Border">          <attnum name="width" unit="m" val="1.0" />          <attnum name="height" unit="m" val="1.5" />          <attstr name="surface" val="concrete" />          <attstr name="style" val="wall" />        </section>        <section name="Right Side">          <attnum name="start width" unit="m" val="15.0" />          <attnum name="end width" unit="m" val="16.0" />          <attstr name="surface" val="sand" />        </section>        <section name="Right Border">          <attnum name="width" unit="m" val="1.0" />          <attnum name="height" unit="m" val="0.0" />          <attstr name="surface" val="tar-sand" />          <attstr name="style" val="plan" />        </section>      </section>    </section>  </section></params>
 =======
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!--
     knock.xml
     
@@ -133,6 +132,7 @@
     <attnum name="profil steps length" unit="m" val="4.0" />
     <attstr name="profil" in="linear,spline" val="linear" />
   
+<!--
     <section name="Pits">
       <attstr name="side" val="left" />
       <attstr name="entry" val="Finish-6" />
@@ -143,6 +143,7 @@
       <attnum name="width" unit="m" val="5.0" />
       <attnum name="speed limit" unit="kph" val="60.0" />
     </section>
+-->
   
     <section name="Track Segments">
       <!-- X delta correction -->
@@ -730,7 +731,7 @@
         <attnum name="profil end tangent" unit="%" val="7.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="16.0" />
-          <attnum name="end width" unit="m" val="10.0" />
+          <attnum name="end width" unit="m" val="9.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Right Side">
@@ -757,8 +758,8 @@
         <attnum name="grade" unit="%" val="10.0" />
         <attnum name="profil end tangent" unit="%" val="9.0" />
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="10.0" />
-          <attnum name="end width" unit="m" val="10.0" />
+          <attnum name="start width" unit="m" val="9.0" />
+          <attnum name="end width" unit="m" val="9.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Left Border">
@@ -788,7 +789,7 @@
         <attnum name="grade" unit="%" val="8.0" />
         <attnum name="profil end tangent" unit="%" val="5.5" />
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="10.0" />
+          <attnum name="start width" unit="m" val="9.0" />
           <attnum name="end width" unit="m" val="25.0" />
           <attstr name="surface" val="grass" />
         </section>
@@ -1220,8 +1221,8 @@
         <section name="Right Barrier">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
+          <attstr name="surface" val="grass" />
+          <attstr name="style" val="plan" />
         </section>
       </section>
 
