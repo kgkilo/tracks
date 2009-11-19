@@ -702,7 +702,7 @@
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.05" />
+          <attnum name="height" unit="m" val="0.02" />
           <attstr name="surface" val="curb-5cm-r" />
           <attstr name="style" val="curb" />
         </section>
@@ -846,7 +846,7 @@
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.05" />
+          <attnum name="height" unit="m" val="0.03" />
           <attstr name="surface" val="curb-5cm-r" />
           <attstr name="style" val="curb" />
         </section>
@@ -1384,7 +1384,7 @@
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.05" />
+          <attnum name="height" unit="m" val="0.07" />
           <attstr name="surface" val="curb-5cm-r" />
           <attstr name="style" val="curb" />
         </section>
