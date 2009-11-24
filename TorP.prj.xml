@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_16" class="java.beans.XMLDecoder"> 
+ <object class="utils.Properties"> 
+  <void property="author"> 
+   <string>kilo</string> 
+  </void> 
+  <void property="category"> 
+   <string>track</string> 
+  </void> 
+  <void property="currentA"> 
+   <double>-6.305874587455533</double> 
+  </void> 
+  <void property="currentX"> 
+   <double>87.33777297851839</double> 
+  </void> 
+  <void property="currentY"> 
+   <double>2.5426584584430554</double> 
+  </void> 
+  <void property="curveNameCount"> 
+   <int>18</int> 
+  </void> 
+  <void property="description"> 
+   <string>Tor Poznan</string> 
+  </void> 
+  <void property="image"> 
+   <string>/home/torcs/Proj/torcs/track/TorP/doc/Sat.png</string> 
+  </void> 
+  <void property="imageScale"> 
+   <double>1.45</double> 
+  </void> 
+  <void property="imgOffset"> 
+   <void property="x"> 
+    <double>-840.0</double> 
+   </void> 
+   <void property="y"> 
+    <double>29.0</double> 
+   </void> 
+  </void> 
+  <void property="path"> 
+   <string>/home/torcs/Proj/torcs/track/TorP</string> 
+  </void> 
+  <void property="pitEnd"> 
+   <string></string> 
+  </void> 
+  <void property="pitEntry"> 
+   <string></string> 
+  </void> 
+  <void property="pitExit"> 
+   <string></string> 
+  </void> 
+  <void property="pitStart"> 
+   <string></string> 
+  </void> 
+  <void property="straightNameCount"> 
+   <int>16</int> 
+  </void> 
+  <void property="trackName"> 
+   <string>TorP</string> 
+  </void> 
+  <void property="trackWidth"> 
+   <double>12.0</double> 
+  </void> 
+ </object> 
+</java> 
