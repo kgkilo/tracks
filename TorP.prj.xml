@@ -8,16 +8,16 @@
    <string>track</string> 
   </void> 
   <void property="currentA"> 
-   <double>-6.305874587455533</double> 
+   <double>-6.305874587455524</double> 
   </void> 
   <void property="currentX"> 
-   <double>87.33777297851839</double> 
+   <double>13.356819888636892</double> 
   </void> 
   <void property="currentY"> 
-   <double>2.5426584584430554</double> 
+   <double>4.221521142828064</double> 
   </void> 
   <void property="curveNameCount"> 
-   <int>18</int> 
+   <int>20</int> 
   </void> 
   <void property="description"> 
    <string>Tor Poznan</string> 
