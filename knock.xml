@@ -107,25 +107,81 @@
   <section name="Surfaces">
     &default-surfaces;
     <section name="asphalt-kn">
-        <attnum name="color R1" val="0.1"/>
-        <attnum name="color G1" val="0.1"/>
-        <attnum name="color B1" val="0.1"/>
-        <attnum name="color R2" val="0.2"/>
-        <attnum name="color G2" val="0.2"/>
-        <attnum name="color B2" val="0.2"/>
-        <attstr name="texture name" val="asphalt_n.png"/>
-        <attstr name="texture type" in="discrete, continuous" val="discrete"/>
-        <attnum name="texture size" val="50.0" unit="m"/>
-        <attnum name="texture mipmap" val="0.0" unit="m"/>
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="asphalt_n.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+      <attnum name="texture size" val="50.0" unit="m"/>
+      <attnum name="texture mipmap" val="0.0" unit="m"/>
+      <attstr name="bump name" val="bump-as.rgb"/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+      <attnum name="friction"           val="1.0"/>
+      <attnum name="rolling resistance" val="0.001"/>
+      <attnum name="roughness" val="0"/>
+      <attnum name="roughness wavelength" val="1.0"/>
+    </section>
+    
+    <section name="asphalt-kn-pitentry">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="asphalt-sidel_n.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+      <attnum name="texture size" val="30.0" unit="m"/>
+      <attnum name="texture mipmap" val="4.0"/>
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+      <attnum name="friction"           val="1.1"/>
+      <attnum name="rolling resistance" val="0.002"/>
+      <attnum name="roughness" val="0"/>
+      <attnum name="roughness wavelength" val="1.0"/>
+    </section>
 
-        <attstr name="bump name" val="bump-as.rgb"/>
-        <attnum name="bump size" val="2.0" unit="m"/>
+    <section name="asphalt-kn-pits">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="asphalt-pit_n.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+      <attstr name="texture link with previous" val="yes"/>
+      <attstr name="texture start on boundary" val="yes"/>
+      <attnum name="texture size" val="15.0001" unit="m"/>
+      <attnum name="texture mipmap" val="0.0" unit="m"/>
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+      <attnum name="friction"           val="1.1"/>
+      <attnum name="rolling resistance" val="0.05"/>
+      <attnum name="roughness" val="0"/>
+      <attnum name="roughness wavelength" val="1.0"/>
+    </section>
 
-        <attnum name="friction"           val="1.0"/>
-        <attnum name="rolling resistance" val="0.001"/>
-
-        <attnum name="roughness" val="0"/>
-        <attnum name="roughness wavelength" val="1.0"/>
+    <section name="grass-kn">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.4"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.5"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="grass.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="continuous"/>
+      <attnum name="texture size" val="20.0" unit="m"/>
+      <attnum name="texture mipmap" val="4.0"/>
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+      <attnum name="friction"           val="0.4"/>
+      <attnum name="rolling resistance" val="0.01"/>
+      <attnum name="roughness" val="0.05"/>
+      <attnum name="roughness wavelength" val="0.5"/>
     </section>
   </section>
 
@@ -145,7 +201,7 @@
       <attnum name="border step" unit="m" val="30" />
       <attnum name="border height" unit="m" val="15" />
       <attstr name="orientation" val="clockwise" />
-      <!--<attstr name="surface" val="dirtA" />-->
+      <attstr name="surface" val="grass-kn" />
       <attnum name="group size" val="100" />
     </section>
   </section>
@@ -184,7 +240,7 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="15.0" />
-          <attstr name="surface" val="road1-pits" />
+          <attstr name="surface" val="asphalt-kn-pits" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -206,7 +262,7 @@
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-sand" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Barrier">
@@ -230,7 +286,7 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="15.0" />
-          <attstr name="surface" val="road1-pits" />
+          <attstr name="surface" val="asphalt-kn-pits" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -241,12 +297,12 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="16.0" />
           <attnum name="end width" unit="m" val="13.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -261,7 +317,7 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="13.0" />
           <attnum name="end width" unit="m" val="10.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -273,24 +329,18 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="12.0" />
-          <attstr name="surface" val="road1" />
+          <attstr name="surface" val="asphalt-kn-pitentry" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="road1" />
+          <attstr name="surface" val="asphalt-kn-pitentry" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="10.0" />
           <attnum name="end width" unit="m" val="10.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -303,7 +353,7 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="14.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Left Barrier">
           <attnum name="width" unit="m" val="1.0" />
@@ -314,13 +364,7 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="10.0" />
           <attnum name="end width" unit="m" val="13.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -332,24 +376,18 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="14.0" />
           <attnum name="end width" unit="m" val="14.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-l" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="13.0" />
           <attnum name="end width" unit="m" val="13.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -368,7 +406,7 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-sand" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
@@ -379,7 +417,7 @@
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-sand" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -403,7 +441,7 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="13.0" />
           <attnum name="end width" unit="m" val="14.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -429,13 +467,7 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="14.0" />
           <attnum name="end width" unit="m" val="15.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="curb" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -460,12 +492,12 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="24.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -486,13 +518,7 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="24.0" />
           <attnum name="end width" unit="m" val="22.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -508,7 +534,7 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="29.0" />
           <attnum name="end width" unit="m" val="26.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="22.0" />
@@ -518,7 +544,7 @@
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-sand" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -533,24 +559,18 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="26.0" />
           <attnum name="end width" unit="m" val="17.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-l" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="26.0" />
           <attnum name="end width" unit="m" val="25.0" />
           <attstr name="surface" val="sand" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-sand" />
-          <attstr name="style" val="plan" />
         </section>
       </section>
 
@@ -575,12 +595,12 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="25.0" />
           <attnum name="end width" unit="m" val="13.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -604,13 +624,13 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-l" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="13.0" />
           <attnum name="end width" unit="m" val="13.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -642,12 +662,12 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="13.0" />
           <attnum name="end width" unit="m" val="23.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -662,18 +682,12 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="22.0" />
           <attnum name="end width" unit="m" val="22.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="23.0" />
           <attnum name="end width" unit="m" val="28.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -687,19 +701,13 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-l" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="28.0" />
           <attnum name="end width" unit="m" val="27.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -718,7 +726,7 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="27.0" />
           <attnum name="end width" unit="m" val="27.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -738,17 +746,17 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="22.0" />
           <attnum name="end width" unit="m" val="19.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="27.0" />
           <attnum name="end width" unit="m" val="29.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -763,17 +771,17 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="19.0" />
           <attnum name="end width" unit="m" val="16.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="29.0" />
           <attnum name="end width" unit="m" val="28.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -788,7 +796,7 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="16.0" />
           <attnum name="end width" unit="m" val="9.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="28.0" />
@@ -798,7 +806,7 @@
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-sand" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -818,7 +826,7 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="9.0" />
           <attnum name="end width" unit="m" val="9.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -830,12 +838,6 @@
           <attnum name="start width" unit="m" val="23.0" />
           <attnum name="end width" unit="m" val="10.0" />
           <attstr name="surface" val="sand" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-sand" />
-          <attstr name="style" val="plan" />
         </section>
       </section>
 
@@ -851,12 +853,12 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="9.0" />
           <attnum name="end width" unit="m" val="25.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-l" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
@@ -897,12 +899,12 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="13.0" />
           <attnum name="end width" unit="m" val="20.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -923,13 +925,7 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="20.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -946,12 +942,6 @@
           <attnum name="end width" unit="m" val="20.0" />
           <attstr name="surface" val="sand" />
         </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
-        </section>
       </section>
 
       <section name="Brabhams-4">
@@ -963,24 +953,18 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="20.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-l" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="22.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -995,13 +979,7 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="22.0" />
           <attnum name="end width" unit="m" val="22.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -1016,7 +994,7 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="18.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -1027,13 +1005,7 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="22.0" />
           <attnum name="end width" unit="m" val="20.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -1053,13 +1025,7 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="19.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -1086,13 +1052,13 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-sand" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="19.0" />
           <attnum name="end width" unit="m" val="21.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -1117,12 +1083,12 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="21.0" />
           <attnum name="end width" unit="m" val="20.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -1142,19 +1108,13 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="asphalt" />
+          <attstr name="surface" val="asphalt-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="20.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -1170,24 +1130,18 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="21.0" />
           <attnum name="end width" unit="m" val="9.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-l" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="32.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -1203,7 +1157,7 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="9.0" />
           <attnum name="end width" unit="m" val="10.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -1214,13 +1168,7 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="32.0" />
           <attnum name="end width" unit="m" val="5.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -1236,24 +1184,18 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="10.0" />
           <attnum name="end width" unit="m" val="13.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-l" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="5.0" />
           <attnum name="end width" unit="m" val="12.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -1268,18 +1210,12 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="13.0" />
           <attnum name="end width" unit="m" val="11.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="8.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -1293,23 +1229,23 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="11.0" />
           <attnum name="end width" unit="m" val="12.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="8.0" />
           <attnum name="end width" unit="m" val="18.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="asphalt" />
+          <attstr name="surface" val="asphalt-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Barrier">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -1324,17 +1260,17 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="17.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="11.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -1360,13 +1296,7 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="11.0" />
           <attnum name="end width" unit="m" val="3.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -1394,13 +1324,13 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-sand" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="3.0" />
           <attnum name="end width" unit="m" val="3.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -1434,12 +1364,12 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="3.0" />
           <attnum name="end width" unit="m" val="12.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -1454,18 +1384,12 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="12.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="14.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -1479,19 +1403,13 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-l" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="14.0" />
           <attnum name="end width" unit="m" val="20.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-grass3-r" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="grass-kn" />
         </section>
       </section>
 
@@ -1505,17 +1423,17 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="11.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="20.0" />
-          <attstr name="surface" val="asphalt" />
+          <attstr name="surface" val="asphalt-kn" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="asphalt" />
+          <attstr name="surface" val="asphalt-kn" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -1530,24 +1448,18 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="11.0" />
           <attnum name="end width" unit="m" val="11.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="grass-kn" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="asphalt" />
+          <attstr name="surface" val="asphalt-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="16.0" />
-          <attstr name="surface" val="asphalt" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="asphalt" />
-          <attstr name="style" val="plan" />
+          <attstr name="surface" val="asphalt-kn" />
         </section>
       </section>
 
@@ -1559,7 +1471,7 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="11.0" />
           <attnum name="end width" unit="m" val="15.0" />
-          <attstr name="surface" val="road1" />
+          <attstr name="surface" val="asphalt-kn-pitentry" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="16.0" />
@@ -1569,7 +1481,7 @@
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-sand" />
+          <attstr name="surface" val="grass-kn" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Barrier">
@@ -1590,7 +1502,7 @@
         <section name="Left Side">
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="15.0" />
-          <attstr name="surface" val="road1-pits" />
+          <attstr name="surface" val="asphalt-kn-pits" />
         </section>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -1602,12 +1514,6 @@
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="16.0" />
           <attstr name="surface" val="sand" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="tar-sand" />
-          <attstr name="style" val="plan" />
         </section>
       </section>
     </section>
