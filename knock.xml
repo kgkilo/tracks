@@ -103,8 +103,31 @@
 <!ENTITY default-surfaces SYSTEM "../../../data/tracks/surfaces.xml">
 ]>
 
-<params name="test" type="trackdef" mode="mw">
-  <section name="Surfaces">&default-surfaces;</section>
+<params name="knock" type="trackdef" mode="mw">
+  <section name="Surfaces">
+    &default-surfaces;
+    <section name="asphalt-kn">
+        <attnum name="color R1" val="0.1"/>
+        <attnum name="color G1" val="0.1"/>
+        <attnum name="color B1" val="0.1"/>
+        <attnum name="color R2" val="0.2"/>
+        <attnum name="color G2" val="0.2"/>
+        <attnum name="color B2" val="0.2"/>
+        <attstr name="texture name" val="asphalt_n.png"/>
+        <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+        <attnum name="texture size" val="50.0" unit="m"/>
+        <attnum name="texture mipmap" val="0.0" unit="m"/>
+
+        <attstr name="bump name" val="bump-as.rgb"/>
+        <attnum name="bump size" val="2.0" unit="m"/>
+
+        <attnum name="friction"           val="1.0"/>
+        <attnum name="rolling resistance" val="0.001"/>
+
+        <attnum name="roughness" val="0"/>
+        <attnum name="roughness wavelength" val="1.0"/>
+    </section>
+  </section>
 
   <section name="Header">
     <attstr name="name" val="knock" />
@@ -157,7 +180,7 @@
         <attnum name="profil end tangent" unit="%" val="-2.0" />
         <attnum name="banking start" unit="deg" val="1.0" />
         <attnum name="banking end" unit="deg" val="0.5" />
-        <attstr name="surface" val="asphalt2-lines" />
+        <attstr name="surface" val="asphalt-kn" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="15.0" />
           <attnum name="end width" unit="m" val="15.0" />
