@@ -262,7 +262,7 @@
           <attstr name="surface" val="asphalt-kn-pits" />
         </section>
         <section name="Left Border">
-          <attnum name="width" unit="m" val="1.0" />
+          <attnum name="width" unit="m" val="0.5" />
           <attnum name="height" unit="m" val="1.5" />
           <attstr name="surface" val="concrete" />
           <attstr name="style" val="wall" />
@@ -1524,7 +1524,7 @@
           <attstr name="surface" val="asphalt-kn-pits" />
         </section>
         <section name="Left Border">
-          <attnum name="width" unit="m" val="1.0" />
+          <attnum name="width" unit="m" val="0.5" />
           <attnum name="height" unit="m" val="1.5" />
           <attstr name="surface" val="concrete" />
           <attstr name="style" val="wall" />
