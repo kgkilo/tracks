@@ -125,6 +125,25 @@
       <attnum name="roughness wavelength" val="1.0"/>
     </section>
     
+    <section name="asphalt-kn-side">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="asphalt-sidel_n.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+      <attnum name="texture size" val="50.0" unit="m"/>
+      <attnum name="texture mipmap" val="4.0" unit="m"/>
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+      <attnum name="friction"           val="1.0"/>
+      <attnum name="rolling resistance" val="0.001"/>
+      <attnum name="roughness" val="0"/>
+      <attnum name="roughness wavelength" val="1.0"/>
+    </section>
+    
     <section name="asphalt-kn-pitentry">
       <attnum name="color R1" val="0.1"/>
       <attnum name="color G1" val="0.1"/>
@@ -291,7 +310,7 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="concrete" />
+          <attstr name="surface" val="asphalt-kn-side" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
@@ -1239,7 +1258,7 @@
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="asphalt-kn" />
+          <attstr name="surface" val="asphalt-kn-side" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Barrier">
@@ -1428,12 +1447,12 @@
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="20.0" />
-          <attstr name="surface" val="asphalt-kn" />
+          <attstr name="surface" val="asphalt-kn-side" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="asphalt-kn" />
+          <attstr name="surface" val="asphalt-kn-side" />
           <attstr name="style" val="plan" />
         </section>
       </section>
@@ -1453,13 +1472,13 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="asphalt-kn" />
+          <attstr name="surface" val="asphalt-kn-side" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="16.0" />
-          <attstr name="surface" val="asphalt-kn" />
+          <attstr name="surface" val="asphalt-kn-side" />
         </section>
       </section>
 
