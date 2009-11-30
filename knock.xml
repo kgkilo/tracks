@@ -412,7 +412,7 @@
       <section name="Start-5">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="105.63" />
-        <attnum name="grade" unit="%" val="-4.931443" />
+        <attnum name="grade" unit="%" val="-5.285043" />
         <attnum name="profil end tangent" unit="%" val="-3.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="12.0" />
@@ -758,8 +758,8 @@
       <section name="Scotsman-4">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="21.13" />
-        <attnum name="grade" unit="%" val="-9.0" />
-        <attnum name="profil end tangent" unit="%" val="-10.0" />
+        <attnum name="grade" unit="%" val="-10.0" />
+        <attnum name="profil end tangent" unit="%" val="-11.0" />
         <attnum name="banking start" unit="deg" val="2.5" />
         <attnum name="banking end" unit="deg" val="3.5" />
         <section name="Left Border">
@@ -783,8 +783,8 @@
         <attnum name="arc" unit="deg" val="41.5" />
         <attnum name="radius" unit="m" val="35.47" />
         <attnum name="end radius" unit="m" val="45.27" />
-        <attnum name="grade" unit="%" val="-13.0" />
-        <attnum name="profil end tangent" unit="%" val="-10.0" />
+        <attnum name="grade" unit="%" val="-11.0" />
+        <attnum name="profil end tangent" unit="%" val="-11.0" />
         <attnum name="banking start" unit="deg" val="3.5" />
         <attnum name="banking end" unit="deg" val="3.0" />
         <section name="Right Side">
