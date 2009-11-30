@@ -202,6 +202,51 @@
       <attnum name="roughness" val="0.05"/>
       <attnum name="roughness wavelength" val="0.5"/>
     </section>
+
+    <section name="curb-left">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="tr-curb-kn-l.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+      <attnum name="texture size" val="2.0" unit="m"/>
+      <attnum name="texture mipmap" val="0.0" unit="m"/>
+
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+
+      <attnum name="friction"           val="1.2"/>
+      <attnum name="rolling resistance" val="0.003"/>
+
+      <attnum name="roughness" val="0.04"/>
+      <attnum name="roughness wavelength" val="0.3"/>
+    </section>
+
+    <section name="curb-right">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="tr-curb-kn-r.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+      <attnum name="texture size" val="2.0" unit="m"/>
+      <attnum name="texture mipmap" val="0.0" unit="m"/>
+
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+
+      <attnum name="friction"           val="1.2"/>
+      <attnum name="rolling resistance" val="0.003"/>
+
+      <attnum name="roughness" val="0.04"/>
+      <attnum name="roughness wavelength" val="0.3"/>
+    </section>
+
   </section>
 
   <section name="Header">
@@ -465,7 +510,7 @@
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="surface" val="curb-right" />
           <attstr name="style" val="curb" />
         </section>
       </section>
@@ -505,7 +550,7 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.1" />
-          <attstr name="surface" val="curb-5cm-l" />
+          <attstr name="surface" val="curb-left" />
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
@@ -608,7 +653,7 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.1" />
-          <attstr name="surface" val="curb-5cm-l" />
+          <attstr name="surface" val="curb-left" />
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
@@ -654,7 +699,7 @@
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="surface" val="curb-right" />
           <attstr name="style" val="curb" />
         </section>
       </section>
@@ -675,7 +720,7 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
+          <attstr name="surface" val="curb-left" />
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
@@ -750,7 +795,7 @@
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.02" />
-          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="surface" val="curb-right" />
           <attstr name="style" val="curb" />
         </section>
       </section>
@@ -850,7 +895,7 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
+          <attstr name="surface" val="curb-left" />
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
@@ -888,7 +933,7 @@
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.03" />
-          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="surface" val="curb-right" />
           <attstr name="style" val="curb" />
         </section>
       </section>
@@ -912,7 +957,7 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
+          <attstr name="surface" val="curb-left" />
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
@@ -1018,7 +1063,7 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
+          <attstr name="surface" val="curb-left" />
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
@@ -1082,7 +1127,7 @@
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="surface" val="curb-right" />
           <attstr name="style" val="curb" />
         </section>
       </section>
@@ -1181,7 +1226,7 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
+          <attstr name="surface" val="curb-left" />
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
@@ -1309,7 +1354,7 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
+          <attstr name="surface" val="curb-left" />
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
@@ -1354,7 +1399,7 @@
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.07" />
-          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="surface" val="curb-right" />
           <attstr name="style" val="curb" />
         </section>
       </section>
@@ -1377,7 +1422,7 @@
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
+          <attstr name="surface" val="curb-left" />
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
