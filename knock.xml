@@ -247,6 +247,26 @@
       <attnum name="roughness wavelength" val="0.3"/>
     </section>
 
+    <section name="tirewall">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="TIREBLAK2.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="continuous"/>
+      <attnum name="texture size" val="2.0"/>
+      <attnum name="texture mipmap" val="0.0"/>
+
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+
+      <attnum name="friction"           val="0.5"/>
+      <attnum name="rebound" val="0.1"/>
+      <attnum name="dammage" val="1.0"/>
+    </section>
+
   </section>
 
   <section name="Header">
@@ -342,7 +362,7 @@
         <section name="Right Barrier">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
+          <attstr name="surface" val="tirewall" />
           <attstr name="style" val="wall" />
         </section>
       </section>
@@ -432,7 +452,7 @@
         <section name="Left Barrier">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
+          <attstr name="surface" val="tirewall" />
           <attstr name="style" val="wall" />
         </section>
         <section name="Right Side">
@@ -1552,7 +1572,7 @@
         <section name="Right Barrier">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="tire-wall" />
+          <attstr name="surface" val="tirewall" />
           <attstr name="style" val="wall" />
         </section>
       </section>
