@@ -259,6 +259,16 @@
   
   <section name="Graphic">
     <attstr name="3d description" val="knock.ac" />
+
+<!--
+    <section name="Turn Marks">
+      <attnum name="width" unit="m" val="3.0"/>
+      <attnum name="height" unit="m" val="1.0"/>
+      <attnum name="vertical space" unit="m" val="0.0"/>
+      <attnum name="horizontal space" unit="m" val="3.0"/>
+    </section>
+-->
+
     <section name="Terrain Generation">
       <attnum name="track step" unit="m" val="20" />
       <attnum name="border margin" unit="m" val="50" />
@@ -1105,9 +1115,6 @@
         <attnum name="profil end tangent" unit="%" val="8.0" />
         <attnum name="banking start" unit="deg" val="2.0" />
         <attnum name="banking end" unit="deg" val="2.0" />
-<!--
-        <attnum name="profil steps length" unit="m" val="2.0" />
--->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="18.0" />
           <attnum name="end width" unit="m" val="21.0" />
@@ -1377,9 +1384,6 @@
         <attnum name="profil end tangent" unit="%" val="6.0" />
         <attnum name="banking start" unit="deg" val="2.0" />
         <attnum name="banking end" unit="deg" val="2.5" />
-<!--
-        <attnum name="profil steps length" unit="m" val="2.0" />
--->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="17.0" />
           <attnum name="end width" unit="m" val="12.0" />
@@ -1411,9 +1415,6 @@
         <attnum name="profil end tangent" unit="%" val="4.5" />
         <attnum name="banking start" unit="deg" val="2.5" />
         <attnum name="banking end" unit="deg" val="2.0" />
-<!--
-        <attnum name="profil steps length" unit="m" val="4.0" />
--->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="12.0" />
