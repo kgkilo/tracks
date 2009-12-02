@@ -314,10 +314,11 @@
       <attstr name="exit" val="Start-4" />
       <attnum name="length" unit="m" val="12.0" />
       <attnum name="width" unit="m" val="5.0" />
-      <attnum name="speed limit" unit="kph" val="60.0" />
+      <attnum name="speed limit" unit="mps" val="16.66" /> 
     </section>
 -->
-  
+<!-- 60km/h -->
+
     <section name="Track Segments">
       <!-- X delta correction -->
       <!--***********************-->
@@ -383,10 +384,10 @@
           <attstr name="surface" val="asphalt-kn-pits" />
         </section>
         <section name="Left Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="asphalt-kn-side" />
-          <attstr name="style" val="plan" />
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="1.5" />
+          <attstr name="surface" val="concrete" />
+          <attstr name="style" val="wall" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="16.0" />
@@ -408,6 +409,17 @@
         <attnum name="end radius" unit="m" val="3772.42" />
         <attnum name="grade" unit="%" val="-4.0" />
         <attnum name="profil end tangent" unit="%" val="-3.0" />
+        <section name="Left Side">
+          <attnum name="start width" unit="m" val="15.0" />
+          <attnum name="end width" unit="m" val="15.0" />
+          <attstr name="surface" val="asphalt-kn-pits" />
+        </section>
+        <section name="Left Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.0" />
+          <attstr name="surface" val="asphalt-kn-side" />
+          <attstr name="style" val="plan" />
+        </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="13.0" />
           <attnum name="end width" unit="m" val="10.0" />
@@ -421,7 +433,7 @@
         <attnum name="grade" unit="%" val="-4.0" />
         <attnum name="profil end tangent" unit="%" val="-4.0" />
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="15.0" />
+          <attnum name="start width" unit="m" val="14.5" />
           <attnum name="end width" unit="m" val="12.0" />
           <attstr name="surface" val="asphalt-kn-pitentry" />
         </section>
@@ -1555,8 +1567,14 @@
         <attnum name="profil end tangent" unit="%" val="6.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="11.0" />
-          <attnum name="end width" unit="m" val="15.0" />
+          <attnum name="end width" unit="m" val="14.5" />
           <attstr name="surface" val="asphalt-kn-pitentry" />
+        </section>
+        <section name="Left Barrier">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="wall" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="16.0" />
@@ -1605,7 +1623,7 @@
   </section>
 
   <section name="Cameras">
-    <!-- High above T1 -->
+    <!-- End of main straight -->
     <section name="cam 0">
         <attstr name="segment" val="Start-7"/>
         <attnum name="to right" val="9"/>
@@ -1615,6 +1633,7 @@
         <attstr name="fov end" val="Seat-2"/>
     </section>
 
+    <!-- Right after Scotsman -->
     <section name="cam 1">
         <attstr name="segment" val="Scotsman-2"/>
         <attnum name="to right" val="20"/>
@@ -1624,6 +1643,7 @@
         <attstr name="fov end" val="Chicane-2"/>
     </section>
     
+    <!-- Just after the chicane -->
     <section name="cam 2">
         <attstr name="segment" val="Brabhams-2"/>
         <attnum name="to right" val="20"/>
@@ -1633,6 +1653,7 @@
         <attstr name="fov end" val="Brabhams-5"/>
     </section>
     
+    <!-- Exit of Carlube turn -->
     <section name="cam 3">
         <attstr name="segment" val="Carlube-2"/>
         <attnum name="to right" val="20"/>
@@ -1642,6 +1663,7 @@
         <attstr name="fov end" val="Hislops-2"/>
     </section>
     
+    <!-- Mid-part of Hislops -->
     <section name="cam 4">
         <attstr name="segment" val="Hislops-5"/>
         <attnum name="to right" val="-20"/>
@@ -1651,6 +1673,7 @@
         <attstr name="fov end" val="VIP-2"/>
     </section>
     
+    <!-- In hairpin -->
     <section name="cam 5">
         <attstr name="segment" val="Finish-1"/>
         <attnum name="to right" val="8"/>
