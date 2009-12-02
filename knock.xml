@@ -1603,6 +1603,63 @@
       </section>
     </section>
   </section>
+
+  <section name="Cameras">
+    <!-- High above T1 -->
+    <section name="cam 0">
+        <attstr name="segment" val="Start-7"/>
+        <attnum name="to right" val="9"/>
+        <attnum name="to start" val="80"/>
+        <attnum name="height" val="3"/>
+        <attstr name="fov start" val="Start-1"/>
+        <attstr name="fov end" val="Seat-2"/>
+    </section>
+
+    <section name="cam 1">
+        <attstr name="segment" val="Scotsman-2"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="10"/>
+        <attnum name="height" val="4"/>
+        <attstr name="fov start" val="Seat-2"/>
+        <attstr name="fov end" val="Chicane-2"/>
+    </section>
+    
+    <section name="cam 2">
+        <attstr name="segment" val="Brabhams-2"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="0"/>
+        <attnum name="height" val="3"/>
+        <attstr name="fov start" val="Chicane-2"/>
+        <attstr name="fov end" val="Brabhams-5"/>
+    </section>
+    
+    <section name="cam 3">
+        <attstr name="segment" val="Carlube-2"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="5"/>
+        <attnum name="height" val="3"/>
+        <attstr name="fov start" val="Brabhams-5"/>
+        <attstr name="fov end" val="Hislops-2"/>
+    </section>
+    
+    <section name="cam 4">
+        <attstr name="segment" val="Hislops-5"/>
+        <attnum name="to right" val="-20"/>
+        <attnum name="to start" val="0"/>
+        <attnum name="height" val="6"/>
+        <attstr name="fov start" val="Hislops-2"/>
+        <attstr name="fov end" val="VIP-2"/>
+    </section>
+    
+    <section name="cam 5">
+        <attstr name="segment" val="Finish-1"/>
+        <attnum name="to right" val="8"/>
+        <attnum name="to start" val="-20"/>
+        <attnum name="height" val="5"/>
+        <attstr name="fov start" val="VIP-2"/>
+        <attstr name="fov end" val="s4-2"/>
+    </section>
+  </section>
 </params>
 
 >>>>>>> f17c01b... Height variation again 200ft.
