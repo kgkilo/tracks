@@ -8,32 +8,32 @@
    <string>track</string> 
   </void> 
   <void property="currentA"> 
-   <double>-3.4033920413889436</double> 
+   <double>-6.286675965683572</double> 
   </void> 
   <void property="currentX"> 
-   <double>-1456.2465263210681</double> 
+   <double>0.32583058142410914</double> 
   </void> 
   <void property="currentY"> 
-   <double>-1497.0773091712335</double> 
+   <double>0.07015587138744195</double> 
   </void> 
   <void property="curveNameCount"> 
-   <int>16</int> 
+   <int>135</int> 
   </void> 
   <void property="description"> 
    <string>Pescara Circuit</string> 
   </void> 
   <void property="image"> 
-   <string>/home/torcs/Proj/torcs/track/Pescara/6.png</string> 
+   <string>/home/torcs/Proj/torcs/track/Pescara/49.png</string> 
   </void> 
   <void property="imageScale"> 
    <double>0.8849</double> 
   </void> 
   <void property="imgOffset"> 
    <void property="x"> 
-    <double>-1467.0</double> 
+    <double>-44.0</double> 
    </void> 
    <void property="y"> 
-    <double>-1469.0</double> 
+    <double>289.0</double> 
    </void> 
   </void> 
   <void property="path"> 
@@ -52,10 +52,13 @@
    <string></string> 
   </void> 
   <void property="straightNameCount"> 
-   <int>10</int> 
+   <int>103</int> 
   </void> 
   <void property="trackName"> 
    <string>Pescara</string> 
+  </void> 
+  <void property="trackWidth"> 
+   <double>9.0</double> 
   </void> 
  </object> 
 </java> 
