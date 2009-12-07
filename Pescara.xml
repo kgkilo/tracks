@@ -4,7 +4,7 @@ file                : Pescara.xml
 auto generated      : by Track Editor
 version             : v 0.6.0 24/4/2005
 copyright           : (C) 2005 by Charalampos Alexopoulos
-email               : 
+email               :
 -->
 <!--
 This program is free software; you can redistribute it and/or modify it
@@ -94,8 +94,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="1">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="232.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z start" unit="m" val="22.0" />
+        <attnum name="z end" unit="m" val="16.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -139,12 +139,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 2                -->
       <!--******************************-->
-      <section name="curve 3">
+      <section name="2">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="75.00000000000001" />
         <attnum name="radius" unit="m" val="10.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z start" unit="m" val="16.0" />
+        <attnum name="z end" unit="m" val="16.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -188,12 +188,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 3                -->
       <!--******************************-->
-      <section name="curve 4">
+      <section name="3">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="16.0" />
         <attnum name="radius" unit="m" val="670.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="23.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -237,11 +236,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 4                -->
       <!--******************************-->
-      <section name="straight 2">
+      <section name="4">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="320.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="23.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -285,12 +283,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 5                -->
       <!--******************************-->
-      <section name="curve 5">
+      <section name="5">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="10.0" />
         <attnum name="radius" unit="m" val="700.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="21.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -334,11 +331,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 6                -->
       <!--******************************-->
-      <section name="straight 3">
+      <section name="6">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="80.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="16.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -382,12 +378,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 7                -->
       <!--******************************-->
-      <section name="curve 7">
+      <section name="7">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="109.00000000000001" />
         <attnum name="radius" unit="m" val="23.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="16.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -431,11 +426,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 8                -->
       <!--******************************-->
-      <section name="straight 4">
+      <section name="8">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="590.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="26.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -479,12 +473,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 9                -->
       <!--******************************-->
-      <section name="curve 8">
+      <section name="9">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="8.0" />
         <attnum name="radius" unit="m" val="800.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="26.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -528,11 +521,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 10                -->
       <!--******************************-->
-      <section name="straight 5">
+      <section name="10">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="280.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="39.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -576,12 +568,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 11                -->
       <!--******************************-->
-      <section name="curve 9">
+      <section name="11">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="20.0" />
         <attnum name="radius" unit="m" val="80.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="39.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -625,11 +616,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 12                -->
       <!--******************************-->
-      <section name="straight 6">
+      <section name="12">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="50.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="37.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -673,12 +663,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 13                -->
       <!--******************************-->
-      <section name="curve 10">
+      <section name="13">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="10.0" />
         <attnum name="radius" unit="m" val="250.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="37.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -722,11 +711,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 14                -->
       <!--******************************-->
-      <section name="straight 7">
+      <section name="14">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="35.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -770,13 +758,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 15                -->
       <!--******************************-->
-      <section name="curve 11">
+      <section name="15">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="25.5" />
         <attnum name="radius" unit="m" val="200.0" />
         <attnum name="end radius" unit="m" val="250.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="34.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -820,11 +807,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 16                -->
       <!--******************************-->
-      <section name="straight 8">
+      <section name="16">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="280.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="41.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -865,15 +851,13 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 17                -->
-      <!--******************************-->
-      <section name="curve 12">
+
+      <!-- Villa Raspa -->
+      <section name="17">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="90.5" />
         <attnum name="radius" unit="m" val="40.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="42.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -917,11 +901,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 18                -->
       <!--******************************-->
-      <section name="straight 9">
+      <section name="18">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="320.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="83.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -965,12 +948,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 19                -->
       <!--******************************-->
-      <section name="curve 14">
+      <section name="19">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="29.999999999999996" />
         <attnum name="radius" unit="m" val="200.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="85.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1014,12 +996,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 20                -->
       <!--******************************-->
-      <section name="curve 17">
+      <section name="20">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="9.0" />
         <attnum name="radius" unit="m" val="300.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="85.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1063,11 +1044,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 21                -->
       <!--******************************-->
-      <section name="straight 10">
+      <section name="21">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="360.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="180.0" />
+        <attnum name="z end" unit="m" val="107.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1111,12 +1091,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 22                -->
       <!--******************************-->
-      <section name="curve 18">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="50.0" />
-        <attnum name="radius" unit="m" val="100.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="22">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="180.0" />
+        <attnum name="z end" unit="m" val="108.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1160,11 +1138,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 23                -->
       <!--******************************-->
-      <section name="straight 11">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="86.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="23">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="50.0" />
+        <attnum name="radius" unit="m" val="100.0" />
+        <attnum name="z end" unit="m" val="123.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1208,12 +1186,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 24                -->
       <!--******************************-->
-      <section name="curve 19">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="16.5" />
-        <attnum name="radius" unit="m" val="150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="24">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="86.0" />
+        <attnum name="z end" unit="m" val="125.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1257,11 +1233,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 25                -->
       <!--******************************-->
-      <section name="straight 12">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="310.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="25">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="16.5" />
+        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="z end" unit="m" val="126.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1305,13 +1281,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 26                -->
       <!--******************************-->
-      <section name="curve 20">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="21.999999999999996" />
-        <attnum name="radius" unit="m" val="250.0" />
-        <attnum name="end radius" unit="m" val="420.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="26">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="310.0" />
+        <attnum name="z end" unit="m" val="144.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1352,15 +1325,14 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 27                -->
-      <!--******************************-->
-      <section name="curve 21">
+
+      <!-- Case Frascone -->
+      <section name="27">
         <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="8.0" />
-        <attnum name="radius" unit="m" val="500.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="arc" unit="deg" val="21.999999999999996" />
+        <attnum name="radius" unit="m" val="250.0" />
+        <attnum name="end radius" unit="m" val="420.0" />
+        <attnum name="z end" unit="m" val="163.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1404,13 +1376,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 28                -->
       <!--******************************-->
-      <section name="curve 22">
+      <section name="28">
         <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="18.0" />
-        <attnum name="radius" unit="m" val="280.0" />
-        <attnum name="end radius" unit="m" val="100.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="arc" unit="deg" val="8.0" />
+        <attnum name="radius" unit="m" val="500.0" />
+        <attnum name="z end" unit="m" val="168.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1454,11 +1424,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 29                -->
       <!--******************************-->
-      <section name="straight 13">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="95.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="29">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="18.0" />
+        <attnum name="radius" unit="m" val="280.0" />
+        <attnum name="end radius" unit="m" val="100.0" />
+        <attnum name="z end" unit="m" val="169.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1502,13 +1473,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 30                -->
       <!--******************************-->
-      <section name="curve 23">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="25.0" />
-        <attnum name="radius" unit="m" val="200.0" />
-        <attnum name="end radius" unit="m" val="120.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="30">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="95.0" />
+        <attnum name="z end" unit="m" val="164.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1552,13 +1520,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 31                -->
       <!--******************************-->
-      <section name="curve 25">
+      <section name="31">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="40.70000000000001" />
-        <attnum name="radius" unit="m" val="120.0" />
-        <attnum name="end radius" unit="m" val="190.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="arc" unit="deg" val="25.0" />
+        <attnum name="radius" unit="m" val="200.0" />
+        <attnum name="end radius" unit="m" val="120.0" />
+        <attnum name="z end" unit="m" val="160.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1602,11 +1569,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 32                -->
       <!--******************************-->
-      <section name="straight 14">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="360.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="32">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="40.70000000000001" />
+        <attnum name="radius" unit="m" val="120.0" />
+        <attnum name="end radius" unit="m" val="190.0" />
+        <attnum name="z end" unit="m" val="168.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1650,13 +1618,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 33                -->
       <!--******************************-->
-      <section name="curve 26">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="23.0" />
-        <attnum name="radius" unit="m" val="240.0" />
-        <attnum name="end radius" unit="m" val="150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="33">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="360.0" />
+        <attnum name="z end" unit="m" val="210.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1700,11 +1665,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 34                -->
       <!--******************************-->
-      <section name="straight 15">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="290.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="34">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="23.0" />
+        <attnum name="radius" unit="m" val="240.0" />
+        <attnum name="end radius" unit="m" val="150.0" />
+        <attnum name="z end" unit="m" val="226.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1748,12 +1714,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 35                -->
       <!--******************************-->
-      <section name="curve 27">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="14.0" />
-        <attnum name="radius" unit="m" val="200.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s35">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="290.0" />
+        <attnum name="z end" unit="m" val="262.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1797,11 +1761,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 36                -->
       <!--******************************-->
-      <section name="straight 16">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s36">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="14.0" />
+        <attnum name="radius" unit="m" val="200.0" />
+        <attnum name="z end" unit="m" val="272.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1845,12 +1809,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 37                -->
       <!--******************************-->
-      <section name="curve 28">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="8.0" />
-        <attnum name="radius" unit="m" val="350.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s37">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="150.0" />
+        <attnum name="z end" unit="m" val="300.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1894,13 +1856,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 38                -->
       <!--******************************-->
-      <section name="curve 29">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="21.999999999999996" />
-        <attnum name="radius" unit="m" val="130.0" />
-        <attnum name="end radius" unit="m" val="100.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s38">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="8.0" />
+        <attnum name="radius" unit="m" val="350.0" />
+        <attnum name="z end" unit="m" val="312.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1944,11 +1904,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 39                -->
       <!--******************************-->
-      <section name="straight 17">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="56.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s39">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="21.999999999999996" />
+        <attnum name="radius" unit="m" val="130.0" />
+        <attnum name="end radius" unit="m" val="100.0" />
+        <attnum name="z end" unit="m" val="322.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -1992,12 +1953,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 40                -->
       <!--******************************-->
-      <section name="curve 30">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="9.0" />
-        <attnum name="radius" unit="m" val="350.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s40">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="56.0" />
+        <attnum name="z end" unit="m" val="343.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2041,11 +2000,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 41                -->
       <!--******************************-->
-      <section name="straight 18">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="75.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s41">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="9.0" />
+        <attnum name="radius" unit="m" val="350.0" />
+        <attnum name="z end" unit="m" val="346.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2089,12 +2048,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 42                -->
       <!--******************************-->
-      <section name="curve 31">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="68.99999999999999" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s42">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="75.0" />
+        <attnum name="z end" unit="m" val="357.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2138,11 +2095,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 43                -->
       <!--******************************-->
-      <section name="straight 19">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="62.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s43">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="68.99999999999999" />
+        <attnum name="radius" unit="m" val="50.0" />
+        <attnum name="z end" unit="m" val="365.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2186,12 +2143,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 44                -->
       <!--******************************-->
-      <section name="curve 33">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="76.0" />
-        <attnum name="radius" unit="m" val="35.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s44">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="62.0" />
+        <attnum name="z end" unit="m" val="360.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2235,11 +2190,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 45                -->
       <!--******************************-->
-      <section name="straight 20">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="16.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s45">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="76.0" />
+        <attnum name="radius" unit="m" val="35.0" />
+        <attnum name="z end" unit="m" val="362.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2283,13 +2238,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 46                -->
       <!--******************************-->
-      <section name="curve 35">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="100.0" />
-        <attnum name="radius" unit="m" val="40.0" />
-        <attnum name="end radius" unit="m" val="24.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s46">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="16.0" />
+        <attnum name="z end" unit="m" val="363.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2333,11 +2285,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 47                -->
       <!--******************************-->
-      <section name="straight 21">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="50.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s47">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="100.0" />
+        <attnum name="radius" unit="m" val="40.0" />
+        <attnum name="end radius" unit="m" val="24.0" />
+        <attnum name="z end" unit="m" val="371.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2381,12 +2334,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 48                -->
       <!--******************************-->
-      <section name="curve 36">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="43.0" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s48">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="50.0" />
+        <attnum name="z end" unit="m" val="359.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2430,11 +2381,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 49                -->
       <!--******************************-->
-      <section name="straight 22">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="45.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s49">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="43.0" />
+        <attnum name="radius" unit="m" val="50.0" />
+        <attnum name="z end" unit="m" val="357.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2478,13 +2429,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 50                -->
       <!--******************************-->
-      <section name="curve 38">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="57.0" />
-        <attnum name="radius" unit="m" val="74.0" />
-        <attnum name="end radius" unit="m" val="90.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s50">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="45.0" />
+        <attnum name="z end" unit="m" val="366.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2528,11 +2476,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 51                -->
       <!--******************************-->
-      <section name="straight 23">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="40.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s51">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="57.0" />
+        <attnum name="radius" unit="m" val="74.0" />
+        <attnum name="end radius" unit="m" val="90.0" />
+        <attnum name="z end" unit="m" val="374.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2573,16 +2522,12 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 52                -->
-      <!--******************************-->
-      <section name="curve 40">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="50.0" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="end radius" unit="m" val="44.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+
+      <!-- Case Trufulone -->
+      <section name="s52">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="40.0" />
+        <attnum name="z end" unit="m" val="371.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2626,11 +2571,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 53                -->
       <!--******************************-->
-      <section name="straight 25">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="49.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s53">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="50.0" />
+        <attnum name="radius" unit="m" val="50.0" />
+        <attnum name="end radius" unit="m" val="44.0" />
+        <attnum name="z end" unit="m" val="376.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2674,12 +2620,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 54                -->
       <!--******************************-->
-      <section name="curve 41">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="21.0" />
-        <attnum name="radius" unit="m" val="80.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s54">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="49.0" />
+        <attnum name="z end" unit="m" val="370.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2723,11 +2667,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 55                -->
       <!--******************************-->
-      <section name="straight 26">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="52.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s55">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="21.0" />
+        <attnum name="radius" unit="m" val="80.0" />
+        <attnum name="z end" unit="m" val="365.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2771,12 +2715,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 56                -->
       <!--******************************-->
-      <section name="curve 42">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="10.999999999999998" />
-        <attnum name="radius" unit="m" val="40.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s56">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="52.0" />
+        <attnum name="z end" unit="m" val="370.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2820,11 +2762,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 57                -->
       <!--******************************-->
-      <section name="straight 27">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="45.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s57">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="10.999999999999998" />
+        <attnum name="radius" unit="m" val="40.0" />
+        <attnum name="z end" unit="m" val="371.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2868,12 +2810,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 58                -->
       <!--******************************-->
-      <section name="curve 43">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="3.5" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s58">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="45.0" />
+        <attnum name="z end" unit="m" val="383.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2917,11 +2857,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 59                -->
       <!--******************************-->
-      <section name="straight 28">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="124.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s59">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="3.5" />
+        <attnum name="radius" unit="m" val="50.0" />
+        <attnum name="z end" unit="m" val="384.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -2965,12 +2905,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 60                -->
       <!--******************************-->
-      <section name="curve 44">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="18.0" />
-        <attnum name="radius" unit="m" val="200.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s60">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="124.0" />
+        <attnum name="z end" unit="m" val="393.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -3014,12 +2952,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 61                -->
       <!--******************************-->
-      <section name="curve 45">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="39.0" />
-        <attnum name="radius" unit="m" val="180.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s61">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="18.0" />
+        <attnum name="radius" unit="m" val="200.0" />
+        <attnum name="z end" unit="m" val="394.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -3063,11 +3000,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 62                -->
       <!--******************************-->
-      <section name="straight 29">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="40.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s62">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="39.0" />
+        <attnum name="radius" unit="m" val="180.0" />
+        <attnum name="z end" unit="m" val="410.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -3111,15 +3048,59 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 63                -->
       <!--******************************-->
-      <section name="curve 46">
+      <section name="s63">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="40.0" />
+        <attnum name="z end" unit="m" val="413.0" />
+        <attstr name="surface" val="asphalt2-lines" />
+        <!--Left part of segment-->
+        <section name="Left Side">
+          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="4.0" />
+          <attstr name="surface" val="grass" />
+        </section>
+        <section name="Left Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Left Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="curb" />
+        </section>
+        <!--End of left part-->
+        <!--Right part of segment-->
+        <section name="Right Side">
+          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="4.0" />
+          <attstr name="surface" val="grass" />
+        </section>
+        <section name="Right Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Right Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="curb" />
+        </section>
+        <!--End of right part-->
+      </section>
+
+      <!-- Entering Spoltore -->
+      <section name="s64">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="70.0" />
         <attnum name="radius" unit="m" val="75.0" />
         <attnum name="end radius" unit="m" val="50.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="407.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3137,8 +3118,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3156,18 +3135,12 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 64                -->
-      <!--******************************-->
-      <section name="straight 30">
+      <section name="s65">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="117.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="419.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3185,8 +3158,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3204,20 +3175,14 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 65                -->
-      <!--******************************-->
-      <section name="curve 47">
+      <section name="s66">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="10.999999999999998" />
         <attnum name="radius" unit="m" val="120.0" />
         <attnum name="end radius" unit="m" val="100.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="420.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3235,8 +3200,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3254,16 +3217,11 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 66                -->
-      <!--******************************-->
-      <section name="straight 31">
+      <section name="s67">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="38.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="423.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -3283,8 +3241,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3302,20 +3258,14 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 67                -->
-      <!--******************************-->
-      <section name="curve 48">
+      <section name="s68">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="59.99999999999999" />
+        <attnum name="arc" unit="deg" val="60.0" />
         <attnum name="radius" unit="m" val="70.0" />
         <attnum name="end radius" unit="m" val="60.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="435.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3333,8 +3283,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3352,18 +3300,13 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 68                -->
-      <!--******************************-->
-      <section name="curve 49">
+      <section name="s69">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="40.0" />
         <attnum name="radius" unit="m" val="135.0" />
         <attnum name="end radius" unit="m" val="95.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="448.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -3383,8 +3326,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3402,18 +3343,12 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 69                -->
-      <!--******************************-->
-      <section name="straight 32">
+      <section name="s70">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="42.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="451.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3431,8 +3366,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3450,20 +3383,14 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 70                -->
-      <!--******************************-->
-      <section name="curve 50">
+      <section name="s71">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="35.0" />
         <attnum name="radius" unit="m" val="100.0" />
         <attnum name="end radius" unit="m" val="140.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="463.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3481,8 +3408,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3500,18 +3425,12 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 71                -->
-      <!--******************************-->
-      <section name="straight 33">
+      <section name="s72">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="52.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="474.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3529,8 +3448,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3548,20 +3465,14 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 72                -->
-      <!--******************************-->
-      <section name="curve 52">
+      <section name="s73">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="20.0" />
         <attnum name="radius" unit="m" val="250.0" />
         <attnum name="end radius" unit="m" val="100.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="497.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3579,8 +3490,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3598,18 +3507,12 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 73                -->
-      <!--******************************-->
-      <section name="straight 34">
+      <section name="s74">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="50.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="505.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3627,8 +3530,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3646,20 +3547,16 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 74                -->
-      <!--******************************-->
-      <section name="curve 53">
+
+      <!-- Big right-hand turn in centre of Spoltore -->
+      <section name="s75">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="103.00000000000001" />
         <attnum name="radius" unit="m" val="22.0" />
         <attnum name="end radius" unit="m" val="30.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="528.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3677,8 +3574,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3696,66 +3591,14 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of right part-->
-      </section>
-      <!--******************************-->
-      <!--     Segment 75                -->
-      <!--******************************-->
-      <section name="straight 35">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="55.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Left Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of right part-->
       </section>
       <!--******************************-->
       <!--     Segment 76                -->
       <!--******************************-->
-      <section name="curve 54">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="33.0" />
-        <attnum name="radius" unit="m" val="40.0" />
-        <attnum name="end radius" unit="m" val="90.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s76">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="55.0" />
+        <attnum name="z end" unit="m" val="547.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -3799,11 +3642,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 77                -->
       <!--******************************-->
-      <section name="straight 36">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="65.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s77">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="33.0" />
+        <attnum name="radius" unit="m" val="40.0" />
+        <attnum name="end radius" unit="m" val="90.0" />
+        <attnum name="z end" unit="m" val="560.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -3847,12 +3691,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 78                -->
       <!--******************************-->
-      <section name="curve 55">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="8.0" />
-        <attnum name="radius" unit="m" val="150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s78">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="65.0" />
+        <attnum name="z end" unit="m" val="574.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -3896,11 +3738,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 79                -->
       <!--******************************-->
-      <section name="straight 37">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="90.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s79">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="8.0" />
+        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="z end" unit="m" val="575.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -3944,12 +3786,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 80                -->
       <!--******************************-->
-      <section name="curve 56">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="42.0" />
-        <attnum name="radius" unit="m" val="70.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s80">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="90.0" />
+        <attnum name="z end" unit="m" val="567.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -3993,11 +3833,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 81                -->
       <!--******************************-->
-      <section name="straight 38">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="88.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s81">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="42.0" />
+        <attnum name="radius" unit="m" val="70.0" />
+        <attnum name="z end" unit="m" val="563.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4041,13 +3881,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 82                -->
       <!--******************************-->
-      <section name="curve 57">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="78.0" />
-        <attnum name="radius" unit="m" val="15.0" />
-        <attnum name="end radius" unit="m" val="13.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s82">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="88.0" />
+        <attnum name="z end" unit="m" val="564.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4091,13 +3928,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 83                -->
       <!--******************************-->
-      <section name="curve 58">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="10.999999999999998" />
-        <attnum name="radius" unit="m" val="280.0" />
-        <attnum name="end radius" unit="m" val="320.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s83">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="78.0" />
+        <attnum name="radius" unit="m" val="15.0" />
+        <attnum name="end radius" unit="m" val="13.0" />
+        <attnum name="z end" unit="m" val="565.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4141,12 +3977,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 84                -->
       <!--******************************-->
-      <section name="curve 59">
+      <section name="s84">
         <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="7.0" />
-        <attnum name="radius" unit="m" val="350.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="arc" unit="deg" val="10.999999999999998" />
+        <attnum name="radius" unit="m" val="280.0" />
+        <attnum name="end radius" unit="m" val="320.0" />
+        <attnum name="z end" unit="m" val="583.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4190,12 +4026,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 85                -->
       <!--******************************-->
-      <section name="curve 60">
+      <section name="s85">
         <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="40.0" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="arc" unit="deg" val="7.0" />
+        <attnum name="radius" unit="m" val="350.0" />
+        <attnum name="z end" unit="m" val="585.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4236,17 +4071,14 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 86                -->
-      <!--******************************-->
-      <section name="curve 61">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="5.0" />
-        <attnum name="radius" unit="m" val="650.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+
+      <!-- Exiting Spoltore -->
+      <section name="s86">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="40.0" />
+        <attnum name="radius" unit="m" val="50.0" />
+        <attnum name="z end" unit="m" val="587.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4264,8 +4096,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4283,16 +4113,15 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of right part-->
       </section>
       <!--******************************-->
       <!--     Segment 87                -->
       <!--******************************-->
-      <section name="straight 39">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="75.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s87">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="5.0" />
+        <attnum name="radius" unit="m" val="650.0" />
+        <attnum name="z end" unit="m" val="582.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4336,12 +4165,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 88                -->
       <!--******************************-->
-      <section name="curve 62">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="18.0" />
-        <attnum name="radius" unit="m" val="280.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s88">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="75.0" />
+        <attnum name="z end" unit="m" val="557.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4385,11 +4212,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 89                -->
       <!--******************************-->
-      <section name="straight 40">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="18.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s89">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="18.0" />
+        <attnum name="radius" unit="m" val="280.0" />
+        <attnum name="z end" unit="m" val="544.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4433,12 +4260,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 90                -->
       <!--******************************-->
-      <section name="curve 64">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="14.0" />
-        <attnum name="radius" unit="m" val="40.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s90">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="18.0" />
+        <attnum name="z end" unit="m" val="540.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4482,11 +4307,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 91                -->
       <!--******************************-->
-      <section name="straight 41">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="45.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s91">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="14.0" />
+        <attnum name="radius" unit="m" val="40.0" />
+        <attnum name="z end" unit="m" val="539.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4530,13 +4355,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 92                -->
       <!--******************************-->
-      <section name="curve 65">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="29.0" />
-        <attnum name="radius" unit="m" val="360.0" />
-        <attnum name="end radius" unit="m" val="300.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s92">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="45.0" />
+        <attnum name="z end" unit="m" val="529.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4580,11 +4402,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 93                -->
       <!--******************************-->
-      <section name="straight 42">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="70.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s93">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="29.0" />
+        <attnum name="radius" unit="m" val="360.0" />
+        <attnum name="end radius" unit="m" val="300.0" />
+        <attnum name="z end" unit="m" val="509.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4628,13 +4451,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 94                -->
       <!--******************************-->
-      <section name="curve 66">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="80.0" />
-        <attnum name="radius" unit="m" val="160.0" />
-        <attnum name="end radius" unit="m" val="115.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s94">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="70.0" />
+        <attnum name="z end" unit="m" val="509.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4678,11 +4498,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 95                -->
       <!--******************************-->
-      <section name="straight 43">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="56.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s95">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="80.0" />
+        <attnum name="radius" unit="m" val="160.0" />
+        <attnum name="end radius" unit="m" val="115.0" />
+        <attnum name="z end" unit="m" val="517.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4726,13 +4547,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 96                -->
       <!--******************************-->
-      <section name="curve 67">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="29.999999999999996" />
-        <attnum name="radius" unit="m" val="40.0" />
-        <attnum name="end radius" unit="m" val="60.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s96">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="56.0" />
+        <attnum name="z end" unit="m" val="526.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4776,12 +4594,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 97                -->
       <!--******************************-->
-      <section name="curve 68">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="25.999999999999996" />
-        <attnum name="radius" unit="m" val="100.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s97">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="29.999999999999996" />
+        <attnum name="radius" unit="m" val="40.0" />
+        <attnum name="end radius" unit="m" val="60.0" />
+        <attnum name="z end" unit="m" val="525.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4825,13 +4643,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 98                -->
       <!--******************************-->
-      <section name="curve 69">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="2.0" />
-        <attnum name="radius" unit="m" val="1000.0" />
-        <attnum name="end radius" unit="m" val="750.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s98">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="25.999999999999996" />
+        <attnum name="radius" unit="m" val="100.0" />
+        <attnum name="z end" unit="m" val="523.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4875,12 +4691,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 99                -->
       <!--******************************-->
-      <section name="curve 70">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="7.0" />
-        <attnum name="radius" unit="m" val="350.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s99">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="2.0" />
+        <attnum name="radius" unit="m" val="1000.0" />
+        <attnum name="end radius" unit="m" val="750.0" />
+        <attnum name="z end" unit="m" val="521.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4924,13 +4740,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 100                -->
       <!--******************************-->
-      <section name="curve 71">
+      <section name="s100">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="10.0" />
-        <attnum name="radius" unit="m" val="250.0" />
-        <attnum name="end radius" unit="m" val="750.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="arc" unit="deg" val="7.0" />
+        <attnum name="radius" unit="m" val="350.0" />
+        <attnum name="z end" unit="m" val="524.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -4974,12 +4788,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 101                -->
       <!--******************************-->
-      <section name="curve 73">
+      <section name="s101">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="43.5" />
-        <attnum name="radius" unit="m" val="80.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="arc" unit="deg" val="10.0" />
+        <attnum name="radius" unit="m" val="250.0" />
+        <attnum name="end radius" unit="m" val="750.0" />
+        <attnum name="z end" unit="m" val="545.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5023,11 +4837,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 102                -->
       <!--******************************-->
-      <section name="straight 44">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="170.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s102">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="43.5" />
+        <attnum name="radius" unit="m" val="80.0" />
+        <attnum name="z end" unit="m" val="551.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5071,13 +4885,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 103                -->
       <!--******************************-->
-      <section name="curve 76">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="29.0" />
-        <attnum name="radius" unit="m" val="250.0" />
-        <attnum name="end radius" unit="m" val="150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s103">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="170.0" />
+        <attnum name="z end" unit="m" val="522.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5121,11 +4932,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 104                -->
       <!--******************************-->
-      <section name="straight 45">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="215.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s104">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="29.0" />
+        <attnum name="radius" unit="m" val="250.0" />
+        <attnum name="end radius" unit="m" val="150.0" />
+        <attnum name="z end" unit="m" val="516.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5169,13 +4981,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 105                -->
       <!--******************************-->
-      <section name="curve 77">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="29.999999999999996" />
-        <attnum name="radius" unit="m" val="250.0" />
-        <attnum name="end radius" unit="m" val="90.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s105">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="215.0" />
+        <attnum name="z end" unit="m" val="513.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5219,11 +5028,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 106                -->
       <!--******************************-->
-      <section name="straight 46">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="53.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s106">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="29.999999999999996" />
+        <attnum name="radius" unit="m" val="250.0" />
+        <attnum name="end radius" unit="m" val="90.0" />
+        <attnum name="z end" unit="m" val="527.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5267,13 +5077,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 107                -->
       <!--******************************-->
-      <section name="curve 78">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="80.0" />
-        <attnum name="radius" unit="m" val="70.0" />
-        <attnum name="end radius" unit="m" val="60.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s107">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="53.0" />
+        <attnum name="z end" unit="m" val="529.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5317,11 +5124,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 108                -->
       <!--******************************-->
-      <section name="straight 47">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s108">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="80.0" />
+        <attnum name="radius" unit="m" val="70.0" />
+        <attnum name="end radius" unit="m" val="60.0" />
+        <attnum name="z end" unit="m" val="519.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5365,13 +5173,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 109                -->
       <!--******************************-->
-      <section name="curve 79">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="10.999999999999998" />
-        <attnum name="radius" unit="m" val="750.0" />
-        <attnum name="end radius" unit="m" val="250.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s109">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="150.0" />
+        <attnum name="z end" unit="m" val="532.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5415,13 +5220,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 110                -->
       <!--******************************-->
-      <section name="curve 80">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="8.0" />
-        <attnum name="radius" unit="m" val="550.0" />
-        <attnum name="end radius" unit="m" val="500.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s110">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="10.999999999999998" />
+        <attnum name="radius" unit="m" val="750.0" />
+        <attnum name="end radius" unit="m" val="250.0" />
+        <attnum name="z end" unit="m" val="536.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5465,12 +5269,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 111                -->
       <!--******************************-->
-      <section name="curve 81">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="90.0" />
-        <attnum name="radius" unit="m" val="45.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s111">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="8.0" />
+        <attnum name="radius" unit="m" val="550.0" />
+        <attnum name="end radius" unit="m" val="500.0" />
+        <attnum name="z end" unit="m" val="541.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5514,12 +5318,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 112                -->
       <!--******************************-->
-      <section name="curve 83">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="36.0" />
-        <attnum name="radius" unit="m" val="38.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s112">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="90.0" />
+        <attnum name="radius" unit="m" val="45.0" />
+        <attnum name="z end" unit="m" val="543.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5563,11 +5366,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 113                -->
       <!--******************************-->
-      <section name="straight 48">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="72.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s113">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="36.0" />
+        <attnum name="radius" unit="m" val="38.0" />
+        <attnum name="z end" unit="m" val="549.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5611,12 +5414,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 114                -->
       <!--******************************-->
-      <section name="curve 84">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="29.999999999999996" />
-        <attnum name="radius" unit="m" val="40.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s114">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="72.0" />
+        <attnum name="z end" unit="m" val="567.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5660,11 +5461,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 115                -->
       <!--******************************-->
-      <section name="straight 49">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="22.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s115">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="29.999999999999996" />
+        <attnum name="radius" unit="m" val="40.0" />
+        <attnum name="z end" unit="m" val="579.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5708,12 +5509,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 116                -->
       <!--******************************-->
-      <section name="curve 86">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="47.0" />
-        <attnum name="radius" unit="m" val="60.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s116">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="22.0" />
+        <attnum name="z end" unit="m" val="586.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5757,11 +5556,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 117                -->
       <!--******************************-->
-      <section name="straight 50">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="147.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s117">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="47.0" />
+        <attnum name="radius" unit="m" val="60.0" />
+        <attnum name="z end" unit="m" val="583.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5805,12 +5604,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 118                -->
       <!--******************************-->
-      <section name="curve 87">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="180.0" />
-        <attnum name="radius" unit="m" val="10.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s118">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="147.0" />
+        <attnum name="z end" unit="m" val="561.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5854,11 +5651,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 119                -->
       <!--******************************-->
-      <section name="straight 52">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="16.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s119">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="180.0" />
+        <attnum name="radius" unit="m" val="10.0" />
+        <attnum name="z end" unit="m" val="555.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5902,13 +5699,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 120                -->
       <!--******************************-->
-      <section name="curve 88">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="123.00000000000001" />
-        <attnum name="radius" unit="m" val="25.0" />
-        <attnum name="end radius" unit="m" val="29.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s120">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="16.0" />
+        <attnum name="z end" unit="m" val="556.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -5952,11 +5746,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 121                -->
       <!--******************************-->
-      <section name="straight 51">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="130.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s121">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="123.00000000000001" />
+        <attnum name="radius" unit="m" val="25.0" />
+        <attnum name="end radius" unit="m" val="29.0" />
+        <attnum name="z end" unit="m" val="540.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6000,12 +5795,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 122                -->
       <!--******************************-->
-      <section name="curve 89">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="16.0" />
-        <attnum name="radius" unit="m" val="150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s122">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="130.0" />
+        <attnum name="z end" unit="m" val="505.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6049,11 +5842,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 123                -->
       <!--******************************-->
-      <section name="straight 53">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="46.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s123">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="16.0" />
+        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="z end" unit="m" val="510.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6097,12 +5890,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 124                -->
       <!--******************************-->
-      <section name="curve 90">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="27.0" />
-        <attnum name="radius" unit="m" val="80.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s124">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="46.0" />
+        <attnum name="z end" unit="m" val="502.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6146,11 +5937,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 125                -->
       <!--******************************-->
-      <section name="straight 54">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="70.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s125">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="27.0" />
+        <attnum name="radius" unit="m" val="80.0" />
+        <attnum name="z end" unit="m" val="501.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6194,12 +5985,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 126                -->
       <!--******************************-->
-      <section name="curve 91">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="21.999999999999996" />
-        <attnum name="radius" unit="m" val="80.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s126">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="70.0" />
+        <attnum name="z end" unit="m" val="498.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6243,11 +6032,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 127                -->
       <!--******************************-->
-      <section name="straight 55">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="45.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s127">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="21.999999999999996" />
+        <attnum name="radius" unit="m" val="80.0" />
+        <attnum name="z end" unit="m" val="497.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6291,13 +6080,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 128                -->
       <!--******************************-->
-      <section name="curve 92">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="65.0" />
-        <attnum name="radius" unit="m" val="110.0" />
-        <attnum name="end radius" unit="m" val="60.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s128">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="45.0" />
+        <attnum name="z end" unit="m" val="496.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6341,11 +6127,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 129                -->
       <!--******************************-->
-      <section name="straight 56">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="30.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s129">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="65.0" />
+        <attnum name="radius" unit="m" val="110.0" />
+        <attnum name="end radius" unit="m" val="60.0" />
+        <attnum name="z end" unit="m" val="478.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6389,12 +6176,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 130                -->
       <!--******************************-->
-      <section name="curve 93">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="17.0" />
-        <attnum name="radius" unit="m" val="100.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s130">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="30.0" />
+        <attnum name="z end" unit="m" val="469.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6438,11 +6223,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 131                -->
       <!--******************************-->
-      <section name="straight 57">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="154.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s131">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="17.0" />
+        <attnum name="radius" unit="m" val="100.0" />
+        <attnum name="z end" unit="m" val="460.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6486,12 +6271,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 132                -->
       <!--******************************-->
-      <section name="curve 94">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="10.0" />
-        <attnum name="radius" unit="m" val="100.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s132">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="154.0" />
+        <attnum name="z end" unit="m" val="436.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6532,15 +6315,13 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 133                -->
-      <!--******************************-->
-      <section name="curve 95">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="25.0" />
-        <attnum name="radius" unit="m" val="60.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+
+      <!-- Entering Cappelle sul Tavo -->
+      <section name="s133">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="10.0" />
+        <attnum name="radius" unit="m" val="100.0" />
+        <attnum name="z end" unit="m" val="438.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6584,13 +6365,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 134                -->
       <!--******************************-->
-      <section name="curve 96">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="18.0" />
+      <section name="s134">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="25.0" />
         <attnum name="radius" unit="m" val="60.0" />
-        <attnum name="end radius" unit="m" val="70.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="428.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6634,11 +6413,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 135                -->
       <!--******************************-->
-      <section name="straight 58">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="54.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s135">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="18.0" />
+        <attnum name="radius" unit="m" val="60.0" />
+        <attnum name="end radius" unit="m" val="70.0" />
+        <attnum name="z end" unit="m" val="423.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6682,13 +6462,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 136                -->
       <!--******************************-->
-      <section name="curve 97">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="29.999999999999996" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="end radius" unit="m" val="60.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s136">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="54.0" />
+        <attnum name="z end" unit="m" val="418.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6732,12 +6509,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 137                -->
       <!--******************************-->
-      <section name="curve 98">
+      <section name="s137">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="5.0" />
-        <attnum name="radius" unit="m" val="1000.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="arc" unit="deg" val="29.999999999999996" />
+        <attnum name="radius" unit="m" val="50.0" />
+        <attnum name="end radius" unit="m" val="60.0" />
+        <attnum name="z end" unit="m" val="411.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6781,13 +6558,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 138                -->
       <!--******************************-->
-      <section name="curve 101">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="16.0" />
-        <attnum name="radius" unit="m" val="30.0" />
-        <attnum name="end radius" unit="m" val="380.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s138">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="5.0" />
+        <attnum name="radius" unit="m" val="1000.0" />
+        <attnum name="z end" unit="m" val="389.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6831,11 +6606,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 139                -->
       <!--******************************-->
-      <section name="straight 59">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="7.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s139">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="16.0" />
+        <attnum name="radius" unit="m" val="30.0" />
+        <attnum name="end radius" unit="m" val="380.0" />
+        <attnum name="z end" unit="m" val="385.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6879,13 +6655,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 140                -->
       <!--******************************-->
-      <section name="curve 102">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="145.0" />
-        <attnum name="radius" unit="m" val="14.0" />
-        <attnum name="end radius" unit="m" val="20.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s140">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="7.0" />
+        <attnum name="z end" unit="m" val="384.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6929,11 +6702,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 141                -->
       <!--******************************-->
-      <section name="straight 60">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="13.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s141">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="145.0" />
+        <attnum name="radius" unit="m" val="14.0" />
+        <attnum name="end radius" unit="m" val="20.0" />
+        <attnum name="z end" unit="m" val="385.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -6977,13 +6751,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 142                -->
       <!--******************************-->
-      <section name="curve 107">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="95.0" />
-        <attnum name="radius" unit="m" val="30.0" />
-        <attnum name="end radius" unit="m" val="10.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s142">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="13.0" />
+        <attnum name="z end" unit="m" val="386.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7027,13 +6798,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 143                -->
       <!--******************************-->
-      <section name="curve 105">
+      <section name="s143">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="95.0" />
-        <attnum name="radius" unit="m" val="10.0" />
-        <attnum name="end radius" unit="m" val="12.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="radius" unit="m" val="30.0" />
+        <attnum name="end radius" unit="m" val="10.0" />
+        <attnum name="z end" unit="m" val="381.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7077,13 +6847,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 144                -->
       <!--******************************-->
-      <section name="curve 106">
+      <section name="s144">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="10.999999999999998" />
-        <attnum name="radius" unit="m" val="100.0" />
-        <attnum name="end radius" unit="m" val="200.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="arc" unit="deg" val="95.0" />
+        <attnum name="radius" unit="m" val="10.0" />
+        <attnum name="end radius" unit="m" val="12.0" />
+        <attnum name="z end" unit="m" val="380.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7127,13 +6896,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 145                -->
       <!--******************************-->
-      <section name="curve 108">
+      <section name="s145">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="12.0" />
-        <attnum name="radius" unit="m" val="50.0" />
+        <attnum name="arc" unit="deg" val="10.999999999999998" />
+        <attnum name="radius" unit="m" val="100.0" />
         <attnum name="end radius" unit="m" val="200.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="381.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7177,13 +6945,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 146                -->
       <!--******************************-->
-      <section name="curve 109">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="25.0" />
-        <attnum name="radius" unit="m" val="60.0" />
-        <attnum name="end radius" unit="m" val="130.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s146">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="12.0" />
+        <attnum name="radius" unit="m" val="50.0" />
+        <attnum name="end radius" unit="m" val="200.0" />
+        <attnum name="z end" unit="m" val="383.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7227,13 +6994,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 147                -->
       <!--******************************-->
-      <section name="curve 110">
+      <section name="s147">
         <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="27.0" />
-        <attnum name="radius" unit="m" val="250.0" />
-        <attnum name="end radius" unit="m" val="90.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="arc" unit="deg" val="25.0" />
+        <attnum name="radius" unit="m" val="60.0" />
+        <attnum name="end radius" unit="m" val="130.0" />
+        <attnum name="z end" unit="m" val="365.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7277,11 +7043,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 148                -->
       <!--******************************-->
-      <section name="straight 61">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="51.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s148">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="27.0" />
+        <attnum name="radius" unit="m" val="250.0" />
+        <attnum name="end radius" unit="m" val="90.0" />
+        <attnum name="z end" unit="m" val="355.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7325,12 +7092,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 149                -->
       <!--******************************-->
-      <section name="curve 112">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="34.0" />
-        <attnum name="radius" unit="m" val="55.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s149">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="51.0" />
+        <attnum name="z end" unit="m" val="349.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7371,14 +7136,13 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 150                -->
-      <!--******************************-->
-      <section name="straight 62">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="50.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+
+      <!-- Leaving Cappelle sul Tavo -->
+      <section name="s150">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="34.0" />
+        <attnum name="radius" unit="m" val="55.0" />
+        <attnum name="z end" unit="m" val="333.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7422,11 +7186,9 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 151                -->
       <!--******************************-->
-      <section name="curve 113">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="4.0" />
-        <attnum name="radius" unit="m" val="350.0" />
-        <attnum name="z start" unit="m" val="0.0" />
+      <section name="s151">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="50.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
@@ -7471,13 +7233,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 152                -->
       <!--******************************-->
-      <section name="curve 114">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="12.0" />
-        <attnum name="radius" unit="m" val="130.0" />
-        <attnum name="end radius" unit="m" val="350.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s152">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="4.0" />
+        <attnum name="radius" unit="m" val="350.0" />
+        <attnum name="z end" unit="m" val="319.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7521,11 +7281,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 153                -->
       <!--******************************-->
-      <section name="straight 63">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="18.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s153">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="12.0" />
+        <attnum name="radius" unit="m" val="130.0" />
+        <attnum name="end radius" unit="m" val="350.0" />
+        <attnum name="z end" unit="m" val="301.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7569,13 +7330,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 154                -->
       <!--******************************-->
-      <section name="curve 116">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="29.999999999999996" />
-        <attnum name="radius" unit="m" val="150.0" />
-        <attnum name="end radius" unit="m" val="80.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s154">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="18.0" />
+        <attnum name="z end" unit="m" val="298.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7619,11 +7377,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 155                -->
       <!--******************************-->
-      <section name="straight 64">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="45.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s155">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="29.999999999999996" />
+        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="end radius" unit="m" val="80.0" />
+        <attnum name="z end" unit="m" val="289.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7667,12 +7426,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 156                -->
       <!--******************************-->
-      <section name="curve 117">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="18.0" />
-        <attnum name="radius" unit="m" val="110.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s156">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="45.0" />
+        <attnum name="z end" unit="m" val="290.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7716,11 +7473,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 157                -->
       <!--******************************-->
-      <section name="straight 65">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="155.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s157">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="18.0" />
+        <attnum name="radius" unit="m" val="110.0" />
+        <attnum name="z end" unit="m" val="281.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7764,13 +7521,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 158                -->
       <!--******************************-->
-      <section name="curve 118">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="46.0" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="end radius" unit="m" val="290.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s158">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="155.0" />
+        <attnum name="z end" unit="m" val="255.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7814,13 +7568,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 159                -->
       <!--******************************-->
-      <section name="curve 119">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="25.999999999999996" />
-        <attnum name="radius" unit="m" val="240.0" />
-        <attnum name="end radius" unit="m" val="260.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s159">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="46.0" />
+        <attnum name="radius" unit="m" val="50.0" />
+        <attnum name="end radius" unit="m" val="290.0" />
+        <attnum name="z end" unit="m" val="238.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7864,11 +7617,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 160                -->
       <!--******************************-->
-      <section name="straight 66">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="60.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s160">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="25.999999999999996" />
+        <attnum name="radius" unit="m" val="240.0" />
+        <attnum name="end radius" unit="m" val="260.0" />
+        <attnum name="z end" unit="m" val="214.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7912,12 +7666,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 161                -->
       <!--******************************-->
-      <section name="curve 120">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="35.0" />
-        <attnum name="radius" unit="m" val="170.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s161">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="60.0" />
+        <attnum name="z end" unit="m" val="204.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -7961,11 +7713,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 162                -->
       <!--******************************-->
-      <section name="straight 67">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="40.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s162">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="35.0" />
+        <attnum name="radius" unit="m" val="170.0" />
+        <attnum name="z end" unit="m" val="186.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8009,12 +7761,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 163                -->
       <!--******************************-->
-      <section name="curve 121">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="9.0" />
-        <attnum name="radius" unit="m" val="150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s163">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="40.0" />
+        <attnum name="z end" unit="m" val="185.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8058,11 +7808,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 164                -->
       <!--******************************-->
-      <section name="straight 68">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="70.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s164">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="9.0" />
+        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="z end" unit="m" val="182.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8106,12 +7856,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 165                -->
       <!--******************************-->
-      <section name="curve 122">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="3.0" />
-        <attnum name="radius" unit="m" val="100.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s165">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="70.0" />
+        <attnum name="z end" unit="m" val="171.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8155,11 +7903,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 166                -->
       <!--******************************-->
-      <section name="straight 69">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="40.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s166">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="3.0" />
+        <attnum name="radius" unit="m" val="100.0" />
+        <attnum name="z end" unit="m" val="165.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8203,12 +7951,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 167                -->
       <!--******************************-->
-      <section name="curve 123">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="3.0" />
-        <attnum name="radius" unit="m" val="150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s167">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="40.0" />
+        <attnum name="z end" unit="m" val="160.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8252,11 +7998,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 168                -->
       <!--******************************-->
-      <section name="straight 70">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="75.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s168">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="3.0" />
+        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="z end" unit="m" val="150.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8300,12 +8046,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 169                -->
       <!--******************************-->
-      <section name="curve 124">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="28.0" />
-        <attnum name="radius" unit="m" val="150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s169">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="75.0" />
+        <attnum name="z end" unit="m" val="142.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8349,11 +8093,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 170                -->
       <!--******************************-->
-      <section name="straight 72">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="15.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s170">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="28.0" />
+        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="z end" unit="m" val="134.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8397,12 +8141,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 171                -->
       <!--******************************-->
-      <section name="curve 126">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="38.7" />
-        <attnum name="radius" unit="m" val="105.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s171">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="15.0" />
+        <attnum name="z end" unit="m" val="133.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8446,11 +8188,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 172                -->
       <!--******************************-->
-      <section name="straight 71">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="513.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s172">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="38.7" />
+        <attnum name="radius" unit="m" val="105.0" />
+        <attnum name="z end" unit="m" val="122.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8491,14 +8233,12 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 173                -->
-      <!--******************************-->
-      <section name="straight 73">
+      
+      <!-- After roundabout, starting the long stretch down to Pescara -->
+      <section name="s173">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="398.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="513.0" />
+        <attnum name="z end" unit="m" val="103.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8542,11 +8282,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 174                -->
       <!--******************************-->
-      <section name="straight 74">
+      <section name="s174">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="302.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="398.0" />
+        <attnum name="z end" unit="m" val="100.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8590,11 +8329,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 175                -->
       <!--******************************-->
-      <section name="straight 75">
+      <section name="s175">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="347.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="302.0" />
+        <attnum name="z end" unit="m" val="93.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8638,11 +8376,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 176                -->
       <!--******************************-->
-      <section name="straight 76">
+      <section name="s176">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="344.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="347.0" />
+        <attnum name="z end" unit="m" val="88.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8686,11 +8423,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 177                -->
       <!--******************************-->
-      <section name="straight 77">
+      <section name="s177">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="440.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="344.0" />
+        <attnum name="z end" unit="m" val="77.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8734,13 +8470,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 178                -->
       <!--******************************-->
-      <section name="curve 127">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="8.0" />
-        <attnum name="radius" unit="m" val="450.0" />
-        <attnum name="end radius" unit="m" val="750.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s178">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="440.0" />
+        <attnum name="z end" unit="m" val="67.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8784,11 +8517,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 179                -->
       <!--******************************-->
-      <section name="straight 78">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="348.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s179">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="8.0" />
+        <attnum name="radius" unit="m" val="450.0" />
+        <attnum name="end radius" unit="m" val="750.0" />
+        <attnum name="z end" unit="m" val="65.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8832,11 +8566,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 180                -->
       <!--******************************-->
-      <section name="straight 79">
+      <section name="s180">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="320.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="348.0" />
+        <attnum name="z end" unit="m" val="57.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8880,12 +8613,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 181                -->
       <!--******************************-->
-      <section name="curve 128">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="2.0" />
-        <attnum name="radius" unit="m" val="350.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s181">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="320.0" />
+        <attnum name="z end" unit="m" val="54.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8929,11 +8660,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 182                -->
       <!--******************************-->
-      <section name="straight 80">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="180.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s182">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="2.0" />
+        <attnum name="radius" unit="m" val="350.0" />
+        <attnum name="z end" unit="m" val="53.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -8977,12 +8708,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 183                -->
       <!--******************************-->
-      <section name="curve 129">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="3.0" />
-        <attnum name="radius" unit="m" val="150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s183">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="180.0" />
+        <attnum name="z end" unit="m" val="47.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9026,11 +8755,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 184                -->
       <!--******************************-->
-      <section name="straight 81">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="240.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s184">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="3.0" />
+        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="z end" unit="m" val="46.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9074,12 +8803,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 185                -->
       <!--******************************-->
-      <section name="curve 130">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="2.0" />
-        <attnum name="radius" unit="m" val="1000.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s185">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="240.0" />
+        <attnum name="z end" unit="m" val="43.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9123,11 +8850,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 186                -->
       <!--******************************-->
-      <section name="straight 82">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="200.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s186">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="2.0" />
+        <attnum name="radius" unit="m" val="1000.0" />
+        <attnum name="z end" unit="m" val="43.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9168,15 +8895,12 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 187                -->
-      <!--******************************-->
-      <section name="curve 131">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="1.7" />
-        <attnum name="radius" unit="m" val="350.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      
+      <!--Entering Montesilvano-->
+      <section name="straight 82">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="200.0" />
+        <attnum name="z end" unit="m" val="36.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9220,11 +8944,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 188                -->
       <!--******************************-->
-      <section name="straight 83">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="238.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s188">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="1.7" />
+        <attnum name="radius" unit="m" val="350.0" />
+        <attnum name="z end" unit="m" val="36.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9268,11 +8992,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 189                -->
       <!--******************************-->
-      <section name="straight 84">
+      <section name="s189">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="306.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="238.0" />
+        <attnum name="z end" unit="m" val="31.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9316,11 +9039,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 190                -->
       <!--******************************-->
-      <section name="straight 85">
+      <section name="s190">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="373.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="306.0" />
+        <attnum name="z end" unit="m" val="22.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9364,11 +9086,54 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 191                -->
       <!--******************************-->
-      <section name="straight 86">
+      <section name="s191">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="140.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="245.0" />
+        <attnum name="z end" unit="m" val="22.0" />
+        <attstr name="surface" val="asphalt2-lines" />
+        <!--Left part of segment-->
+        <section name="Left Side">
+          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="4.0" />
+          <attstr name="surface" val="grass" />
+        </section>
+        <section name="Left Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Left Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="curb" />
+        </section>
+        <!--End of left part-->
+        <!--Right part of segment-->
+        <section name="Right Side">
+          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="4.0" />
+          <attstr name="surface" val="grass" />
+        </section>
+        <section name="Right Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Right Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="curb" />
+        </section>
+        <!--End of right part-->
+      </section>
+      <section name="s192">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="128.0" />
+        <attnum name="z end" unit="m" val="15.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9412,12 +9177,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 192                -->
       <!--******************************-->
-      <section name="curve 132">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="2.0" />
-        <attnum name="radius" unit="m" val="150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s193">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="140.0" />
+        <attnum name="z end" unit="m" val="16.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9461,11 +9224,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 193                -->
       <!--******************************-->
-      <section name="straight 87">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="166.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s194">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="2.0" />
+        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="z end" unit="m" val="17.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9509,12 +9272,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 194                -->
       <!--******************************-->
-      <section name="curve 133">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="2.0" />
-        <attnum name="radius" unit="m" val="150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s195">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="166.0" />
+        <attnum name="z end" unit="m" val="21.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9558,11 +9319,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 195                -->
       <!--******************************-->
-      <section name="straight 88">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="185.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s196">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="2.0" />
+        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="z end" unit="m" val="21.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9606,11 +9367,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 196                -->
       <!--******************************-->
-      <section name="straight 89">
+      <section name="s197">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="327.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="185.0" />
+        <attnum name="z end" unit="m" val="17.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9654,13 +9414,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 197                -->
       <!--******************************-->
-      <section name="curve 134">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="100.0" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="end radius" unit="m" val="115.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      <section name="s198">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="327.0" />
+        <attnum name="z end" unit="m" val="14.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9701,14 +9458,14 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 198                -->
-      <!--******************************-->
-      <section name="straight 90">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="334.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+      
+      <!--Turning onto the main straight -->
+      <section name="s199">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="100.0" />
+        <attnum name="radius" unit="m" val="50.0" />
+        <attnum name="end radius" unit="m" val="115.0" />
+        <attnum name="z end" unit="m" val="17.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9752,11 +9509,54 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 199                -->
       <!--******************************-->
-      <section name="straight 91">
+      <section name="s200">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="519.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="250.0" />
+        <attnum name="z end" unit="m" val="22.0" />
+        <attstr name="surface" val="asphalt2-lines" />
+        <!--Left part of segment-->
+        <section name="Left Side">
+          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="4.0" />
+          <attstr name="surface" val="grass" />
+        </section>
+        <section name="Left Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Left Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="curb" />
+        </section>
+        <!--End of left part-->
+        <!--Right part of segment-->
+        <section name="Right Side">
+          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="4.0" />
+          <attstr name="surface" val="grass" />
+        </section>
+        <section name="Right Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Right Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="curb" />
+        </section>
+        <!--End of right part-->
+      </section>
+      <section name="s201">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="84.0" />
+        <attnum name="z end" unit="m" val="14.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9800,11 +9600,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 200                -->
       <!--******************************-->
-      <section name="straight 92">
+      <section name="s202">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="508.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="519.0" />
+        <attnum name="z end" unit="m" val="14.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9848,11 +9647,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 201                -->
       <!--******************************-->
-      <section name="straight 93">
+      <section name="s203">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="512.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="381.0" />
+        <attnum name="z end" unit="m" val="1.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9896,11 +9694,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 202                -->
       <!--******************************-->
-      <section name="straight 94">
+      <section name="s204">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="508.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="127.0" />
+        <attnum name="z end" unit="m" val="7.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9944,11 +9741,54 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 203                -->
       <!--******************************-->
-      <section name="straight 95">
+      <section name="s205">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="557.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="339.0" />
+        <attnum name="z end" unit="m" val="7.0" />
+        <attstr name="surface" val="asphalt2-lines" />
+        <!--Left part of segment-->
+        <section name="Left Side">
+          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="4.0" />
+          <attstr name="surface" val="grass" />
+        </section>
+        <section name="Left Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Left Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="curb" />
+        </section>
+        <!--End of left part-->
+        <!--Right part of segment-->
+        <section name="Right Side">
+          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="4.0" />
+          <attstr name="surface" val="grass" />
+        </section>
+        <section name="Right Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Right Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="curb" />
+        </section>
+        <!--End of right part-->
+      </section>
+      <section name="s206">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="169.0" />
+        <attnum name="z end" unit="m" val="16.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -9992,13 +9832,13 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 204                -->
       <!--******************************-->
-      <section name="straight 96">
+      <section name="s207">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="553.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="557.0" />
+        <attnum name="z end" unit="m" val="9.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
+        <section name="Left Side">
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -10040,11 +9880,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 205                -->
       <!--******************************-->
-      <section name="straight 97">
+      <section name="s208">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="535.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="553.0" />
+        <attnum name="z end" unit="m" val="15.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -10088,11 +9927,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 206                -->
       <!--******************************-->
-      <section name="straight 98">
+      <section name="209">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="563.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="535.0" />
+        <attnum name="z end" unit="m" val="11.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -10136,11 +9974,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 207                -->
       <!--******************************-->
-      <section name="straight 99">
+      <section name="s210">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="567.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="563.0" />
+        <attnum name="z end" unit="m" val="56.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -10184,11 +10021,54 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 208                -->
       <!--******************************-->
-      <section name="straight 100">
+      <section name="s211">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="557.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="142.0" />
+        <attnum name="z end" unit="m" val="23.0" />
+        <attstr name="surface" val="asphalt2-lines" />
+        <!--Left part of segment-->
+        <section name="Left Side">
+          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="4.0" />
+          <attstr name="surface" val="grass" />
+        </section>
+        <section name="Left Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Left Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="curb" />
+        </section>
+        <!--End of left part-->
+        <!--Right part of segment-->
+        <section name="Right Side">
+          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="4.0" />
+          <attstr name="surface" val="grass" />
+        </section>
+        <section name="Right Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Right Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="curb" />
+        </section>
+        <!--End of right part-->
+      </section>
+      <section name="s212">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="425.0" />
+        <attnum name="z end" unit="m" val="18.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -10232,11 +10112,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 209                -->
       <!--******************************-->
-      <section name="straight 101">
+      <section name="s213">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="463.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="557.0" />
+        <attnum name="z end" unit="m" val="25.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -10280,11 +10159,10 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 210                -->
       <!--******************************-->
-      <section name="straight 102">
+      <section name="s214">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="363.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="m" val="463.0" />
+        <attnum name="z end" unit="m" val="17.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
@@ -10328,13 +10206,59 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 211                -->
       <!--******************************-->
-      <section name="curve 135">
+      <section name="s215">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="363.0" />
+        <attnum name="z end" unit="m" val="20.0" />
+        <attstr name="surface" val="asphalt2-lines" />
+        <!--Left part of segment-->
+        <section name="Left Side">
+          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="4.0" />
+          <attstr name="surface" val="grass" />
+        </section>
+        <section name="Left Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Left Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="curb" />
+        </section>
+        <!--End of left part-->
+        <!--Right part of segment-->
+        <section name="Right Side">
+          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="4.0" />
+          <attstr name="surface" val="grass" />
+        </section>
+        <section name="Right Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Right Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="curb" />
+        </section>
+        <!--End of right part-->
+      </section>
+      <!--******************************-->
+      <!--     Segment 212                -->
+      <!--******************************-->
+      <section name="s126">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="92.0" />
         <attnum name="radius" unit="m" val="37.0" />
         <attnum name="end radius" unit="m" val="40.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end" unit="m" val="22.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
