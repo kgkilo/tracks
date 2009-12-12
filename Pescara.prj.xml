@@ -11,10 +11,10 @@
    <double>-6.286675965683572</double> 
   </void> 
   <void property="currentX"> 
-   <double>0.32583058142410914</double> 
+   <double>0.3258305814259268</double> 
   </void> 
   <void property="currentY"> 
-   <double>0.07015587138744195</double> 
+   <double>0.07015587138743484</double> 
   </void> 
   <void property="curveNameCount"> 
    <int>135</int> 
@@ -52,7 +52,7 @@
    <string></string> 
   </void> 
   <void property="straightNameCount"> 
-   <int>103</int> 
+   <int>104</int> 
   </void> 
   <void property="trackName"> 
    <string>Pescara</string> 
