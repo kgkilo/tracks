@@ -21,7 +21,7 @@ the Free Software Foundation; either version 2 of the License, or
   <section name="Surfaces">&default-surfaces;</section>
   <section name="Header">
     <attstr name="name" val="Pescara" />
-    <attstr name="category" val="track" />
+    <attstr name="category" val="road" />
     <attnum name="version" val="4" />
     <attstr name="author" val="kilo" />
     <attstr name="description" val="Pescara Circuit" />
@@ -9691,9 +9691,6 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <!--End of right part-->
       </section>
-      <!--******************************-->
-      <!--     Segment 202                -->
-      <!--******************************-->
       <section name="s204">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="127.0" />
@@ -9739,9 +9736,56 @@ the Free Software Foundation; either version 2 of the License, or
         <!--End of right part-->
       </section>
       <!--******************************-->
-      <!--     Segment 203                -->
+      <!--     Segment 202                -->
       <!--******************************-->
       <section name="s205">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="512.0" />
+        <attnum name="z end" unit="m" val="7.0" />
+        <attstr name="surface" val="asphalt2-lines" />
+        <!--Left part of segment-->
+        <section name="Left Side">
+          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="4.0" />
+          <attstr name="surface" val="grass" />
+        </section>
+        <section name="Left Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Left Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="curb" />
+        </section>
+        <!--End of left part-->
+        <!--Right part of segment-->
+        <section name="Right Side">
+          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="4.0" />
+          <attstr name="surface" val="grass" />
+        </section>
+        <section name="Right Border">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Right Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="curb" />
+        </section>
+        <!--End of right part-->
+      </section>
+      <!--******************************-->
+      <!--     Segment 203                -->
+      <!--******************************-->
+      <section name="s206">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="339.0" />
         <attnum name="z end" unit="m" val="7.0" />
@@ -9785,7 +9829,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <!--End of right part-->
       </section>
-      <section name="s206">
+      <section name="s207">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="169.0" />
         <attnum name="z end" unit="m" val="16.0" />
@@ -9832,13 +9876,12 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 204                -->
       <!--******************************-->
-      <section name="s207">
+      <section name="s208">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="557.0" />
         <attnum name="z end" unit="m" val="9.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
-        <section name="Left Side">
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -9880,7 +9923,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 205                -->
       <!--******************************-->
-      <section name="s208">
+      <section name="s209">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="553.0" />
         <attnum name="z end" unit="m" val="15.0" />
@@ -9927,7 +9970,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 206                -->
       <!--******************************-->
-      <section name="209">
+      <section name="210">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="535.0" />
         <attnum name="z end" unit="m" val="11.0" />
@@ -9974,7 +10017,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 207                -->
       <!--******************************-->
-      <section name="s210">
+      <section name="s211">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="563.0" />
         <attnum name="z end" unit="m" val="56.0" />
@@ -10021,7 +10064,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 208                -->
       <!--******************************-->
-      <section name="s211">
+      <section name="s212">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="142.0" />
         <attnum name="z end" unit="m" val="23.0" />
@@ -10065,7 +10108,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <!--End of right part-->
       </section>
-      <section name="s212">
+      <section name="s213">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="425.0" />
         <attnum name="z end" unit="m" val="18.0" />
@@ -10112,7 +10155,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 209                -->
       <!--******************************-->
-      <section name="s213">
+      <section name="s214">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="557.0" />
         <attnum name="z end" unit="m" val="25.0" />
@@ -10159,7 +10202,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 210                -->
       <!--******************************-->
-      <section name="s214">
+      <section name="s215">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="463.0" />
         <attnum name="z end" unit="m" val="17.0" />
@@ -10206,7 +10249,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 211                -->
       <!--******************************-->
-      <section name="s215">
+      <section name="s216">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="363.0" />
         <attnum name="z end" unit="m" val="20.0" />
@@ -10253,7 +10296,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <!--     Segment 212                -->
       <!--******************************-->
-      <section name="s126">
+      <section name="s217">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="92.0" />
         <attnum name="radius" unit="m" val="37.0" />
