@@ -8627,7 +8627,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s216">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="246.0" />
+        <attnum name="lg" unit="m" val="60.0" />
         <attnum name="z end" unit="m" val="4.8768" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8668,27 +8668,28 @@ the Free Software Foundation; either version 2 of the License, or
       <!-- Chicane before pit area -->
       <section name="s217">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="90.0" />
-        <attnum name="radius" unit="m" val="20.0" />
+        <attnum name="arc" unit="deg" val="111.0" />
+        <attnum name="radius" unit="m" val="15.0" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
       <section name="s218">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="20.0" />
+        <attnum name="lg" unit="m" val="80.0" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
       <section name="s219">
         <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="90.0" />
-        <attnum name="radius" unit="m" val="25.0" />
+        <attnum name="arc" unit="deg" val="111.0" />
+        <attnum name="radius" unit="m" val="35.0" />
+        <attnum name="end radius" unit="m" val="30.0" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
       <section name="s220">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="60.0" />
+        <attnum name="lg" unit="m" val="234.0" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
@@ -8699,22 +8700,25 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
+      <!-- Y correction -->
       <section name="s222">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="20.0" />
+        <attnum name="lg" unit="m" val="89.6995" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
+      <!-- Angle correction -->
       <section name="s223">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="90.0" />
+        <attnum name="arc" unit="deg" val="89.8001594" />
         <attnum name="radius" unit="m" val="20.0" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
+      <!-- X correction -->
       <section name="s224">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="170.0" />
+        <attnum name="lg" unit="m" val="213.498" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
