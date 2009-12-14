@@ -8688,7 +8688,7 @@ the Free Software Foundation; either version 2 of the License, or
 
       <section name="s220">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="130.0" />
+        <attnum name="lg" unit="m" val="60.0" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
@@ -8714,7 +8714,7 @@ the Free Software Foundation; either version 2 of the License, or
 
       <section name="s224">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="100.0" />
+        <attnum name="lg" unit="m" val="170.0" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
