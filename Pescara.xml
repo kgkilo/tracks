@@ -10241,7 +10241,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <section name="s216">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="142.0" />
+        <attnum name="lg" unit="m" val="246.0" />
         <attnum name="z end" unit="m" val="4.8768" />
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
@@ -10283,51 +10283,60 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <!--End of right part-->
       </section>
+
+      <!-- Chicane before pit area -->
       <section name="s217">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="425.0" />
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="90.0" />
+        <attnum name="radius" unit="m" val="20.0" />
         <attnum name="z end" unit="m" val="3.3528" />
-        <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Left Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of right part-->
       </section>
+
+      <section name="s218">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="20.0" />
+        <attnum name="z end" unit="m" val="3.3528" />
+      </section>
+
+      <section name="s219">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="90.0" />
+        <attnum name="radius" unit="m" val="25.0" />
+        <attnum name="z end" unit="m" val="3.3528" />
+      </section>
+
+      <section name="s220">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="130.0" />
+        <attnum name="z end" unit="m" val="3.3528" />
+      </section>
+
+      <section name="s221">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="90.0" />
+        <attnum name="radius" unit="m" val="25.0" />
+        <attnum name="z end" unit="m" val="3.3528" />
+      </section>
+
+      <section name="s222">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="20.0" />
+        <attnum name="z end" unit="m" val="3.3528" />
+      </section>
+
+      <section name="s223">
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="90.0" />
+        <attnum name="radius" unit="m" val="20.0" />
+        <attnum name="z end" unit="m" val="3.3528" />
+      </section>
+
+      <section name="s224">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="100.0" />
+        <attnum name="z end" unit="m" val="3.3528" />
+      </section>
+
     </section>
   </section>
 </params>
-
