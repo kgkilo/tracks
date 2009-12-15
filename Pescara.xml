@@ -56,7 +56,7 @@ the Free Software Foundation; either version 2 of the License, or
     <section name="Track Segments">
       <section name="s1">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="557.0" />
+        <attnum name="lg" unit="m" val="551.92" />
         <attnum name="z start" unit="m" val="3.3528" />
         <attnum name="z end" unit="m" val="5.4864" />
         <attstr name="surface" val="asphalt2-lines" />
@@ -97,7 +97,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s2">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="463.0" />
+        <attnum name="lg" unit="m" val="458.78" />
         <attnum name="z end" unit="m" val="3.048" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -136,7 +136,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s3">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="363.0" />
+        <attnum name="lg" unit="m" val="359.69" />
         <attnum name="z end" unit="m" val="3.9624" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -177,8 +177,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s4">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="92.0" />
-        <attnum name="radius" unit="m" val="37.0" />
-        <attnum name="end radius" unit="m" val="40.0" />
+        <attnum name="radius" unit="m" val="36.66" />
+        <attnum name="end radius" unit="m" val="39.64" />
         <attnum name="z end" unit="m" val="4.572" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -218,7 +218,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--Via Michelangelo-->
       <section name="5">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="232.0" />
+        <attnum name="lg" unit="m" val="229.88" />
         <attnum name="z end" unit="m" val="2.7432" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -259,7 +259,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="6">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="75.00000000000001" />
-        <attnum name="radius" unit="m" val="10.0" />
+        <attnum name="radius" unit="m" val="9.91" />
         <attnum name="z end" unit="m" val="2.7432" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -299,7 +299,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="7">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="16.0" />
-        <attnum name="radius" unit="m" val="670.0" />
+        <attnum name="radius" unit="m" val="663.89" />
         <attnum name="z end" unit="m" val="4.8768" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -338,7 +338,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="8">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="320.0" />
+        <attnum name="lg" unit="m" val="317.08" />
         <attnum name="z end" unit="m" val="4.8768" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -378,7 +378,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="9">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="10.0" />
-        <attnum name="radius" unit="m" val="700.0" />
+        <attnum name="radius" unit="m" val="693.61" />
         <attnum name="z end" unit="m" val="4.2672" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -417,7 +417,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="10">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="80.0" />
+        <attnum name="lg" unit="m" val="79.27" />
         <attnum name="z end" unit="m" val="2.7432" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -457,7 +457,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="11">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="109.00000000000001" />
-        <attnum name="radius" unit="m" val="23.0" />
+        <attnum name="radius" unit="m" val="22.79" />
         <attnum name="z end" unit="m" val="2.7432" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -496,7 +496,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="12">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="590.0" />
+        <attnum name="lg" unit="m" val="584.62" />
         <attnum name="z end" unit="m" val="5.7912" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -536,7 +536,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="13">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="8.0" />
-        <attnum name="radius" unit="m" val="800.0" />
+        <attnum name="radius" unit="m" val="792.7" />
         <attnum name="z end" unit="m" val="5.7912" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -575,7 +575,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="14">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="280.0" />
+        <attnum name="lg" unit="m" val="277.45" />
         <attnum name="z end" unit="m" val="9.7536" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -615,7 +615,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="15">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="20.0" />
-        <attnum name="radius" unit="m" val="80.0" />
+        <attnum name="radius" unit="m" val="79.27" />
         <attnum name="z end" unit="m" val="9.7536" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -654,7 +654,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="16">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="50.0" />
+        <attnum name="lg" unit="m" val="49.54" />
         <attnum name="z end" unit="m" val="9.144" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -694,7 +694,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="17">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="10.0" />
-        <attnum name="radius" unit="m" val="250.0" />
+        <attnum name="radius" unit="m" val="247.72" />
         <attnum name="z end" unit="m" val="9.144" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -733,7 +733,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="18">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="150.0" />
+        <attnum name="lg" unit="m" val="148.63" />
         <attnum name="z end" unit="m" val="8.5344" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -773,8 +773,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="19">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="25.5" />
-        <attnum name="radius" unit="m" val="200.0" />
-        <attnum name="end radius" unit="m" val="250.0" />
+        <attnum name="radius" unit="m" val="198.18" />
+        <attnum name="end radius" unit="m" val="247.72" />
         <attnum name="z end" unit="m" val="8.2296" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -813,7 +813,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="20">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="280.0" />
+        <attnum name="lg" unit="m" val="277.45" />
         <attnum name="z end" unit="m" val="10.3632" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -855,7 +855,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="21">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="90.5" />
-        <attnum name="radius" unit="m" val="40.0" />
+        <attnum name="radius" unit="m" val="39.64" />
         <attnum name="z end" unit="m" val="10.668" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -894,7 +894,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="22">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="320.0" />
+        <attnum name="lg" unit="m" val="317.08" />
         <attnum name="z end" unit="m" val="23.1648" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -934,7 +934,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="23">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="29.999999999999996" />
-        <attnum name="radius" unit="m" val="200.0" />
+        <attnum name="radius" unit="m" val="198.18" />
         <attnum name="z end" unit="m" val="23.7744" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -974,7 +974,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="24">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="9.0" />
-        <attnum name="radius" unit="m" val="300.0" />
+        <attnum name="radius" unit="m" val="297.26" />
         <attnum name="z end" unit="m" val="23.7744" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1013,7 +1013,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="25">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="180.0" />
+        <attnum name="lg" unit="m" val="178.36" />
         <attnum name="z end" unit="m" val="30.48" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1052,7 +1052,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="26">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="180.0" />
+        <attnum name="lg" unit="m" val="178.36" />
         <attnum name="z end" unit="m" val="30.7848" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1092,7 +1092,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="27">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="50.0" />
-        <attnum name="radius" unit="m" val="100.0" />
+        <attnum name="radius" unit="m" val="99.09" />
         <attnum name="z end" unit="m" val="35.3568" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1131,7 +1131,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="28">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="86.0" />
+        <attnum name="lg" unit="m" val="85.22" />
         <attnum name="z end" unit="m" val="35.9664" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1171,7 +1171,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="29">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="16.5" />
-        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="radius" unit="m" val="148.63" />
         <attnum name="z end" unit="m" val="36.2712" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1210,7 +1210,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="30">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="310.0" />
+        <attnum name="lg" unit="m" val="307.17" />
         <attnum name="z end" unit="m" val="41.7576" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1252,8 +1252,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="31">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="21.999999999999996" />
-        <attnum name="radius" unit="m" val="250.0" />
-        <attnum name="end radius" unit="m" val="420.0" />
+        <attnum name="radius" unit="m" val="247.72" />
+        <attnum name="end radius" unit="m" val="416.17" />
         <attnum name="z end" unit="m" val="47.5488" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1293,7 +1293,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="32">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="8.0" />
-        <attnum name="radius" unit="m" val="500.0" />
+        <attnum name="radius" unit="m" val="495.44" />
         <attnum name="z end" unit="m" val="49.0728" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1333,8 +1333,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="33">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="18.0" />
-        <attnum name="radius" unit="m" val="280.0" />
-        <attnum name="end radius" unit="m" val="100.0" />
+        <attnum name="radius" unit="m" val="277.45" />
+        <attnum name="end radius" unit="m" val="99.09" />
         <attnum name="z end" unit="m" val="49.3776" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1373,7 +1373,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="34">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="95.0" />
+        <attnum name="lg" unit="m" val="94.13" />
         <attnum name="z end" unit="m" val="47.8536" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1413,8 +1413,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="35">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="25.0" />
-        <attnum name="radius" unit="m" val="200.0" />
-        <attnum name="end radius" unit="m" val="120.0" />
+        <attnum name="radius" unit="m" val="198.18" />
+        <attnum name="end radius" unit="m" val="118.91" />
         <attnum name="z end" unit="m" val="46.6344" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1454,8 +1454,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="36">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="40.70000000000001" />
-        <attnum name="radius" unit="m" val="120.0" />
-        <attnum name="end radius" unit="m" val="190.0" />
+        <attnum name="radius" unit="m" val="118.91" />
+        <attnum name="end radius" unit="m" val="188.27" />
         <attnum name="z end" unit="m" val="49.0728" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1494,7 +1494,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="37">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="360.0" />
+        <attnum name="lg" unit="m" val="356.72" />
         <attnum name="z end" unit="m" val="61.8744" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1534,8 +1534,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="38">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="23.0" />
-        <attnum name="radius" unit="m" val="240.0" />
-        <attnum name="end radius" unit="m" val="150.0" />
+        <attnum name="radius" unit="m" val="237.81" />
+        <attnum name="end radius" unit="m" val="148.63" />
         <attnum name="z end" unit="m" val="66.7512" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1574,7 +1574,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s39">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="290.0" />
+        <attnum name="lg" unit="m" val="287.35" />
         <attnum name="z end" unit="m" val="77.724" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1614,7 +1614,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s40">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="14.0" />
-        <attnum name="radius" unit="m" val="200.0" />
+        <attnum name="radius" unit="m" val="198.18" />
         <attnum name="z end" unit="m" val="80.772" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1653,7 +1653,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s41">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="150.0" />
+        <attnum name="lg" unit="m" val="148.63" />
         <attnum name="z end" unit="m" val="89.3064" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1693,7 +1693,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s42">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="8.0" />
-        <attnum name="radius" unit="m" val="350.0" />
+        <attnum name="radius" unit="m" val="346.81" />
         <attnum name="z end" unit="m" val="92.964" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1733,8 +1733,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s43">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="21.999999999999996" />
-        <attnum name="radius" unit="m" val="130.0" />
-        <attnum name="end radius" unit="m" val="100.0" />
+        <attnum name="radius" unit="m" val="128.81" />
+        <attnum name="end radius" unit="m" val="99.09" />
         <attnum name="z end" unit="m" val="96.012" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1773,7 +1773,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s44">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="56.0" />
+        <attnum name="lg" unit="m" val="55.49" />
         <attnum name="z end" unit="m" val="102.4128" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1813,7 +1813,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s45">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="9.0" />
-        <attnum name="radius" unit="m" val="350.0" />
+        <attnum name="radius" unit="m" val="346.81" />
         <attnum name="z end" unit="m" val="103.3272" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1852,7 +1852,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s46">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="75.0" />
+        <attnum name="lg" unit="m" val="74.32" />
         <attnum name="z end" unit="m" val="106.68" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1892,7 +1892,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s47">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="68.99999999999999" />
-        <attnum name="radius" unit="m" val="50.0" />
+        <attnum name="radius" unit="m" val="49.54" />
         <attnum name="z end" unit="m" val="109.1184" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1931,7 +1931,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s48">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="62.0" />
+        <attnum name="lg" unit="m" val="61.43" />
         <attnum name="z end" unit="m" val="107.5944" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1971,7 +1971,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s49">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="76.0" />
-        <attnum name="radius" unit="m" val="35.0" />
+        <attnum name="radius" unit="m" val="34.68" />
         <attnum name="z end" unit="m" val="108.204" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2010,7 +2010,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s50">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="16.0" />
+        <attnum name="lg" unit="m" val="15.85" />
         <attnum name="z end" unit="m" val="108.5088" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2050,8 +2050,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s51">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="100.0" />
-        <attnum name="radius" unit="m" val="40.0" />
-        <attnum name="end radius" unit="m" val="24.0" />
+        <attnum name="radius" unit="m" val="39.64" />
+        <attnum name="end radius" unit="m" val="23.78" />
         <attnum name="z end" unit="m" val="110.9472" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2090,7 +2090,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s52">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="50.0" />
+        <attnum name="lg" unit="m" val="49.54" />
         <attnum name="z end" unit="m" val="107.2896" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2130,7 +2130,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s53">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="43.0" />
-        <attnum name="radius" unit="m" val="50.0" />
+        <attnum name="radius" unit="m" val="49.54" />
         <attnum name="z end" unit="m" val="106.68" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2169,7 +2169,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s54">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="45.0" />
+        <attnum name="lg" unit="m" val="44.59" />
         <attnum name="z end" unit="m" val="109.4232" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2209,8 +2209,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s55">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="57.0" />
-        <attnum name="radius" unit="m" val="74.0" />
-        <attnum name="end radius" unit="m" val="90.0" />
+        <attnum name="radius" unit="m" val="73.32" />
+        <attnum name="end radius" unit="m" val="89.18" />
         <attnum name="z end" unit="m" val="111.8616" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2251,7 +2251,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!-- Case Trufulone -->
       <section name="s56">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="40.0" />
+        <attnum name="lg" unit="m" val="39.64" />
         <attnum name="z end" unit="m" val="110.9472" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2291,8 +2291,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s57">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="50.0" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="end radius" unit="m" val="44.0" />
+        <attnum name="radius" unit="m" val="49.54" />
+        <attnum name="end radius" unit="m" val="43.6" />
         <attnum name="z end" unit="m" val="112.4712" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2331,7 +2331,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s58">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="49.0" />
+        <attnum name="lg" unit="m" val="48.55" />
         <attnum name="z end" unit="m" val="110.6424" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2371,7 +2371,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s59">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="21.0" />
-        <attnum name="radius" unit="m" val="80.0" />
+        <attnum name="radius" unit="m" val="79.27" />
         <attnum name="z end" unit="m" val="109.1184" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2410,7 +2410,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s60">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="52.0" />
+        <attnum name="lg" unit="m" val="51.53" />
         <attnum name="z end" unit="m" val="110.6424" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2450,7 +2450,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s61">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="10.999999999999998" />
-        <attnum name="radius" unit="m" val="40.0" />
+        <attnum name="radius" unit="m" val="39.64" />
         <attnum name="z end" unit="m" val="110.9472" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2489,7 +2489,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s62">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="45.0" />
+        <attnum name="lg" unit="m" val="44.59" />
         <attnum name="z end" unit="m" val="114.6048" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2529,7 +2529,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s63">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="3.5" />
-        <attnum name="radius" unit="m" val="50.0" />
+        <attnum name="radius" unit="m" val="49.54" />
         <attnum name="z end" unit="m" val="114.9096" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2568,7 +2568,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s64">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="124.0" />
+        <attnum name="lg" unit="m" val="122.87" />
         <attnum name="z end" unit="m" val="117.6528" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2608,7 +2608,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s65">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="18.0" />
-        <attnum name="radius" unit="m" val="200.0" />
+        <attnum name="radius" unit="m" val="198.18" />
         <attnum name="z end" unit="m" val="117.9576" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2648,7 +2648,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s66">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="39.0" />
-        <attnum name="radius" unit="m" val="180.0" />
+        <attnum name="radius" unit="m" val="178.36" />
         <attnum name="z end" unit="m" val="122.8344" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2687,7 +2687,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s67">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="40.0" />
+        <attnum name="lg" unit="m" val="39.64" />
         <attnum name="z end" unit="m" val="123.7488" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2729,8 +2729,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s68">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="70.0" />
-        <attnum name="radius" unit="m" val="75.0" />
-        <attnum name="end radius" unit="m" val="50.0" />
+        <attnum name="radius" unit="m" val="74.32" />
+        <attnum name="end radius" unit="m" val="49.54" />
         <attnum name="z end" unit="m" val="121.92" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2769,7 +2769,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s69">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="117.0" />
+        <attnum name="lg" unit="m" val="115.93" />
         <attnum name="z end" unit="m" val="125.5776" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2809,8 +2809,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s70">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="10.999999999999998" />
-        <attnum name="radius" unit="m" val="120.0" />
-        <attnum name="end radius" unit="m" val="100.0" />
+        <attnum name="radius" unit="m" val="118.91" />
+        <attnum name="end radius" unit="m" val="99.09" />
         <attnum name="z end" unit="m" val="125.8824" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2849,7 +2849,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s71">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="38.0" />
+        <attnum name="lg" unit="m" val="37.65" />
         <attnum name="z end" unit="m" val="126.7968" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2889,8 +2889,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s72">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="60.0" />
-        <attnum name="radius" unit="m" val="70.0" />
-        <attnum name="end radius" unit="m" val="60.0" />
+        <attnum name="radius" unit="m" val="69.36" />
+        <attnum name="end radius" unit="m" val="59.45" />
         <attnum name="z end" unit="m" val="130.4544" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2930,8 +2930,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s73">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="40.0" />
-        <attnum name="radius" unit="m" val="135.0" />
-        <attnum name="end radius" unit="m" val="95.0" />
+        <attnum name="radius" unit="m" val="133.77" />
+        <attnum name="end radius" unit="m" val="94.13" />
         <attnum name="z end" unit="m" val="134.4168" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2970,7 +2970,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s74">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="42.0" />
+        <attnum name="lg" unit="m" val="41.62" />
         <attnum name="z end" unit="m" val="135.3312" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3010,8 +3010,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s75">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="35.0" />
-        <attnum name="radius" unit="m" val="100.0" />
-        <attnum name="end radius" unit="m" val="140.0" />
+        <attnum name="radius" unit="m" val="99.09" />
+        <attnum name="end radius" unit="m" val="138.72" />
         <attnum name="z end" unit="m" val="138.9888" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3050,7 +3050,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s76">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="52.0" />
+        <attnum name="lg" unit="m" val="51.53" />
         <attnum name="z end" unit="m" val="142.3416" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3090,8 +3090,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s77">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="20.0" />
-        <attnum name="radius" unit="m" val="250.0" />
-        <attnum name="end radius" unit="m" val="100.0" />
+        <attnum name="radius" unit="m" val="247.72" />
+        <attnum name="end radius" unit="m" val="99.09" />
         <attnum name="z end" unit="m" val="149.352" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3130,7 +3130,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s78">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="50.0" />
+        <attnum name="lg" unit="m" val="49.54" />
         <attnum name="z end" unit="m" val="151.7904" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3172,8 +3172,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s79">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="103.00000000000001" />
-        <attnum name="radius" unit="m" val="22.0" />
-        <attnum name="end radius" unit="m" val="30.0" />
+        <attnum name="radius" unit="m" val="21.8" />
+        <attnum name="end radius" unit="m" val="29.73" />
         <attnum name="z end" unit="m" val="158.8008" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3212,7 +3212,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s80">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="55.0" />
+        <attnum name="lg" unit="m" val="54.5" />
         <attnum name="z end" unit="m" val="164.592" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3252,8 +3252,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s81">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="33.0" />
-        <attnum name="radius" unit="m" val="40.0" />
-        <attnum name="end radius" unit="m" val="90.0" />
+        <attnum name="radius" unit="m" val="39.64" />
+        <attnum name="end radius" unit="m" val="89.18" />
         <attnum name="z end" unit="m" val="168.5544" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3292,7 +3292,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s82">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="65.0" />
+        <attnum name="lg" unit="m" val="64.41" />
         <attnum name="z end" unit="m" val="172.8216" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3332,7 +3332,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s83">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="8.0" />
-        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="radius" unit="m" val="148.63" />
         <attnum name="z end" unit="m" val="173.1264" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3371,7 +3371,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s84">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="90.0" />
+        <attnum name="lg" unit="m" val="89.18" />
         <attnum name="z end" unit="m" val="170.688" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3411,7 +3411,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s85">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="42.0" />
-        <attnum name="radius" unit="m" val="70.0" />
+        <attnum name="radius" unit="m" val="69.36" />
         <attnum name="z end" unit="m" val="169.4688" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3450,7 +3450,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s86">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="88.0" />
+        <attnum name="lg" unit="m" val="87.2" />
         <attnum name="z end" unit="m" val="169.7736" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3490,8 +3490,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s87">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="78.0" />
-        <attnum name="radius" unit="m" val="15.0" />
-        <attnum name="end radius" unit="m" val="13.0" />
+        <attnum name="radius" unit="m" val="14.86" />
+        <attnum name="end radius" unit="m" val="12.88" />
         <attnum name="z end" unit="m" val="170.0784" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3531,8 +3531,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s88">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="10.999999999999998" />
-        <attnum name="radius" unit="m" val="280.0" />
-        <attnum name="end radius" unit="m" val="320.0" />
+        <attnum name="radius" unit="m" val="277.45" />
+        <attnum name="end radius" unit="m" val="317.08" />
         <attnum name="z end" unit="m" val="175.5648" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3572,7 +3572,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s89">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="7.0" />
-        <attnum name="radius" unit="m" val="350.0" />
+        <attnum name="radius" unit="m" val="346.81" />
         <attnum name="z end" unit="m" val="176.1744" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3614,7 +3614,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s90">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="40.0" />
-        <attnum name="radius" unit="m" val="50.0" />
+        <attnum name="radius" unit="m" val="49.54" />
         <attnum name="z end" unit="m" val="176.784" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3654,7 +3654,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s91">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="5.0" />
-        <attnum name="radius" unit="m" val="650.0" />
+        <attnum name="radius" unit="m" val="644.07" />
         <attnum name="z end" unit="m" val="175.26" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3693,7 +3693,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s92">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="75.0" />
+        <attnum name="lg" unit="m" val="74.32" />
         <attnum name="z end" unit="m" val="167.64" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3733,7 +3733,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s93">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="18.0" />
-        <attnum name="radius" unit="m" val="280.0" />
+        <attnum name="radius" unit="m" val="277.45" />
         <attnum name="z end" unit="m" val="163.6776" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3772,7 +3772,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s94">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="18.0" />
+        <attnum name="lg" unit="m" val="17.84" />
         <attnum name="z end" unit="m" val="162.4584" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3812,7 +3812,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s95">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="14.0" />
-        <attnum name="radius" unit="m" val="40.0" />
+        <attnum name="radius" unit="m" val="39.64" />
         <attnum name="z end" unit="m" val="162.1536" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3851,7 +3851,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s96">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="45.0" />
+        <attnum name="lg" unit="m" val="44.59" />
         <attnum name="z end" unit="m" val="159.1056" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3891,8 +3891,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s97">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="29.0" />
-        <attnum name="radius" unit="m" val="360.0" />
-        <attnum name="end radius" unit="m" val="300.0" />
+        <attnum name="radius" unit="m" val="356.72" />
+        <attnum name="end radius" unit="m" val="297.26" />
         <attnum name="z end" unit="m" val="153.0096" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3931,7 +3931,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s98">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="70.0" />
+        <attnum name="lg" unit="m" val="69.36" />
         <attnum name="z end" unit="m" val="153.0096" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -3971,8 +3971,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s99">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="80.0" />
-        <attnum name="radius" unit="m" val="160.0" />
-        <attnum name="end radius" unit="m" val="115.0" />
+        <attnum name="radius" unit="m" val="158.54" />
+        <attnum name="end radius" unit="m" val="113.95" />
         <attnum name="z end" unit="m" val="155.448" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4011,7 +4011,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s100">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="56.0" />
+        <attnum name="lg" unit="m" val="55.49" />
         <attnum name="z end" unit="m" val="158.1912" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4051,8 +4051,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s101">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="29.999999999999996" />
-        <attnum name="radius" unit="m" val="40.0" />
-        <attnum name="end radius" unit="m" val="60.0" />
+        <attnum name="radius" unit="m" val="39.64" />
+        <attnum name="end radius" unit="m" val="59.45" />
         <attnum name="z end" unit="m" val="157.8864" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4092,7 +4092,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s102">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="25.999999999999996" />
-        <attnum name="radius" unit="m" val="100.0" />
+        <attnum name="radius" unit="m" val="99.09" />
         <attnum name="z end" unit="m" val="157.2768" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4132,8 +4132,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s103">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="2.0" />
-        <attnum name="radius" unit="m" val="1000.0" />
-        <attnum name="end radius" unit="m" val="750.0" />
+        <attnum name="radius" unit="m" val="990.88" />
+        <attnum name="end radius" unit="m" val="743.16" />
         <attnum name="z end" unit="m" val="156.6672" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4173,7 +4173,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s104">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="7.0" />
-        <attnum name="radius" unit="m" val="350.0" />
+        <attnum name="radius" unit="m" val="346.81" />
         <attnum name="z end" unit="m" val="157.5816" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4213,8 +4213,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s105">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="10.0" />
-        <attnum name="radius" unit="m" val="250.0" />
-        <attnum name="end radius" unit="m" val="750.0" />
+        <attnum name="radius" unit="m" val="247.72" />
+        <attnum name="end radius" unit="m" val="743.16" />
         <attnum name="z end" unit="m" val="163.9824" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4254,7 +4254,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s106">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="43.5" />
-        <attnum name="radius" unit="m" val="80.0" />
+        <attnum name="radius" unit="m" val="79.27" />
         <attnum name="z end" unit="m" val="165.8112" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4293,7 +4293,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s107">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="170.0" />
+        <attnum name="lg" unit="m" val="168.45" />
         <attnum name="z end" unit="m" val="156.972" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4333,8 +4333,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s108">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="29.0" />
-        <attnum name="radius" unit="m" val="250.0" />
-        <attnum name="end radius" unit="m" val="150.0" />
+        <attnum name="radius" unit="m" val="247.72" />
+        <attnum name="end radius" unit="m" val="148.63" />
         <attnum name="z end" unit="m" val="155.1432" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4373,7 +4373,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s109">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="215.0" />
+        <attnum name="lg" unit="m" val="213.04" />
         <attnum name="z end" unit="m" val="154.2288" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4413,8 +4413,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s110">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="29.999999999999996" />
-        <attnum name="radius" unit="m" val="250.0" />
-        <attnum name="end radius" unit="m" val="90.0" />
+        <attnum name="radius" unit="m" val="247.72" />
+        <attnum name="end radius" unit="m" val="89.18" />
         <attnum name="z end" unit="m" val="158.496" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4453,7 +4453,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s111">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="53.0" />
+        <attnum name="lg" unit="m" val="52.52" />
         <attnum name="z end" unit="m" val="159.1056" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4493,8 +4493,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s112">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="80.0" />
-        <attnum name="radius" unit="m" val="70.0" />
-        <attnum name="end radius" unit="m" val="60.0" />
+        <attnum name="radius" unit="m" val="69.36" />
+        <attnum name="end radius" unit="m" val="59.45" />
         <attnum name="z end" unit="m" val="156.0576" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4533,7 +4533,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s113">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="150.0" />
+        <attnum name="lg" unit="m" val="148.63" />
         <attnum name="z end" unit="m" val="160.02" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4573,8 +4573,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s114">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="10.999999999999998" />
-        <attnum name="radius" unit="m" val="750.0" />
-        <attnum name="end radius" unit="m" val="250.0" />
+        <attnum name="radius" unit="m" val="743.16" />
+        <attnum name="end radius" unit="m" val="247.72" />
         <attnum name="z end" unit="m" val="161.2392" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4614,8 +4614,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s115">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="8.0" />
-        <attnum name="radius" unit="m" val="550.0" />
-        <attnum name="end radius" unit="m" val="500.0" />
+        <attnum name="radius" unit="m" val="544.98" />
+        <attnum name="end radius" unit="m" val="495.44" />
         <attnum name="z end" unit="m" val="162.7632" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4655,7 +4655,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s116">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="90.0" />
-        <attnum name="radius" unit="m" val="45.0" />
+        <attnum name="radius" unit="m" val="44.59" />
         <attnum name="z end" unit="m" val="163.3728" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4695,7 +4695,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s117">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="36.0" />
-        <attnum name="radius" unit="m" val="38.0" />
+        <attnum name="radius" unit="m" val="37.65" />
         <attnum name="z end" unit="m" val="165.2016" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4734,7 +4734,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s118">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="72.0" />
+        <attnum name="lg" unit="m" val="71.34" />
         <attnum name="z end" unit="m" val="170.688" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4774,7 +4774,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s119">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="29.999999999999996" />
-        <attnum name="radius" unit="m" val="40.0" />
+        <attnum name="radius" unit="m" val="39.64" />
         <attnum name="z end" unit="m" val="174.3456" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4813,7 +4813,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s120">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="22.0" />
+        <attnum name="lg" unit="m" val="21.8" />
         <attnum name="z end" unit="m" val="176.4792" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4853,7 +4853,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s121">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="47.0" />
-        <attnum name="radius" unit="m" val="60.0" />
+        <attnum name="radius" unit="m" val="59.45" />
         <attnum name="z end" unit="m" val="175.5648" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4892,7 +4892,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s122">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="147.0" />
+        <attnum name="lg" unit="m" val="145.66" />
         <attnum name="z end" unit="m" val="168.8592" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4932,7 +4932,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s123">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="180.0" />
-        <attnum name="radius" unit="m" val="10.0" />
+        <attnum name="radius" unit="m" val="9.91" />
         <attnum name="z end" unit="m" val="167.0304" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -4971,7 +4971,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s124">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="16.0" />
+        <attnum name="lg" unit="m" val="15.85" />
         <attnum name="z end" unit="m" val="167.3352" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5011,8 +5011,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s125">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="123.00000000000001" />
-        <attnum name="radius" unit="m" val="25.0" />
-        <attnum name="end radius" unit="m" val="29.0" />
+        <attnum name="radius" unit="m" val="24.77" />
+        <attnum name="end radius" unit="m" val="28.74" />
         <attnum name="z end" unit="m" val="162.4584" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5051,7 +5051,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s126">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="130.0" />
+        <attnum name="lg" unit="m" val="128.81" />
         <attnum name="z end" unit="m" val="151.7904" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5091,7 +5091,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s127">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="16.0" />
-        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="radius" unit="m" val="148.63" />
         <attnum name="z end" unit="m" val="153.3144" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5130,7 +5130,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s128">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="46.0" />
+        <attnum name="lg" unit="m" val="45.58" />
         <attnum name="z end" unit="m" val="150.876" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5170,7 +5170,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s129">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="27.0" />
-        <attnum name="radius" unit="m" val="80.0" />
+        <attnum name="radius" unit="m" val="79.27" />
         <attnum name="z end" unit="m" val="150.5712" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5209,7 +5209,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s130">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="70.0" />
+        <attnum name="lg" unit="m" val="69.36" />
         <attnum name="z end" unit="m" val="149.6568" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5249,7 +5249,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s131">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="21.999999999999996" />
-        <attnum name="radius" unit="m" val="80.0" />
+        <attnum name="radius" unit="m" val="79.27" />
         <attnum name="z end" unit="m" val="149.352" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5288,7 +5288,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s132">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="45.0" />
+        <attnum name="lg" unit="m" val="44.59" />
         <attnum name="z end" unit="m" val="149.0472" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5328,8 +5328,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s133">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="65.0" />
-        <attnum name="radius" unit="m" val="110.0" />
-        <attnum name="end radius" unit="m" val="60.0" />
+        <attnum name="radius" unit="m" val="109.0" />
+        <attnum name="end radius" unit="m" val="59.45" />
         <attnum name="z end" unit="m" val="143.5608" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5368,7 +5368,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s134">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="30.0" />
+        <attnum name="lg" unit="m" val="29.73" />
         <attnum name="z end" unit="m" val="140.8176" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5408,7 +5408,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s135">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="17.0" />
-        <attnum name="radius" unit="m" val="100.0" />
+        <attnum name="radius" unit="m" val="99.09" />
         <attnum name="z end" unit="m" val="138.0744" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5447,7 +5447,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s136">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="154.0" />
+        <attnum name="lg" unit="m" val="152.6" />
         <attnum name="z end" unit="m" val="130.7592" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5489,7 +5489,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s137">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="10.0" />
-        <attnum name="radius" unit="m" val="100.0" />
+        <attnum name="radius" unit="m" val="99.09" />
         <attnum name="z end" unit="m" val="131.3688" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5529,7 +5529,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s138">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="25.0" />
-        <attnum name="radius" unit="m" val="60.0" />
+        <attnum name="radius" unit="m" val="59.45" />
         <attnum name="z end" unit="m" val="128.3208" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5569,8 +5569,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s139">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="18.0" />
-        <attnum name="radius" unit="m" val="60.0" />
-        <attnum name="end radius" unit="m" val="70.0" />
+        <attnum name="radius" unit="m" val="59.45" />
+        <attnum name="end radius" unit="m" val="69.36" />
         <attnum name="z end" unit="m" val="126.7968" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5609,7 +5609,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s140">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="54.0" />
+        <attnum name="lg" unit="m" val="53.51" />
         <attnum name="z end" unit="m" val="125.2728" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5649,8 +5649,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s141">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="29.999999999999996" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="end radius" unit="m" val="60.0" />
+        <attnum name="radius" unit="m" val="49.54" />
+        <attnum name="end radius" unit="m" val="59.45" />
         <attnum name="z end" unit="m" val="123.1392" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5690,7 +5690,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s142">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="5.0" />
-        <attnum name="radius" unit="m" val="1000.0" />
+        <attnum name="radius" unit="m" val="990.88" />
         <attnum name="z end" unit="m" val="116.4336" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5730,8 +5730,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s143">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="16.0" />
-        <attnum name="radius" unit="m" val="30.0" />
-        <attnum name="end radius" unit="m" val="380.0" />
+        <attnum name="radius" unit="m" val="29.73" />
+        <attnum name="end radius" unit="m" val="376.53" />
         <attnum name="z end" unit="m" val="115.2144" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5770,7 +5770,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s144">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="7.0" />
+        <attnum name="lg" unit="m" val="6.94" />
         <attnum name="z end" unit="m" val="114.9096" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5810,8 +5810,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s145">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="145.0" />
-        <attnum name="radius" unit="m" val="14.0" />
-        <attnum name="end radius" unit="m" val="20.0" />
+        <attnum name="radius" unit="m" val="13.87" />
+        <attnum name="end radius" unit="m" val="19.82" />
         <attnum name="z end" unit="m" val="115.2144" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5850,7 +5850,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s146">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="13.0" />
+        <attnum name="lg" unit="m" val="12.88" />
         <attnum name="z end" unit="m" val="115.5192" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5890,8 +5890,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s147">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="95.0" />
-        <attnum name="radius" unit="m" val="30.0" />
-        <attnum name="end radius" unit="m" val="10.0" />
+        <attnum name="radius" unit="m" val="29.73" />
+        <attnum name="end radius" unit="m" val="9.91" />
         <attnum name="z end" unit="m" val="113.9952" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5931,8 +5931,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s148">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="95.0" />
-        <attnum name="radius" unit="m" val="10.0" />
-        <attnum name="end radius" unit="m" val="12.0" />
+        <attnum name="radius" unit="m" val="9.91" />
+        <attnum name="end radius" unit="m" val="11.89" />
         <attnum name="z end" unit="m" val="113.6904" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -5972,8 +5972,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s149">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="10.999999999999998" />
-        <attnum name="radius" unit="m" val="100.0" />
-        <attnum name="end radius" unit="m" val="200.0" />
+        <attnum name="radius" unit="m" val="99.09" />
+        <attnum name="end radius" unit="m" val="198.18" />
         <attnum name="z end" unit="m" val="113.9952" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6013,8 +6013,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s150">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="12.0" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="end radius" unit="m" val="200.0" />
+        <attnum name="radius" unit="m" val="49.54" />
+        <attnum name="end radius" unit="m" val="198.18" />
         <attnum name="z end" unit="m" val="114.6048" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6054,8 +6054,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s151">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="25.0" />
-        <attnum name="radius" unit="m" val="60.0" />
-        <attnum name="end radius" unit="m" val="130.0" />
+        <attnum name="radius" unit="m" val="59.45" />
+        <attnum name="end radius" unit="m" val="128.81" />
         <attnum name="z end" unit="m" val="109.1184" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6095,8 +6095,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s152">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="27.0" />
-        <attnum name="radius" unit="m" val="250.0" />
-        <attnum name="end radius" unit="m" val="90.0" />
+        <attnum name="radius" unit="m" val="247.72" />
+        <attnum name="end radius" unit="m" val="89.18" />
         <attnum name="z end" unit="m" val="106.0704" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6135,7 +6135,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s153">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="51.0" />
+        <attnum name="lg" unit="m" val="50.53" />
         <attnum name="z end" unit="m" val="104.2416" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6177,7 +6177,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s154">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="34.0" />
-        <attnum name="radius" unit="m" val="55.0" />
+        <attnum name="radius" unit="m" val="54.5" />
         <attnum name="z end" unit="m" val="99.3648" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6216,7 +6216,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s155">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="50.0" />
+        <attnum name="lg" unit="m" val="49.54" />
         <attnum name="z end" unit="m" val="96.012" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6256,7 +6256,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s156">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="4.0" />
-        <attnum name="radius" unit="m" val="350.0" />
+        <attnum name="radius" unit="m" val="346.81" />
         <attnum name="z end" unit="m" val="95.0976" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6296,8 +6296,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s157">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="12.0" />
-        <attnum name="radius" unit="m" val="130.0" />
-        <attnum name="end radius" unit="m" val="350.0" />
+        <attnum name="radius" unit="m" val="128.81" />
+        <attnum name="end radius" unit="m" val="346.81" />
         <attnum name="z end" unit="m" val="89.6112" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6336,7 +6336,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s158">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="18.0" />
+        <attnum name="lg" unit="m" val="17.84" />
         <attnum name="z end" unit="m" val="88.6968" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6376,8 +6376,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s159">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="29.999999999999996" />
-        <attnum name="radius" unit="m" val="150.0" />
-        <attnum name="end radius" unit="m" val="80.0" />
+        <attnum name="radius" unit="m" val="148.63" />
+        <attnum name="end radius" unit="m" val="79.27" />
         <attnum name="z end" unit="m" val="85.9536" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6416,7 +6416,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s160">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="45.0" />
+        <attnum name="lg" unit="m" val="44.59" />
         <attnum name="z end" unit="m" val="86.2584" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6456,7 +6456,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s161">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="18.0" />
-        <attnum name="radius" unit="m" val="110.0" />
+        <attnum name="radius" unit="m" val="109.0" />
         <attnum name="z end" unit="m" val="83.5152" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6495,7 +6495,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s162">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="155.0" />
+        <attnum name="lg" unit="m" val="153.59" />
         <attnum name="z end" unit="m" val="75.5904" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6535,8 +6535,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s163">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="46.0" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="end radius" unit="m" val="290.0" />
+        <attnum name="radius" unit="m" val="49.54" />
+        <attnum name="end radius" unit="m" val="287.35" />
         <attnum name="z end" unit="m" val="70.4088" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6576,8 +6576,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s164">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="25.999999999999996" />
-        <attnum name="radius" unit="m" val="240.0" />
-        <attnum name="end radius" unit="m" val="260.0" />
+        <attnum name="radius" unit="m" val="237.81" />
+        <attnum name="end radius" unit="m" val="257.63" />
         <attnum name="z end" unit="m" val="63.0936" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6616,7 +6616,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s165">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="60.0" />
+        <attnum name="lg" unit="m" val="59.45" />
         <attnum name="z end" unit="m" val="60.0456" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6656,7 +6656,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s166">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="35.0" />
-        <attnum name="radius" unit="m" val="170.0" />
+        <attnum name="radius" unit="m" val="168.45" />
         <attnum name="z end" unit="m" val="54.5592" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6695,7 +6695,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s167">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="40.0" />
+        <attnum name="lg" unit="m" val="39.64" />
         <attnum name="z end" unit="m" val="54.2544" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6735,7 +6735,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s168">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="9.0" />
-        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="radius" unit="m" val="148.63" />
         <attnum name="z end" unit="m" val="53.34" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6774,7 +6774,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s169">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="70.0" />
+        <attnum name="lg" unit="m" val="69.36" />
         <attnum name="z end" unit="m" val="49.9872" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6814,7 +6814,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s170">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="3.0" />
-        <attnum name="radius" unit="m" val="100.0" />
+        <attnum name="radius" unit="m" val="99.09" />
         <attnum name="z end" unit="m" val="48.1584" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6853,7 +6853,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s171">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="40.0" />
+        <attnum name="lg" unit="m" val="39.64" />
         <attnum name="z end" unit="m" val="46.6344" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6893,7 +6893,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s172">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="3.0" />
-        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="radius" unit="m" val="148.63" />
         <attnum name="z end" unit="m" val="43.5864" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6932,7 +6932,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s173">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="75.0" />
+        <attnum name="lg" unit="m" val="74.32" />
         <attnum name="z end" unit="m" val="41.148" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -6972,7 +6972,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s174">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="28.0" />
-        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="radius" unit="m" val="148.63" />
         <attnum name="z end" unit="m" val="38.7096" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7011,7 +7011,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s175">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="15.0" />
+        <attnum name="lg" unit="m" val="14.86" />
         <attnum name="z end" unit="m" val="38.4048" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7051,7 +7051,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s176">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="38.7" />
-        <attnum name="radius" unit="m" val="105.0" />
+        <attnum name="radius" unit="m" val="104.04" />
         <attnum name="z end" unit="m" val="35.052" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7092,7 +7092,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!-- After roundabout, starting the long stretch down to Montesilvano -->
       <section name="s177">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="513.0" />
+        <attnum name="lg" unit="m" val="508.32" />
         <attnum name="z end" unit="m" val="29.2608" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7131,7 +7131,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s178">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="398.0" />
+        <attnum name="lg" unit="m" val="394.37" />
         <attnum name="z end" unit="m" val="28.3464" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7170,7 +7170,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s179">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="302.0" />
+        <attnum name="lg" unit="m" val="299.25" />
         <attnum name="z end" unit="m" val="26.2128" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7209,7 +7209,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s180">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="347.0" />
+        <attnum name="lg" unit="m" val="343.83" />
         <attnum name="z end" unit="m" val="24.6888" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7248,7 +7248,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s181">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="344.0" />
+        <attnum name="lg" unit="m" val="340.86" />
         <attnum name="z end" unit="m" val="21.336" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7287,7 +7287,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s182">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="440.0" />
+        <attnum name="lg" unit="m" val="435.99" />
         <attnum name="z end" unit="m" val="18.288" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7327,8 +7327,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s183">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="8.0" />
-        <attnum name="radius" unit="m" val="450.0" />
-        <attnum name="end radius" unit="m" val="750.0" />
+        <attnum name="radius" unit="m" val="445.9" />
+        <attnum name="end radius" unit="m" val="743.16" />
         <attnum name="z end" unit="m" val="17.6784" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7367,7 +7367,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s184">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="348.0" />
+        <attnum name="lg" unit="m" val="344.83" />
         <attnum name="z end" unit="m" val="15.24" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7406,7 +7406,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s185">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="320.0" />
+        <attnum name="lg" unit="m" val="317.08" />
         <attnum name="z end" unit="m" val="14.3256" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7446,7 +7446,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s186">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="2.0" />
-        <attnum name="radius" unit="m" val="350.0" />
+        <attnum name="radius" unit="m" val="346.81" />
         <attnum name="z end" unit="m" val="14.0208" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7485,7 +7485,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s187">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="180.0" />
+        <attnum name="lg" unit="m" val="178.36" />
         <attnum name="z end" unit="m" val="12.192" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7525,7 +7525,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s188">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="3.0" />
-        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="radius" unit="m" val="148.63" />
         <attnum name="z end" unit="m" val="11.9872" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7564,7 +7564,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s189">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="240.0" />
+        <attnum name="lg" unit="m" val="237.81" />
         <attnum name="z end" unit="m" val="10.9728" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7604,7 +7604,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s190">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="2.0" />
-        <attnum name="radius" unit="m" val="1000.0" />
+        <attnum name="radius" unit="m" val="990.88" />
         <attnum name="z end" unit="m" val="10.9728" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7645,7 +7645,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--Entering Montesilvano-->
       <section name="s191">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="200.0" />
+        <attnum name="lg" unit="m" val="198.18" />
         <attnum name="z end" unit="m" val="8.8392" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7685,7 +7685,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s192">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="1.7" />
-        <attnum name="radius" unit="m" val="350.0" />
+        <attnum name="radius" unit="m" val="346.81" />
         <attnum name="z end" unit="m" val="8.8392" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7724,7 +7724,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s193">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="238.0" />
+        <attnum name="lg" unit="m" val="235.83" />
         <attnum name="z end" unit="m" val="7.3152" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7763,7 +7763,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s194">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="306.0" />
+        <attnum name="lg" unit="m" val="303.21" />
         <attnum name="z end" unit="m" val="4.572" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7802,7 +7802,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s195">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="245.0" />
+        <attnum name="lg" unit="m" val="242.77" />
         <attnum name="z end" unit="m" val="4.572" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7841,7 +7841,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s196">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="128.0" />
+        <attnum name="lg" unit="m" val="126.83" />
         <attnum name="z end" unit="m" val="2.4384" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7880,7 +7880,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s197">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="140.0" />
+        <attnum name="lg" unit="m" val="138.72" />
         <attnum name="z end" unit="m" val="2.7432" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7920,7 +7920,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s198">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="2.0" />
-        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="radius" unit="m" val="148.63" />
         <attnum name="z end" unit="m" val="3.048" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7959,7 +7959,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s199">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="166.0" />
+        <attnum name="lg" unit="m" val="164.49" />
         <attnum name="z end" unit="m" val="4.2672" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7999,7 +7999,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s200">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="2.0" />
-        <attnum name="radius" unit="m" val="150.0" />
+        <attnum name="radius" unit="m" val="148.63" />
         <attnum name="z end" unit="m" val="4.2672" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8038,7 +8038,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s201">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="185.0" />
+        <attnum name="lg" unit="m" val="183.31" />
         <attnum name="z end" unit="m" val="3.048" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8077,7 +8077,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s202">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="327.0" />
+        <attnum name="lg" unit="m" val="324.02" />
         <attnum name="z end" unit="m" val="2.1336" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8119,8 +8119,8 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s203">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="100.0" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="end radius" unit="m" val="115.0" />
+        <attnum name="radius" unit="m" val="49.54" />
+        <attnum name="end radius" unit="m" val="113.95" />
         <attnum name="z end" unit="m" val="3.048" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8159,7 +8159,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s204">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="250.0" />
+        <attnum name="lg" unit="m" val="247.72" />
         <attnum name="z end" unit="m" val="4.572" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8198,7 +8198,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s205">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="84.0" />
+        <attnum name="lg" unit="m" val="83.23" />
         <attnum name="z end" unit="m" val="2.1336" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8237,7 +8237,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s206">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="519.0" />
+        <attnum name="lg" unit="m" val="514.27" />
         <attnum name="z end" unit="m" val="2.1336" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8276,7 +8276,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s207">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="381.0" />
+        <attnum name="lg" unit="m" val="377.52" />
         <attnum name="z end" unit="m" val="0.9144" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8315,7 +8315,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s208">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="127.0" />
+        <attnum name="lg" unit="m" val="125.84" />
         <attnum name="z end" unit="m" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8354,7 +8354,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s209">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="512.0" />
+        <attnum name="lg" unit="m" val="507.33" />
         <attnum name="z end" unit="m" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8393,7 +8393,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s210">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="339.0" />
+        <attnum name="lg" unit="m" val="335.91" />
         <attnum name="z end" unit="m" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8432,7 +8432,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s211">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="169.0" />
+        <attnum name="lg" unit="m" val="167.46" />
         <attnum name="z end" unit="m" val="2.7432" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8471,7 +8471,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s212">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="557.0" />
+        <attnum name="lg" unit="m" val="551.92" />
         <attnum name="z end" unit="m" val="0.6096" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8510,7 +8510,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s213">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="553.0" />
+        <attnum name="lg" unit="m" val="547.96" />
         <attnum name="z end" unit="m" val="2.4384" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8549,7 +8549,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="214">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="535.0" />
+        <attnum name="lg" unit="m" val="530.12" />
         <attnum name="z end" unit="m" val="1.2192" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8588,7 +8588,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s215">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="563.0" />
+        <attnum name="lg" unit="m" val="557.86" />
         <attnum name="z end" unit="m" val="4.9352" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8627,7 +8627,7 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
       <section name="s216">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="60.0" />
+        <attnum name="lg" unit="m" val="59.45" />
         <attnum name="z end" unit="m" val="4.8768" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8669,56 +8669,56 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s217">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="111.0" />
-        <attnum name="radius" unit="m" val="15.0" />
+        <attnum name="radius" unit="m" val="14.86" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
       <section name="s218">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="80.0" />
+        <attnum name="lg" unit="m" val="79.27" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
       <section name="s219">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="111.0" />
-        <attnum name="radius" unit="m" val="35.0" />
-        <attnum name="end radius" unit="m" val="30.0" />
+        <attnum name="radius" unit="m" val="34.68" />
+        <attnum name="end radius" unit="m" val="29.73" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
       <section name="s220">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="234.0" />
+        <attnum name="lg" unit="m" val="231.87" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
       <section name="s221">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="90.0" />
-        <attnum name="radius" unit="m" val="25.0" />
+        <attnum name="radius" unit="m" val="24.77" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
       <!-- Y correction -->
       <section name="s222">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="89.6995" />
+        <attnum name="lg" unit="m" val="88.872" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
       <!-- Angle correction -->
       <section name="s223">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="89.8001594" />
-        <attnum name="radius" unit="m" val="20.0" />
+        <attnum name="arc" unit="deg" val="89.800602" />
+        <attnum name="radius" unit="m" val="19.82" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
       <!-- X correction -->
       <section name="s224">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="213.498" />
+        <attnum name="lg" unit="m" val="211.6275" />
         <attnum name="z end" unit="m" val="3.3528" />
       </section>
 
