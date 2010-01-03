@@ -1,0 +1,38 @@
+<mart_k> I have got a sharp image now.
+<mart_k> You just need a lot of tricks :)
+<mart_k> First, convert the .eps-file to pdf with epstopdf.
+<mart_k> I did: epstopdf lemans.eps --outfile=lemans.pdf
+<mart_k> After that: make ppm from the pdf:
+<mart_k> pdftoppm lemans.pdf
+<mart_k> It creates a sharp (!) ppm file which gimp can read.
+<mart_k> The colours also seems correct.
+<kilo> wow, trying
+<mart_k> epstopdf is part of tetex,
+<mart_k> pdftoppm is part of poppler.
+<kilo> :) just found them
+<kilo> (all this on a 400MHz Celeron...)
+<kilo> yessss \o/
+<mart_k> Now a new example colour.
+<kilo> ok, so now i see RGB values like (33 0 0) or (0 0 54)
+<mart_k> That is correct.
+<kilo> lets take the first one, (33 0 0)
+<kilo> so i divide it by 256, ie (0.1289 0 0)
+<mart_k> Yes.
+<kilo> and multiply by 40
+<mart_k> Now, 0.1289 piece of the colour is red, the other rest black.
+<kilo> so it equals 5.15
+<kilo> ah right
+<mart_k> Thus 0.8711 piece of the colour is black, so that means a height of 0.8711*65 = 56.62149999999999905
+<mart_k> Add those two height, and the height on that piece is known.
+<mart_k> 61.77
+<kilo> ie 5.15 + 56.621
+<kilo> ay
+<kilo> right
+<kilo> thank you thank you thank you _o_
+<mart_k> np
+<kilo> so soon i will be able to do the loop Mark Webber did... :)
+<mart_k> Maybe with simuv3; I doubth if that is possible with simuv2.
+<kilo> will try :)
+<mart_k> If it happen, it will happen with very little downforce, so the wings should be pretty flat.
+<kilo> which car should be best to try it?
+<mart_k> I don't know, I think almost any car (except the buggy) will do because the wings can be set unrealistic flat.

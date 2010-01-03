@@ -1,0 +1,87 @@
+A s1: dark grey, l-n-l
+B s2: black, l-n-l
+C s3: lighter, l-n-l
+B s6: s2
+C s9-1: s3
+D s14-2: s1, l-p-l
+C s19-2: s3
+E s22: light concrete, longp-longp-longp
+I s24: s2, longp-l-longp
+J s25-1: s22, longp-shortp-longp
+K s25-3: s22, longp-half right+l-longp
+L s25-4: s22, longp-arrow-to-left-longp
+J s25-5: s22, longp-shortp-longp
+M s25-8: s22, longp-arrow-to-right-longp
+C s26: s3
+N s30-1: s22, longp-half left+l-longp
+J s30-2: s22, longp-shortp-longp
+N s30-5: s22, longp-half left+l-longp
+L s30-6: 150m s22, longp-arrow-to-left-longp
+J s30-8: 790m s22, longp-shortp-longp
+M s30-12: 88m s22, longp-arrow-to-right-longp
+C s31: s3
+N s35: s22, longp-half left+l-longp
+K s36: s22, longp-half right+l-longp
+K s37-1: 150m s22, longp-half right+l-longp
+L s37-2: 150m s22, longp-arrow-to-left-longp
+M s37-4: 177m 22, longp-arrow-to-right-longp
+N s37-5: 107m s22, longp-half left+l-longp
+J s37-6: 120m s22, longp-shortp-longp
+K s37-7: 108m s22, longp-half right+l-longp
+M s37-9: 150m longp-arrow-to-right-longp
+Golf
+O s41-1: s22, longp-line-longp
+P s41-2: 173m s22, shortp-arrow-to-left-shortp
+Q s41-4: 110m s22, shortp - sparse shortp - shortp
+R s41-6: 150m s22, shortp - arrow-to-right - shortp
+S s41-7: (rest) s22, shortp - half left+l - shortp
+Q s42: 
+T s43-1: 130m s22, shortp - half right+l - shortp
+P s43-2: 155m s22, shortp - arrow-to-left - shortp
+Q s43-3: (rest) s22, shortp - sparse shortp - shortp
+Q s44 -"-
+Q s45-1: 140m -"-
+R s45-2: 155m s22, shortp - arrow-to-right - shortp
+S s45-3: (rest) s22, shortp - half left+l - shortp
+U s46: s22, shortp - line - shortp
+U s47-1: -"-
+V s47-2: s2, shortp - line - shortp
+Indianapolis
+V s48 -"-
+V s49-1: -"-
+U s49-2: s22, shortp - line - shortp
+Arnage
+W s50-1: s22, line - line - line
+Course de Beusson
+T s51-1: 90m s22, shortp - half right+l - shortp
+P 115m: s22, shortp - arrow-to-left - shortp
+Q (rest) s22, shortp - sparse shortp - shortp
+R s55-1: 60m s22, shortp - arrow-to-right - shortp
+X s55-2: (rest) s22, shortp - shortp - shortp
+A s58-1: s1
+C s74-2:
+
+
+F s47-2: s3, p-l-p
+H s49-2: s22, p-l-p
+F s50-1: s3, p-l-p
+E s51-2: s22
+C s58-1: s3
+A s68: s1
+C s75: s3
+A s76: s1
+
+A: roada.bmp.png -> roadA.png
+B: -> roadB.png
+C: -> roadC.png
+D: roadms2.bmp.png -> roadD.png
+E: ->roadms2.bmp.png -> roadE.png
+F:
+G:
+H:
+I: roadms2.bmp.png -> roadI.png
+J: roadms2.bmp.png -> roadJ.png
+K: roadms4.bmp.png -> roadK.png
+L: roadms3.bmp.png -> roadL.png
+M: roadL->roadM.png
+N: roadK->roadN.png
