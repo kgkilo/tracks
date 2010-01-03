@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+1 7 36 42
+
+    Copyright 2007 kilo aka Gabor Kmetyko <kg_kilo@freemail.hu>
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+    $Id$
+
+    'Hi Diddle (m)' slot car track design by Katarr
+
+-->
+
+<!DOCTYPE params SYSTEM "../../../src/libs/tgf/params.dtd" [
+<!--  general definitions for tracks  -->
+<!ENTITY default-surfaces SYSTEM "../../../data/tracks/surfaces.xml">
+]>
+
+<!--
+short straight    4 3/8 inches    = 11.1125 cm (87 pixels)
+long straight    7 inches        = 17.78 cm
+turn    45 deg radius=            = 23.63
+track width        4 1/2 inches    = 11.43 cm
+diagonal 370 pixels = 47.26 cm -> radius=23.63 cm
+
+1/43 size
+short    =    4.78 m
+long    =    7.65 m
+turn        radius= 10.16 m
+width    =    4.92 m
+
+times 200
+short    =    22.225 m
+long    =    35.56 m
+turn radius    =    47.26 m
+width    =    9.84 m
+
+Hi Diddle (m)
+-->
+
+<params name="test" type="param" mode="mw">
+    <section name="Surfaces">
+        &default-surfaces;
+
+        <section name="asphalt-aa-bw1">
+            <attnum name="color R1" val="0.1"/>
+            <attnum name="color G1" val="0.1"/>
+            <attnum name="color B1" val="0.1"/>
+            <attnum name="color R2" val="0.2"/>
+            <attnum name="color G2" val="0.2"/>
+            <attnum name="color B2" val="0.2"/>
+            <attstr name="texture name" val="tr-asphalt-aa-bw1_n.rgb"/>
+            <!--attstr name="texture name" val="tr-asphalt-aa-nl-bw1_n.rgb"/-->
+            <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+            <attnum name="texture size" val="15.0001" unit="m"/>
+            <attnum name="texture mipmap" val="0.0" unit="m"/>
+
+            <attstr name="bump name" val=""/>
+            <attnum name="bump size" val="2.0" unit="m"/>
+
+            <attnum name="friction"           val="1.2"/>
+            <attnum name="rolling resistance" val="0.001"/>
+
+            <attnum name="roughness" val="0"/>
+            <attnum name="roughness wavelength" val="1.0"/>
+        </section>
+
+        <section name="tr-road1">
+            <attnum name="color R1" val="0.3"/>
+            <attnum name="color G1" val="0.3"/>
+            <attnum name="color B1" val="0.3"/>
+            <attnum name="color R2" val="0.4"/>
+            <attnum name="color G2" val="0.4"/>
+            <attnum name="color B2" val="0.4"/>
+            <attstr name="texture name" val="tr-road1_n.rgb"/>
+            <attstr name="texture type" in="discrete, continuous" val="continuous"/>
+            <attnum name="texture size" val="8.0" unit="m"/>
+            <attnum name="texture mipmap" val="0.0" unit="m"/>
+
+            <attnum name="friction"           val="1.0"/>
+            <attnum name="rolling resistance" val="0.002"/>
+
+            <attstr name="bump name" val="astiled.rgb"/>
+            <attnum name="bump size" val="2.0" unit="m"/>
+
+            <attnum name="roughness" val="0.002"/>
+            <attnum name="roughness wavelength" val="0.08"/>
+        </section>
+
+        <section name="barrier-aa-1-bw">
+            <attnum name="color R1" val="1.0"/>
+            <attnum name="color G1" val="0.0"/>
+            <attnum name="color B1" val="0.0"/>
+            <attnum name="color R2" val="1.0"/>
+            <attnum name="color G2" val="1.0"/>
+            <attnum name="color B2" val="1.0"/>
+            <attstr name="texture name" val="tr-barrier.rgb"/>
+            <attstr name="texture type" in="discrete, continuous" val="continuous"/>
+            <attnum name="texture size" val="10.0" unit="m"/>
+            <attnum name="texture mipmap" val="4.0"/>
+
+            <attnum name="friction"           val="0.0"/>
+
+            <attnum name="roughness" val="0.03"/>
+            <attnum name="roughness wavelength" val="4.0"/>
+        </section>
+
+        <section name="grass-aa">
+            <attnum name="color R1" val="0.1"/>
+            <attnum name="color G1" val="0.4"/>
+            <attnum name="color B1" val="0.1"/>
+            <attnum name="color R2" val="0.2"/>
+            <attnum name="color G2" val="0.5"/>
+            <attnum name="color B2" val="0.2"/>
+            <attstr name="texture name" val="grass-aa.rgb"/>
+            <attstr name="texture type" in="discrete, continuous" val="continuous"/>
+            <attnum name="texture size" val="20.0" unit="m"/>
+            <attnum name="texture mipmap" val="4.0"/>
+
+            <attstr name="bump name" val=""/>
+            <attnum name="bump size" val="2.0" unit="m"/>
+
+            <attnum name="friction"           val="0.4"/>
+            <attnum name="rolling resistance" val="0.01"/>
+
+            <attnum name="roughness" val="0.05"/>
+            <attnum name="roughness wavelength" val="0.5"/>
+        </section>
+    </section>
+
+    <section name="Header">
+        <attstr name="name" val="hididdle" />
+        <attstr name="category" val="road" />
+        <attnum name="version" val="4" />
+        <attstr name="author" val="Katarr, kilo" />
+        <attstr name="description" val="HiDiddle slotcar track design by Katarr" />
+    </section>
+
+    <section name="Graphic">
+        <attstr name="3d description" val="hididdle.ac" />
+        <attstr name="background image" val="background.png"/>
+        <attnum name="background color R" val="0.5"/>
+        <attnum name="background color G" val="0.5"/>
+        <attnum name="background color B" val="0.55"/>
+
+        <attnum name="ambient color R" val="0.2"/>
+        <attnum name="ambient color G" val="0.2"/>
+        <attnum name="ambient color B" val="0.2"/>
+
+        <attnum name="diffuse color R" val="1"/>
+        <attnum name="diffuse color G" val="1"/>
+        <attnum name="diffuse color B" val="1"/>
+
+        <attnum name="specular color R" val="0.1"/>
+        <attnum name="specular color G" val="0.1"/>
+        <attnum name="specular color B" val="0.1"/>
+
+        <attnum name="light position x" val="400"/>
+        <attnum name="light position y" val="-1200"/>
+        <attnum name="light position z" val="544"/>
+        <section name="Terrain Generation">
+            <attnum name="track step" unit="m" val="80" />
+            <attnum name="border margin" unit="m" val="400" />
+            <attnum name="border step" unit="m" val="100" />
+            <attnum name="border height" unit="m" val="6" />
+            <attnum name="group size" val="200" />
+            <attstr name="orientation" val="clockwise" />
+            <attstr name="surface" val="grass-aa"/>
+        </section>
+    </section>
+
+
+    <section name="Main Track">
+        <attnum name="width" unit="m" val="11.5" />
+        <attnum name="profil steps length" unit="m" val="4.0" />
+        <attstr name="profil" in="linear,spline" val="spline"/>
+        <attstr name="surface" val="asphalt-aa-bw1" />
+        <!--Left part of track-->
+        <section name="Left Side">
+            <attnum name="start width" unit="m" val="2.0" />
+            <attnum name="end width" unit="m" val="2.0" />
+            <attstr name="surface" val="tr-road1" />
+        </section>
+        <section name="Left Barrier">
+            <attstr name="surface" val="barrier-aa-1-bw"/>
+            <attstr name="style" val="wall"/>
+            <attnum name="width" val="0.3"/>
+            <attnum name="height" val="0.2"/><!--0.8-->
+        </section>
+        <!--End of left part-->
+        <!--Right part of track-->
+        <section name="Right Side">
+            <attnum name="start width" unit="m" val="2.0" />
+            <attnum name="end width" unit="m" val="2.0" />
+            <attstr name="surface" val="tr-road1" />
+        </section>
+        <section name="Right Barrier">
+            <attstr name="surface" val="barrier-aa-1-bw"/>
+            <attstr name="style" val="wall"/>
+            <attnum name="width" val="0.3"/>
+            <attnum name="height" val="0.2"/><!--0.8-->
+        </section>
+        <!--End of right part-->
+
+        <section name="Track Segments">
+            <!--******************************-->
+            <!--     Segment 1                -->
+            <!--******************************-->
+            <!--
+            <section name="s1" type="str" lg="3*L" comment="3L" />
+            <section name="s2" type="lft" arc="90" radius="23.63" />
+            <section name="s3" type="str" lg="10*L+1*S" comment="10L,1S">
+                <section name="Right Border" width="" height="" surface="" style="" />
+                <section name="Right Side" startwidth="" endwidth="" surface="" />
+                <section name="Right Barrier" width="" height="" surface="" style="" />
+            </section>
+            -->
+
+            <!--3L-->
+            <section name="s1">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="80.68" />
+            </section>
+            <section name="s2">
+                <attstr name="type" val="lft" />
+                <attnum name="arc" unit="deg" val="90" />
+                <attnum name="radius" unit="m" val="38" />
+            </section>
+            <!--10L 1S-->
+            <section name="s3">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="377.825" />
+                <attnum name="banking end" unit="deg" val="-10.0" />
+            </section>
+            <section name="s4">
+                <attstr name="type" val="lft" />
+                <attnum name="arc" unit="deg" val="45" />
+                <attnum name="radius" unit="m" val="38" />
+                <attnum name="banking end" unit="deg" val="-10.0" />
+            </section>
+            <!--1L-->
+            <section name="s5">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="35.56" />
+                <attnum name="banking end" unit="deg" val="-10.0" />
+            </section>
+            <section name="s6">
+                <attstr name="type" val="lft" />
+                <attnum name="arc" unit="deg" val="45" />
+                <attnum name="radius" unit="m" val="38" />
+                <attnum name="banking end" unit="deg" val="-10.0" />
+            </section>
+            <!--3L-->
+            <section name="s7">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="80.68" />
+                <attnum name="banking end" unit="deg" val="-10.0" />
+            </section>
+            <section name="s8">
+                <attstr name="type" val="lft" />
+                <attnum name="arc" unit="deg" val="45" />
+                <attnum name="radius" unit="m" val="38" />
+                <attnum name="banking end" unit="deg" val="-10.0" />
+            </section>
+            <!--1L-->
+            <section name="s9">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="35.56" />
+                <attnum name="banking end" unit="deg" val="-10.0" />
+            </section>
+            <section name="s10">
+                <attstr name="type" val="lft" />
+                <attnum name="arc" unit="deg" val="45" />
+                <attnum name="radius" unit="m" val="38" />
+                <attnum name="banking end" unit="deg" val="-10.0" />
+            </section>
+            <!--5L 4S-->
+            <section name="s11">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="266.7" />
+                <attnum name="banking end" unit="deg" val="0.0" />
+            </section>
+            <section name="s12">
+                <attstr name="type" val="lft" />
+                <attnum name="arc" unit="deg" val="90" />
+                <attnum name="radius" unit="m" val="38" />
+            </section>
+            <section name="s13">
+                <attstr name="type" val="rgt" />
+                <attnum name="arc" unit="deg" val="45" />
+                <attnum name="radius" unit="m" val="38" />
+            </section>
+            <!--1L-->
+            <section name="s14">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="35.56" />
+            </section>
+            <section name="s15">
+                <attstr name="type" val="lft" />
+                <attnum name="arc" unit="deg" val="45" />
+                <attnum name="radius" unit="m" val="38" />
+            </section>
+            <!--1S-->
+            <section name="s16">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="22.225" />
+            </section>
+            <section name="s17">
+                <attstr name="type" val="lft" />
+                <attnum name="arc" unit="deg" val="90" />
+                <attnum name="radius" unit="m" val="38" />
+            </section>
+            <!--7L 1S-->
+            <section name="s18">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="271.145" />
+            </section>
+            <section name="s19">
+                <attstr name="type" val="lft" />
+                <attnum name="arc" unit="deg" val="90" />
+                <attnum name="radius" unit="m" val="38" />
+            </section>
+            <!--2S-->
+            <section name="s20">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="44.45" />
+            </section>
+            <section name="s21">
+                <attstr name="type" val="lft" />
+                <attnum name="arc" unit="deg" val="90" />
+                <attnum name="radius" unit="m" val="38" />
+            </section>
+            <!--6L-->
+            <section name="s22">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="213.36" />
+                <attnum name="banking end" unit="deg" val="-10.0" />
+            </section>
+            <section name="s23">
+                <attstr name="type" val="lft" />
+                <attnum name="arc" unit="deg" val="225" />
+                <attnum name="radius" unit="m" val="38" />
+                <attnum name="banking end" unit="deg" val="-10.0" />
+            </section>
+            <section name="s24">
+                <attstr name="type" val="rgt" />
+                <attnum name="arc" unit="deg" val="45" />
+                <attnum name="radius" unit="m" val="38" />
+                <attnum name="banking end" unit="deg" val="-5.0" />
+            </section>
+            <!--2L-->
+            <section name="s25">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="71.12" />
+                <attnum name="banking end" unit="deg" val="5.0" />
+            </section>
+            <section name="s26">
+                <attstr name="type" val="lft" />
+                <attnum name="arc" unit="deg" val="45" />
+                <attnum name="radius" unit="m" val="38" />
+                <attnum name="banking end" unit="deg" val="10.0" />
+            </section>
+            <section name="s27">
+                <attstr name="type" val="rgt" />
+                <attnum name="arc" unit="deg" val="225" />
+                <attnum name="radius" unit="m" val="38" />
+                <attnum name="banking end" unit="deg" val="10.0" />
+            </section>
+            <!--6L-->
+            <section name="s28">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="213.36" />
+                <attnum name="z end" unit="m" val="4" />
+                <attnum name="banking end" unit="deg" val="0.0" />
+            </section>
+            <section name="s29">
+                <attstr name="type" val="rgt" />
+                <attnum name="arc" unit="deg" val="45" />
+                <attnum name="radius" unit="m" val="38" />
+                <attnum name="z end" unit="m" val="4" />
+            </section>
+            <!--3S-->
+            <section name="s30">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="66.675" />
+                <attnum name="z end" unit="m" val="4" />
+            </section>
+            <section name="s31">
+                <attstr name="type" val="rgt" />
+                <attnum name="arc" unit="deg" val="135" />
+                <attnum name="radius" unit="m" val="38" />
+                <attnum name="z end" unit="m" val="4" />
+            </section>
+            <!--9L-->
+            <section name="s32">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="320.04" />
+                <attnum name="z end" unit="m" val="0" />
+                <attnum name="banking end" unit="deg" val="10.0" />
+            </section>
+            <section name="s33">
+                <attstr name="type" val="rgt" />
+                <attnum name="arc" unit="deg" val="45" />
+                <attnum name="radius" unit="m" val="38" />
+                <attnum name="banking end" unit="deg" val="10.0" />
+            </section>
+            <!--1S-->
+            <section name="s34">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="22.225" />
+                <attnum name="banking end" unit="deg" val="10.0" />
+            </section>
+            <section name="s35">
+                <attstr name="type" val="rgt" />
+                <attnum name="arc" unit="deg" val="45" />
+                <attnum name="radius" unit="m" val="38" />
+                <attnum name="banking end" unit="deg" val="10.0" />
+            </section>
+            <!--2L-->
+            <section name="s36">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="45.12" />
+                <attnum name="banking end" unit="deg" val="10.0" />
+            </section>
+            <section name="s37">
+                <attstr name="type" val="rgt" />
+                <attnum name="arc" unit="deg" val="45" />
+                <attnum name="radius" unit="m" val="38" />
+                <attnum name="banking end" unit="deg" val="10.0" />
+            </section>
+            <!--1S-->
+            <section name="s38">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="22.225" />
+                <attnum name="banking end" unit="deg" val="10.0" />
+            </section>
+            <section name="s39">
+                <attstr name="type" val="rgt" />
+                <attnum name="arc" unit="deg" val="45" />
+                <attnum name="radius" unit="m" val="38" />
+                <attnum name="banking end" unit="deg" val="10.0" />
+            </section>
+            <!--9L-->
+            <section name="s40">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="321.61554" /><!--320.04-->
+                <attnum name="banking end" unit="deg" val="0.0" />
+            </section>
+            <section name="s41">
+                <attstr name="type" val="rgt" />
+                <attnum name="arc" unit="deg" val="90" />
+                <attnum name="radius" unit="m" val="38" />
+            </section>
+            <!--1L 1S-->
+            <section name="s42">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="31.785" />
+            </section>
+            <section name="s43">
+                <attstr name="type" val="rgt" />
+                <attnum name="arc" unit="deg" val="45" />
+                <attnum name="radius" unit="m" val="38" />
+            </section>
+            <!--1S-->
+            <section name="s44">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="22.225" />
+            </section>
+            <section name="s45">
+                <attstr name="type" val="lft" />
+                <attnum name="arc" unit="deg" val="225" />
+                <attnum name="radius" unit="m" val="38" />
+            </section>
+            <!--2S-->
+            <section name="s46">
+                <attstr name="type" val="str" />
+                <attnum name="lg" unit="m" val="33.98" /><!--44.45-->
+            </section>
+
+        </section>
+    </section>
+
+    <section name="Cameras">
+        <section name="cam 0">
+            <attstr name="segment" val="s2"/>
+            <attnum name="to right" val="-23"/>
+            <attnum name="to start" val="24"/>
+            <attnum name="height" val="18"/>
+            <attstr name="fov start" val="s1"/>
+            <attstr name="fov end" val="s5"/>
+        </section>
+    </section>
+</params>
