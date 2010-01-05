@@ -1,0 +1,40 @@
+TODO
+
+v0.1
+- correct barrier placement
+- correct curb placement
+- correct side widths
+- initial release
+v0.2
+- add pits
+- add bankings
+- check curb heights
+v0.3
+- check friction settings (slippery, rainy?)
+- asphalt texture
+- textures on sides
+- custom curbs
+v0.4
+- add race-selection picture
+- add turnmarks
+- add fences
+- add pit walls
+- pit textures
+- add cameras
+- tirewall textures
+v0.5
+- smoothen terrain
+- add custom turnmarks
+v0.6
+- add stadiums
+- add trees
+v0.7
+- add buildings
+v0.8
+- add special objects (bridges)
+- add ads
+- add shadows
+v0.9
+- add raceline
+v1.0
+- Release
