@@ -46,8 +46,8 @@
       <section name="s1">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="269.91" />
-        <attnum name="z start" unit="m" val="1.2192" />
-        <attnum name="z end" unit="m" val="1.8288" />
+        <attnum name="grade" unit="%" val="0.2" />
+        <attnum name="profil end tangent" unit="%" val="0.1" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -89,7 +89,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="138.0" />
         <attnum name="radius" unit="m" val="12.46" />
-        <attnum name="z end" unit="m" val="1.8288" />
+        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="profil end tangent" unit="%" val="0.3" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -130,7 +131,8 @@
       <section name="s3">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="53.98" />
-        <attnum name="z end" unit="m" val="1.524" />
+        <attnum name="grade" unit="%" val="0.6" />
+        <attnum name="profil end tangent" unit="%" val="-0.4" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -173,7 +175,8 @@
         <attnum name="arc" unit="deg" val="55.0" />
         <attnum name="radius" unit="m" val="16.61" />
         <attnum name="end radius" unit="m" val="124.57" />
-        <attnum name="z end" unit="m" val="1.524" />
+        <attnum name="grade" unit="%" val="-1.4" />
+        <attnum name="profil end tangent" unit="%" val="-1.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -214,7 +217,8 @@
       <section name="s5">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="49.83" />
-        <attnum name="z end" unit="m" val="1.2192" />
+        <attnum name="grade" unit="%" val="-0.6" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -256,7 +260,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="70.0" />
         <attnum name="radius" unit="m" val="83.05" />
-        <attnum name="z end" unit="m" val="1.2192" />
+        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -297,7 +302,8 @@
       <section name="s7">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="94.68" />
-        <attnum name="z end" unit="m" val="0.9144" />
+        <attnum name="grade" unit="%" val="-0.3" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -339,7 +345,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="58.0" />
         <attnum name="radius" unit="m" val="83.05" />
-        <attnum name="z end" unit="m" val="0.9144" />
+        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="profil end tangent" unit="%" val="0.4" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -380,7 +387,8 @@
       <section name="s9-1">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="74.74" />
-        <attnum name="z end" unit="m" val="1.524" />
+        <attnum name="grade" unit="%" val="0.8" />
+        <attnum name="profil end tangent" unit="%" val="0.2" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -420,19 +428,22 @@
       <section name="s9-2">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="74.74" />
-        <attnum name="z end" unit="m" val="1.2192" />
+        <attnum name="grade" unit="%" val="-0.4" />
+        <attnum name="profil end tangent" unit="%" val="-0.4" />
         <attstr name="surface" val="asphalt2-lines" />
       </section>
       <section name="s9-3">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="74.74" />
-        <attnum name="z end" unit="m" val="0.9144" />
+        <attnum name="grade" unit="%" val="-0.4" />
+        <attnum name="profil end tangent" unit="%" val="0.4" />
         <attstr name="surface" val="asphalt2-lines" />
       </section>
       <section name="s9-4">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="74.74" />
-        <attnum name="z end" unit="m" val="1.8288" />
+        <attnum name="grade" unit="%" val="1.2" />
+        <attnum name="profil end tangent" unit="%" val="1.2" />
         <attstr name="surface" val="asphalt2-lines" />
       </section>
       
@@ -441,7 +452,8 @@
         <attnum name="arc" unit="deg" val="80.0" />
         <attnum name="radius" unit="m" val="16.61" />
         <attnum name="end radius" unit="m" val="41.52" />
-        <attnum name="z end" unit="m" val="2.1336" />
+        <attnum name="grade" unit="%" val="1.3" />
+        <attnum name="profil end tangent" unit="%" val="1.6" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -483,7 +495,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="13.0" />
         <attnum name="radius" unit="m" val="498.3" />
-        <attnum name="z end" unit="m" val="4.2672" />
+        <attnum name="grade" unit="%" val="1.9" />
+        <attnum name="profil end tangent" unit="%" val="1.4" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -526,7 +539,8 @@
         <attnum name="arc" unit="deg" val="36.0" />
         <attnum name="radius" unit="m" val="166.1" />
         <attnum name="end radius" unit="m" val="145.34" />
-        <attnum name="z end" unit="m" val="5.1816" />
+        <attnum name="grade" unit="%" val="0.9" />
+        <attnum name="profil end tangent" unit="%" val="-1.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -568,7 +582,8 @@
         <attnum name="arc" unit="deg" val="21.0" />
         <attnum name="radius" unit="m" val="145.34" />
         <attnum name="end radius" unit="m" val="132.88" />
-        <attnum name="z end" unit="m" val="3.3528" />
+        <attnum name="grade" unit="%" val="-3.0" />
+        <attnum name="profil end tangent" unit="%" val="-2.0" />
         <attstr name="surface" val="asphalt2-lines" />
       </section>
       
@@ -577,7 +592,8 @@
         <attnum name="arc" unit="deg" val="35.0" />
         <attnum name="radius" unit="m" val="191.01" />
         <attnum name="end radius" unit="m" val="120.42" />
-        <attnum name="z end" unit="m" val="1.8288" />
+        <attnum name="grade" unit="%" val="-1.3" />
+        <attnum name="profil end tangent" unit="%" val="-0.8" />
         <attstr name="surface" val="asphalt2-lines" />
       </section>
       <section name="s13-2">
@@ -585,7 +601,8 @@
         <attnum name="arc" unit="deg" val="35.0" />
         <attnum name="radius" unit="m" val="145.34" />
         <attnum name="end radius" unit="m" val="95.51" />
-        <attnum name="z end" unit="m" val="1.524" />
+        <attnum name="grade" unit="%" val="-0.3" />
+        <attnum name="profil end tangent" unit="%" val="-0.4" />
         <attstr name="surface" val="asphalt2-lines" />
       </section>
       
@@ -593,7 +610,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="3.0" />
         <attnum name="radius" unit="m" val="913.54" />
-        <attnum name="z end" unit="m" val="1.2192" />
+        <attnum name="grade" unit="%" val="-0.5" />
+        <attnum name="profil end tangent" unit="%" val="-0.4" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -635,7 +653,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="60.0" />
         <attnum name="radius" unit="m" val="83.05" />
-        <attnum name="z end" unit="m" val="0.9144" />
+        <attnum name="grade" unit="%" val="-0.4" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -677,7 +696,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="3.0" />
         <attnum name="radius" unit="m" val="747.44" />
-        <attnum name="z end" unit="m" val="0.6096" />
+        <attnum name="grade" unit="%" val="-0.4" />
+        <attnum name="profil end tangent" unit="%" val="-0.4" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -719,7 +739,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="13.0" />
         <attnum name="radius" unit="m" val="373.72" />
-        <attnum name="z end" unit="m" val="0.3048" />
+        <attnum name="grade" unit="%" val="-0.4" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -760,7 +781,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="12.0" />
         <attnum name="radius" unit="m" val="373.72" />
-        <attnum name="z end" unit="m" val="0.6096" />
+        <attnum name="grade" unit="%" val="0.4" />
+        <attnum name="profil end tangent" unit="%" val="0.2" />
         <attstr name="surface" val="asphalt2-lines" />
       </section>
 
@@ -768,7 +790,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="10.0" />
         <attnum name="radius" unit="m" val="373.72" />
-        <attnum name="z end" unit="m" val="0.6096" />
+        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -811,7 +834,8 @@
         <attnum name="arc" unit="deg" val="73.0" />
         <attnum name="radius" unit="m" val="124.57" />
         <attnum name="end radius" unit="m" val="58.13" />
-        <attnum name="z end" unit="m" val="0.3048" />
+        <attnum name="grade" unit="%" val="-0.2" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -854,7 +878,8 @@
         <attnum name="arc" unit="deg" val="28.0" />
         <attnum name="radius" unit="m" val="166.1" />
         <attnum name="end radius" unit="m" val="232.54" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="grade" unit="%" val="-0.4" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -897,7 +922,8 @@
         <attnum name="arc" unit="deg" val="64.0" />
         <attnum name="radius" unit="m" val="58.13" />
         <attnum name="end radius" unit="m" val="83.05" />
-        <attnum name="z end" unit="m" val="0.3048" />
+        <attnum name="grade" unit="%" val="0.5" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -940,7 +966,8 @@
         <attnum name="arc" unit="deg" val="75.0" />
         <attnum name="radius" unit="m" val="83.05" />
         <attnum name="end radius" unit="m" val="49.83" />
-        <attnum name="z end" unit="m" val="1.2192" />
+        <attnum name="grade" unit="%" val="0.8" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -983,7 +1010,8 @@
         <attnum name="arc" unit="deg" val="87.0" />
         <attnum name="radius" unit="m" val="33.22" />
         <attnum name="end radius" unit="m" val="31.56" />
-        <attnum name="z end" unit="m" val="1.8288" />
+        <attnum name="grade" unit="%" val="1.2" />
+        <attnum name="profil end tangent" unit="%" val="0.6" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1024,7 +1052,8 @@
       <section name="s24">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="23.25" />
-        <attnum name="z end" unit="m" val="1.8288" />
+        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1067,7 +1096,8 @@
         <attnum name="arc" unit="deg" val="49.0" />
         <attnum name="radius" unit="m" val="99.66" />
         <attnum name="end radius" unit="m" val="83.05" />
-        <attnum name="z end" unit="m" val="2.1336" />
+        <attnum name="grade" unit="%" val="0.4" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1109,7 +1139,8 @@
       <section name="s26">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="21.7089567" />
-        <attnum name="z end" unit="m" val="1.8288" />
+        <attnum name="grade" unit="%" val="-0.4" />
+        <attnum name="profil end tangent" unit="%" val="-0.4" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1151,7 +1182,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="61.0" />
         <attnum name="radius" unit="m" val="66.44" />
-        <attnum name="z end" unit="m" val="1.524" />
+        <attnum name="grade" unit="%" val="-0.4" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1193,7 +1225,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="97.0" />
         <attnum name="radius" unit="m" val="16.61" />
-        <attnum name="z end" unit="m" val="1.524" />
+        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="profil end tangent" unit="%" val="0.3" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1234,7 +1267,8 @@
       <section name="s29">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="16.61" />
-        <attnum name="z end" unit="m" val="1.8288" />
+        <attnum name="grade" unit="%" val="0.6" />
+        <attnum name="profil end tangent" unit="%" val="0.3" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1276,7 +1310,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="64.0" />
         <attnum name="radius" unit="m" val="91.35" />
-        <attnum name="z end" unit="m" val="1.8288" />
+        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1318,7 +1353,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="3.0" />
         <attnum name="radius" unit="m" val="635.33" />
-        <attnum name="z end" unit="m" val="1.8288" />
+        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1360,7 +1396,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="12.0" />
         <attnum name="radius" unit="m" val="348.81" />
-        <attnum name="z end" unit="m" val="1.524" />
+        <attnum name="grade" unit="%" val="-0.4" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1401,13 +1438,15 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="11.0" />
         <attnum name="radius" unit="m" val="348.81" />
-        <attnum name="z end" unit="m" val="1.8288" />
+        <attnum name="grade" unit="%" val="0.5" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
       </section>
 
       <section name="s33">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="70.59" />
-        <attnum name="z end" unit="m" val="1.524" />
+        <attnum name="grade" unit="%" val="-0.4" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1449,7 +1488,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="15.0" />
         <attnum name="radius" unit="m" val="373.72" />
-        <attnum name="z end" unit="m" val="2.1336" />
+        <attnum name="grade" unit="%" val="0.6" />
+        <attnum name="profil end tangent" unit="%" val="1.4" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1491,7 +1531,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="3.0" />
         <attnum name="radius" unit="m" val="539.82" />
-        <attnum name="z end" unit="m" val="2.7432" />
+        <attnum name="grade" unit="%" val="1.6" />
+        <attnum name="profil end tangent" unit="%" val="1.3" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1533,7 +1574,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="13.0" />
         <attnum name="radius" unit="m" val="149.49" />
-        <attnum name="z end" unit="m" val="3.048" />
+        <attnum name="grade" unit="%" val="0.9" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1574,7 +1616,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="39.0" />
         <attnum name="radius" unit="m" val="149.49" />
-        <attnum name="z end" unit="m" val="2.1336" />
+        <attnum name="grade" unit="%" val="-0.9" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
       </section>
 
@@ -1582,7 +1625,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="3.0" />
         <attnum name="radius" unit="m" val="913.54" />
-        <attnum name="z end" unit="m" val="1.8288" />
+        <attnum name="grade" unit="%" val="-0.6" />
+        <attnum name="profil end tangent" unit="%" val="-0.4" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1625,7 +1669,8 @@
         <attnum name="arc" unit="deg" val="70.0" />
         <attnum name="radius" unit="m" val="77.24" />
         <attnum name="end radius" unit="m" val="265.76" />
-        <attnum name="z end" unit="m" val="1.524" />
+        <attnum name="grade" unit="%" val="-0.3" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1667,7 +1712,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="2.0" />
         <attnum name="radius" unit="m" val="498.3" />
-        <attnum name="z end" unit="m" val="1.524" />
+        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1709,7 +1755,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="37.0" />
         <attnum name="radius" unit="m" val="232.54" />
-        <attnum name="z end" unit="m" val="2.1336" />
+        <attnum name="grade" unit="%" val="0.4" />
+        <attnum name="profil end tangent" unit="%" val="-0.4" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1751,7 +1798,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="2.0" />
         <attnum name="radius" unit="m" val="2242.33" />
-        <attnum name="z end" unit="m" val="1.2192" />
+        <attnum name="grade" unit="%" val="-1.2" />
+        <attnum name="profil end tangent" unit="%" val="-0.9" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1794,7 +1842,8 @@
         <attnum name="arc" unit="deg" val="27.0" />
         <attnum name="radius" unit="m" val="199.32" />
         <attnum name="end radius" unit="m" val="182.71" />
-        <attnum name="z end" unit="m" val="0.6096" />
+        <attnum name="grade" unit="%" val="-0.6" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1836,7 +1885,8 @@
         <attnum name="arc" unit="deg" val="26.0" />
         <attnum name="radius" unit="m" val="182.71" />
         <attnum name="end radius" unit="m" val="166.1" />
-        <attnum name="z end" unit="m" val="0.6096" />
+        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
       </section>
 
@@ -1845,7 +1895,8 @@
         <attnum name="arc" unit="deg" val="42.0" />
         <attnum name="radius" unit="m" val="315.59" />
         <attnum name="end radius" unit="m" val="498.3" />
-        <attnum name="z end" unit="m" val="1.524" />
+        <attnum name="grade" unit="%" val="0.4" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1888,7 +1939,8 @@
         <attnum name="arc" unit="deg" val="36.0" />
         <attnum name="radius" unit="m" val="332.2" />
         <attnum name="end radius" unit="m" val="290.67" />
-        <attnum name="z end" unit="m" val="1.8288" />
+        <attnum name="grade" unit="%" val="0.1" />
+        <attnum name="profil end tangent" unit="%" val="0.5" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1930,7 +1982,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="30.0" />
         <attnum name="radius" unit="m" val="66.44" />
-        <attnum name="z end" unit="m" val="2.1336" />
+        <attnum name="grade" unit="%" val="0.9" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -1971,7 +2024,8 @@
       <section name="s46">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="158.62" />
-        <attnum name="z end" unit="m" val="1.2192" />
+        <attnum name="grade" unit="%" val="-0.6" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2013,7 +2067,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="43.0" />
         <attnum name="radius" unit="m" val="49.83" />
-        <attnum name="z end" unit="m" val="1.2192" />
+        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="profil end tangent" unit="%" val="-0.2" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2051,11 +2106,13 @@
         </section>
       </section>
 
+      <!-- Z correction -->
       <section name="s48">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="10.0" />
         <attnum name="radius" unit="m" val="345.49" />
-        <attnum name="z end" unit="m" val="1.2192" />
+        <attnum name="grade" unit="%" val="-0.454197" />
+        <attnum name="profil end tangent" unit="%" val="-0.2" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2098,7 +2155,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="40.0" />
         <attnum name="radius" unit="m" val="49.83" />
-        <attnum name="z end" unit="m" val="1.2192" />
+        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -2140,7 +2198,8 @@
       <section name="s50">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="361.012199" />
-        <attnum name="z end" unit="m" val="1.2192" />
+        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="profil end tangent" unit="%" val="0.1" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
