@@ -254,9 +254,9 @@
       <attnum name="color R2" val="0.2"/>
       <attnum name="color G2" val="0.2"/>
       <attnum name="color B2" val="0.2"/>
-      <attstr name="texture name" val="TIREBLAK2.png"/>
+      <attstr name="texture name" val="tire_kn.png"/>
       <attstr name="texture type" in="discrete, continuous" val="continuous"/>
-      <attnum name="texture size" val="2.0"/>
+      <attnum name="texture size" val="4.0"/>
       <attnum name="texture mipmap" val="0.0"/>
 
       <attstr name="bump name" val=""/>
