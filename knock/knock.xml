@@ -291,9 +291,9 @@
 
     <section name="Terrain Generation">
       <attnum name="track step" unit="m" val="20" />
-      <attnum name="border margin" unit="m" val="50" />
+      <attnum name="border margin" unit="m" val="100" />
       <attnum name="border step" unit="m" val="30" />
-      <attnum name="border height" unit="m" val="15" />
+      <attnum name="border height" unit="m" val="10" />
       <attstr name="orientation" val="clockwise" />
       <attstr name="surface" val="grass-kn" />
       <attnum name="group size" val="100" />
