@@ -6,12 +6,7 @@ version             : v 0.6.0 24/4/2005
 copyright           : (C) 2005 by Charalampos Alexopoulos
 email               : 
 -->
-<!--
-This program is free software; you can redistribute it and/or modify it
-under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
--->
+
 <!DOCTYPE params SYSTEM "../../../src/libs/tgf/params.dtd" [
 <!--  general definitions for tracks  -->
 <!ENTITY default-surfaces SYSTEM "../../../data/tracks/surfaces.xml">
