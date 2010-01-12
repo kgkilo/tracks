@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<java version="1.6.0_07" class="java.beans.XMLDecoder"> 
+<java version="1.6.0_16" class="java.beans.XMLDecoder"> 
  <object class="utils.Properties"> 
   <void property="author"> 
    <string>kilo</string> 
@@ -8,46 +8,52 @@
    <string>tracks</string> 
   </void> 
   <void property="currentA"> 
-   <double>-9.428268619273359</double> 
+   <double>-8.937831099462962</double> 
   </void> 
   <void property="currentX"> 
-   <double>287.9040714080949</double> 
+   <double>0.0672696058008</double> 
   </void> 
   <void property="currentY"> 
-   <double>-851.2897346775959</double> 
+   <double>-1.9448817759742</double> 
   </void> 
   <void property="curveNameCount"> 
-   <int>50</int> 
+   <int>51</int> 
   </void> 
   <void property="description"> 
-   <string></string> 
+   <string>St Pete Waterfront</string> 
   </void> 
   <void property="image"> 
-   <string>/home/kilo/Proj/torcs/tracks/Peters/doc/St._Petersburg.jpg</string> 
-  </void> 
-  <void property="imageScale"> 
-   <double>0.2456</double> 
+   <string>/home/kilo/Proj/tracks/Peters/doc/SatPeters2.png</string> 
   </void> 
   <void property="path"> 
-   <string>/home/kilo/Proj/torcs/tracks/Peters</string> 
+   <string>/home/kilo/Proj/tracks/Peters</string> 
   </void> 
   <void property="pitEnd"> 
-   <string></string> 
+   <string>s2</string> 
   </void> 
   <void property="pitEntry"> 
-   <string></string> 
+   <string>s40</string> 
   </void> 
   <void property="pitExit"> 
-   <string></string> 
+   <string>s3</string> 
+  </void> 
+  <void property="pitLength"> 
+   <double>15.0</double> 
   </void> 
   <void property="pitStart"> 
-   <string></string> 
+   <string>s41</string> 
+  </void> 
+  <void property="pitWidth"> 
+   <double>5.0</double> 
   </void> 
   <void property="straightNameCount"> 
    <int>23</int> 
   </void> 
   <void property="trackName"> 
    <string>Peters</string> 
+  </void> 
+  <void property="trackWidth"> 
+   <double>13.0</double> 
   </void> 
  </object> 
 </java> 
