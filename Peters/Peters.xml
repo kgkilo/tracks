@@ -969,9 +969,10 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Y correction -->
       <section name="s29">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="259.33" />
+        <attnum name="lg" unit="m" val="258.349999" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <section name="Left Border">
@@ -1235,9 +1236,10 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Angle correction -->
       <section name="s38">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="80.0" />
+        <attnum name="arc" unit="deg" val="80.10021" />
         <attnum name="radius" unit="m" val="47.93" />
         <attnum name="end radius" unit="m" val="24.5" />
         <attnum name="z start" unit="m" val="0.0" />
@@ -1316,9 +1318,10 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- X correction -->
       <section name="s41">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="322.7" />
+        <attnum name="lg" unit="m" val="322.47176" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <section name="Left Barrier">
