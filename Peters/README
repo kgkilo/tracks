@@ -9,4 +9,26 @@ Copyleft: This is a free work, you can copy, distribute,
 and modify it under the terms of the Free Art License
 http://artlibre.org/licence/lal/en/
 
+References:
 http://www.na-motorsports.com/Tracks/FL/StPete.html
+http://theracingline.net/racingcircuits/racingcircuits/UnitedStates/fl/StPetersburg.html
+http://en.wikipedia.org/wiki/Honda_Grand_Prix_of_St._Petersburg
+http://www.gpstpete.com/
+
+Notes:
+The track has a special profile for most of it:
+
+  |                              |
+  |.__________________________.__|
+
+| = wall w/fence
+_ = road or side
+. = red line or curb (border)
+
+Typical measures are:
+ track width = 13m
+ border = 0.5m
+ side (optional) = 0 - 10m
+On some parts there are run-off areas where the side width
+is little bit more (drawn on the left).
+In the airport area there are modifications for this scheme.
