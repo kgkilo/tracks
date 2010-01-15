@@ -54,6 +54,7 @@ the Free Software Foundation; either version 2 of the License, or
     </section>
     
     <section name="Track Segments">
+			<!-- Runway 6/24 -->
       <section name="s1">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="2.0" />
@@ -139,6 +140,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Turn 1 -->
       <section name="s4">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="77.0" />
@@ -264,6 +266,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Turn 2 -->
       <section name="s8-1">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="33.0" />
@@ -387,6 +390,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- 5th Ave SE -->
       <section name="s11">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="26.0" />
@@ -434,6 +438,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Turn 3 -->
       <section name="s13">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="52.3" />
@@ -460,6 +465,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- 1st St SW -->
       <section name="s14">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="376.48" />
@@ -485,6 +491,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Turn 4 -->
       <section name="s15">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="82.0" />
@@ -506,6 +513,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- 2nd Ave SE parking lot -->
       <section name="s16">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="46.86" />
@@ -525,6 +533,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Turn 5 -->
       <section name="s17">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="82.0" />
@@ -578,6 +587,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Turn 6 -->
       <section name="s19">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="35.0" />
@@ -599,6 +609,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Turn 7 -->
       <section name="s20">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="42.2" />
@@ -620,6 +631,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Beach St -->
       <section name="s21">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="55.91" />
@@ -645,6 +657,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Turn 8 -->
       <section name="s22">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="85.6" />
@@ -665,6 +678,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Central Ave SE -->
       <section name="s23">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="66.56" />
@@ -684,6 +698,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Turn 9 -->
       <section name="s24">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="98.0" />
@@ -705,6 +720,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Bay Short Dr SE -->
       <section name="s25">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="42.6" />
@@ -810,6 +826,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Turn 10 -->
       <section name="s30">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="84.0" />
@@ -914,6 +931,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Turn 11 -->
       <section name="s33">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="29.0" />
@@ -953,6 +971,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Turn 12 -->
       <section name="s35">
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="40.5" />
@@ -1014,6 +1033,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Turn 13 -->
       <section name="s37">
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="100.0" />
@@ -1046,6 +1066,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Turn 14 -->
 			<!-- Angle correction -->
       <section name="s38">
         <attstr name="type" val="rgt" />
@@ -1084,6 +1105,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
+			<!-- Runway 6/24 -->
       <section name="s39">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="31.95" />
