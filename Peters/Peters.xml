@@ -487,7 +487,7 @@ the Free Software Foundation; either version 2 of the License, or
 
       <section name="s15">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="88.0" />
+        <attnum name="arc" unit="deg" val="82.0" />
         <attnum name="radius" unit="m" val="10.65" />
         <attnum name="end radius" unit="m" val="13.31" />
         <attnum name="z start" unit="m" val="0.0" />
@@ -527,7 +527,7 @@ the Free Software Foundation; either version 2 of the License, or
 
       <section name="s17">
         <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="88.0" />
+        <attnum name="arc" unit="deg" val="82.0" />
         <attnum name="radius" unit="m" val="31.95" />
         <attnum name="end radius" unit="m" val="15.98" />
         <attnum name="z start" unit="m" val="0.0" />
@@ -787,7 +787,7 @@ the Free Software Foundation; either version 2 of the License, or
 			<!-- Y correction -->
       <section name="s29">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="258.349999" />
+        <attnum name="lg" unit="m" val="264.78579" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <section name="Left Border">
@@ -992,7 +992,7 @@ the Free Software Foundation; either version 2 of the License, or
 
       <section name="s36">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="109.16" />
+        <attnum name="lg" unit="m" val="109.81" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <section name="Left Barrier">
@@ -1141,7 +1141,7 @@ the Free Software Foundation; either version 2 of the License, or
 			<!-- X correction -->
       <section name="s41">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="322.47176" />
+        <attnum name="lg" unit="m" val="322.31786" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <section name="Left Barrier">
