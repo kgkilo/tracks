@@ -28,7 +28,7 @@ _ = road or side
 
 Typical measures are:
  track width = 13m
- border = 0.5m
+ border = 1m
  side (optional) = 0 - 10m
 On some parts there are run-off areas where the side width
 is little bit more (drawn on the left).

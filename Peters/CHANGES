@@ -1,3 +1,8 @@
 
 v0.1
-    - initial release
+  - initial release
+	- correct barrier placement
+	- correct side widths
+	- correct curb placement
+	- correct length
+	
