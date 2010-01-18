@@ -27,7 +27,7 @@ _ = road or side
 . = red line or curb (border)
 
 Typical measures are:
- track width = 13m
+ track width = 12m
  border = 1m
  side (optional) = 0 - 10m
 On some parts there are run-off areas where the side width
