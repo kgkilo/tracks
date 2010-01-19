@@ -109,7 +109,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Right Side">
           <attnum name="start width" unit="m" val="18.0" />
           <attnum name="end width" unit="m" val="18.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="road" />
         </section>
         <section name="Right Barrier">
           <attnum name="width" unit="m" val="0.1" />
@@ -134,7 +134,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Right Side">
           <attnum name="start width" unit="m" val="18.0" />
           <attnum name="end width" unit="m" val="9.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="road" />
         </section>
       </section>
 
@@ -837,7 +837,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Right Side">
           <attnum name="start width" unit="m" val="9.0" />
           <attnum name="end width" unit="m" val="18.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="road" />
         </section>
       </section>
 
