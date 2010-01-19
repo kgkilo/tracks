@@ -197,7 +197,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.05" />
+          <attnum name="height" unit="m" val="0.10" />
           <attstr name="surface" val="curb-5cm-r" />
           <attstr name="style" val="curb" />
         </section>
@@ -228,7 +228,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="banking end" unit="deg" val="-1.0"/>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.05" />
+          <attnum name="height" unit="m" val="0.10" />
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
@@ -682,7 +682,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="banking end" unit="deg" val="-1.0"/>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.05" />
+          <attnum name="height" unit="m" val="0.10" />
           <attstr name="surface" val="curb-5cm-l" />
           <attstr name="style" val="curb" />
         </section>
@@ -717,6 +717,12 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="profile end tangent" unit="%" val="0.0" />
         <attnum name="banking start" unit="deg" val="-1.0"/>
         <attnum name="banking end" unit="deg" val="0.0"/>
+        <section name="Left Border">
+          <attnum name="width" unit="m" val="1.0" />
+          <attnum name="height" unit="m" val="0.05" />
+          <attstr name="surface" val="curb-5cm-l" />
+          <attstr name="style" val="curb" />
+        </section>
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="0.0" />
@@ -825,7 +831,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="0.05" />
+          <attnum name="height" unit="m" val="0.10" />
           <attstr name="surface" val="curb-5cm-r" />
           <attstr name="style" val="curb" />
         </section>
