@@ -82,7 +82,8 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="2.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <attnum name="grade" unit="%" val="1.1" />
-        <attnum name="profile end tangent" unit="%" val="0.0" />
+        <attnum name="profile end tangent" unit="%" val="1.4" />
+        <attstr name="surface" val="rwy-pete" />
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
@@ -909,7 +910,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="321.99062" />
         <attnum name="grade" unit="%" val="-0.2996593" />
-        <attnum name="profile end tangent" unit="%" val="0.0" />
+        <attnum name="profile end tangent" unit="%" val="0.4" />
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
