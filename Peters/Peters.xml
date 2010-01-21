@@ -29,6 +29,9 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="color G2" val="1.0"/>
       <attnum name="color B2" val="1.0"/>
       <attstr name="texture name" val="tr-wall-arbor-fence_n.png"/>
+<!--
+      <attstr name="texture name" val="michigan-arbor_n.rgb"/>
+-->
       <attstr name="texture type" in="discrete, continuous" val="continuous"/>
       <attnum name="texture size" val="6.0" unit="m"/>
       <attnum name="texture mipmap" val="4.0"/>
@@ -101,6 +104,14 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="barrier-fence" />
           <attstr name="style" val="fence" />
         </section>
+<!--
+        <section name="Left Barrier">
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="5.0" />
+          <attstr name="surface" val="barrier-fence" />
+          <attstr name="style" val="wall" />
+        </section>
+-->
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
