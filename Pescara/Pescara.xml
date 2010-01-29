@@ -45,7 +45,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="551.92" />
         <attnum name="grade" unit="%" val="0.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -86,7 +86,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="458.78" />
         <attnum name="grade" unit="%" val="-0.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -126,7 +126,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="359.69" />
         <attnum name="grade" unit="%" val="-0.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -169,8 +169,8 @@
         <attnum name="arc" unit="deg" val="92.0" />
         <attnum name="radius" unit="m" val="36.66" />
         <attnum name="end radius" unit="m" val="39.64" />
-        <attnum name="grade" unit="%" val="2.6" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="0.6" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -255,7 +255,7 @@
         <attnum name="arc" unit="deg" val="75.0" />
         <attnum name="radius" unit="m" val="9.91" />
         <attnum name="grade" unit="%" val="0.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.6" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -296,7 +296,7 @@
         <attnum name="arc" unit="deg" val="16.0" />
         <attnum name="radius" unit="m" val="663.89" />
         <attnum name="grade" unit="%" val="1.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.6" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -336,7 +336,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="317.08" />
         <attnum name="grade" unit="%" val="0.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -377,7 +377,7 @@
         <attnum name="arc" unit="deg" val="10.0" />
         <attnum name="radius" unit="m" val="693.61" />
         <attnum name="grade" unit="%" val="-0.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-1.2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -417,7 +417,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="79.27" />
         <attnum name="grade" unit="%" val="-1.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-1.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -458,7 +458,7 @@
         <attnum name="arc" unit="deg" val="109.0" />
         <attnum name="radius" unit="m" val="22.79" />
         <attnum name="grade" unit="%" val="0.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -498,7 +498,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="584.62" />
         <attnum name="grade" unit="%" val="0.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -539,7 +539,7 @@
         <attnum name="arc" unit="deg" val="8.0" />
         <attnum name="radius" unit="m" val="792.7" />
         <attnum name="grade" unit="%" val="0.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -579,7 +579,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="277.45" />
         <attnum name="grade" unit="%" val="1.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -620,7 +620,7 @@
         <attnum name="arc" unit="deg" val="20.0" />
         <attnum name="radius" unit="m" val="79.27" />
         <attnum name="grade" unit="%" val="0.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-0.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -660,7 +660,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="49.54" />
         <attnum name="grade" unit="%" val="-1.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-0.6" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -701,7 +701,7 @@
         <attnum name="arc" unit="deg" val="10.0" />
         <attnum name="radius" unit="m" val="247.72" />
         <attnum name="grade" unit="%" val="0.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -741,7 +741,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="148.63" />
         <attnum name="grade" unit="%" val="-0.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -783,7 +783,7 @@
         <attnum name="radius" unit="m" val="198.18" />
         <attnum name="end radius" unit="m" val="247.72" />
         <attnum name="grade" unit="%" val="-0.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -823,7 +823,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="277.45" />
         <attnum name="grade" unit="%" val="0.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.7" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -866,7 +866,7 @@
         <attnum name="arc" unit="deg" val="90.5" />
         <attnum name="radius" unit="m" val="39.64" />
         <attnum name="grade" unit="%" val="0.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="2.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -906,7 +906,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="317.08" />
         <attnum name="grade" unit="%" val="3.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="2.4" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -947,7 +947,7 @@
         <attnum name="arc" unit="deg" val="30.0" />
         <attnum name="radius" unit="m" val="198.18" />
         <attnum name="grade" unit="%" val="0.6" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -988,7 +988,7 @@
         <attnum name="arc" unit="deg" val="9.0" />
         <attnum name="radius" unit="m" val="297.26" />
         <attnum name="grade" unit="%" val="0.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="1.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1028,7 +1028,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="178.36" />
         <attnum name="grade" unit="%" val="3.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="1.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1068,7 +1068,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="178.36" />
         <attnum name="grade" unit="%" val="0.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="1.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1108,8 +1108,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="50.0" />
         <attnum name="radius" unit="m" val="99.09" />
-        <attnum name="grade" unit="%" val="5.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="3.3" />
+        <attnum name="profil end tangent" unit="%" val="1.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1229,8 +1229,8 @@
       <section name="30">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="307.17" />
-        <attnum name="grade" unit="%" val="1.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="2.8" />
+        <attnum name="profil end tangent" unit="%" val="5.2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1274,7 +1274,7 @@
         <attnum name="radius" unit="m" val="247.72" />
         <attnum name="end radius" unit="m" val="416.17" />
         <attnum name="grade" unit="%" val="6.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="4.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1314,8 +1314,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="8.0" />
         <attnum name="radius" unit="m" val="495.44" />
-        <attnum name="grade" unit="%" val="2.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="3.2" />
+        <attnum name="profil end tangent" unit="%" val="1.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1357,7 +1357,7 @@
         <attnum name="radius" unit="m" val="277.45" />
         <attnum name="end radius" unit="m" val="99.09" />
         <attnum name="grade" unit="%" val="0.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1396,8 +1396,8 @@
       <section name="34">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="94.13" />
-        <attnum name="grade" unit="%" val="-1.6" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="0.1" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1438,8 +1438,8 @@
         <attnum name="arc" unit="deg" val="25.0" />
         <attnum name="radius" unit="m" val="198.18" />
         <attnum name="end radius" unit="m" val="118.91" />
-        <attnum name="grade" unit="%" val="-1.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-0.1" />
+        <attnum name="profil end tangent" unit="%" val="1.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1481,7 +1481,7 @@
         <attnum name="radius" unit="m" val="118.91" />
         <attnum name="end radius" unit="m" val="188.27" />
         <attnum name="grade" unit="%" val="2.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="3.2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1521,7 +1521,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="356.72" />
         <attnum name="grade" unit="%" val="3.6" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="3.7" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1562,8 +1562,8 @@
         <attnum name="arc" unit="deg" val="23.0" />
         <attnum name="radius" unit="m" val="237.81" />
         <attnum name="end radius" unit="m" val="148.63" />
-        <attnum name="grade" unit="%" val="5.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="4.1" />
+        <attnum name="profil end tangent" unit="%" val="3.8" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1603,7 +1603,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="287.35" />
         <attnum name="grade" unit="%" val="3.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="4.8" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1643,8 +1643,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="14.0" />
         <attnum name="radius" unit="m" val="198.18" />
-        <attnum name="grade" unit="%" val="6.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="5.8" />
+        <attnum name="profil end tangent" unit="%" val="5.8" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1684,7 +1684,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="148.63" />
         <attnum name="grade" unit="%" val="5.7" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="6.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1725,7 +1725,7 @@
         <attnum name="arc" unit="deg" val="8.0" />
         <attnum name="radius" unit="m" val="346.81" />
         <attnum name="grade" unit="%" val="7.6" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="7.4" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1767,7 +1767,7 @@
         <attnum name="radius" unit="m" val="128.81" />
         <attnum name="end radius" unit="m" val="99.09" />
         <attnum name="grade" unit="%" val="6.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="8.7" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1807,7 +1807,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="55.49" />
         <attnum name="grade" unit="%" val="11.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="11.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1847,8 +1847,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="9.0" />
         <attnum name="radius" unit="m" val="346.81" />
-        <attnum name="grade" unit="%" val="1.7" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="10.7" />
+        <attnum name="profil end tangent" unit="%" val="8.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1888,7 +1888,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="74.32" />
         <attnum name="grade" unit="%" val="4.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="3.1" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1928,8 +1928,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="69.0" />
         <attnum name="radius" unit="m" val="49.54" />
-        <attnum name="grade" unit="%" val="4.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="2.1" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -1969,7 +1969,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="61.43" />
         <attnum name="grade" unit="%" val="-2.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-0.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2010,7 +2010,7 @@
         <attnum name="arc" unit="deg" val="76.0" />
         <attnum name="radius" unit="m" val="34.68" />
         <attnum name="grade" unit="%" val="1.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="1.6" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2050,7 +2050,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="15.85" />
         <attnum name="grade" unit="%" val="1.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="2.6" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2092,7 +2092,7 @@
         <attnum name="radius" unit="m" val="39.64" />
         <attnum name="end radius" unit="m" val="23.78" />
         <attnum name="grade" unit="%" val="3.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2131,8 +2131,8 @@
       <section name="s52">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="49.54" />
-        <attnum name="grade" unit="%" val="-7.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-3.0" />
+        <attnum name="profil end tangent" unit="%" val="-2.2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2173,7 +2173,7 @@
         <attnum name="arc" unit="deg" val="43.0" />
         <attnum name="radius" unit="m" val="49.54" />
         <attnum name="grade" unit="%" val="-1.6" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="2.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2213,7 +2213,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="44.59" />
         <attnum name="grade" unit="%" val="6.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="4.2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2255,7 +2255,7 @@
         <attnum name="radius" unit="m" val="73.32" />
         <attnum name="end radius" unit="m" val="89.18" />
         <attnum name="grade" unit="%" val="3.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2297,7 +2297,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="39.64" />
         <attnum name="grade" unit="%" val="-2.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2338,8 +2338,8 @@
         <attnum name="arc" unit="deg" val="50.0" />
         <attnum name="radius" unit="m" val="49.54" />
         <attnum name="end radius" unit="m" val="43.6" />
-        <attnum name="grade" unit="%" val="3.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="2.0" />
+        <attnum name="profil end tangent" unit="%" val="-0.6" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2379,7 +2379,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="48.55" />
         <attnum name="grade" unit="%" val="-3.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-4.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2420,7 +2420,7 @@
         <attnum name="arc" unit="deg" val="21.0" />
         <attnum name="radius" unit="m" val="79.27" />
         <attnum name="grade" unit="%" val="-5.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-1.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2460,7 +2460,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="51.53" />
         <attnum name="grade" unit="%" val="3.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="3.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2501,7 +2501,7 @@
         <attnum name="arc" unit="deg" val="11.0" />
         <attnum name="radius" unit="m" val="39.64" />
         <attnum name="grade" unit="%" val="4.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="5.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2540,8 +2540,8 @@
       <section name="s62">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="44.59" />
-        <attnum name="grade" unit="%" val="8.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="6.2" />
+        <attnum name="profil end tangent" unit="%" val="6.2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2581,8 +2581,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="3.5" />
         <attnum name="radius" unit="m" val="49.54" />
-        <attnum name="grade" unit="%" val="10.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="6.1" />
+        <attnum name="profil end tangent" unit="%" val="6.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2621,8 +2621,8 @@
       <section name="s64">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="122.87" />
-        <attnum name="grade" unit="%" val="2.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="4.2" />
+        <attnum name="profil end tangent" unit="%" val="2.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2662,8 +2662,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="18.0" />
         <attnum name="radius" unit="m" val="198.18" />
-        <attnum name="grade" unit="%" val="0.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="1.0" />
+        <attnum name="profil end tangent" unit="%" val="2.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2704,7 +2704,7 @@
         <attnum name="arc" unit="deg" val="39.0" />
         <attnum name="radius" unit="m" val="178.36" />
         <attnum name="grade" unit="%" val="4.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="3.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2744,7 +2744,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="39.64" />
         <attnum name="grade" unit="%" val="2.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2788,7 +2788,7 @@
         <attnum name="radius" unit="m" val="74.32" />
         <attnum name="end radius" unit="m" val="49.54" />
         <attnum name="grade" unit="%" val="-2.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-1.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2827,8 +2827,8 @@
       <section name="s69">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="115.93" />
-        <attnum name="grade" unit="%" val="3.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="1.2" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2870,7 +2870,7 @@
         <attnum name="radius" unit="m" val="118.91" />
         <attnum name="end radius" unit="m" val="99.09" />
         <attnum name="grade" unit="%" val="1.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="1.8" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2910,7 +2910,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="37.65" />
         <attnum name="grade" unit="%" val="2.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="3.7" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2952,7 +2952,7 @@
         <attnum name="radius" unit="m" val="69.36" />
         <attnum name="end radius" unit="m" val="59.45" />
         <attnum name="grade" unit="%" val="5.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="5.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -2994,7 +2994,7 @@
         <attnum name="radius" unit="m" val="133.77" />
         <attnum name="end radius" unit="m" val="94.13" />
         <attnum name="grade" unit="%" val="4.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="3.2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3033,8 +3033,8 @@
       <section name="s74">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="41.62" />
-        <attnum name="grade" unit="%" val="2.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="3.2" />
+        <attnum name="profil end tangent" unit="%" val="4.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3076,7 +3076,7 @@
         <attnum name="radius" unit="m" val="99.09" />
         <attnum name="end radius" unit="m" val="138.72" />
         <attnum name="grade" unit="%" val="6.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="6.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3116,7 +3116,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="51.53" />
         <attnum name="grade" unit="%" val="6.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="7.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3158,7 +3158,7 @@
         <attnum name="radius" unit="m" val="247.72" />
         <attnum name="end radius" unit="m" val="99.09" />
         <attnum name="grade" unit="%" val="8.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="6.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3198,7 +3198,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="49.54" />
         <attnum name="grade" unit="%" val="4.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="4.4" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3241,8 +3241,8 @@
         <attnum name="arc" unit="deg" val="103.0" />
         <attnum name="radius" unit="m" val="21.8" />
         <attnum name="end radius" unit="m" val="29.73" />
-        <attnum name="grade" unit="%" val="17.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="4.4" />
+        <attnum name="profil end tangent" unit="%" val="7.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3282,7 +3282,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="54.5" />
         <attnum name="grade" unit="%" val="10.6" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="10.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3323,8 +3323,8 @@
         <attnum name="arc" unit="deg" val="33.0" />
         <attnum name="radius" unit="m" val="39.64" />
         <attnum name="end radius" unit="m" val="89.18" />
-        <attnum name="grade" unit="%" val="17.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="10.4" />
+        <attnum name="profil end tangent" unit="%" val="8.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3364,7 +3364,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="64.41" />
         <attnum name="grade" unit="%" val="6.6" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="4.6" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3404,8 +3404,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="8.0" />
         <attnum name="radius" unit="m" val="148.63" />
-        <attnum name="grade" unit="%" val="1.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="4.4" />
+        <attnum name="profil end tangent" unit="%" val="4.2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3444,8 +3444,8 @@
       <section name="s84">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="89.18" />
-        <attnum name="grade" unit="%" val="-2.7" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="0.7" />
+        <attnum name="profil end tangent" unit="%" val="-0.9" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3486,7 +3486,7 @@
         <attnum name="arc" unit="deg" val="42.0" />
         <attnum name="radius" unit="m" val="69.36" />
         <attnum name="grade" unit="%" val="-2.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-1.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3526,7 +3526,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="87.2" />
         <attnum name="grade" unit="%" val="0.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.8" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3568,7 +3568,7 @@
         <attnum name="radius" unit="m" val="14.86" />
         <attnum name="end radius" unit="m" val="12.88" />
         <attnum name="grade" unit="%" val="1.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="1.6" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3609,8 +3609,8 @@
         <attnum name="arc" unit="deg" val="11.0" />
         <attnum name="radius" unit="m" val="277.45" />
         <attnum name="end radius" unit="m" val="317.08" />
-        <attnum name="grade" unit="%" val="10.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="1.7" />
+        <attnum name="profil end tangent" unit="%" val="1.6" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3651,7 +3651,7 @@
         <attnum name="arc" unit="deg" val="7.0" />
         <attnum name="radius" unit="m" val="346.81" />
         <attnum name="grade" unit="%" val="1.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="1.4" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3694,7 +3694,7 @@
         <attnum name="arc" unit="deg" val="40.0" />
         <attnum name="radius" unit="m" val="49.54" />
         <attnum name="grade" unit="%" val="1.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-0.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3735,7 +3735,7 @@
         <attnum name="arc" unit="deg" val="5.0" />
         <attnum name="radius" unit="m" val="644.07" />
         <attnum name="grade" unit="%" val="-2.7" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-4.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3774,8 +3774,8 @@
       <section name="s92">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="74.32" />
-        <attnum name="grade" unit="%" val="-10.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-7.3" />
+        <attnum name="profil end tangent" unit="%" val="-5.8" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3816,7 +3816,7 @@
         <attnum name="arc" unit="deg" val="18.0" />
         <attnum name="radius" unit="m" val="277.45" />
         <attnum name="grade" unit="%" val="-4.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-5.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3856,7 +3856,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="17.84" />
         <attnum name="grade" unit="%" val="-6.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-4.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3896,8 +3896,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="14.0" />
         <attnum name="radius" unit="m" val="39.64" />
-        <attnum name="grade" unit="%" val="-3.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-3.5" />
+        <attnum name="profil end tangent" unit="%" val="-5.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3937,7 +3937,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="44.59" />
         <attnum name="grade" unit="%" val="-6.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-4.8" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -3979,7 +3979,7 @@
         <attnum name="radius" unit="m" val="356.72" />
         <attnum name="end radius" unit="m" val="297.26" />
         <attnum name="grade" unit="%" val="-3.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-1.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4061,7 +4061,7 @@
         <attnum name="radius" unit="m" val="158.54" />
         <attnum name="end radius" unit="m" val="113.95" />
         <attnum name="grade" unit="%" val="1.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="1.7" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4100,8 +4100,8 @@
       <section name="s100">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="55.49" />
-        <attnum name="grade" unit="%" val="4.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="2.5" />
+        <attnum name="profil end tangent" unit="%" val="0.7" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4143,7 +4143,7 @@
         <attnum name="radius" unit="m" val="39.64" />
         <attnum name="end radius" unit="m" val="59.45" />
         <attnum name="grade" unit="%" val="-1.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-1.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4184,7 +4184,7 @@
         <attnum name="arc" unit="deg" val="26.0" />
         <attnum name="radius" unit="m" val="99.09" />
         <attnum name="grade" unit="%" val="-1.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-1.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4226,7 +4226,7 @@
         <attnum name="radius" unit="m" val="990.88" />
         <attnum name="end radius" unit="m" val="743.16" />
         <attnum name="grade" unit="%" val="-1.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4267,7 +4267,7 @@
         <attnum name="arc" unit="deg" val="7.0" />
         <attnum name="radius" unit="m" val="346.81" />
         <attnum name="grade" unit="%" val="2.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="2.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4308,8 +4308,8 @@
         <attnum name="arc" unit="deg" val="10.0" />
         <attnum name="radius" unit="m" val="247.72" />
         <attnum name="end radius" unit="m" val="743.16" />
-        <attnum name="grade" unit="%" val="14.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="2.8" />
+        <attnum name="profil end tangent" unit="%" val="2.8" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4350,7 +4350,7 @@
         <attnum name="arc" unit="deg" val="43.5" />
         <attnum name="radius" unit="m" val="79.27" />
         <attnum name="grade" unit="%" val="3.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4389,8 +4389,8 @@
       <section name="s107">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="168.45" />
-        <attnum name="grade" unit="%" val="-5.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-3.2" />
+        <attnum name="profil end tangent" unit="%" val="-2.2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4432,7 +4432,7 @@
         <attnum name="radius" unit="m" val="247.72" />
         <attnum name="end radius" unit="m" val="148.63" />
         <attnum name="grade" unit="%" val="-1.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-1.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4472,7 +4472,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="213.04" />
         <attnum name="grade" unit="%" val="-0.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="1.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4514,7 +4514,7 @@
         <attnum name="radius" unit="m" val="247.72" />
         <attnum name="end radius" unit="m" val="89.18" />
         <attnum name="grade" unit="%" val="3.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="2.7" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4554,7 +4554,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="52.52" />
         <attnum name="grade" unit="%" val="1.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-0.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4596,7 +4596,7 @@
         <attnum name="radius" unit="m" val="69.36" />
         <attnum name="end radius" unit="m" val="59.45" />
         <attnum name="grade" unit="%" val="-3.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4636,7 +4636,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="148.63" />
         <attnum name="grade" unit="%" val="2.7" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="2.3" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4677,8 +4677,8 @@
         <attnum name="arc" unit="deg" val="11.0" />
         <attnum name="radius" unit="m" val="743.16" />
         <attnum name="end radius" unit="m" val="247.72" />
-        <attnum name="grade" unit="%" val="0.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="2.0" />
+        <attnum name="profil end tangent" unit="%" val="2.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4720,7 +4720,7 @@
         <attnum name="radius" unit="m" val="544.98" />
         <attnum name="end radius" unit="m" val="495.44" />
         <attnum name="grade" unit="%" val="2.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="1.3" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4761,7 +4761,7 @@
         <attnum name="arc" unit="deg" val="90.0" />
         <attnum name="radius" unit="m" val="44.59" />
         <attnum name="grade" unit="%" val="0.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="4.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4802,7 +4802,7 @@
         <attnum name="arc" unit="deg" val="36.0" />
         <attnum name="radius" unit="m" val="37.65" />
         <attnum name="grade" unit="%" val="7.7" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="7.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4842,7 +4842,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="71.34" />
         <attnum name="grade" unit="%" val="7.7" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="9.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4882,8 +4882,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="30.0" />
         <attnum name="radius" unit="m" val="39.64" />
-        <attnum name="grade" unit="%" val="17.6" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="10.6" />
+        <attnum name="profil end tangent" unit="%" val="8.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4922,8 +4922,8 @@
       <section name="s120">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="21.8" />
-        <attnum name="grade" unit="%" val="9.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="7.0" />
+        <attnum name="profil end tangent" unit="%" val="4.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4963,8 +4963,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="47.0" />
         <attnum name="radius" unit="m" val="59.45" />
-        <attnum name="grade" unit="%" val="-1.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="profil end tangent" unit="%" val="-2.4" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -4984,7 +4984,7 @@
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="1.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Right Border">
@@ -5004,7 +5004,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="145.66" />
         <attnum name="grade" unit="%" val="-4.6" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-5.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5023,8 +5023,8 @@
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="1.0" />
+          <attnum name="end width" unit="m" val="1.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Right Border">
@@ -5045,7 +5045,7 @@
         <attnum name="arc" unit="deg" val="180.0" />
         <attnum name="radius" unit="m" val="9.91" />
         <attnum name="grade" unit="%" val="-5.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-5.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5064,8 +5064,8 @@
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="1.0" />
+          <attnum name="end width" unit="m" val="1.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Right Border">
@@ -5084,11 +5084,11 @@
       <section name="s124">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="15.85" />
-        <attnum name="grade" unit="%" val="1.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-4.9" />
+        <attnum name="profil end tangent" unit="%" val="-5.9" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="1.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Left Border">
@@ -5104,8 +5104,8 @@
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="1.0" />
+          <attnum name="end width" unit="m" val="1.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Right Border">
@@ -5126,11 +5126,11 @@
         <attnum name="arc" unit="deg" val="123.0" />
         <attnum name="radius" unit="m" val="24.77" />
         <attnum name="end radius" unit="m" val="28.74" />
-        <attnum name="grade" unit="%" val="-9.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-8.7" />
+        <attnum name="profil end tangent" unit="%" val="-8.6" />
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="1.0" />
+          <attnum name="end width" unit="m" val="1.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Left Border">
@@ -5146,7 +5146,7 @@
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="1.0" />
           <attnum name="end width" unit="m" val="4.0" />
           <attstr name="surface" val="grass" />
         </section>
@@ -5167,9 +5167,9 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="128.81" />
         <attnum name="grade" unit="%" val="-8.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-4.3" />
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="1.0" />
           <attnum name="end width" unit="m" val="4.0" />
           <attstr name="surface" val="grass" />
         </section>
@@ -5207,8 +5207,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="16.0" />
         <attnum name="radius" unit="m" val="148.63" />
-        <attnum name="grade" unit="%" val="3.7" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-0.3" />
+        <attnum name="profil end tangent" unit="%" val="-2.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5248,7 +5248,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="45.58" />
         <attnum name="grade" unit="%" val="-5.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-2.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5289,7 +5289,7 @@
         <attnum name="arc" unit="deg" val="27.0" />
         <attnum name="radius" unit="m" val="79.27" />
         <attnum name="grade" unit="%" val="-0.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-1.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5329,7 +5329,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="69.36" />
         <attnum name="grade" unit="%" val="-1.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5370,7 +5370,7 @@
         <attnum name="arc" unit="deg" val="22.0" />
         <attnum name="radius" unit="m" val="79.27" />
         <attnum name="grade" unit="%" val="-1.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-1.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5410,7 +5410,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="44.59" />
         <attnum name="grade" unit="%" val="-0.7" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-2.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5452,7 +5452,7 @@
         <attnum name="radius" unit="m" val="109.0" />
         <attnum name="end radius" unit="m" val="59.45" />
         <attnum name="grade" unit="%" val="-4.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-6.6" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5492,7 +5492,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="29.73" />
         <attnum name="grade" unit="%" val="-9.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-9.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5532,8 +5532,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="17.0" />
         <attnum name="radius" unit="m" val="99.09" />
-        <attnum name="grade" unit="%" val="-9.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-8.3" />
+        <attnum name="profil end tangent" unit="%" val="-7.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5573,7 +5573,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="152.6" />
         <attnum name="grade" unit="%" val="-4.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-5.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5615,8 +5615,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="10.0" />
         <attnum name="radius" unit="m" val="99.09" />
-        <attnum name="grade" unit="%" val="3.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-5.2" />
+        <attnum name="profil end tangent" unit="%" val="-7.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5656,8 +5656,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="25.0" />
         <attnum name="radius" unit="m" val="59.45" />
-        <attnum name="grade" unit="%" val="-11.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-8.8" />
+        <attnum name="profil end tangent" unit="%" val="-8.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5699,7 +5699,7 @@
         <attnum name="radius" unit="m" val="59.45" />
         <attnum name="end radius" unit="m" val="69.36" />
         <attnum name="grade" unit="%" val="-8.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-6.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5738,8 +5738,8 @@
       <section name="s140">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="53.51" />
-        <attnum name="grade" unit="%" val="-2.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-3.8" />
+        <attnum name="profil end tangent" unit="%" val="-6.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5781,7 +5781,7 @@
         <attnum name="radius" unit="m" val="49.54" />
         <attnum name="end radius" unit="m" val="59.45" />
         <attnum name="grade" unit="%" val="-8.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-8.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5822,7 +5822,7 @@
         <attnum name="arc" unit="deg" val="5.0" />
         <attnum name="radius" unit="m" val="990.88" />
         <attnum name="grade" unit="%" val="-7.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-6.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5863,8 +5863,8 @@
         <attnum name="arc" unit="deg" val="16.0" />
         <attnum name="radius" unit="m" val="29.73" />
         <attnum name="end radius" unit="m" val="376.53" />
-        <attnum name="grade" unit="%" val="-14.7" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-5.0" />
+        <attnum name="profil end tangent" unit="%" val="-4.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -5903,11 +5903,11 @@
       <section name="s144">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="6.94" />
-        <attnum name="grade" unit="%" val="-4.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-4.0" />
+        <attnum name="profil end tangent" unit="%" val="-2.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="1.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Left Border">
@@ -5946,10 +5946,10 @@
         <attnum name="radius" unit="m" val="13.87" />
         <attnum name="end radius" unit="m" val="19.82" />
         <attnum name="grade" unit="%" val="0.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.7" />
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="1.0" />
+          <attnum name="end width" unit="m" val="1.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Left Border">
@@ -5985,11 +5985,11 @@
       <section name="s146">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="12.88" />
-        <attnum name="grade" unit="%" val="2.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="0.4" />
+        <attnum name="profil end tangent" unit="%" val="-1.0" />
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="1.0" />
+          <attnum name="end width" unit="m" val="1.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Left Border">
@@ -6006,7 +6006,7 @@
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="end width" unit="m" val="1.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Right Border">
@@ -6028,9 +6028,9 @@
         <attnum name="radius" unit="m" val="29.73" />
         <attnum name="end radius" unit="m" val="9.91" />
         <attnum name="grade" unit="%" val="-3.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-2.5" />
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="1.0" />
           <attnum name="end width" unit="m" val="4.0" />
           <attstr name="surface" val="grass" />
         </section>
@@ -6047,8 +6047,8 @@
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="1.0" />
+          <attnum name="end width" unit="m" val="1.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Right Border">
@@ -6070,7 +6070,7 @@
         <attnum name="radius" unit="m" val="9.91" />
         <attnum name="end radius" unit="m" val="11.89" />
         <attnum name="grade" unit="%" val="-1.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6089,8 +6089,8 @@
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="1.0" />
+          <attnum name="end width" unit="m" val="1.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Right Border">
@@ -6112,7 +6112,7 @@
         <attnum name="radius" unit="m" val="99.09" />
         <attnum name="end radius" unit="m" val="198.18" />
         <attnum name="grade" unit="%" val="1.6" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="1.6" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6131,8 +6131,8 @@
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="1.0" />
+          <attnum name="end width" unit="m" val="1.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Right Border">
@@ -6153,8 +6153,8 @@
         <attnum name="arc" unit="deg" val="12.0" />
         <attnum name="radius" unit="m" val="49.54" />
         <attnum name="end radius" unit="m" val="198.18" />
-        <attnum name="grade" unit="%" val="5.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="1.9" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6173,8 +6173,8 @@
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="1.0" />
+          <attnum name="end width" unit="m" val="1.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Right Border">
@@ -6195,8 +6195,8 @@
         <attnum name="arc" unit="deg" val="25.0" />
         <attnum name="radius" unit="m" val="59.45" />
         <attnum name="end radius" unit="m" val="128.81" />
-        <attnum name="grade" unit="%" val="-21.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-2.2" />
+        <attnum name="profil end tangent" unit="%" val="-2.3" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6215,7 +6215,7 @@
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="1.0" />
           <attnum name="end width" unit="m" val="4.0" />
           <attstr name="surface" val="grass" />
         </section>
@@ -6238,7 +6238,7 @@
         <attnum name="radius" unit="m" val="247.72" />
         <attnum name="end radius" unit="m" val="89.18" />
         <attnum name="grade" unit="%" val="-2.6" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-3.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6278,7 +6278,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="50.53" />
         <attnum name="grade" unit="%" val="-3.6" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-4.4" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6320,8 +6320,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="34.0" />
         <attnum name="radius" unit="m" val="54.5" />
-        <attnum name="grade" unit="%" val="-15.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-5.2" />
+        <attnum name="profil end tangent" unit="%" val="-6.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6361,7 +6361,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="49.54" />
         <attnum name="grade" unit="%" val="-6.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-5.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6402,7 +6402,7 @@
         <attnum name="arc" unit="deg" val="4.0" />
         <attnum name="radius" unit="m" val="346.81" />
         <attnum name="grade" unit="%" val="-3.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-3.9" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6443,8 +6443,8 @@
         <attnum name="arc" unit="deg" val="12.0" />
         <attnum name="radius" unit="m" val="128.81" />
         <attnum name="end radius" unit="m" val="346.81" />
-        <attnum name="grade" unit="%" val="-20.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-4.1" />
+        <attnum name="profil end tangent" unit="%" val="-4.1" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6483,8 +6483,8 @@
       <section name="s158">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="17.84" />
-        <attnum name="grade" unit="%" val="-5.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-4.1" />
+        <attnum name="profil end tangent" unit="%" val="-3.9" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6526,7 +6526,7 @@
         <attnum name="radius" unit="m" val="148.63" />
         <attnum name="end radius" unit="m" val="79.27" />
         <attnum name="grade" unit="%" val="-3.5" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-4.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6565,8 +6565,8 @@
       <section name="s160">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="44.59" />
-        <attnum name="grade" unit="%" val="0.7" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-5.5" />
+        <attnum name="profil end tangent" unit="%" val="-5.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6606,8 +6606,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="18.0" />
         <attnum name="radius" unit="m" val="109.0" />
-        <attnum name="grade" unit="%" val="-8.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-4.5" />
+        <attnum name="profil end tangent" unit="%" val="-5.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6647,7 +6647,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="153.59" />
         <attnum name="grade" unit="%" val="-5.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-5.4" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6688,8 +6688,8 @@
         <attnum name="arc" unit="deg" val="46.0" />
         <attnum name="radius" unit="m" val="49.54" />
         <attnum name="end radius" unit="m" val="287.35" />
-        <attnum name="grade" unit="%" val="-13.0" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-5.5" />
+        <attnum name="profil end tangent" unit="%" val="-6.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6731,7 +6731,7 @@
         <attnum name="radius" unit="m" val="237.81" />
         <attnum name="end radius" unit="m" val="257.63" />
         <attnum name="grade" unit="%" val="-6.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-6.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6771,7 +6771,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="59.45" />
         <attnum name="grade" unit="%" val="-5.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-5.2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6812,7 +6812,7 @@
         <attnum name="arc" unit="deg" val="35.0" />
         <attnum name="radius" unit="m" val="168.45" />
         <attnum name="grade" unit="%" val="-5.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-4.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6851,8 +6851,8 @@
       <section name="s167">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="39.64" />
-        <attnum name="grade" unit="%" val="-0.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-3.0" />
+        <attnum name="profil end tangent" unit="%" val="-3.4" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6893,7 +6893,7 @@
         <attnum name="arc" unit="deg" val="9.0" />
         <attnum name="radius" unit="m" val="148.63" />
         <attnum name="grade" unit="%" val="-3.9" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-4.2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6933,7 +6933,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="69.36" />
         <attnum name="grade" unit="%" val="-4.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-4.4" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -6973,8 +6973,8 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="3.0" />
         <attnum name="radius" unit="m" val="99.09" />
-        <attnum name="grade" unit="%" val="-35.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-4.0" />
+        <attnum name="profil end tangent" unit="%" val="-3.9" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -7014,7 +7014,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="39.64" />
         <attnum name="grade" unit="%" val="-3.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-3.7" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -7054,8 +7054,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="3.0" />
         <attnum name="radius" unit="m" val="148.63" />
-        <attnum name="grade" unit="%" val="-39.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-3.6" />
+        <attnum name="profil end tangent" unit="%" val="-3.5" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -7095,7 +7095,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="74.32" />
         <attnum name="grade" unit="%" val="-3.3" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -7136,7 +7136,7 @@
         <attnum name="arc" unit="deg" val="28.0" />
         <attnum name="radius" unit="m" val="148.63" />
         <attnum name="grade" unit="%" val="-3.4" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-2.8" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -7176,7 +7176,7 @@
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="14.86" />
         <attnum name="grade" unit="%" val="-2.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="profil end tangent" unit="%" val="-2.2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -7216,8 +7216,8 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="38.7" />
         <attnum name="radius" unit="m" val="104.04" />
-        <attnum name="grade" unit="%" val="-4.8" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-2.8" />
+        <attnum name="profil end tangent" unit="%" val="-1.8" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -7258,8 +7258,8 @@
       <section name="s177">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="508.32" />
-        <attnum name="grade" unit="%" val="-1.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-2.0" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -7298,8 +7298,8 @@
       <section name="s178">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="394.37" />
-        <attnum name="grade" unit="%" val="-0.2" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
+        <attnum name="grade" unit="%" val="-1.2" />
+        <attnum name="profil end tangent" unit="%" val="0.0" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -7338,7 +7338,7 @@
       <section name="s179">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="299.25" />
-        <attnum name="grade" unit="%" val="-0.7" />
+        <attnum name="grade" unit="%" val="-1.3" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7378,7 +7378,7 @@
       <section name="s180">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="343.83" />
-        <attnum name="grade" unit="%" val="-0.4" />
+        <attnum name="grade" unit="%" val="-1.4" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7418,7 +7418,7 @@
       <section name="s181">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="340.86" />
-        <attnum name="grade" unit="%" val="-1.0" />
+        <attnum name="grade" unit="%" val="-1.2" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7458,7 +7458,7 @@
       <section name="s182">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="435.99" />
-        <attnum name="grade" unit="%" val="-0.7" />
+        <attnum name="grade" unit="%" val="-1.3" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7500,7 +7500,7 @@
         <attnum name="arc" unit="deg" val="8.0" />
         <attnum name="radius" unit="m" val="445.9" />
         <attnum name="end radius" unit="m" val="743.16" />
-        <attnum name="grade" unit="%" val="-1.0" />
+        <attnum name="grade" unit="%" val="-0.1" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7540,7 +7540,7 @@
       <section name="s184">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="344.83" />
-        <attnum name="grade" unit="%" val="-0.7" />
+        <attnum name="grade" unit="%" val="-0.4" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7621,7 +7621,7 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="2.0" />
         <attnum name="radius" unit="m" val="346.81" />
-        <attnum name="grade" unit="%" val="-2.5" />
+        <attnum name="grade" unit="%" val="-0.3" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7661,7 +7661,7 @@
       <section name="s187">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="178.36" />
-        <attnum name="grade" unit="%" val="-1.0" />
+        <attnum name="grade" unit="%" val="-0.2" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7702,7 +7702,7 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="3.0" />
         <attnum name="radius" unit="m" val="148.63" />
-        <attnum name="grade" unit="%" val="-2.6" />
+        <attnum name="grade" unit="%" val="-0.3" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7825,7 +7825,7 @@
       <section name="s191">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="198.18" />
-        <attnum name="grade" unit="%" val="-1.1" />
+        <attnum name="grade" unit="%" val="-0.4" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7866,7 +7866,7 @@
         <attstr name="type" val="lft" />
         <attnum name="arc" unit="deg" val="1.7" />
         <attnum name="radius" unit="m" val="346.81" />
-        <attnum name="grade" unit="%" val="0.0" />
+        <attnum name="grade" unit="%" val="-0.3" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -7946,7 +7946,7 @@
       <section name="s194">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="303.21" />
-        <attnum name="grade" unit="%" val="-0.9" />
+        <attnum name="grade" unit="%" val="-0.3" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8026,7 +8026,7 @@
       <section name="s196">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="126.83" />
-        <attnum name="grade" unit="%" val="-1.7" />
+        <attnum name="grade" unit="%" val="-0.4" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8107,7 +8107,7 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="2.0" />
         <attnum name="radius" unit="m" val="148.63" />
-        <attnum name="grade" unit="%" val="5.9" />
+        <attnum name="grade" unit="%" val="0.3" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8312,7 +8312,7 @@
         <attnum name="arc" unit="deg" val="100.0" />
         <attnum name="radius" unit="m" val="49.54" />
         <attnum name="end radius" unit="m" val="113.95" />
-        <attnum name="grade" unit="%" val="1.1" />
+        <attnum name="grade" unit="%" val="0.1" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8352,7 +8352,7 @@
       <section name="s204">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="247.72" />
-        <attnum name="grade" unit="%" val="0.6" />
+        <attnum name="grade" unit="%" val="0.0" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8392,7 +8392,7 @@
       <section name="s205">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="83.23" />
-        <attnum name="grade" unit="%" val="-2.9" />
+        <attnum name="grade" unit="%" val="0.0" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8472,7 +8472,7 @@
       <section name="s207">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="377.52" />
-        <attnum name="grade" unit="%" val="-0.3" />
+        <attnum name="grade" unit="%" val="0.0" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8512,7 +8512,7 @@
       <section name="s208">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="125.84" />
-        <attnum name="grade" unit="%" val="-0.7" />
+        <attnum name="grade" unit="%" val="0.0" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8672,7 +8672,7 @@
       <section name="s212">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="551.92" />
-        <attnum name="grade" unit="%" val="-0.4" />
+        <attnum name="grade" unit="%" val="0.0" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8712,7 +8712,7 @@
       <section name="s213">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="547.96" />
-        <attnum name="grade" unit="%" val="0.3" />
+        <attnum name="grade" unit="%" val="0.0" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8752,7 +8752,7 @@
       <section name="214">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="530.12" />
-        <attnum name="grade" unit="%" val="-0.2" />
+        <attnum name="grade" unit="%" val="0.0" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8792,7 +8792,7 @@
       <section name="s215">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="557.86" />
-        <attnum name="grade" unit="%" val="0.7" />
+        <attnum name="grade" unit="%" val="0.0" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8832,7 +8832,7 @@
       <section name="s216">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="59.45" />
-        <attnum name="grade" unit="%" val="-0.1" />
+        <attnum name="grade" unit="%" val="0.0" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
@@ -8875,7 +8875,7 @@
         <attstr name="type" val="rgt" />
         <attnum name="arc" unit="deg" val="111.0" />
         <attnum name="radius" unit="m" val="14.86" />
-        <attnum name="grade" unit="%" val="-5.3" />
+        <attnum name="grade" unit="%" val="0.0" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
       </section>
 
