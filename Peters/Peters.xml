@@ -253,6 +253,97 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="roughness wavelength" val="4.0"/>
       <attnum name="dammage" val="10.0"/>
     </section>
+
+		<!-- Lower curbs -->
+    <section name="curb-5-left">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="curb-pete-5l.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+      <attnum name="texture size" val="2.0" unit="m"/>
+      <attnum name="texture mipmap" val="0.0" unit="m"/>
+
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+
+      <attnum name="friction"           val="1.2"/>
+      <attnum name="rolling resistance" val="0.003"/>
+
+      <attnum name="roughness" val="0.05"/>
+      <attnum name="roughness wavelength" val="0.3"/>
+    </section>
+
+    <section name="curb-5-right">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="curb-pete-5r.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+      <attnum name="texture size" val="2.0" unit="m"/>
+      <attnum name="texture mipmap" val="0.0" unit="m"/>
+
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+
+      <attnum name="friction"           val="1.2"/>
+      <attnum name="rolling resistance" val="0.003"/>
+
+      <attnum name="roughness" val="0.05"/>
+      <attnum name="roughness wavelength" val="0.3"/>
+    </section>
+
+		<!-- High curbs -->
+    <section name="curb-10-left">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="curb-pete-10l.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+      <attnum name="texture size" val="2.0" unit="m"/>
+      <attnum name="texture mipmap" val="0.0" unit="m"/>
+
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+
+      <attnum name="friction"           val="1.1"/>
+      <attnum name="rolling resistance" val="0.002"/>
+
+      <attnum name="roughness" val="0.07"/>
+      <attnum name="roughness wavelength" val="0.3"/>
+    </section>
+
+    <section name="curb-10-right">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="curb-pete-10r.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+      <attnum name="texture size" val="2.0" unit="m"/>
+      <attnum name="texture mipmap" val="0.0" unit="m"/>
+
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+
+      <attnum name="friction"           val="1.1"/>
+      <attnum name="rolling resistance" val="0.002"/>
+
+      <attnum name="roughness" val="0.07"/>
+      <attnum name="roughness wavelength" val="0.3"/>
+    </section>
+
 	</section>
   
   <section name="Header">
@@ -378,7 +469,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.10" />
-          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="surface" val="curb-10-right" />
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Side">
@@ -436,7 +527,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.10" />
-          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="surface" val="curb-10-right" />
           <attstr name="style" val="curb" />
         </section>
       </section>
@@ -467,7 +558,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.10" />
-          <attstr name="surface" val="curb-5cm-l" />
+          <attstr name="surface" val="curb-10-left" />
           <attstr name="style" val="curb" />
         </section>
 		<section name="Left Side">
@@ -666,7 +757,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="surface" val="curb-5-right" />
           <attstr name="style" val="curb" />
         </section>
 				<section name="Right Side">
@@ -721,7 +812,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
+          <attstr name="surface" val="curb-5-left" />
           <attstr name="style" val="curb" />
         </section>
 				<section name="Left Side">
@@ -931,7 +1022,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.10" />
-          <attstr name="surface" val="curb-5cm-l" />
+          <attstr name="surface" val="curb-10-left" />
           <attstr name="style" val="curb" />
         </section>
         <section name="Left Side">
@@ -968,7 +1059,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
+          <attstr name="surface" val="curb-5-left" />
           <attstr name="style" val="curb" />
         </section>
         <section name="Left Side">
@@ -1080,7 +1171,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.10" />
-          <attstr name="surface" val="curb-5cm-r" />
+          <attstr name="surface" val="curb-10-right" />
           <attstr name="style" val="curb" />
         </section>
         <section name="Right Barrier">
