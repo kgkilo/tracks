@@ -358,6 +358,14 @@ the Free Software Foundation; either version 2 of the License, or
     <attstr name="3d description" val="Peters.ac" />
 		<attstr name="background image" val="background.png"/>
 		<attnum name="background type" val="4"/>
+
+    <section name="Turn Marks">
+      <attnum name="width" unit="m" val="0.8"/>
+      <attnum name="height" unit="m" val="2.0"/>
+      <attnum name="vertical space" unit="m" val="3.0"/>
+      <attnum name="horizontal space" unit="m" val="0.0"/>
+    </section>
+
     <section name="Terrain Generation">
       <attnum name="track step" unit="m" val="20" />
       <attnum name="border margin" unit="m" val="50" />
@@ -461,6 +469,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="end radius" unit="m" val="19.44" />
         <attnum name="grade" unit="%" val="-0.9" />
         <attnum name="profile end tangent" unit="%" val="-0.9" />
+        <attstr name="marks" val="50;100;150;200"/>
         <section name="Left Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="16.0" />
@@ -749,6 +758,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="banking start" unit="deg" val="1.0"/>
         <attnum name="banking end" unit="deg" val="0.5"/>
         <attstr name="surface" val="asphalt-pete-spec" />
+        <attstr name="marks" val="50;100;150"/>
 				<section name="Left Side">
           <attnum name="start width" unit="m" val="0.0" />
           <attnum name="end width" unit="m" val="10.0" />
@@ -1019,6 +1029,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="banking start" unit="deg" val="0.0"/>
         <attnum name="banking end" unit="deg" val="-1.0"/>
         <attstr name="surface" val="asphalt-pete-spec" />
+        <attstr name="marks" val="50;100;150"/>
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.10" />
