@@ -920,12 +920,18 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
 
 			<!-- Central Ave SE -->
-      <section name="s23">
+      <section name="s23-1">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="66.56" />
+        <attnum name="lg" unit="m" val="20.0" />
+        <attnum name="grade" unit="%" val="-0.3" />
+        <attnum name="profile end tangent" unit="%" val="-0.3" />
+        <attstr name="surface" val="asphalt-pete-1line" />
+      </section>
+      <section name="s23-2">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="46.56" />
         <attnum name="grade" unit="%" val="-0.3" />
         <attnum name="profile end tangent" unit="%" val="0.0" />
-        <attstr name="surface" val="asphalt-pete-1line" />
       </section>
 
 			<!-- Turn 9 -->
@@ -961,12 +967,18 @@ the Free Software Foundation; either version 2 of the License, or
       </section>
 
 			<!-- Bay Shore Dr SE -->
-      <section name="s25">
+      <section name="s25-1">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="42.6" />
+        <attnum name="lg" unit="m" val="21.3" />
+        <attnum name="grade" unit="%" val="0.8" />
+        <attnum name="profile end tangent" unit="%" val="0.8" />
+        <attstr name="surface" val="asphalt-pete-yellow" />
+      </section>
+      <section name="s25-2">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="21.3" />
         <attnum name="grade" unit="%" val="0.8" />
         <attnum name="profile end tangent" unit="%" val="0.0" />
-        <attstr name="surface" val="asphalt-pete-yellow" />
       </section>
 
       <section name="s26">
@@ -1293,6 +1305,139 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
     </section>
+  </section>
+
+  <section name="Cameras">
+    <!-- Far away at the runway end -->
+    <section name="cam 0">
+        <attstr name="segment" val="s3"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="200"/>
+        <attnum name="height" val="12"/>
+        <attstr name="fov start" val="s40"/>
+        <attstr name="fov end" val="s6"/>
+    </section>
+
+    <!-- Inner side of Turn 1 -->
+    <section name="cam 1">
+        <attstr name="segment" val="s7"/>
+        <attnum name="to right" val="0"/>
+        <attnum name="to start" val="60"/>
+        <attnum name="height" val="2"/>
+        <attstr name="fov start" val="s6"/>
+        <attstr name="fov end" val="s10"/>
+    </section>
+
+    <!-- Twisty section before 1st St SW -->
+    <section name="cam 2">
+        <attstr name="segment" val="s13"/>
+        <attnum name="to right" val="13"/>
+        <attnum name="to start" val="0"/>
+        <attnum name="height" val="2"/>
+        <attstr name="fov start" val="s10"/>
+        <attstr name="fov end" val="s14-1"/>
+    </section>
+
+    <!-- At the end of 1st St SW -->
+    <section name="cam 3">
+        <attstr name="segment" val="s14-3"/>
+        <attnum name="to right" val="12"/>
+        <attnum name="to start" val="120"/>
+        <attnum name="height" val="5"/>
+        <attstr name="fov start" val="s14-1"/>
+        <attstr name="fov end" val="s16"/>
+    </section>
+
+    <!-- In the parking lot -->
+    <section name="cam 4">
+        <attstr name="segment" val="s16"/>
+        <attnum name="to right" val="7"/>
+        <attnum name="to start" val="70"/>
+        <attnum name="height" val="2"/>
+        <attstr name="fov start" val="s16"/>
+        <attstr name="fov end" val="s19"/>
+    </section>
+
+    <!-- Turn 6 - Turn 7 -->
+    <section name="cam 5">
+        <attstr name="segment" val="s19"/>
+        <attnum name="to right" val="0"/>
+        <attnum name="to start" val="0"/>
+        <attnum name="height" val="2"/>
+        <attstr name="fov start" val="s19"/>
+        <attstr name="fov end" val="s21"/>
+    </section>
+
+    <!-- Beach St - Central Ave SE corner -->
+    <section name="cam 6">
+        <attstr name="segment" val="s21"/>
+        <attnum name="to right" val="12.5"/>
+        <attnum name="to start" val="73"/>
+        <attnum name="height" val="2"/>
+        <attstr name="fov start" val="s21"/>
+        <attstr name="fov end" val="s23-2"/>
+    </section>
+
+    <!-- Central Ave SE - Bay Shore Dr SE corner -->
+    <section name="cam 7">
+        <attstr name="segment" val="s24-2"/>
+        <attnum name="to right" val="21.5"/>
+        <attnum name="to start" val="25"/>
+        <attnum name="height" val="2"/>
+        <attstr name="fov start" val="s23-2"/>
+        <attstr name="fov end" val="s25-2"/>
+    </section>
+
+    <!-- At the left kink of Bay Shore Dr SE -->
+    <section name="cam 8">
+        <attstr name="segment" val="s28"/>
+        <attnum name="to right" val="0"/>
+        <attnum name="to start" val="0"/>
+        <attnum name="height" val="2"/>
+        <attstr name="fov start" val="s25-2"/>
+        <attstr name="fov end" val="s29"/>
+    </section>
+
+    <!-- At the end of Bay Shore Dr SE -->
+    <section name="cam 9">
+        <attstr name="segment" val="s29"/>
+        <attnum name="to right" val="0"/>
+        <attnum name="to start" val="340"/>
+        <attnum name="height" val="12"/>
+        <attstr name="fov start" val="s29"/>
+        <attstr name="fov end" val="s32"/>
+    </section>
+
+    <!-- In Turn 11 -->
+    <section name="cam 10">
+        <attstr name="segment" val="s32"/>
+        <attnum name="to right" val="12"/>
+        <attnum name="to start" val="205"/>
+        <attnum name="height" val="2"/>
+        <attstr name="fov start" val="s32"/>
+        <attstr name="fov end" val="s34"/>
+    </section>
+
+    <!-- In Turn 12 -->
+    <section name="cam 11">
+        <attstr name="segment" val="s36"/>
+        <attnum name="to right" val="-5"/>
+        <attnum name="to start" val="20"/>
+        <attnum name="height" val="2"/>
+        <attstr name="fov start" val="s34"/>
+        <attstr name="fov end" val="s37"/>
+    </section>
+
+    <!-- In Turn 14 -->
+    <section name="cam 12">
+        <attstr name="segment" val="s38-1"/>
+        <attnum name="to right" val="20"/>
+        <attnum name="to start" val="70"/>
+        <attnum name="height" val="2"/>
+        <attstr name="fov start" val="s37"/>
+        <attstr name="fov end" val="s40"/>
+    </section>
+		<!-- Cameras -->
   </section>
 </params>
 
