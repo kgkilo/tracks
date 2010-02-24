@@ -362,6 +362,27 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="roughness wavelength" val="0.3"/>
     </section>
 
+    <!--Start/Finish lane checkerboard surface-->
+    <section name="start-pete">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="start.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="discrete"/>
+      <attnum name="texture size" val="2.0" unit="m"/>
+      <attnum name="texture mipmap" val="0.0" unit="m"/>
+      <attstr name="texture start on boundary" val="yes"/>
+      <attstr name="texture link with previous" val="yes"/>
+      <attstr name="bump name" val="bump-as.rgb"/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+      <attnum name="friction"           val="1.0"/>
+			<attnum name="rolling resistance" val="0.015"/>
+			<attnum name="roughness" val="0.001"/>
+			<attnum name="roughness wavelength" val="0.2"/>
+		</section>
 	</section>
   
   <section name="Header">
@@ -410,22 +431,25 @@ the Free Software Foundation; either version 2 of the License, or
     
     <section name="Track Segments">
 			<!-- Runway 6/24 -->
+      <!--***********************-->
+      <!--     Start/Finish lane -->
+      <!--***********************-->
       <section name="s1">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="2.0" />
         <attnum name="grade" unit="%" val="1.1" />
         <attnum name="profile end tangent" unit="%" val="1.4" />
-        <attstr name="surface" val="rwy-pete" />
+        <attstr name="surface" val="start-pete" />
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="rwy-bd-pete" />
+          <attstr name="surface" val="start-pete" />
           <attstr name="style" val="plan" />
         </section>
         <section name="Left Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="12.0" />
-          <attstr name="surface" val="rwy-side-pete" />
+          <attstr name="surface" val="start-pete" />
         </section>
         <section name="Left Barrier">
           <attnum name="width" unit="m" val="0.1" />
@@ -465,6 +489,18 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="lg" unit="m" val="91.73" />
         <attnum name="grade" unit="%" val="1.7" />
         <attnum name="profile end tangent" unit="%" val="1.0" />
+        <attstr name="surface" val="rwy-pete" />
+        <section name="Left Border">
+          <attnum name="width" unit="m" val="1.0" />
+          <attnum name="height" unit="m" val="0.0" />
+          <attstr name="surface" val="rwy-bd-pete" />
+          <attstr name="style" val="plan" />
+        </section>
+        <section name="Left Side">
+          <attnum name="start width" unit="m" val="12.0" />
+          <attnum name="end width" unit="m" val="12.0" />
+          <attstr name="surface" val="rwy-side-pete" />
+        </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="0.3" />
           <attnum name="height" unit="m" val="1.5" />
