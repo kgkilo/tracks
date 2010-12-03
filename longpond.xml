@@ -304,7 +304,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <!--******************************-->
       <section name="short-straight">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="ft" val="1780.0" />
+        <attnum name="lg" unit="ft" val="1782.625" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
