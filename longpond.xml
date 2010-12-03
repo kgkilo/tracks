@@ -52,7 +52,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
   </section>
   
   <section name="Main Track">
-    <attnum name="width" unit="m" val="10.0" />
+    <attnum name="width" unit="m" val="25.0" />
     <attnum name="profil steps length" unit="m" val="4.0" />
     <attstr name="surface" val="asphalt2-lines" />
     <!--Left part of track-->
@@ -93,6 +93,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <attstr name="style" val="curb" />
     </section>
     <!--End of right part-->
+
     <section name="Pits">
       <attstr name="side" val="right" />
       <attstr name="entry" val="" />
@@ -102,13 +103,14 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <attnum name="length" unit="m" val="0.0" />
       <attnum name="width" unit="m" val="0.0" />
     </section>
+
     <section name="Track Segments">
       <!--******************************-->
       <!--     Segment 1                -->
       <!--******************************-->
       <section name="frontstretch">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="374.0" />
+        <attnum name="lg" unit="ft" val="3740.0" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
@@ -156,8 +158,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <!--******************************-->
       <section name="turn1">
         <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="147.0" />
-        <attnum name="radius" unit="m" val="67.5" />
+        <attnum name="arc" unit="deg" val="148.5" />
+        <attnum name="radius" unit="ft" val="675.0" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
@@ -205,7 +207,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <!--******************************-->
       <section name="long-pond-straight">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="305.5" />
+        <attnum name="lg" unit="ft" val="3055.0" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
@@ -253,8 +255,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <!--******************************-->
       <section name="turn2">
         <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="84.0" />
-        <attnum name="radius" unit="m" val="75.0" />
+        <attnum name="arc" unit="deg" val="82.0" />
+        <attnum name="radius" unit="ft" val="750.0" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
@@ -302,7 +304,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <!--******************************-->
       <section name="short-straight">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="186.0" />
+        <attnum name="lg" unit="ft" val="1780.0" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
@@ -350,8 +352,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <!--******************************-->
       <section name="turn3">
         <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="129.0" />
-        <attnum name="radius" unit="m" val="80.0" />
+        <attnum name="arc" unit="deg" val="129.5" />
+        <attnum name="radius" unit="ft" val="800.0" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
