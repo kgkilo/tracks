@@ -87,27 +87,27 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
           <attstr name="surface" val="asphalt" />
         </section>
         <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
+          <attnum name="width" unit="m" val="0.5" />
+          <attnum name="height" unit="m" val="1.5" />
+          <attstr name="surface" val="wall" />
+          <attstr name="style" val="wall" />
         </section>
         <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
+          <attnum name="width" unit="m" val="0.0" />
+          <attnum name="height" unit="m" val="0.0" />
+          <attstr name="surface" val="concrete" />
           <attstr name="style" val="plan" />
         </section>
+        <section name="Right Side">
+          <attnum name="start width" unit="m" val="0.0" />
+          <attnum name="end width" unit="m" val="0.0" />
+          <attstr name="surface" val="concrete" />
+        </section>
         <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
+          <attnum name="width" unit="m" val="0.3" />
+          <attnum name="height" unit="m" val="3.0" />
+          <attstr name="surface" val="barrier-fence" />
+          <attstr name="style" val="fence" />
         </section>
       </section>
 
@@ -128,7 +128,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         </section>
         <section name="Left Side">
           <attnum name="start width" unit="m" val="30.0" />
-          <attnum name="end width" unit="m" val="32.0" />
+          <attnum name="end width" unit="m" val="30.0" />
           <attstr name="surface" val="asphalt" />
         </section>
       </section>
@@ -150,8 +150,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
           <attstr name="style" val="plan" />
         </section>
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="32.0" />
-          <attnum name="end width" unit="m" val="28.0" />
+          <attnum name="start width" unit="m" val="30.0" />
+          <attnum name="end width" unit="m" val="25.0" />
           <attstr name="surface" val="grass" />
         </section>
       </section>
@@ -167,7 +167,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="28.0" />
+          <attnum name="start width" unit="m" val="25.0" />
           <attnum name="end width" unit="m" val="25.0" />
           <attstr name="surface" val="grass" />
         </section>
