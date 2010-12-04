@@ -42,12 +42,18 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
   <section name="Graphic">
     <attstr name="3d description" val="longpond.ac" />
+    <attstr name="background image" val="background.png"/>
+    <attnum name="background type" val="4"/>
     <section name="Terrain Generation">
       <attnum name="track step" unit="m" val="20" />
       <attnum name="border margin" unit="m" val="50" />
       <attnum name="border step" unit="m" val="30" />
-      <attnum name="border height" unit="m" val="15" />
+      <attnum name="border height" unit="m" val="10" />
       <attstr name="orientation" val="clockwise" />
+      <attnum name="maximum altitude" val="20"/>
+      <attnum name="minimum altitude" val="-5"/>
+      <attnum name="group size" val="200"/>
+      <attstr name="surface" val="grass7"/>
     </section>
   </section>
   
