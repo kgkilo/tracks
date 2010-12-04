@@ -167,7 +167,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <section name="Left Side">
           <attnum name="start width" unit="m" val="30.0" />
           <attnum name="end width" unit="m" val="27.5" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="lp-grass" />
         </section>
       </section>
       <section name="turn1-2">
@@ -182,7 +182,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <section name="Left Side">
           <attnum name="start width" unit="m" val="27.5" />
           <attnum name="end width" unit="m" val="25.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="lp-grass" />
         </section>
       </section>
 
@@ -199,7 +199,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <section name="Left Side">
           <attnum name="start width" unit="m" val="25.0" />
           <attnum name="end width" unit="m" val="25.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="lp-grass" />
         </section>
       </section>
       <section name="long-pond-straight-2">
@@ -245,7 +245,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <section name="Left Side">
           <attnum name="start width" unit="m" val="25.0" />
           <attnum name="end width" unit="m" val="24.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="lp-grass" />
         </section>
       </section>
       
@@ -271,7 +271,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <section name="Left Side">
           <attnum name="start width" unit="m" val="24.0" />
           <attnum name="end width" unit="m" val="25.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="lp-grass" />
         </section>
       </section>
       <section name="short-straight-3">
@@ -298,7 +298,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <section name="Left Side">
           <attnum name="start width" unit="m" val="25.0" />
           <attnum name="end width" unit="m" val="26.5" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="lp-grass" />
         </section>
       </section>
       <section name="turn3-2">
@@ -313,7 +313,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <section name="Left Side">
           <attnum name="start width" unit="m" val="26.5" />
           <attnum name="end width" unit="m" val="28.0" />
-          <attstr name="surface" val="grass" />
+          <attstr name="surface" val="lp-grass" />
         </section>
       </section>
 
@@ -373,6 +373,33 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
     </section>
   </section>
 
-  <section name="Surfaces">&default-surfaces;</section>
+  <section name="Surfaces">
+    &default-surfaces;
+  
+    <section name="lp-grass">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.4"/>
+      <attnum name="color B1" val="0.1"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.5"/>
+      <attnum name="color B2" val="0.2"/>
+      <attstr name="texture name" val="tr-grass2.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="continuous"/>
+      <attnum name="texture size" val="5.0" unit="m"/>
+      <attnum name="texture mipmap" val="4.0"/>
+
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+
+      <attnum name="friction"           val="0.4"/>
+      <attnum name="friction rain"      val="0.2"/>
+      <attnum name="rolling resistance" val="0.09"/>
+      <attnum name="rolling resistance rain" val="0.05"/>
+
+      <attnum name="roughness" val="0.05"/>
+      <attnum name="roughness wavelength" val="0.5"/>
+    </section>
+
+  </section>
 </params>
 
