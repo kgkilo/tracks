@@ -72,8 +72,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <section name="frontstretch-1">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="ft" val="1150.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z start left" unit="m" val="0.0" />
+        <attnum name="z start right" unit="m" val="0.87" /><!-- 2deg-->
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="0.87" />
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -114,34 +116,11 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <!--******************************-->
       <!--     Frontstretch pit exit    -->
       <!--******************************-->
-      <section name="frontstretch-2">
+      <section name="frontstretch-2-1">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="ft" val="1280.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
-        <section name="Left Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="wall" />
-          <attstr name="style" val="wall" />
-        </section>
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="30.0" />
-          <attnum name="end width" unit="m" val="30.0" />
-          <attstr name="surface" val="asphalt" />
-        </section>
-      </section>
-
-      <!--******************************-->
-      <!--     Turn 1                   -->
-      <!--******************************-->
-      <section name="turn1">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="148.5" />
-        <attnum name="radius" unit="ft" val="675.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="ft" val="880.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="0.87" /><!-- 2deg-->
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.2" />
@@ -151,6 +130,43 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         </section>
         <section name="Left Side">
           <attnum name="start width" unit="m" val="30.0" />
+          <attnum name="end width" unit="m" val="30.0" />
+          <attstr name="surface" val="asphalt" />
+        </section>
+      </section>
+      <section name="frontstretch-2-2">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="ft" val="400.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="2.63" /><!-- 6deg-->
+        <attstr name="surface" val="asphalt2-lines" />
+      </section>
+
+      <!--******************************-->
+      <!--     Turn 1                   -->
+      <!--******************************-->
+      <section name="turn1-1">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="74.25" />
+        <attnum name="radius" unit="ft" val="675.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="6.23" /><!-- 14deg-->
+        <attstr name="surface" val="asphalt2-lines" />
+        <section name="Left Side">
+          <attnum name="start width" unit="m" val="30.0" />
+          <attnum name="end width" unit="m" val="27.5" />
+          <attstr name="surface" val="grass" />
+        </section>
+      </section>
+      <section name="turn1-2">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="74.25" />
+        <attnum name="radius" unit="ft" val="675.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="2.63" /><!-- 6deg-->
+        <attstr name="surface" val="asphalt2-lines" />
+        <section name="Left Side">
+          <attnum name="start width" unit="m" val="27.5" />
           <attnum name="end width" unit="m" val="25.0" />
           <attstr name="surface" val="grass" />
         </section>
@@ -159,31 +175,51 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <!--******************************-->
       <!--     Long Pond straight       -->
       <!--******************************-->
-      <section name="long-pond-straight">
+      <section name="long-pond-straight-1">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="ft" val="3055.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="ft" val="300.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="0.87" /><!-- 2deg-->
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="25.0" />
           <attnum name="end width" unit="m" val="25.0" />
           <attstr name="surface" val="grass" />
         </section>
       </section>
+      <section name="long-pond-straight-2">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="ft" val="2455.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="0.87" /><!-- 2deg-->
+        <attstr name="surface" val="asphalt2-lines" />
+      </section>
+      <section name="long-pond-straight-3">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="ft" val="300.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="2.19" /><!-- 5deg-->
+        <attstr name="surface" val="asphalt2-lines" />
+      </section>
       
       <!--******************************-->
       <!--     Turn 2                   -->
       <!--******************************-->
-      <section name="turn2">
+      <section name="turn2-1">
         <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="82.0" />
+        <attnum name="arc" unit="deg" val="41.0" />
         <attnum name="radius" unit="ft" val="750.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="3.51" /><!-- 8deg-->
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
+      </section>
+      <section name="turn2-2">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="41.0" />
+        <attnum name="radius" unit="ft" val="750.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="1.75" /><!-- 4deg-->
+        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="25.0" />
           <attnum name="end width" unit="m" val="24.0" />
@@ -194,33 +230,58 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <!--******************************-->
       <!--     Short straight           -->
       <!--******************************-->
-      <section name="short-straight">
+      <section name="short-straight-1">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="ft" val="1782.625" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="ft" val="300.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="0.44" /><!-- 1deg-->
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
+      </section>
+      <section name="short-straight-2">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="ft" val="1182.625" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="0.44" /><!-- 1deg-->
+        <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="24.0" />
           <attnum name="end width" unit="m" val="25.0" />
           <attstr name="surface" val="grass" />
         </section>
       </section>
+      <section name="short-straight-3">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="ft" val="300.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="1.75" /><!-- 4deg-->
+        <attstr name="surface" val="asphalt2-lines" />
+      </section>
       
       <!--******************************-->
       <!--     Turn 3                   -->
       <!--******************************-->
-      <section name="turn3">
+      <section name="turn3-1">
         <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="129.5" />
+        <attnum name="arc" unit="deg" val="64.75" />
         <attnum name="radius" unit="ft" val="800.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="2.63" /><!-- 6deg-->
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Side">
           <attnum name="start width" unit="m" val="25.0" />
+          <attnum name="end width" unit="m" val="26.5" />
+          <attstr name="surface" val="grass" />
+        </section>
+      </section>
+      <section name="turn3-2">
+        <attstr name="type" val="lft" />
+        <attnum name="arc" unit="deg" val="64.75" />
+        <attnum name="radius" unit="ft" val="800.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="1.75" /><!-- 4deg-->
+        <attstr name="surface" val="asphalt2-lines" />
+        <section name="Left Side">
+          <attnum name="start width" unit="m" val="26.5" />
           <attnum name="end width" unit="m" val="28.0" />
           <attstr name="surface" val="grass" />
         </section>
@@ -229,14 +290,26 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <!--******************************-->
       <!--     Frontstretch pit entry   -->
       <!--******************************-->
-      <section name="frontstretch-3">
+      <section name="frontstretch-3-1">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="ft" val="820.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="lg" unit="ft" val="300.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="0.87" /><!-- 2deg-->
         <attstr name="surface" val="asphalt2-lines" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="28.0" />
+          <attnum name="end width" unit="m" val="29.0" />
+          <attstr name="surface" val="asphalt" />
+        </section>
+      </section>
+      <section name="frontstretch-3-2">
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="ft" val="520.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="0.87" /><!-- 2deg-->
+        <attstr name="surface" val="asphalt2-lines" />
+        <section name="Left Side">
+          <attnum name="start width" unit="m" val="29.0" />
           <attnum name="end width" unit="m" val="30.0" />
           <attstr name="surface" val="asphalt" />
         </section>
@@ -248,8 +321,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <section name="frontstretch-4">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="ft" val="489.3223" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
+        <attnum name="z end left" unit="m" val="0.0" />
+        <attnum name="z end right" unit="m" val="0.87" /><!-- 2deg-->
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Border">
