@@ -54,45 +54,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
   <section name="Main Track">
     <attnum name="width" unit="m" val="25.0" />
     <attnum name="profil steps length" unit="m" val="4.0" />
-    <attstr name="surface" val="asphalt2-lines" />
-    <!--Left part of track-->
-    <section name="Left Side">
-      <attnum name="start width" unit="m" val="4.0" />
-      <attnum name="end width" unit="m" val="4.0" />
-      <attstr name="surface" val="grass" />
-    </section>
-    <section name="Left Border">
-      <attnum name="width" unit="m" val="0.5" />
-      <attnum name="height" unit="m" val="0.05" />
-      <attstr name="surface" val="curb-5cm-r" />
-      <attstr name="style" val="plan" />
-    </section>
-    <section name="Left Barrier">
-      <attnum name="width" unit="m" val="0.1" />
-      <attnum name="height" unit="m" val="1.0" />
-      <attstr name="surface" val="barrier" />
-      <attstr name="style" val="curb" />
-    </section>
-    <!--End of left part-->
-    <!--Right part of track-->
-    <section name="Right Side">
-      <attnum name="start width" unit="m" val="4.0" />
-      <attnum name="end width" unit="m" val="4.0" />
-      <attstr name="surface" val="grass" />
-    </section>
-    <section name="Right Border">
-      <attnum name="width" unit="m" val="0.5" />
-      <attnum name="height" unit="m" val="0.05" />
-      <attstr name="surface" val="curb-5cm-r" />
-      <attstr name="style" val="plan" />
-    </section>
-    <section name="Right Barrier">
-      <attnum name="width" unit="m" val="0.1" />
-      <attnum name="height" unit="m" val="1.0" />
-      <attstr name="surface" val="barrier" />
-      <attstr name="style" val="curb" />
-    </section>
-    <!--End of right part-->
 
     <section name="Pits">
       <attstr name="side" val="right" />
@@ -106,7 +67,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
     <section name="Track Segments">
       <!--******************************-->
-      <!--     Segment 1                -->
+      <!--     Frontstretch pit         -->
       <!--******************************-->
       <section name="frontstretch-1">
         <attstr name="type" val="str" />
@@ -114,7 +75,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="1.0" />
@@ -132,8 +92,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
         <section name="Right Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
@@ -151,15 +109,17 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
           <attstr name="surface" val="barrier" />
           <attstr name="style" val="curb" />
         </section>
-        <!--End of right part-->
       </section>
+
+      <!--******************************-->
+      <!--     Frontstretch pit exit    -->
+      <!--******************************-->
       <section name="frontstretch-2">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="ft" val="1280.0" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.0" />
           <attnum name="height" unit="m" val="1.0" />
@@ -171,35 +131,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
           <attnum name="end width" unit="m" val="32.0" />
           <attstr name="surface" val="asphalt" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of right part-->
       </section>
+
       <!--******************************-->
-      <!--     Segment 2                -->
+      <!--     Turn 1                   -->
       <!--******************************-->
       <section name="turn1">
         <attstr name="type" val="lft" />
@@ -208,7 +143,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
         <section name="Left Border">
           <attnum name="width" unit="m" val="1.2" />
           <attnum name="height" unit="m" val="0.0" />
@@ -220,35 +154,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
           <attnum name="end width" unit="m" val="28.0" />
           <attstr name="surface" val="grass" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of right part-->
       </section>
+
       <!--******************************-->
-      <!--     Segment 3                -->
+      <!--     Long Pond straight       -->
       <!--******************************-->
       <section name="long-pond-straight">
         <attstr name="type" val="str" />
@@ -262,35 +171,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
           <attnum name="end width" unit="m" val="25.0" />
           <attstr name="surface" val="grass" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of right part-->
       </section>
+      
       <!--******************************-->
-      <!--     Segment 4                -->
+      <!--     Turn 2                   -->
       <!--******************************-->
       <section name="turn2">
         <attstr name="type" val="lft" />
@@ -305,35 +189,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
           <attnum name="end width" unit="m" val="24.0" />
           <attstr name="surface" val="grass" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of right part-->
       </section>
+      
       <!--******************************-->
-      <!--     Segment 5                -->
+      <!--     Short straight           -->
       <!--******************************-->
       <section name="short-straight">
         <attstr name="type" val="str" />
@@ -347,35 +206,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
           <attnum name="end width" unit="m" val="25.0" />
           <attstr name="surface" val="grass" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of right part-->
       </section>
+      
       <!--******************************-->
-      <!--     Segment 6                -->
+      <!--     Turn 3                   -->
       <!--******************************-->
       <section name="turn3">
         <attstr name="type" val="lft" />
@@ -390,79 +224,27 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
           <attnum name="end width" unit="m" val="28.0" />
           <attstr name="surface" val="grass" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of right part-->
       </section>
 
+      <!--******************************-->
+      <!--     Frontstretch pit entry   -->
+      <!--******************************-->
       <section name="frontstretch-3">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="ft" val="820.0" />
         <attnum name="z start" unit="m" val="0.0" />
         <attnum name="z end" unit="m" val="0.0" />
         <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
-        <section name="Left Border">
-          <attnum name="width" unit="m" val="1.0" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="wall" />
-          <attstr name="style" val="wall" />
-        </section>
         <section name="Left Side">
           <attnum name="start width" unit="m" val="28.0" />
           <attnum name="end width" unit="m" val="30.0" />
           <attstr name="surface" val="asphalt" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of right part-->
       </section>
+
+      <!--******************************-->
+      <!--     Frontstretch pit         -->
+      <!--******************************-->
       <section name="frontstretch-4">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="ft" val="489.3223" />
@@ -481,32 +263,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
           <attnum name="end width" unit="m" val="30.0" />
           <attstr name="surface" val="asphalt" />
         </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="curb" />
-        </section>
-        <!--End of right part-->
       </section>
     </section>
   </section>
