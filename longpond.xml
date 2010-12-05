@@ -402,7 +402,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
     <!-- Turn3-2, looking at whole Turn3 -->
     <section name="cam 5">
         <attstr name="segment" val="frontstretch-3-1"/>
-        <attnum name="to right" unit="m" val="-15"/>
+        <attnum name="to right" unit="m" val="-10"/>
         <attnum name="to start" unit="m" val="-80"/>
         <attnum name="height" unit="m" val="25"/>
         <attstr name="fov start" val="turn3-1"/>
