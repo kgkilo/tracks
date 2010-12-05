@@ -93,7 +93,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <section name="Left Side">
           <attnum name="start width" unit="m" val="30.0" />
           <attnum name="end width" unit="m" val="30.0" />
-          <attstr name="surface" val="asphalt-bw-az-pit" />
+          <attstr name="surface" val="asphalt-bw-lp-pit" />
         </section>
         <section name="Left Barrier">
           <attnum name="width" unit="m" val="0.5" />
@@ -150,7 +150,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <attnum name="z end right" unit="ft" val="11.42" /><!-- 8deg-->
         <attstr name="profil" val="linear"/>
         <attnum name="profil end tangent right" unit="deg" val="11.0"/>
-        <attstr name="surface" val="asphalt-bw-az-pitentry" />
+        <attstr name="surface" val="asphalt-bw-lp-pitentry" />
       </section>
 
       <!--******************************-->
@@ -328,7 +328,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <attnum name="z end left" unit="ft" val="0.0" />
         <attnum name="z end right" unit="ft" val="2.85" /><!-- 2deg-->
         <attnum name="profil end tangent right" unit="deg" val="0.0"/>
-        <attstr name="surface" val="asphalt-bw-az-pitentry" />
+        <attstr name="surface" val="asphalt-bw-lp-pitentry" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="29.0" />
           <attnum name="end width" unit="m" val="30.0" />
@@ -355,7 +355,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <section name="Left Side">
           <attnum name="start width" unit="m" val="30.0" />
           <attnum name="end width" unit="m" val="30.0" />
-          <attstr name="surface" val="asphalt-bw-az-pit" />
+          <attstr name="surface" val="asphalt-bw-lp-pit" />
         </section>
       </section>
     </section>
