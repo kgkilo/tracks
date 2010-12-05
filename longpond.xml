@@ -361,6 +361,74 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
     </section>
   </section>
 
+
+  <section name="Cameras">
+    <!-- Turn1, looking at frontstretch & Turn1 1st part -->
+    <section name="cam 0">
+        <attstr name="segment" val="frontstretch-2-2"/>
+        <attnum name="to right" unit="m" val="25"/>
+        <attnum name="to start" unit="m" val="280"/>
+        <attnum name="height" unit="m" val="5"/>
+        <attstr name="fov start" val="frontstretch-1"/>
+        <attstr name="fov end" val="turn1-2"/>
+    </section>
+    <!-- Turn1, looking at Turn1 2nd part -->
+    <section name="cam 1">
+        <attstr name="segment" val="long-pond-straight-1"/>
+        <attnum name="to right" unit="m" val="0.5"/>
+        <attnum name="to start" unit="m" val="0"/>
+        <attnum name="height" unit="m" val="2"/>
+        <attstr name="fov start" val="turn1-2"/>
+        <attstr name="fov end" val="long-pond-straight-2"/>
+    </section>
+    <!-- Turn2, looking at backstretch and Turn2 1st part -->
+    <section name="cam 2">
+        <attstr name="segment" val="long-pond-straight-3"/>
+        <attnum name="to right" unit="m" val="22"/>
+        <attnum name="to start" unit="m" val="190"/>
+        <attnum name="height" unit="m" val="5"/>
+        <attstr name="fov start" val="long-pond-straight-2"/>
+        <attstr name="fov end" val="turn2-2"/>
+    </section>
+    <!-- Turn2, looking at Turn2 2nd part -->
+    <section name="cam 3">
+        <attstr name="segment" val="short-straight-1"/>
+        <attnum name="to right" unit="m" val="0.5"/>
+        <attnum name="to start" unit="m" val="0"/>
+        <attnum name="height" unit="m" val="2"/>
+        <attstr name="fov start" val="turn2-2"/>
+        <attstr name="fov end" val="short-straight-2"/>
+    </section>
+    <!-- Inner side short leg 80%, looking at short leg -->
+    <section name="cam 4">
+        <attstr name="segment" val="short-straight-3"/>
+        <attnum name="to right" unit="m" val="45"/>
+        <attnum name="to start" unit="m" val="20"/>
+        <attnum name="height" unit="m" val="15"/>
+        <attstr name="fov start" val="short-straight-2"/>
+        <attstr name="fov end" val="turn3-1"/>
+    </section>
+    <!-- Turn3-2, looking at whole Turn3 -->
+    <section name="cam 5">
+        <attstr name="segment" val="frontstretch-3-1"/>
+        <attnum name="to right" unit="m" val="-15"/>
+        <attnum name="to start" unit="m" val="-80"/>
+        <attnum name="height" unit="m" val="25"/>
+        <attstr name="fov start" val="turn3-1"/>
+        <attstr name="fov end" val="frontstretch-3-2"/>
+    </section>
+    <!-- Start/finish, looks at frontstretch 3 & 4 -->
+    <section name="cam 6">
+        <attstr name="segment" val="frontstretch-1"/>
+        <attnum name="to right" unit="m" val="-25"/>
+        <attnum name="to start" unit="m" val="0"/>
+        <attnum name="height" unit="m" val="40"/>
+        <attstr name="fov start" val="frontstretch-3-2"/>
+        <attstr name="fov end" val="frontstretch-1"/>
+    </section>
+  </section>
+    
+
   <section name="Surfaces">
     &default-surfaces;
   
