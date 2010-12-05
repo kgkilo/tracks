@@ -62,13 +62,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
     <attnum name="profil steps length" unit="m" val="10.0" />
     
     <section name="Pits">
-      <attstr name="side" val="right" />
-      <attstr name="entry" val="" />
-      <attstr name="start" val="" />
-      <attstr name="end" val="" />
-      <attstr name="exit" val="" />
-      <attnum name="length" unit="m" val="0.0" />
-      <attnum name="width" unit="m" val="0.0" />
+      <attstr name="side" val="left" />
+      <attstr name="entry" val="frontstretch-3-1" />
+      <attstr name="start" val="frontstretch-4" />
+      <attstr name="end" val="frontstretch-1" />
+      <attstr name="exit" val="frontstretch-2-1" />
+      <attnum name="length" unit="m" val="15.0" />
+      <attnum name="width" unit="m" val="5.0" />
     </section>
 
     <section name="Track Segments">
