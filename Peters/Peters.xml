@@ -291,7 +291,7 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="friction"           val="0.0"/>
       <attnum name="roughness" val="0.03"/>
       <attnum name="roughness wavelength" val="4.0"/>
-      <attnum name="dammage" val="1.5"/>
+      <attnum name="dammage" val="10.0"/>
     </section>
 
 		<!-- Lower curbs -->
