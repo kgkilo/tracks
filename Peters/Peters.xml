@@ -113,6 +113,28 @@ the Free Software Foundation; either version 2 of the License, or
 			<attnum name="roughness wavelength" val="1.0"/>
 		</section>
 
+		<section name="asphalt-pete-pits">
+      <attnum name="color R1" val="0.1"/>
+      <attnum name="color G1" val="0.1"/>
+      <attnum name="color B1" val="0.4"/>
+      <attnum name="color R2" val="0.2"/>
+      <attnum name="color G2" val="0.2"/>
+      <attnum name="color B2" val="0.5"/>
+      <attstr name="texture name" val="road-pit.png"/>
+      <attstr name="texture type" in="discrete, continuous" val="continuous"/>
+      <attnum name="texture size" val="15.0" unit="m"/>
+			<attnum name="texture mipmap" val="0.0"/>
+
+			<attstr name="bump name" val=""/>
+			<attnum name="bump size" val="2.0" unit="m"/>
+
+			<attnum name="friction"           val="1.1"/>
+			<attnum name="rolling resistance" val="0.02"/>
+
+			<attnum name="roughness" val="0.0"/>
+			<attnum name="roughness wavelength" val="1.0"/>
+		</section>
+
 		<!-- Runway concrete -->
 		<section name="rwy-pete">
       <attnum name="color R1" val="0.1"/>
@@ -474,7 +496,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Right Side">
           <attnum name="start width" unit="m" val="18.0" />
           <attnum name="end width" unit="m" val="18.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-pits" />
         </section>
         <section name="Right Barrier">
           <attnum name="width" unit="m" val="0.1" />
@@ -523,7 +545,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Right Side">
           <attnum name="start width" unit="m" val="18.0" />
           <attnum name="end width" unit="m" val="9.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
       </section>
 
@@ -570,7 +592,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Left Side">
           <attnum name="start width" unit="m" val="16.0" />
           <attnum name="end width" unit="m" val="20.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
       </section>
 
@@ -597,7 +619,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Left Side">
           <attnum name="start width" unit="m" val="20.0" />
           <attnum name="end width" unit="m" val="0.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -639,7 +661,7 @@ the Free Software Foundation; either version 2 of the License, or
 		<section name="Left Side">
           <attnum name="start width" unit="m" val="0.0" />
           <attnum name="end width" unit="m" val="3.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
          <section name="Left Barrier">
           <attnum name="width" unit="m" val="0.1" />
@@ -669,7 +691,7 @@ the Free Software Foundation; either version 2 of the License, or
 				<section name="Left Side">
           <attnum name="start width" unit="m" val="3.0" />
           <attnum name="end width" unit="m" val="0.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="7.0" />
@@ -828,7 +850,7 @@ the Free Software Foundation; either version 2 of the License, or
 				<section name="Left Side">
           <attnum name="start width" unit="m" val="0.0" />
           <attnum name="end width" unit="m" val="10.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="1.0" />
@@ -839,7 +861,7 @@ the Free Software Foundation; either version 2 of the License, or
 				<section name="Right Side">
           <attnum name="start width" unit="m" val="0.0" />
           <attnum name="end width" unit="m" val="2.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
       </section>
       <section name="s15-2">
@@ -854,12 +876,12 @@ the Free Software Foundation; either version 2 of the License, or
 				<section name="Left Side">
           <attnum name="start width" unit="m" val="10.0" />
           <attnum name="end width" unit="m" val="0.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
 				<section name="Right Side">
           <attnum name="start width" unit="m" val="2.0" />
           <attnum name="end width" unit="m" val="0.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
       </section>
 
@@ -894,7 +916,7 @@ the Free Software Foundation; either version 2 of the License, or
 				<section name="Left Side">
           <attnum name="start width" unit="m" val="0.0" />
           <attnum name="end width" unit="m" val="3.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
       </section>
       <section name="s17-2">
@@ -907,7 +929,7 @@ the Free Software Foundation; either version 2 of the License, or
 				<section name="Left Side">
           <attnum name="start width" unit="m" val="3.0" />
           <attnum name="end width" unit="m" val="0.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
       </section>
 
@@ -967,7 +989,7 @@ the Free Software Foundation; either version 2 of the License, or
 				<section name="Left Side">
           <attnum name="start width" unit="m" val="0.0" />
           <attnum name="end width" unit="m" val="10.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
       </section>
       <section name="s22-2">
@@ -981,7 +1003,7 @@ the Free Software Foundation; either version 2 of the License, or
 				<section name="Left Side">
           <attnum name="start width" unit="m" val="10.0" />
           <attnum name="end width" unit="m" val="0.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
       </section>
 
@@ -1013,7 +1035,7 @@ the Free Software Foundation; either version 2 of the License, or
 				<section name="Left Side">
           <attnum name="start width" unit="m" val="0.0" />
           <attnum name="end width" unit="m" val="10.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
       </section>
       <section name="s24-2">
@@ -1028,7 +1050,7 @@ the Free Software Foundation; either version 2 of the License, or
 				<section name="Left Side">
           <attnum name="start width" unit="m" val="10.0" />
           <attnum name="end width" unit="m" val="0.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
       </section>
 
@@ -1117,7 +1139,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Left Side">
           <attnum name="start width" unit="m" val="0.0" />
           <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
         <section name="Left Barrier">
           <attnum name="width" unit="m" val="0.1" />
@@ -1133,7 +1155,7 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Right Side">
           <attnum name="start width" unit="m" val="5.0" />
           <attnum name="end width" unit="m" val="12.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
       </section>
 
@@ -1154,12 +1176,12 @@ the Free Software Foundation; either version 2 of the License, or
         <section name="Left Side">
           <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="0.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="12.0" />
           <attnum name="end width" unit="m" val="0.0" />
-          <attstr name="surface" val="road" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
       </section>
 
@@ -1345,8 +1367,8 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="banking end" unit="deg" val="0.0"/>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="9.0" />
-          <attnum name="end width" unit="m" val="15.0" />
-          <attstr name="surface" val="road" />
+          <attnum name="end width" unit="m" val="18.0" />
+          <attstr name="surface" val="asphalt-pete-spec" />
         </section>
       </section>
       <section name="s40-2">
@@ -1359,11 +1381,6 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="1.5" />
           <attstr name="surface" val="barrier-conc" />
           <attstr name="style" val="wall" />
-        </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="15.0" />
-          <attnum name="end width" unit="m" val="18.0" />
-          <attstr name="surface" val="road" />
         </section>
       </section>
 
@@ -1379,6 +1396,11 @@ the Free Software Foundation; either version 2 of the License, or
           <attnum name="height" unit="m" val="1.5" />
           <attstr name="surface" val="barrier-conc" />
           <attstr name="style" val="wall" />
+        </section>
+        <section name="Right Side">
+          <attnum name="start width" unit="m" val="18.0" />
+          <attnum name="end width" unit="m" val="18.0" />
+          <attstr name="surface" val="asphalt-pete-pits" />
         </section>
         <section name="Right Barrier">
           <attnum name="width" unit="m" val="0.1" />
