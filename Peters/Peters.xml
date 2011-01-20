@@ -1493,7 +1493,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s41">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="320.9051" />
-        <attnum name="grade" unit="%" val="-0.3040685" />
+        <attnum name="grade" unit="%" val="0.188729" />
         <attnum name="profile end tangent" unit="%" val="0.4" />
         <section name="Right Border">
           <attnum name="width" unit="m" val="0.3" />
