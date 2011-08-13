@@ -109,12 +109,12 @@
       <attnum name="texture mipmap" val="0.0" unit="m"/>
       <attstr name="bump name" val="bump-as.rgb"/>
       <attnum name="bump size" val="2.0" unit="m"/>
-      <attnum name="friction"           val="1.0"/>
-      <attnum name="rolling resistance" val="0.001"/>
+      <attnum name="friction"           val="1.1"/>
+      <attnum name="rolling resistance" val="0.015"/>
       <attnum name="roughness" val="0"/>
       <attnum name="roughness wavelength" val="1.0"/>
     </section>
-    
+
     <section name="asphalt-kn-side">
       <attnum name="color R1" val="0.1"/>
       <attnum name="color G1" val="0.1"/>
@@ -128,12 +128,12 @@
       <attnum name="texture mipmap" val="4.0" unit="m"/>
       <attstr name="bump name" val=""/>
       <attnum name="bump size" val="2.0" unit="m"/>
-      <attnum name="friction"           val="1.0"/>
-      <attnum name="rolling resistance" val="0.001"/>
+      <attnum name="friction"           val="1.1"/>
+      <attnum name="rolling resistance" val="0.015"/>
       <attnum name="roughness" val="0"/>
       <attnum name="roughness wavelength" val="1.0"/>
     </section>
-    
+
     <section name="asphalt-kn-pitentry">
       <attnum name="color R1" val="0.1"/>
       <attnum name="color G1" val="0.1"/>
@@ -147,8 +147,8 @@
       <attnum name="texture mipmap" val="4.0"/>
       <attstr name="bump name" val=""/>
       <attnum name="bump size" val="2.0" unit="m"/>
-      <attnum name="friction"           val="1.1"/>
-      <attnum name="rolling resistance" val="0.002"/>
+      <attnum name="friction"           val="1.15"/>
+      <attnum name="rolling resistance" val="0.020"/>
       <attnum name="roughness" val="0"/>
       <attnum name="roughness wavelength" val="1.0"/>
     </section>
@@ -168,8 +168,8 @@
       <attnum name="texture mipmap" val="0.0" unit="m"/>
       <attstr name="bump name" val=""/>
       <attnum name="bump size" val="2.0" unit="m"/>
-      <attnum name="friction"           val="1.1"/>
-      <attnum name="rolling resistance" val="0.05"/>
+      <attnum name="friction"           val="1.15"/>
+      <attnum name="rolling resistance" val="0.030"/>
       <attnum name="roughness" val="0"/>
       <attnum name="roughness wavelength" val="1.0"/>
     </section>
@@ -208,8 +208,8 @@
       <attstr name="bump name" val=""/>
       <attnum name="bump size" val="2.0" unit="m"/>
 
-      <attnum name="friction"           val="1.2"/>
-      <attnum name="rolling resistance" val="0.003"/>
+      <attnum name="friction"           val="1.05"/>
+      <attnum name="rolling resistance" val="0.02"/>
 
       <attnum name="roughness" val="0.04"/>
       <attnum name="roughness wavelength" val="0.3"/>
@@ -230,8 +230,8 @@
       <attstr name="bump name" val=""/>
       <attnum name="bump size" val="2.0" unit="m"/>
 
-      <attnum name="friction"           val="1.2"/>
-      <attnum name="rolling resistance" val="0.003"/>
+      <attnum name="friction"           val="1.05"/>
+      <attnum name="rolling resistance" val="0.02"/>
 
       <attnum name="roughness" val="0.04"/>
       <attnum name="roughness wavelength" val="0.3"/>
@@ -260,16 +260,25 @@
   </section>
 
   <section name="Header">
-    <attstr name="name" val="knock" />
+    <attstr name="name" val="Knock" />
     <attstr name="category" val="road" />
     <attnum name="version" val="4" />
+    <attnum name="sky version" val="1"/>
     <attstr name="author" val="kilo" />
     <attstr name="description" val="Knockhill, Scotland" />
   </section>
-  
+
+  <section name="Local Info">
+    <attnum name="overall rain likelyhood" unit="%" val="50"/>
+    <attnum name="little rain likelyhood" unit="%" val="70"/>
+    <attnum name="medium rain likelyhood" unit="%" val="45"/>
+    <attnum name="time of day" unit="hour" val="15.0"/>
+    <attnum name="sun ascension" unit="deg" val="0"/>
+  </section>
+
   <section name="Graphic">
     <attstr name="3d description" val="knock.ac" />
-
+    <attnum name="fov factor" val="1.5"/>
 <!--
     <section name="Turn Marks">
       <attnum name="width" unit="m" val="3.0"/>
