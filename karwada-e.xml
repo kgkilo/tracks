@@ -879,6 +879,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="arc" unit="deg" val="52.0" />
         <attnum name="radius" unit="m" val="45.0" />
         <attnum name="z end" unit="m" val="14.5" />
+        <attnum name="banking end" unit="deg" val="-1.0" />
         <attstr name="surface" val="asphalt-w2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="11.5" />
@@ -896,6 +897,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="25.0" />
         <attnum name="z end" unit="m" val="14.6" />
+        <attnum name="banking end" unit="deg" val="-0.5" />
         <attstr name="surface" val="asphalt-w2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="11.5" />
@@ -921,6 +923,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="radius" unit="m" val="120.0" />
         <attnum name="end radius" unit="m" val="50.0" />
         <attnum name="z end" unit="m" val="13.6" />
+        <attnum name="banking end" unit="deg" val="0.0" />
         <attstr name="surface" val="asphalt-w2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="9.5" />
@@ -939,6 +942,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="arc" unit="deg" val="30.0" />
         <attnum name="radius" unit="m" val="70.0" />
         <attnum name="z end" unit="m" val="12.8" />
+        <attnum name="banking end" unit="deg" val="1.0" />
         <attstr name="surface" val="asphalt-w2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="7.5" />
@@ -957,7 +961,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attnum name="arc" unit="deg" val="47.0" />
         <attnum name="radius" unit="m" val="70.0" />
         <attnum name="z end" unit="m" val="12.0" />
-        <attnum name="banking end" unit="deg" val="2.0" />
+        <attnum name="banking end" unit="deg" val="1.0" />
         <attstr name="surface" val="asphalt-w2" />
         <section name="Left Side">
           <attnum name="start width" unit="m" val="7.5" />
