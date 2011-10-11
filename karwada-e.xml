@@ -895,7 +895,7 @@ the Free Software Foundation; either version 2 of the License, or
 
       <section name="curve 8b">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="25.0" />
+        <attnum name="lg" unit="m" val="28.807" />
         <attnum name="z end" unit="m" val="14.6" />
         <attnum name="banking end" unit="deg" val="-0.5" />
         <attstr name="surface" val="asphalt-w2" />
@@ -986,7 +986,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <section name="pit entry">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="47.8" />
+        <attnum name="arc" unit="deg" val="47.99991" />
         <attnum name="radius" unit="m" val="90.0" />
         <attnum name="end radius" unit="m" val="321.8" />
         <attnum name="z end" unit="m" val="11.0" />
@@ -1040,7 +1040,7 @@ the Free Software Foundation; either version 2 of the License, or
 
       <section name="pit end">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="88.1" />
+        <attnum name="lg" unit="m" val="90.889766" />
         <attnum name="z end" unit="m" val="10.0" />
         <attstr name="surface" val="asphalt-w2" />
         <section name="Left Side">
