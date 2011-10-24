@@ -177,8 +177,8 @@ the Free Software Foundation; either version 2 of the License, or
     <attstr name="category" val="circuit" />
     <attnum name="version" val="4" />
     <attnum name="sky version" val="1"/>
-    <attstr name="author" val="A. Sumner, E. M. Jaeger, kilo" />
-    <attstr name="description" val="A well-known, fast, curvy circuit in Japan - short version" />
+    <attstr name="author" val="A.Sumner, kilo, E.M.Jaeger" />
+    <attstr name="description" val="A well-known, fast, curvy circuit in Japan - short East version" />
   </section>
 
   <section name="Local Info">
