@@ -1079,52 +1079,52 @@ the Free Software Foundation; either version 2 of the License, or
 
   <section name="Cameras">
     <section name="cam 0">
-      <attstr name="segment" val="pit end"/>
-      <attnum name="to right" val="16"/>
-      <attnum name="to start" val="140"/>
-      <attnum name="height" val="4"/>
-      <attstr name="fov start" val="pit start"/>
-      <attstr name="fov end" val="curve 1"/>
+      <attstr name="segment" val="straight 45"/>
+      <attnum name="to right" val="8"/>
+      <attnum name="to start" val="270"/>
+      <attnum name="height" val="6"/>
+      <attstr name="fov start" val="pit end"/>
+      <attstr name="fov end" val="straight 46"/>
     </section>
     <section name="cam 1">
-      <attstr name="segment" val="curve 1b"/>
-      <attnum name="to right" val="32"/>
-      <attnum name="to start" val="0"/>
-      <attnum name="height" val="5"/>
-      <attstr name="fov start" val="curve 1"/>
-      <attstr name="fov end" val="curve 2b"/>
+      <attstr name="segment" val="straight 46"/>
+      <attnum name="to right" val="-25"/>
+      <attnum name="to start" val="140"/>
+      <attnum name="height" val="15"/>
+      <attstr name="fov start" val="straight 46"/>
+      <attstr name="fov end" val="curve s1"/>
     </section>
     <section name="cam 2">
-      <attstr name="segment" val="curve s4"/>
-      <attnum name="to right" val="32"/>
-      <attnum name="to start" val="0"/>
-      <attnum name="height" val="12"/>
-      <attstr name="fov start" val="curve 2b"/>
-      <attstr name="fov end" val="curve 4d"/>
-    </section>
-    <section name="cam 3">
-      <attstr name="segment" val="curve dunlop1"/>
-      <attnum name="to right" val="-30"/>
-      <attnum name="to start" val="0"/>
-      <attnum name="height" val="24"/>
-      <attstr name="fov start" val="curve 4d"/>
-      <attstr name="fov end" val="curve dunlop1"/>
-    </section>
-    <section name="cam 4">
-      <attstr name="segment" val="curve dunlop2"/>
-      <attnum name="to right" val="-20"/>
-      <attnum name="to start" val="0"/>
-      <attnum name="height" val="20"/>
-      <attstr name="fov start" val="curve dunlop1"/>
-      <attstr name="fov end" val="curve 8b"/>
-    </section>
-    <section name="cam 5">
-      <attstr name="segment" val="pit entry"/>
-      <attnum name="to right" val="30"/>
+      <attstr name="segment" val="curve 4d"/>
+      <attnum name="to right" val="34"/>
       <attnum name="to start" val="0"/>
       <attnum name="height" val="8"/>
-      <attstr name="fov start" val="curve 8b"/>
-      <attstr name="fov end" val="pit start"/>
+      <attstr name="fov start" val="curve s1"/>
+      <attstr name="fov end" val="curve 5b"/>
+    </section>
+    <section name="cam 3">
+      <attstr name="segment" val="curve 6b"/>
+      <attnum name="to right" val="25"/>
+      <attnum name="to start" val="0"/>
+      <attnum name="height" val="3"/>
+      <attstr name="fov start" val="curve 5b"/>
+      <attstr name="fov end" val="curve dunlop2"/>
+    </section>
+    <section name="cam 4">
+      <attstr name="segment" val="curve 8c"/>
+      <attnum name="to right" val="24"/>
+      <attnum name="to start" val="0"/>
+      <attnum name="height" val="4"/>
+      <attstr name="fov start" val="curve dunlop2"/>
+      <attstr name="fov end" val="pit entry"/>
+    </section>
+    <section name="cam 5">
+      <attstr name="segment" val="pit start"/>
+      <attnum name="to right" val="30"/>
+      <attnum name="to start" val="200"/>
+      <attnum name="height" val="20"/>
+      <attstr name="fov start" val="pit entry"/>
+      <attstr name="fov end" val="pit end"/>
     </section>
   </section>
 </params>
