@@ -17,17 +17,19 @@ the Free Software Foundation; either version 2 of the License, or
 <!ENTITY default-surfaces SYSTEM "../../../data/tracks/surfaces.xml">
 ]>
 
-<params name="test" type="param" mode="mw">
+<params name="el_volcan_2" type="trackdef" mode="mw">
   <section name="Surfaces">&default-surfaces;</section>
+
   <section name="Header">
-    <attstr name="name" val="El Volcán" />
-    <attstr name="category" val="tracks" />
+    <attstr name="name" val="El Volcan Rapido" />
+    <attstr name="category" val="road" />
     <attnum name="version" val="4" />
     <attstr name="author" val="kilo" />
-    <attstr name="description" val="Potrero de los Funes" />
+    <attstr name="description" val="Potrero de los Funes, no chicanes" />
   </section>
+
   <section name="Graphic">
-    <attstr name="3d description" val="El Volcán.ac" />
+    <attstr name="3d description" val="el_volcan_2.ac" />
     <section name="Terrain Generation">
       <attnum name="track step" unit="m" val="20" />
       <attnum name="border margin" unit="m" val="50" />
@@ -36,48 +38,11 @@ the Free Software Foundation; either version 2 of the License, or
       <attstr name="orientation" val="clockwise" />
     </section>
   </section>
+
   <section name="Main Track">
     <attnum name="width" unit="m" val="14.0" />
     <attnum name="profil steps length" unit="m" val="4.0" />
-    <attstr name="surface" val="asphalt2-lines" />
-    <!--Left part of track-->
-    <section name="Left Side">
-      <attnum name="start width" unit="m" val="4.0" />
-      <attnum name="end width" unit="m" val="4.0" />
-      <attstr name="surface" val="grass" />
-    </section>
-    <section name="Left Border">
-      <attnum name="width" unit="m" val="0.5" />
-      <attnum name="height" unit="m" val="0.05" />
-      <attstr name="surface" val="curb-5cm-r" />
-      <attstr name="style" val="plan" />
-    </section>
-    <section name="Left Barrier">
-      <attnum name="width" unit="m" val="0.1" />
-      <attnum name="height" unit="m" val="1.0" />
-      <attstr name="surface" val="barrier" />
-      <attstr name="style" val="wall" />
-    </section>
-    <!--End of left part-->
-    <!--Right part of track-->
-    <section name="Right Side">
-      <attnum name="start width" unit="m" val="4.0" />
-      <attnum name="end width" unit="m" val="4.0" />
-      <attstr name="surface" val="grass" />
-    </section>
-    <section name="Right Border">
-      <attnum name="width" unit="m" val="0.5" />
-      <attnum name="height" unit="m" val="0.05" />
-      <attstr name="surface" val="curb-5cm-r" />
-      <attstr name="style" val="plan" />
-    </section>
-    <section name="Right Barrier">
-      <attnum name="width" unit="m" val="0.1" />
-      <attnum name="height" unit="m" val="1.0" />
-      <attstr name="surface" val="barrier" />
-      <attstr name="style" val="wall" />
-    </section>
-    <!--End of right part-->
+
     <section name="Pits">
       <attstr name="side" val="right" />
       <attstr name="entry" val="" />
@@ -87,398 +52,8 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="length" unit="m" val="0.0" />
       <attnum name="width" unit="m" val="0.0" />
     </section>
+
     <section name="Track Segments">
-      <!--******************************-->
-      <!--     Segment 1                -->
-      <!--******************************-->
-      <section name="1">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="129.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Left Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of right part-->
-      </section>
-      <!--******************************-->
-      <!--     Segment 2                -->
-      <!--******************************-->
-      <section name="curve 2">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="180.0" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Left Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of right part-->
-      </section>
-      <!--******************************-->
-      <!--     Segment 3                -->
-      <!--******************************-->
-      <section name="straight 2">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="252.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Left Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of right part-->
-      </section>
-      <!--******************************-->
-      <!--     Segment 4                -->
-      <!--******************************-->
-      <section name="curve 3">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="180.0" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Left Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of right part-->
-      </section>
-      <!--******************************-->
-      <!--     Segment 5                -->
-      <!--******************************-->
-      <section name="5">
-        <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="90.0" />
-        <attnum name="radius" unit="m" val="100.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Left Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of right part-->
-      </section>
-      <!--******************************-->
-      <!--     Segment 6                -->
-      <!--******************************-->
-      <section name="6">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="1191.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Left Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of right part-->
-      </section>
-      <!--******************************-->
-      <!--     Segment 7                -->
-      <!--******************************-->
-      <section name="curve 4">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="161.10000000000002" />
-        <attnum name="radius" unit="m" val="50.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Left Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of right part-->
-      </section>
-      <!--******************************-->
-      <!--     Segment 8                -->
-      <!--******************************-->
-      <section name="straight 1">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="578.0" />
-        <attnum name="z start" unit="m" val="0.0" />
-        <attnum name="z end" unit="m" val="0.0" />
-        <attstr name="surface" val="asphalt2-lines" />
-        <!--Left part of segment-->
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Left Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-l" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of left part-->
-        <!--Right part of segment-->
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
-          <attstr name="surface" val="grass" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.05" />
-          <attstr name="surface" val="curb-5cm-r" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="wall" />
-        </section>
-        <!--End of right part-->
-      </section>
-      <!--******************************-->
-      <!--     Segment 9                -->
-      <!--******************************-->
       <section name="s1">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="308.0" />
@@ -1046,8 +621,8 @@ the Free Software Foundation; either version 2 of the License, or
         <!--End of left part-->
         <!--Right part of segment-->
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.0" />
+          <attnum name="start width" unit="m" val="3.0" />
+          <attnum name="end width" unit="m" val="3.0" />
           <attstr name="surface" val="grass" />
         </section>
         <section name="Right Border">
@@ -1270,7 +845,7 @@ the Free Software Foundation; either version 2 of the License, or
         <attstr name="surface" val="asphalt2-lines" />
         <!--Left part of segment-->
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="3.0" />
+          <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="10.0" />
           <attstr name="surface" val="grass" />
         </section>
