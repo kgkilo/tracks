@@ -8,16 +8,16 @@
    <string>tracks</string>
   </void>
   <void property="currentA">
-   <double>-1.7540558982543049</double>
+   <double>-1.754055898254303</double>
   </void>
   <void property="currentX">
-   <double>940.6152979876799</double>
+   <double>939.7164840547518</double>
   </void>
   <void property="currentY">
-   <double>-1410.0981474140349</double>
+   <double>-1408.8123474479098</double>
   </void>
   <void property="curveNameCount">
-   <int>43</int>
+   <int>48</int>
   </void>
   <void property="description">
    <string>Palanga</string>
@@ -41,7 +41,7 @@
    <string></string>
   </void>
   <void property="straightNameCount">
-   <int>15</int>
+   <int>18</int>
   </void>
   <void property="trackName">
    <string>palanga</string>
