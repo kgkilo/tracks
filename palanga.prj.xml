@@ -8,16 +8,16 @@
    <string>tracks</string>
   </void>
   <void property="currentA">
-   <double>-1.7540558982543057</double>
+   <double>-1.7540558982543049</double>
   </void>
   <void property="currentX">
-   <double>941.6036731767696</double>
+   <double>940.6152979876799</double>
   </void>
   <void property="currentY">
-   <double>-1409.5740012652027</double>
+   <double>-1410.0981474140349</double>
   </void>
   <void property="curveNameCount">
-   <int>42</int>
+   <int>43</int>
   </void>
   <void property="description">
    <string>Palanga</string>
