@@ -8,7 +8,7 @@
    <string>tracks</string>
   </void>
   <void property="currentA">
-   <double>-1.754055898254303</double>
+   <double>-1.7540558982543035</double>
   </void>
   <void property="currentX">
    <double>939.7164840547518</double>
@@ -41,7 +41,7 @@
    <string></string>
   </void>
   <void property="straightNameCount">
-   <int>18</int>
+   <int>20</int>
   </void>
   <void property="trackName">
    <string>palanga</string>
