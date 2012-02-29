@@ -34,8 +34,10 @@ the Free Software Foundation; either version 2 of the License, or
 	  <attnum name="overall rain likelyhood" unit="%" val="60"/>
 	  <attnum name="little rain likelyhood" unit="%" val="60"/>
 	  <attnum name="medium rain likelyhood" unit="%" val="30"/>
-	  <attnum name="time of day" unit="hour" val="14.0"/>
-	  <attnum name="sun ascension" unit="deg" val="100"/>
+	  <attnum name="time of day" unit="hour" val="11.75"/>
+	  <attnum name="sun ascension" unit="deg" val="121.25965859099054"/>
+    <!-- 21/07/2012 11:45, N55"54'31 E21"06'20
+      http://www.satellite-calculations.com/Satellite/suncalc.htm -->
   </section> <!-- Local Info -->
 
   <section name="Graphic">
