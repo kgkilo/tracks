@@ -4,7 +4,7 @@ file                : palanga.xml
 auto generated      : by Track Editor
 version             : v 0.6.0 24/4/2005
 copyright           : (C) 2005 by Charalampos Alexopoulos
-email               : 
+email               :
 -->
 <!--
 This program is free software; you can redistribute it and/or modify it
@@ -19,7 +19,7 @@ the Free Software Foundation; either version 2 of the License, or
 
 <params name="Palanga" type="trackdef" mode="mw">
   <section name="Surfaces">&default-surfaces;</section>
-  
+
   <section name="Header">
     <attstr name="name" val="Palanga Tukstantis" />
     <attstr name="category" val="road" />
@@ -50,11 +50,11 @@ the Free Software Foundation; either version 2 of the License, or
       <attstr name="orientation" val="clockwise" />
     </section>
   </section>
-  
+
   <section name="Main Track">
     <attnum name="width" unit="m" val="4.5" />
     <attnum name="profil steps length" unit="m" val="4.0" />
-    
+
     <section name="Pits">
       <attstr name="side" val="right" />
       <attstr name="entry" val="" />
@@ -64,7 +64,7 @@ the Free Software Foundation; either version 2 of the License, or
       <attnum name="length" unit="m" val="0.0" />
       <attnum name="width" unit="m" val="0.0" />
     </section>
-    
+
     <section name="Track Segments">
       <!--******************************-->
       <!--     Main straight            -->
@@ -1715,4 +1715,3 @@ the Free Software Foundation; either version 2 of the License, or
   </section>
 </params>
 
->>>>>>> 2cda9e9... WIP Side widths. Need test.
