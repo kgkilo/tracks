@@ -8,22 +8,33 @@
    <string>tracks</string>
   </void>
   <void property="currentA">
-   <double>-1.7540558982543035</double>
+   <double>0.007853981633979185</double>
   </void>
   <void property="currentX">
-   <double>939.7164840547518</double>
+   <double>-0.3293621997698182</double>
   </void>
   <void property="currentY">
-   <double>-1408.8123474479098</double>
+   <double>-0.07578943014730055</double>
   </void>
   <void property="curveNameCount">
-   <int>48</int>
+   <int>63</int>
   </void>
   <void property="description">
-   <string>Palanga</string>
+   <string>A temporary track in a motorway junction, near the Baltic Sea</string>
   </void>
   <void property="image">
-   <string>/home/kilo/Proj/tracks/palanga/doc/palanga.jpg</string>
+   <string>/home/kilo/Screenshot-11.png</string>
+  </void>
+  <void property="imageScale">
+   <double>0.4</double>
+  </void>
+  <void property="imgOffset">
+   <void property="x">
+    <double>-366.0</double>
+   </void>
+   <void property="y">
+    <double>116.0</double>
+   </void>
   </void>
   <void property="path">
    <string>/home/kilo/Proj/tracks/palanga</string>
@@ -41,13 +52,13 @@
    <string></string>
   </void>
   <void property="straightNameCount">
-   <int>20</int>
+   <int>30</int>
   </void>
   <void property="trackName">
    <string>palanga</string>
   </void>
   <void property="trackWidth">
-   <double>18.0</double>
+   <double>4.5</double>
   </void>
  </object>
 </java>
