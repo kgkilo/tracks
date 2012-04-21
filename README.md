@@ -1,10 +1,10 @@
 kilo tracks for Speed Dreams
 ============================
 
-This is the place for my track creations for Speed Dreams (http://speed-dreams.org), a motorsport simulator high-quality 3D graphics and an accurate physics engine. Note these tracks *may* work in TORCS, too, but that was not tested.
+This is the place for my track creations for Speed Dreams (http://speed-dreams.org), a motorsport simulator with high-quality 3D graphics and an accurate physics engine. Note these tracks *may* work in TORCS, too, but that was not tested.
 
-All the tracks are in separate branches - there is no 'master' or 'dev' branch here. If a track reaches a 'release' state, I'll put up a notice about it. So the master branch should only contain a README and notices about releases.
-Some of my tracks are now included in the main Speed Dreams repository on SF.net. For these tracks I recommend to download them from the Speed Dreams pages, as they certainly contain many improvements by other SD team members.
+All the tracks are in separate branches - there is no 'master' or 'dev' branch here. If a track reaches a 'release' state, I'll put up a notice about it. So the master branch should only contain a README and notices about releases.  
+Some of my tracks are now included in the main Speed Dreams repository on SF.net. For these tracks I recommend to download them from the Speed Dreams pages, as they certainly contain many improvements by other SD team members.  
 How to use these tracks? Refer to Speed Dreams' wiki pages to install them properly.
 
 Contribute
