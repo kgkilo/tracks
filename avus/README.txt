@@ -1,0 +1,8 @@
+Track name: AVUS
+
+License:
+All XML, PNG, XCF, JPG, AC, ACC, RGB files for this track are:
+Copyright 2009 Gabor Kmetyko <kg.kilo&gmail.com>
+Copyleft: This is a free work, you can copy, distribute,
+and modify it under the terms of the Free Art License
+http://artlibre.org/licence/lal/en/
