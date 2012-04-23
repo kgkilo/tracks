@@ -8,7 +8,7 @@
   <section name="Surfaces">&default-surfaces;</section>
 
   <section name="Header">
-    <attstr name="name" val="Pescara" />
+    <attstr name="name" val="pescara" />
     <attstr name="category" val="road" />
     <attnum name="version" val="4" />
     <attstr name="author" val="kilo" />
@@ -16,7 +16,7 @@
   </section>
 
   <section name="Graphic">
-    <attstr name="3d description" val="Pescara.ac" />
+    <attstr name="3d description" val="pescara.ac" />
     <section name="Terrain Generation">
       <attnum name="track step" unit="m" val="20" />
       <attnum name="border margin" unit="m" val="20" />
