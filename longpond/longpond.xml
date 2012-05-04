@@ -4,7 +4,7 @@
 auto generated      : by Track Editor
 version             : v 0.6.0 24/4/2005
 copyright           : (C) 2005 by Charalampos Alexopoulos
-email               : 
+email               :
 -->
 
 <!-- $Id -->
@@ -34,16 +34,46 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
   <section name="Header">
     <attstr name="name" val="Long Pond Superspeedway" />
-    <attstr name="category" val="oval" />
+    <attstr name="category" val="speedway" />
     <attnum name="version" val="4" />
+    <attnum name="sky version" val="1" />
     <attstr name="author" val="kilo" />
     <attstr name="description" val="Tricky triangle superspeedway" />
+  </section>
+
+  <section name="Local Info">
+    <attnum name="overall rain likelyhood" unit="%" val="40" />
+    <attnum name="little rain likelyhood" unit="%" val="30" />
+    <attnum name="medium rain likelyhood" unit="%" val="40" />
+    <attnum name="time of day" unit="hour" val="14.5" />
+    <attnum name="sun ascension" unit="deg" val="0" />
   </section>
 
   <section name="Graphic">
     <attstr name="3d description" val="longpond.ac" />
     <attstr name="background image" val="background.png"/>
     <attnum name="background type" val="4"/>
+
+    <attnum name="background color R" val="0.60" />
+    <attnum name="background color G" val="0.60" />
+    <attnum name="background color B" val="0.48" />
+
+    <attnum name="ambient color R" val="0.1" />
+    <attnum name="ambient color G" val="0.1" />
+    <attnum name="ambient color B" val="0.05" />
+
+    <attnum name="diffuse color R" val="1" />
+    <attnum name="diffuse color G" val="1" />
+    <attnum name="diffuse color B" val="0.9" />
+
+    <attnum name="specular color R" val="0.6" />
+    <attnum name="specular color G" val="0.6" />
+    <attnum name="specular color B" val="0.6" />
+
+    <attnum name="light position x" val="1500" />
+    <attnum name="light position y" val="450" />
+    <attnum name="light position z" val="300" />
+
     <section name="Terrain Generation">
       <attnum name="track step" unit="m" val="20" />
       <attnum name="border margin" unit="m" val="50" />
@@ -56,11 +86,11 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <attstr name="surface" val="grass7"/>
     </section>
   </section>
-  
+
   <section name="Main Track">
     <attnum name="width" unit="m" val="25.0" />
     <attnum name="profil steps length" unit="m" val="10.0" />
-    
+
     <section name="Pits">
       <attstr name="side" val="left" />
       <attstr name="entry" val="frontstretch-3-1" />
@@ -69,6 +99,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <attstr name="exit" val="frontstretch-2-1" />
       <attnum name="length" unit="m" val="15.0" />
       <attnum name="width" unit="m" val="5.0" />
+      <attnum name="pit style" val="3" /><!--TR_PIT_NO_BUILDING-->
     </section>
 
     <section name="Track Segments">
@@ -211,7 +242,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <attnum name="z end right" unit="ft" val="7.15" /><!-- 5deg-->
         <attnum name="profil end tangent right" unit="deg" val="0.0"/>
       </section>
-      
+
       <!--******************************-->
       <!--     Turn 2                   -->
       <!--******************************-->
@@ -236,7 +267,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
           <attstr name="surface" val="grass-lp" />
         </section>
       </section>
-      
+
       <!--******************************-->
       <!--     Short straight           -->
       <!--******************************-->
@@ -266,7 +297,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <attnum name="z end right" unit="ft" val="5.71" /><!-- 4deg-->
         <attnum name="profil end tangent right" unit="deg" val="0.0"/>
       </section>
-      
+
       <!--******************************-->
       <!--     Turn 3                   -->
       <!--******************************-->
@@ -418,11 +449,11 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
         <attstr name="fov end" val="frontstretch-1"/>
     </section>
   </section>
-    
+
 
   <section name="Surfaces">
     &default-surfaces;
-  
+
     <section name="asphalt-bw-lp">
       <attnum name="color R1" val="0.1"/>
       <attnum name="color G1" val="0.1"/>
@@ -439,9 +470,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <attnum name="texture mipmap" val="0.0" unit="m"/>
 
       <attnum name="friction"           val="1.05"/>
-      <attnum name="friction rain"      val="0.90"/>
       <attnum name="rolling resistance" val="0.02"/>
-      <attnum name="rolling resistance rain" val="0.01"/>
 
       <attnum name="roughness" val="0.005"/>
       <attnum name="roughness wavelength" val="1.0"/>
@@ -460,9 +489,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <attnum name="texture mipmap" val="0.0" unit="m"/>
 
       <attnum name="friction"           val="1.05"/>
-      <attnum name="friction rain"      val="0.90"/>
       <attnum name="rolling resistance" val="0.02"/>
-      <attnum name="rolling resistance rain" val="0.01"/>
 
       <attnum name="roughness" val="0.005"/>
       <attnum name="roughness wavelength" val="1.0"/>
@@ -481,9 +508,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <attnum name="texture mipmap" val="0.0" unit="m"/>
 
       <attnum name="friction"           val="0.95"/>
-      <attnum name="friction rain"      val="0.85"/>
       <attnum name="rolling resistance" val="0.02"/>
-      <attnum name="rolling resistance rain" val="0.01"/>
 
       <attnum name="roughness" val="0.006"/>
       <attnum name="roughness wavelength" val="0.7"/>
@@ -502,9 +527,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <attnum name="texture mipmap" val="0.0" unit="m"/>
 
       <attnum name="friction"           val="0.95"/>
-      <attnum name="friction rain"      val="0.85"/>
       <attnum name="rolling resistance" val="0.02"/>
-      <attnum name="rolling resistance rain" val="0.01"/>
 
       <attnum name="roughness" val="0.006"/>
       <attnum name="roughness wavelength" val="0.7"/>
@@ -548,9 +571,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <attnum name="texture mipmap" val="4.0"/>
 
       <attnum name="friction"           val="0.55"/>
-      <attnum name="friction rain"      val="0.45"/>
       <attnum name="rolling resistance" val="0.08"/>
-      <attnum name="rolling resistance rain" val="0.06"/>
 
       <attnum name="roughness" val="0.05"/>
       <attnum name="roughness wavelength" val="0.5"/>
@@ -573,7 +594,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <attnum name="roughness wavelength" val="4.0"/>
       <attnum name="dammage" val="10.0"/>
     </section>
-  
+
 <!--
     <section name="lp-grass">
       <attnum name="color R1" val="0.1"/>
@@ -591,9 +612,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
       <attnum name="bump size" val="2.0" unit="m"/>
 
       <attnum name="friction"           val="0.4"/>
-      <attnum name="friction rain"      val="0.2"/>
       <attnum name="rolling resistance" val="0.09"/>
-      <attnum name="rolling resistance rain" val="0.05"/>
 
       <attnum name="roughness" val="0.05"/>
       <attnum name="roughness wavelength" val="0.5"/>
