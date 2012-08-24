@@ -1587,7 +1587,7 @@ the Free Software Foundation; either version 2 of the License, or
 
       <section name="s11-4">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="48.0" /><!--len: 84.8-->
+        <attnum name="arc" unit="deg" val="32.1" /><!--len: 84.8-->
         <attnum name="radius" unit="m" val="50.65" />
         <attnum name="grade" unit="%" val="-1.9" />
         <attnum name="profil end tangent" unit="%" val="-1.3" />
@@ -1629,52 +1629,11 @@ the Free Software Foundation; either version 2 of the License, or
       <!--     Pit entry chicane        -->
       <!--******************************-->
       <section name="s12-1">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="15.9" />
-        <attnum name="radius" unit="m" val="27.0" />
+        <attstr name="type" val="str" />
+        <attnum name="lg" unit="m" val="33.8" /><!--14.8-->
         <attnum name="grade" unit="%" val="0.1" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <attnum name="banking start" unit="deg" val="4.0" />
-        <attnum name="banking end" unit="deg" val="3.75" />
-        <attnum name="profil steps length" unit="m" val="2.0" />
-        <attstr name="surface" val="asphalt2-lines" />
-        <section name="Left Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="asphalt" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.0" />
-          <attnum name="end width" unit="m" val="4.5" />
-          <attstr name="surface" val="asphalt" />
-        </section>
-        <section name="Right Border">
-          <attnum name="width" unit="m" val="0.5" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="asphalt" />
-          <attstr name="style" val="plan" />
-        </section>
-        <section name="Right Side">
-          <attnum name="start width" unit="m" val="1.6" />
-          <attnum name="end width" unit="m" val="8.0" />
-          <attstr name="surface" val="asphalt" />
-        </section>
-        <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.1" />
-          <attnum name="height" unit="m" val="1.0" />
-          <attstr name="surface" val="wall" />
-          <attstr name="style" val="wall" />
-        </section>
-      </section>
-
-      <section name="s12-2">
-        <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="15.9" />
-        <attnum name="radius" unit="m" val="27.0" />
-        <attnum name="grade" unit="%" val="0.1" />
-        <attnum name="profil end tangent" unit="%" val="0.00" />
-        <attnum name="banking start" unit="deg" val="3.75" />
         <attnum name="banking end" unit="deg" val="3.5" />
         <attnum name="profil steps length" unit="m" val="2.0" />
         <attstr name="surface" val="asphalt2-lines" />
@@ -1685,7 +1644,7 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="plan" />
         </section>
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="4.5" />
+          <attnum name="start width" unit="m" val="4.0" />
           <attnum name="end width" unit="m" val="4.0" />
           <attstr name="surface" val="asphalt" />
         </section>
@@ -1696,7 +1655,7 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="8.0" />
+          <attnum name="start width" unit="m" val="1.6" />
           <attnum name="end width" unit="m" val="16.0" />
           <attstr name="surface" val="asphalt" />
         </section>
@@ -1708,9 +1667,9 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
       </section>
 
-      <section name="s12-3">
+      <section name="s12-2">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="52.7" />
+        <attnum name="arc" unit="deg" val="36.8" />
         <attnum name="radius" unit="m" val="21.0" />
         <attnum name="end radius" unit="m" val="28.0" />
         <attnum name="grade" unit="%" val="0.1" />
@@ -1754,7 +1713,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <section name="s13-1">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="27.56" />
+        <attnum name="lg" unit="m" val="29.56" />
         <attnum name="grade" unit="%" val="-0.2" />
         <attnum name="profil end tangent" unit="%" val="0.0" />
         <attnum name="banking start" unit="deg" val="1.5" />
