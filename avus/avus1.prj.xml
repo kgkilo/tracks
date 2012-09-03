@@ -8,13 +8,13 @@
    <string>tracks</string>
   </void>
   <void property="currentA">
-   <double>7.251843042036443</double>
+   <double>7.25184304203644</double>
   </void>
   <void property="currentX">
-   <double>1205.7058579687684</double>
+   <double>1205.7058579687705</double>
   </void>
   <void property="currentY">
-   <double>-4623.78357187978</double>
+   <double>-4623.783571879781</double>
   </void>
   <void property="curveNameCount">
    <int>9</int>
@@ -41,7 +41,7 @@
    <string></string>
   </void>
   <void property="straightNameCount">
-   <int>22</int>
+   <int>25</int>
   </void>
   <void property="trackName">
    <string>avus1</string>
