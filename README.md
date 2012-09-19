@@ -13,6 +13,7 @@ I'd love if you contributed to these tracks, but please contact me before starti
 
 Active
 ------
+* avus - the 8.3km long version of the infamous AVUS track near Berlin (Germany)
 * barbiere - Barber Motorsport Park (US)
 * el_volcan - Potrero de los Funes, San Luis (Argentina)
 * hididdle - a slot-car track
@@ -36,7 +37,6 @@ Active
 
 Only plans yet
 --------------
-* avus - the 8.3km long version of the infamous AVUS track near Berlin (Germany)
 * charade - a classic one, aka Clermont-Ferrand (France)
 * coppice - Cadwell Park (UK)
 * day500 - Daytona 500 (US)
