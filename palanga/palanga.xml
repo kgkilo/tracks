@@ -1262,7 +1262,7 @@ the Free Software Foundation; either version 2 of the License, or
         </section>
         <section name="Left Side">
           <attnum name="start width" unit="m" val="0.0" />
-          <attnum name="end width" unit="m" val="0.0" />
+          <attnum name="end width" unit="m" val="2.0" />
           <attstr name="surface" val="asphalt" />
         </section>
         <section name="Right Border">
@@ -1296,9 +1296,15 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="plan" />
         </section>
         <section name="Left Side">
-          <attnum name="start width" unit="m" val="0.0" />
+          <attnum name="start width" unit="m" val="2.0" />
           <attnum name="end width" unit="m" val="4.5" />
           <attstr name="surface" val="asphalt" />
+        </section>
+        <section name="Left Barrier">
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="1.0" />
+          <attstr name="surface" val="barrier" />
+          <attstr name="style" val="wall" />
         </section>
         <section name="Right Border">
           <attnum name="width" unit="m" val="0.5" />
