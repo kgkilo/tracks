@@ -72,7 +72,7 @@ the Free Software Foundation; either version 2 of the License, or
       <section name="s1-1">
         <attstr name="type" val="str" />
         <attnum name="lg" unit="m" val="310.09" />
-        <attnum name="grade" unit="%" val="0.05" />
+        <attnum name="grade" unit="%" val="0.01" />
         <attnum name="profil end tangent" unit="%" val="0.045" />
         <attnum name="banking start" unit="deg" val="1.5" />
         <attnum name="banking end" unit="deg" val="1.5" />
@@ -434,7 +434,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <section name="s3">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="87.3" />
+        <attnum name="lg" unit="m" val="87.33" />
         <attnum name="grade" unit="%" val="0.2" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <attnum name="banking start" unit="deg" val="1.5" />
@@ -593,7 +593,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!--******************************-->
       <section name="s5-1">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="684.3" />
+        <attnum name="lg" unit="m" val="684.33" />
         <attnum name="grade" unit="%" val="-0.01" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <attnum name="banking start" unit="deg" val="1.5" />
@@ -1319,7 +1319,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!-- Y correction -->
       <section name="s10-1">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="302.885026" />
+        <attnum name="lg" unit="m" val="304.89131166" />
         <attnum name="grade" unit="%" val="1.1" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <attnum name="banking start" unit="deg" val="1.0" />
@@ -1581,7 +1581,7 @@ the Free Software Foundation; either version 2 of the License, or
 
       <section name="s11-4">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="32.1" /><!--len: 84.8-->
+        <attnum name="arc" unit="deg" val="30.0" /><!--len: 28.36-->
         <attnum name="radius" unit="m" val="50.65" />
         <attnum name="grade" unit="%" val="-1.9" />
         <attnum name="profil end tangent" unit="%" val="-1.3" />
@@ -1623,8 +1623,9 @@ the Free Software Foundation; either version 2 of the License, or
       <!--     Pit entry chicane        -->
       <!--******************************-->
       <section name="s12-1">
-        <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="33.8" /><!--14.8-->
+        <attstr name="type" val="rgt" />
+        <attnum name="arc" unit="deg" val="4.9" /><!--14.8-->
+        <attnum name="radius" unit="m" val="300.0" /><!--14.8-->
         <attnum name="grade" unit="%" val="0.1" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <attnum name="banking start" unit="deg" val="4.0" />
@@ -1663,7 +1664,7 @@ the Free Software Foundation; either version 2 of the License, or
 
       <section name="s12-2">
         <attstr name="type" val="rgt" />
-        <attnum name="arc" unit="deg" val="36.8" />
+        <attnum name="arc" unit="deg" val="32.0" />
         <attnum name="radius" unit="m" val="21.0" />
         <attnum name="end radius" unit="m" val="28.0" />
         <attnum name="grade" unit="%" val="0.1" />
@@ -1968,7 +1969,7 @@ the Free Software Foundation; either version 2 of the License, or
       <!-- Angle correction -->
       <section name="s14-4">
         <attstr name="type" val="lft" />
-        <attnum name="arc" unit="deg" val="22.450356" />
+        <attnum name="arc" unit="deg" val="20.4503691" />
         <attnum name="radius" unit="m" val="28.0" />
         <attnum name="end radius" unit="m" val="40.0" />
         <attnum name="grade" unit="%" val="-0.2" />
@@ -2014,8 +2015,8 @@ the Free Software Foundation; either version 2 of the License, or
       <!-- Z correction -->
       <section name="s15">
         <attstr name="type" val="str" />
-        <attnum name="lg" unit="m" val="105.95915" />
-        <attnum name="grade" unit="%" val="-0.1643731" />
+        <attnum name="lg" unit="m" val="117.58293" />
+        <attnum name="grade" unit="%" val="-0.301452" />
         <attnum name="profil end tangent" unit="%" val="0.00" />
         <attnum name="banking start" unit="deg" val="0.5" />
         <attnum name="banking end" unit="deg" val="1.5" />
