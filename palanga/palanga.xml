@@ -52,7 +52,7 @@ the Free Software Foundation; either version 2 of the License, or
   </section>
 
   <section name="Main Track">
-    <attnum name="width" unit="m" val="4.0" />
+    <attnum name="width" unit="m" val="5.0" />
     <attnum name="profil steps length" unit="m" val="4.0" />
 
     <section name="Pits">
@@ -180,8 +180,8 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="20.0" />
-          <attnum name="end width" unit="m" val="20.0" />
+          <attnum name="start width" unit="m" val="3.0" />
+          <attnum name="end width" unit="m" val="3.0" />
           <attstr name="surface" val="grass" />
         </section>
       </section>
@@ -423,8 +423,8 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="20.0" />
-          <attnum name="end width" unit="m" val="20.0" />
+          <attnum name="start width" unit="m" val="3.0" />
+          <attnum name="end width" unit="m" val="3.0" />
           <attstr name="surface" val="grass" />
         </section>
       </section>
@@ -465,8 +465,8 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="style" val="plan" />
         </section>
         <section name="Right Side">
-          <attnum name="start width" unit="m" val="20.0" />
-          <attnum name="end width" unit="m" val="20.0" />
+          <attnum name="start width" unit="m" val="3.0" />
+          <attnum name="end width" unit="m" val="3.0" />
           <attstr name="surface" val="grass" />
         </section>
       </section>
