@@ -18,7 +18,32 @@ the Free Software Foundation; either version 2 of the License, or
 ]>
 
 <params name="Palanga" type="trackdef" mode="mw">
-  <section name="Surfaces">&default-surfaces;</section>
+  <section name="Surfaces">
+    &default-surfaces;
+
+    <section name="pal-poles">
+      <attnum name="color R1" val="1.0"/>
+      <attnum name="color G1" val="0.0"/>
+      <attnum name="color B1" val="0.0"/>
+      <attnum name="color R2" val="1.0"/>
+      <attnum name="color G2" val="1.0"/>
+      <attnum name="color B2" val="1.0"/>
+      <attstr name="texture name" val="tr-pole-gr_n.jpg"/>
+      <attstr name="texture type" in="discrete, continuous" val="continuous"/>
+      <attnum name="texture size" val="49.99" unit="m"/>
+      <attnum name="texture mipmap" val="4.0"/>
+
+      <attstr name="bump name" val=""/>
+      <attnum name="bump size" val="2.0" unit="m"/>
+
+      <attnum name="friction"           val="0.0"/>
+
+      <attnum name="roughness" val="0.03"/>
+      <attnum name="roughness wavelength" val="4.0"/>
+      <attnum name="dammage" val="10"/>
+    </section>
+
+  </section>
 
   <section name="Header">
     <attstr name="name" val="Palanga Tukstantis" />
@@ -108,10 +133,10 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="asphalt" />
         </section>
         <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="plan" />
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="0.8" />
+          <attstr name="surface" val="pal-poles" />
+          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -260,10 +285,10 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="asphalt" />
         </section>
         <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="plan" />
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="0.8" />
+          <attstr name="surface" val="pal-poles" />
+          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -514,10 +539,10 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="asphalt" />
         </section>
         <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="plan" />
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="0.8" />
+          <attstr name="surface" val="pal-poles" />
+          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -572,10 +597,10 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="asphalt" />
         </section>
         <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="plan" />
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="0.8" />
+          <attstr name="surface" val="pal-poles" />
+          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -718,10 +743,10 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="asphalt" />
         </section>
         <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="plan" />
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="0.8" />
+          <attstr name="surface" val="pal-poles" />
+          <attstr name="style" val="wall" />
         </section>
       </section>
 
@@ -792,10 +817,10 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="grass" />
         </section>
         <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="plan" />
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="0.8" />
+          <attstr name="surface" val="pal-poles" />
+          <attstr name="style" val="wall" />
         </section>
         <section name="Right Side">
           <attnum name="start width" unit="m" val="1.0" />
@@ -1356,10 +1381,10 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="asphalt" />
         </section>
         <section name="Left Barrier">
-          <attnum name="width" unit="m" val="0.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="plan" />
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="0.8" />
+          <attstr name="surface" val="pal-poles" />
+          <attstr name="style" val="wall" />
         </section>
 <!--
         <section name="Right Border">
@@ -1471,10 +1496,10 @@ the Free Software Foundation; either version 2 of the License, or
           <attstr name="surface" val="asphalt" />
         </section>
         <section name="Right Barrier">
-          <attnum name="width" unit="m" val="0.0" />
-          <attnum name="height" unit="m" val="0.0" />
-          <attstr name="surface" val="barrier" />
-          <attstr name="style" val="plan" />
+          <attnum name="width" unit="m" val="0.1" />
+          <attnum name="height" unit="m" val="0.8" />
+          <attstr name="surface" val="pal-poles" />
+          <attstr name="style" val="wall" />
         </section>
       </section>
 
